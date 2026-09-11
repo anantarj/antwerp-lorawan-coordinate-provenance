@@ -1,0 +1,19 @@
+[
+  "official:WCL_raw",
+  "official:WCL_bc",
+  "official:ABS_mean",
+  "official:DIFF_median",
+  "official:HYBRID_mean",
+  "official:NLLS",
+  "official:Trilat",
+  "official:MinMax",
+  "rssfit_stable:WCL_raw",
+  "rssfit_stable:WCL_bc",
+  "rssfit_stable:ABS_mean",
+  "rssfit_stable:DIFF_median",
+  "rssfit_stable:HYBRID_mean",
+  "rssfit_stable:NLLS",
+  "rssfit_stable:Trilat",
+  "rssfit_stable:MinMax",
+  "coordinate_independent:FP_k3"
+]

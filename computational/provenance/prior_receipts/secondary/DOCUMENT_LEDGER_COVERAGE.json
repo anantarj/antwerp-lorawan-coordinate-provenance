@@ -1,0 +1,19 @@
+{
+  "action_count": 46,
+  "original_body_sections": 10,
+  "original_numbered_tables": 18,
+  "original_figures": 3,
+  "original_supplement_sections": 9,
+  "required_numerical_record_ids": [
+    "J1",
+    "B1",
+    "C1",
+    "I1",
+    "T1",
+    "T2",
+    "D1",
+    "G1",
+    "R1"
+  ],
+  "status": "complete inventory; not all experimental expansions accepted"
+}

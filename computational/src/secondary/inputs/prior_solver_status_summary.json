@@ -1,0 +1,58 @@
+[
+  {
+    "DIFF_empty_pair_cases": 16,
+    "assignment": "official",
+    "experiment": "primary33",
+    "minmax_infeasible": 1195,
+    "n": 2495,
+    "nlls_all_starts_unsuccessful": 3,
+    "nlls_exception_count": 0,
+    "nlls_no_selected_result": 0,
+    "nlls_selected_boundary": 0,
+    "nlls_selected_unsuccessful": 281,
+    "nlls_total_unsuccessful_starts": 763,
+    "trilat_unsuccessful": 0
+  },
+  {
+    "DIFF_empty_pair_cases": 58,
+    "assignment": "rssfit_stable",
+    "experiment": "primary33",
+    "minmax_infeasible": 469,
+    "n": 2495,
+    "nlls_all_starts_unsuccessful": 6,
+    "nlls_exception_count": 0,
+    "nlls_no_selected_result": 0,
+    "nlls_selected_boundary": 102,
+    "nlls_selected_unsuccessful": 296,
+    "nlls_total_unsuccessful_starts": 722,
+    "trilat_unsuccessful": 0
+  },
+  {
+    "DIFF_empty_pair_cases": 16,
+    "assignment": "official",
+    "experiment": "no71",
+    "minmax_infeasible": 1194,
+    "n": 2493,
+    "nlls_all_starts_unsuccessful": 2,
+    "nlls_exception_count": 0,
+    "nlls_no_selected_result": 0,
+    "nlls_selected_boundary": 0,
+    "nlls_selected_unsuccessful": 295,
+    "nlls_total_unsuccessful_starts": 745,
+    "trilat_unsuccessful": 0
+  },
+  {
+    "DIFF_empty_pair_cases": 58,
+    "assignment": "rssfit_stable",
+    "experiment": "no71",
+    "minmax_infeasible": 468,
+    "n": 2493,
+    "nlls_all_starts_unsuccessful": 6,
+    "nlls_exception_count": 0,
+    "nlls_no_selected_result": 0,
+    "nlls_selected_boundary": 102,
+    "nlls_selected_unsuccessful": 294,
+    "nlls_total_unsuccessful_starts": 722,
+    "trilat_unsuccessful": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "n": 2495,
+  "metadata_error_median_m": 480.087194862526,
+  "RSSFIT_error_median_m": 3619.222155773533,
+  "ratio_of_medians": 7.53867671227912,
+  "RSSFIT_greater_error_count": 2462,
+  "maximum_weighted_shift_identity_residual_m": 4.1136686910449525e-09,
+  "maximum_independent_position_residual_m": 4.669691231132387e-09
+}

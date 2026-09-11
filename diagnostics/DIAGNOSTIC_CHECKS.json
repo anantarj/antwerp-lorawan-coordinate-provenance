@@ -1,0 +1,478 @@
+{
+  "scope": "Independent diagnostic recomputation from original CSV positions and saved residuals. No RSSI neighbour selection, localization optimizer, RSSFIT fitting, or bootstrap rerun.",
+  "absolute_tolerance_m": 1e-07,
+  "CSV_payload_sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+  "geographic_records_checked": 19874,
+  "residual_values_checked": 139976,
+  "source_files": [
+    {
+      "path": "computational/results/benchmark/fingerprint_predictions.csv.gz",
+      "sha256": "e84b4fe689498c02a73bebdd35a5ca47b3fe8770a23482e7c6c9f5a11fa7ac76"
+    },
+    {
+      "path": "computational/populations/fingerprint_database_rows.csv",
+      "sha256": "2c94cae15531cb7ecbd4e5f1357f99c9f3656a9e7e99db923b1296f59f8a7bba"
+    },
+    {
+      "path": "computational/results/geography/predictions.csv.gz",
+      "sha256": "dae9cc097fd4a7eda3b8c7d15e1060f0f11fb6c213dc389ed3cf34379db54f04"
+    },
+    {
+      "path": "computational/populations/geography_training_index.json",
+      "sha256": "2866a0cea34eeea14bdcad0915b0dd91192ab5760cad7a6ee1723602eca4309f"
+    },
+    {
+      "path": "computational/populations/geography_training_00_rows.csv",
+      "sha256": "9c39e4f2825553442eb1ac942f8f069aca9acd396659a4587a24f6b4728a5e20"
+    },
+    {
+      "path": "computational/populations/geography_training_01_rows.csv",
+      "sha256": "aca260a839fa427732e8d006e716249072b0a12614ab228135b9393a5d3d45f9"
+    },
+    {
+      "path": "computational/populations/geography_training_02_rows.csv",
+      "sha256": "8341871043bc676897651f2287b539c212918f7c4a032c518a270ba4bdc2ee5c"
+    },
+    {
+      "path": "computational/populations/geography_training_03_rows.csv",
+      "sha256": "dfe9812636ad740e84f79664349df5bd9a6c11d8c274f98eb5f05c6d487ddf60"
+    },
+    {
+      "path": "computational/populations/geography_training_04_rows.csv",
+      "sha256": "ac6e839244fec490ae2ae6d514d9342599c2059e22f3ce90811a2966ca50452c"
+    },
+    {
+      "path": "computational/populations/geography_training_05_rows.csv",
+      "sha256": "12820587c15b7b2f542f26b5b60109193753019719d192d5d00daf3164a15f23"
+    },
+    {
+      "path": "computational/populations/geography_training_06_rows.csv",
+      "sha256": "c09192539696783f90c5ae700ce0e63326b573ef9aa944fbbe10f8ea09540513"
+    },
+    {
+      "path": "computational/populations/geography_training_07_rows.csv",
+      "sha256": "a9ef479d83acc4a986f72da7a8c3a6271d2090fbc571633e7fb363d7c844973a"
+    },
+    {
+      "path": "computational/populations/geography_training_08_rows.csv",
+      "sha256": "2e2ddf1bf07cd328fa798a02b07d7e2ee7df4ef9c9311e3159c9c12d2eb68047"
+    },
+    {
+      "path": "computational/results/residual_version/matched_links.csv.gz",
+      "sha256": "fb974b6b6640aabec1e5e526c395d107c1c3836e6c4cdfd5c667830c217535bf"
+    },
+    {
+      "path": "computational/results/residual_version/summary.json",
+      "sha256": "820599d0cb29125c8f672c022e1f83c3c5b8f240dc4897ffaf764380dbdf3aac"
+    },
+    {
+      "path": "computational/src/primary/code/benchmark.py",
+      "sha256": "e92dc05a3c0f4557c932fc978d339c35cdb56f6fbfddaadaf935f80ea8115835"
+    },
+    {
+      "path": "computational/src/secondary/code/secondary_controls.py",
+      "sha256": "9b8b2c7579ba41e13d5a5d35dce334a091710620ea090abc344e0a8333766700"
+    },
+    {
+      "path": "computational/src/secondary/code/reconcile_residuals.py",
+      "sha256": "bbc37b2915967cafa688f63541c91f74109777e3847496b812d210b3a43dd403"
+    }
+  ],
+  "python": "3.13.5",
+  "checks": [
+    {
+      "name": "CSV_data_record_count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "primary33_8000_distinct_database_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "primary33_source_positions_match_saved_queries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "primary33_all_geographic_distances_match",
+      "pass": true,
+      "detail": {
+        "n_queries": 2495,
+        "max_absolute_difference_m": 5.684341886080802e-14
+      }
+    },
+    {
+      "name": "primary33_scalar_hypot_witness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no71_8000_distinct_database_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no71_source_positions_match_saved_queries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no71_all_geographic_distances_match",
+      "pass": true,
+      "detail": {
+        "n_queries": 2493,
+        "max_absolute_difference_m": 5.684341886080802e-14
+      }
+    },
+    {
+      "name": "no71_scalar_hypot_witness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3101_citywide_8000_distinct_database_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3101_citywide_source_positions_match_saved_queries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3101_citywide_all_geographic_distances_match",
+      "pass": true,
+      "detail": {
+        "n_queries": 1263,
+        "max_absolute_difference_m": 2.842170943040401e-14
+      }
+    },
+    {
+      "name": "geo_east_3101_citywide_scalar_hypot_witness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3101_opposite_8000_distinct_database_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3101_opposite_source_positions_match_saved_queries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3101_opposite_all_geographic_distances_match",
+      "pass": true,
+      "detail": {
+        "n_queries": 1263,
+        "max_absolute_difference_m": 4.547473508864641e-13
+      }
+    },
+    {
+      "name": "geo_east_3101_opposite_scalar_hypot_witness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3101_citywide_8000_distinct_database_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3101_citywide_source_positions_match_saved_queries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3101_citywide_all_geographic_distances_match",
+      "pass": true,
+      "detail": {
+        "n_queries": 1218,
+        "max_absolute_difference_m": 2.842170943040401e-14
+      }
+    },
+    {
+      "name": "geo_west_3101_citywide_scalar_hypot_witness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3101_opposite_8000_distinct_database_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3101_opposite_source_positions_match_saved_queries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3101_opposite_all_geographic_distances_match",
+      "pass": true,
+      "detail": {
+        "n_queries": 1218,
+        "max_absolute_difference_m": 9.094947017729282e-13
+      }
+    },
+    {
+      "name": "geo_west_3101_opposite_scalar_hypot_witness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3102_citywide_8000_distinct_database_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3102_citywide_source_positions_match_saved_queries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3102_citywide_all_geographic_distances_match",
+      "pass": true,
+      "detail": {
+        "n_queries": 1263,
+        "max_absolute_difference_m": 2.842170943040401e-14
+      }
+    },
+    {
+      "name": "geo_east_3102_citywide_scalar_hypot_witness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3102_opposite_8000_distinct_database_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3102_opposite_source_positions_match_saved_queries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3102_opposite_all_geographic_distances_match",
+      "pass": true,
+      "detail": {
+        "n_queries": 1263,
+        "max_absolute_difference_m": 4.547473508864641e-13
+      }
+    },
+    {
+      "name": "geo_east_3102_opposite_scalar_hypot_witness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3102_citywide_8000_distinct_database_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3102_citywide_source_positions_match_saved_queries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3102_citywide_all_geographic_distances_match",
+      "pass": true,
+      "detail": {
+        "n_queries": 1218,
+        "max_absolute_difference_m": 2.842170943040401e-14
+      }
+    },
+    {
+      "name": "geo_west_3102_citywide_scalar_hypot_witness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3102_opposite_8000_distinct_database_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3102_opposite_source_positions_match_saved_queries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3102_opposite_all_geographic_distances_match",
+      "pass": true,
+      "detail": {
+        "n_queries": 1218,
+        "max_absolute_difference_m": 4.547473508864641e-13
+      }
+    },
+    {
+      "name": "geo_west_3102_opposite_scalar_hypot_witness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3103_citywide_8000_distinct_database_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3103_citywide_source_positions_match_saved_queries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3103_citywide_all_geographic_distances_match",
+      "pass": true,
+      "detail": {
+        "n_queries": 1263,
+        "max_absolute_difference_m": 2.842170943040401e-14
+      }
+    },
+    {
+      "name": "geo_east_3103_citywide_scalar_hypot_witness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3103_opposite_8000_distinct_database_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3103_opposite_source_positions_match_saved_queries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_east_3103_opposite_all_geographic_distances_match",
+      "pass": true,
+      "detail": {
+        "n_queries": 1263,
+        "max_absolute_difference_m": 4.547473508864641e-13
+      }
+    },
+    {
+      "name": "geo_east_3103_opposite_scalar_hypot_witness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3103_citywide_8000_distinct_database_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3103_citywide_source_positions_match_saved_queries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3103_citywide_all_geographic_distances_match",
+      "pass": true,
+      "detail": {
+        "n_queries": 1218,
+        "max_absolute_difference_m": 2.842170943040401e-14
+      }
+    },
+    {
+      "name": "geo_west_3103_citywide_scalar_hypot_witness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3103_opposite_8000_distinct_database_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3103_opposite_source_positions_match_saved_queries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "geo_west_3103_opposite_all_geographic_distances_match",
+      "pass": true,
+      "detail": {
+        "n_queries": 1218,
+        "max_absolute_difference_m": 9.094947017729282e-13
+      }
+    },
+    {
+      "name": "geo_west_3103_opposite_scalar_hypot_witness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "official_common27_matched_links",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "official_common27_zero_centred_tail_matches",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "official_common27_moments_match",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "official_common27_scalar_standard_deviation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "official_common27_receiver_medians_zero",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rssfit_stable_common27_matched_links",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rssfit_stable_common27_zero_centred_tail_matches",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rssfit_stable_common27_moments_match",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rssfit_stable_common27_scalar_standard_deviation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rssfit_stable_common27_receiver_medians_zero",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "source_definition_benchmark.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "source_definition_secondary_controls.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "source_definition_reconcile_residuals.py",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "passed": 70,
+  "failed": 0
+}

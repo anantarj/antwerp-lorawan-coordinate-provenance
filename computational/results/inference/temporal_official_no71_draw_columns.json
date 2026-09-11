@@ -1,0 +1,12 @@
+[
+  "early:WCL_raw",
+  "early:WCL_bc",
+  "early:ABS_mean",
+  "early:DIFF_median",
+  "early:MinMax",
+  "interleaved:WCL_raw",
+  "interleaved:WCL_bc",
+  "interleaved:ABS_mean",
+  "interleaved:DIFF_median",
+  "interleaved:MinMax"
+]

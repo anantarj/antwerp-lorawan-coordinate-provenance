@@ -1,0 +1,24 @@
+{
+  "scipy_version": "1.17.0",
+  "signature": "(fun, x0, jac='2-point', bounds=(-inf, inf), method='trf', ftol=1e-08, xtol=1e-08, gtol=1e-08, x_scale=None, loss='linear', f_scale=1.0, diff_step=None, tr_solver=None, tr_options=None, jac_sparsity=None, max_nfev=None, verbose=0, args=(), kwargs=None, callback=None, workers=None)",
+  "source_sha256": "a812bfb4b86cc97b3d07e334686aa68c99457ecfc35a25610927e65d9986e7b5",
+  "executed_call": "least_squares(fun, x0=z0, method='lm')",
+  "n_variables": 3,
+  "effective_lm": {
+    "jac": "2-point",
+    "bounds": "unbounded",
+    "ftol": 1e-08,
+    "xtol": 1e-08,
+    "gtol": 1e-08,
+    "x_scale": "jac (method lm default for x_scale=None in this installed version)",
+    "loss": "linear",
+    "f_scale": 1.0,
+    "diff_step": "None: library selects relative step",
+    "max_nfev": 300,
+    "tr_solver": null,
+    "jac_sparsity": null,
+    "verbose": 0,
+    "workers": null,
+    "callback": null
+  }
+}

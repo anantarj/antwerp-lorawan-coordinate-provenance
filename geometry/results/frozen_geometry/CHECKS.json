@@ -1,0 +1,162 @@
+{
+  "all_pass": true,
+  "count": 26,
+  "checks": [
+    {
+      "check": "F2_manifest_members_match",
+      "pass": true,
+      "detail": {
+        "members": 289,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "frozen_fit41_hash",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "matched33_views_are_exact_projections",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "operative_fit_box_expression",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "immutable_csv_census",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "working_row_identity_exact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "working_projection_matches",
+      "pass": true,
+      "detail": {
+        "maximum_component_difference_m": 9.313225746154785e-10
+      }
+    },
+    {
+      "check": "ordered_calibration_reconstructed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_retained_fit_rows_and_RSSI_match",
+      "pass": true,
+      "detail": {
+        "rows": 13737
+      }
+    },
+    {
+      "check": "all_retained_fit_projections_match",
+      "pass": true,
+      "detail": {
+        "maximum_component_difference_m": 9.313225746154785e-10
+      }
+    },
+    {
+      "check": "receiver_traversal_and_filter_summary_match",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "stable_initializer_ids_and_order_match",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all41_fitted_points_inside_own_box",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "independent_scalar_distances_and_box_extrema",
+      "pass": true,
+      "detail": {
+        "distance_max_difference_m": 1.8189894035458565e-12,
+        "box_max_difference_m": 0.0
+      }
+    },
+    {
+      "check": "BS71_identity_and_catalogue_projection",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "BS71_reception_counts_match_crosswalk",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "BS71_scalar_receiver_distances",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "official_source_error_change_count",
+      "pass": true,
+      "detail": {
+        "count": 1908,
+        "predicate": "absolute error difference >1e-7 m"
+      }
+    },
+    {
+      "check": "official_no71_raw_WCL_invariant_without_reception",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "rssfit_stable_source_error_change_count",
+      "pass": true,
+      "detail": {
+        "count": 0,
+        "predicate": "absolute error difference >1e-7 m"
+      }
+    },
+    {
+      "check": "rssfit_stable_no71_raw_WCL_invariant_without_reception",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "primary_pairs_match_rows_and_selected_receptions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "weighted_coordinate_shift_identity",
+      "pass": true,
+      "detail": {
+        "primary_n": 2495,
+        "max_shift_residual_m": 4.1136686910449525e-09,
+        "max_position_residual_m": 4.669691231132387e-09
+      }
+    },
+    {
+      "check": "weighted_shift_triangle_bound",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_existing_density_draws",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "density_per_draw_accounting",
+      "pass": true,
+      "detail": {
+        "maximum_residual_m": 4.547473508864641e-13
+      }
+    }
+  ],
+  "new_localization_experiments": 0,
+  "coordinate_fits_executed": 0
+}

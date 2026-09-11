@@ -1,0 +1,20 @@
+[
+  {
+    "path": "computational/src/primary/code/benchmark.py",
+    "sha256": "e92dc05a3c0f4557c932fc978d339c35cdb56f6fbfddaadaf935f80ea8115835",
+    "line": 101,
+    "text": "        near=np.sqrt(((qy[lo:lo+len(q),None,:]-dy[None,:,:])**2).sum(2)).min(1)"
+  },
+  {
+    "path": "computational/src/secondary/code/secondary_controls.py",
+    "sha256": "9b8b2c7579ba41e13d5a5d35dce334a091710620ea090abc344e0a8333766700",
+    "line": 110,
+    "text": "                for method in GEO_METHODS:sm.append(dict(experiment=f'geo_{direction}_{seed}',direction=direction,seed=seed,calibration_arm=label,calibration_region=calreg,method=method,calibration_n=budget,receivers=len(roster),parent_direction_n=defs['parent_direction_counts'][direction],coverage_fraction=len(f)/defs['parent_direction_counts'][direction],**stats(f[method+'_error_m']),nearest_database_median_m=float(f.FP_nearest_calibration_m.median()) if method=='FP_k3' else None))"
+  },
+  {
+    "path": "computational/src/secondary/code/reconcile_residuals.py",
+    "sha256": "bbc37b2915967cafa688f63541c91f74109777e3847496b812d210b3a43dd403",
+    "line": 24,
+    "text": "  v=f[col].to_numpy();s=float(np.std(v));summ.append(dict(assignment=label,n_links=len(v),excess_kurtosis=float(kurtosis(v,fisher=True,bias=True)),sd_db=s,beyond_3sd_fraction=float(np.mean(abs(v)>3*s))))"
+  }
+]

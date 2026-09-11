@@ -1,0 +1,50 @@
+{
+  "analysis": "Existing diagnostic synchronized to the stable map; calibration residuals only, no inferential or physical-noise claim.",
+  "distinct_links": 69988,
+  "link_set_common27": [
+    "1",
+    "2",
+    "4",
+    "5",
+    "6",
+    "7",
+    "9",
+    "10",
+    "11",
+    "12",
+    "14",
+    "15",
+    "17",
+    "18",
+    "19",
+    "20",
+    "23",
+    "25",
+    "27",
+    "32",
+    "33",
+    "34",
+    "37",
+    "50",
+    "69",
+    "70",
+    "71"
+  ],
+  "records": [
+    {
+      "assignment": "official_common27",
+      "beyond_3sd_fraction": 0.009030119449048407,
+      "excess_kurtosis": 1.5913036055643115,
+      "n_links": 69988,
+      "sd_db": 8.855296098573561
+    },
+    {
+      "assignment": "rssfit_stable_common27",
+      "beyond_3sd_fraction": 0.01223066811453392,
+      "excess_kurtosis": 18.307600281824513,
+      "n_links": 69988,
+      "sd_db": 6.283689664774857
+    }
+  ],
+  "rssfit_map_sha256": "93e4509d1e7300b92a0a6b3dabbfab251237ea686e4cdd786986419b755f57d6"
+}

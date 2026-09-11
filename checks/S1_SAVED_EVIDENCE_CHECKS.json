@@ -1,0 +1,194 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "check": "package_manifest_all_files",
+      "detail": {
+        "bad": [],
+        "n_files": 236
+      },
+      "pass": true
+    },
+    {
+      "check": "copied_source_bytes_unchanged",
+      "detail": {
+        "bad": [],
+        "n_files": 179
+      },
+      "pass": true
+    },
+    {
+      "check": "all_44_identity_rows_and_bijection",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "CSV_identity_columns_preserve_strings",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "coordinate_coverage_39_and_primary_33",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "calibration_only33_and_missingness_not_invented",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "full_primary_projection_exact",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reference33_is_catalogue_projection",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "only_stable_sort_evaluator_patch",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "geometric_cases_and_all_starts",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "all_geometric_saved_errors_match_positions",
+      "detail": {
+        "max_difference_m": 9.31777321966365e-10
+      },
+      "pass": true
+    },
+    {
+      "check": "raw_WCL_formula_from_saved_receptions_all_cases",
+      "detail": {
+        "max_position_delta_m": 4.669691231132387e-09
+      },
+      "pass": true
+    },
+    {
+      "check": "all_primary_summaries_recomputed",
+      "detail": {
+        "max_difference_m": 1.8189894035458565e-12,
+        "rows": 34
+      },
+      "pass": true
+    },
+    {
+      "check": "primary33_row_RSSI_receiver_pairing",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "no71_row_RSSI_receiver_pairing",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "no71_official_optimizer_statuses",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "no71_official_DIFF_empty_policy",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "no71_rssfit_stable_optimizer_statuses",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "no71_rssfit_stable_DIFF_empty_policy",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "primary33_official_optimizer_statuses",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "primary33_official_DIFF_empty_policy",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "primary33_rssfit_stable_optimizer_statuses",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "primary33_rssfit_stable_DIFF_empty_policy",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "interval_limits_from_saved_paired_draws",
+      "detail": {
+        "interval_records": 172,
+        "max_difference": 4.547473508864641e-13
+      },
+      "pass": true
+    },
+    {
+      "check": "geography_saved_errors_recomputed",
+      "detail": {
+        "max_difference_m": 9.315499482909217e-10,
+        "rows": 14886
+      },
+      "pass": true
+    },
+    {
+      "check": "density_saved_errors_recomputed",
+      "detail": {
+        "max_difference_m": 9.31777321966365e-10,
+        "rows": 82335
+      },
+      "pass": true
+    },
+    {
+      "check": "temporal_saved_errors_recomputed",
+      "detail": {
+        "max_difference_m": 9.31777321966365e-10,
+        "rows": 9484
+      },
+      "pass": true
+    },
+    {
+      "check": "all_removal_selection_decompositions",
+      "detail": {
+        "draw_method_rows": 66
+      },
+      "pass": true
+    },
+    {
+      "check": "residual_link_identity",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "official_common27_moments",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "rssfit_stable_common27_moments",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "every_retained_table_and_figure_path_exists",
+      "detail": null,
+      "pass": true
+    }
+  ],
+  "n_checks": 32,
+  "scope": "Packaged-byte integrity and saved-evidence formula/summary checks. No claim of raw-data replay, new coordinate fit, or optimizer execution in this command."
+}

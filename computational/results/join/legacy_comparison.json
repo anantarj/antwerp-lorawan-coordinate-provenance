@@ -1,0 +1,23 @@
+{
+  "additional_catalogue_backed_columns": [
+    "43",
+    "52",
+    "55",
+    "59",
+    "60",
+    "72"
+  ],
+  "calibration_ge20_projected_map_equals_legacy_map": true,
+  "calibration_ge20_roster_equals_legacy_roster": true,
+  "catalogue_backed_and_calibration_ge10": 35,
+  "catalogue_backed_and_calibration_ge20": 33,
+  "existing_benchmark_roster_changed": false,
+  "frozen_join_sha256": "037c50d6f6947de0e3738cad2b9a6e666dc75b65de72d39f98dd699d7ddc5104",
+  "full_catalogue_backed_identities": 39,
+  "ge20_is_new_explicit_support_rule_not_recovered_historical_votes": true,
+  "historic_agreement_and_vote_statistics_reproduced": false,
+  "legacy_assignments": 33,
+  "legacy_direct_coordinates_equal": 33,
+  "legacy_identities_available_from_calibration_only": 33,
+  "legacy_matching_identities": 33
+}

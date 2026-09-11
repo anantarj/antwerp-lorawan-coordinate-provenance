@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "residual_checks": [
+    {
+      "check": "common_link_identities_unique",
+      "pass": true
+    },
+    {
+      "check": "official_residual_db_moment_recalculation",
+      "pass": true
+    },
+    {
+      "check": "rssfit_stable_residual_db_moment_recalculation",
+      "pass": true
+    }
+  ],
+  "original_attachments": [
+    {
+      "path": "PAPER-A-SUBMIT-034_020926(1).pdf",
+      "sha256_unchanged": true
+    },
+    {
+      "path": "SUPPLEMENTARY-A_290826-13(1).pdf",
+      "sha256_unchanged": true
+    },
+    {
+      "path": "PAPER_A_034_Independent_Reviews_2026-09-05(1).md",
+      "sha256_unchanged": true
+    },
+    {
+      "path": "PAPER_A_ARTIFACT_PACKAGE_v1_050926(1).zip",
+      "sha256_unchanged": true
+    },
+    {
+      "path": "PAPER_A_PDF_SOURCE_v1_050926.zip",
+      "sha256_unchanged": true
+    },
+    {
+      "path": "lorawan_antwerp_2019_dataset.csv.zip",
+      "sha256_unchanged": true
+    },
+    {
+      "path": "lorawan_antwerp_2019_dataset.json.txt.zip",
+      "sha256_unchanged": true
+    },
+    {
+      "path": "bs_to_utm_direct.json",
+      "sha256_unchanged": true
+    },
+    {
+      "path": "bs_to_eui_clean.json",
+      "sha256_unchanged": true
+    }
+  ],
+  "census": {
+    "rows": 130429,
+    "working_rows": 55375,
+    "maximum": 10,
+    "endpoint_rows": 2709
+  }
+}

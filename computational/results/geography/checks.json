@@ -1,0 +1,38 @@
+[
+  {
+    "check": "raw_WCL_calibration_invariance",
+    "direction": "east",
+    "pass": true,
+    "seed": 3101
+  },
+  {
+    "check": "raw_WCL_calibration_invariance",
+    "direction": "west",
+    "pass": true,
+    "seed": 3101
+  },
+  {
+    "check": "raw_WCL_calibration_invariance",
+    "direction": "east",
+    "pass": true,
+    "seed": 3102
+  },
+  {
+    "check": "raw_WCL_calibration_invariance",
+    "direction": "west",
+    "pass": true,
+    "seed": 3102
+  },
+  {
+    "check": "raw_WCL_calibration_invariance",
+    "direction": "east",
+    "pass": true,
+    "seed": 3103
+  },
+  {
+    "check": "raw_WCL_calibration_invariance",
+    "direction": "west",
+    "pass": true,
+    "seed": 3103
+  }
+]

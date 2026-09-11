@@ -1,0 +1,17 @@
+{
+  "catalogue_shown": 32,
+  "fit_shown": 33,
+  "catalogue_outside_local_view": [
+    "71"
+  ],
+  "full_extent_figure_retained": "manuscript/figures/G1_full_coordinate_overview.pdf",
+  "x_limits_km": [
+    590.4092238088003,
+    605.3647
+  ],
+  "y_limits_km": [
+    5669.278016131822,
+    5687.131299999999
+  ],
+  "scope": "Display of unchanged coordinate arrays; no new fit."
+}

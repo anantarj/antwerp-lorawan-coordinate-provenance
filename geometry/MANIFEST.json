@@ -1,0 +1,175 @@
+{
+  "version": "Anonymous-S1",
+  "files": [
+    {
+      "path": "code/describe_frozen_geometry.py",
+      "size": 25548,
+      "sha256": "f644cef13df9f536e3ba1c536436c1e0a4af95600438973dda18e1490e10bc7e"
+    },
+    {
+      "path": "code/plot_f3.py",
+      "size": 4121,
+      "sha256": "badf5e2bbd7f1ed4f52b4c3b1bb06778e4c433738cb964f6acdb208355cc6b95"
+    },
+    {
+      "path": "code/test_geometry_contracts.py",
+      "size": 3293,
+      "sha256": "d243721717a32156eaaa81fa14f11000c2baf7b084db8b247fc71491d8261101"
+    },
+    {
+      "path": "code/verify_bundle.py",
+      "size": 586,
+      "sha256": "9a95e7b78218fd1dbd5f5866d354397b54b1f74bec2c1dd487f20a2e27570587"
+    },
+    {
+      "path": "figures/G1_full_coordinate_overview.pdf",
+      "size": 23219,
+      "sha256": "17ae9815fbda9d24fe568e5ba4032835d6ea516fb8eae455ed326c369c176f3e"
+    },
+    {
+      "path": "figures/G1_full_coordinate_overview.png",
+      "size": 103861,
+      "sha256": "b133903d22effa8642ed5d1bf0c74410133f04cc23717e21a572df6c89e5e5d9"
+    },
+    {
+      "path": "figures/G2_all33_discrepancies.pdf",
+      "size": 17913,
+      "sha256": "a4b0704ad6d25044a8acb44efde6b34db3f3624040a16cabff80284b0c6334fa"
+    },
+    {
+      "path": "figures/G2_all33_discrepancies.png",
+      "size": 90753,
+      "sha256": "e0a47e39c25cec0f8cd1f38b0d5c6fa52ee744a0cb544fc87bfab2d455d7cd3a"
+    },
+    {
+      "path": "figures/G3_density_FP.pdf",
+      "size": 18167,
+      "sha256": "70c0c42e3717d3c2d0cfa62f8fa5e75b7475b2ed4653d80bdb55ecd7c37ca92b"
+    },
+    {
+      "path": "figures/G3_density_FP.png",
+      "size": 91654,
+      "sha256": "c17e56023b538aedbc8498050f01686d801ac7dff06e762ec0bf3cdc32cd8a3b"
+    },
+    {
+      "path": "figures/G4_density_MinMax.pdf",
+      "size": 18276,
+      "sha256": "3c2cde2f59b2cc832b3d079fdc20a0c0ebe3fc0a35415963daec277a67188242"
+    },
+    {
+      "path": "figures/G4_density_MinMax.png",
+      "size": 88802,
+      "sha256": "a6e2d83d5163c30c859976fe9dd78d22fdd65f01b85c67721c308c9cd04f238f"
+    },
+    {
+      "path": "protocol/F3_PROTOCOL.md",
+      "size": 5915,
+      "sha256": "90bb9beb5e661f4def4b43ee7bce6d40c124c61821be1201ae790d8b7285db06"
+    },
+    {
+      "path": "protocol/SOURCE_INSPECTION_AMENDMENT.md",
+      "size": 634,
+      "sha256": "e5f66f4e7a6cc5cb4554b725731d70615332dd4b38e8d5d55a6b9e5cbf2bb615"
+    },
+    {
+      "path": "results/frozen_geometry/BS71_description.json",
+      "size": 2416,
+      "sha256": "bfe8924bd9b28d308c21043d3537f696c149a12f03cc0dfda5a6954ddef266fb"
+    },
+    {
+      "path": "results/frozen_geometry/BS71_distance_summary.csv",
+      "size": 845,
+      "sha256": "7cababd499dab3d27c66720ed9e4c25380e8f23293d7cacdb09ced0eb3d56f51"
+    },
+    {
+      "path": "results/frozen_geometry/BS71_existing_NLLS_change_records.csv.gz",
+      "size": 59045,
+      "sha256": "cc2b5a1b303ae82cd545dcb6cb32fee77a3da5f0243ddbb5da5bbfcec21672cd"
+    },
+    {
+      "path": "results/frozen_geometry/BS71_existing_exclusion_summary.csv",
+      "size": 416,
+      "sha256": "295f530efeba757730335d3b0bbbfea1819353f6feea9e44a429c15095e6dc09"
+    },
+    {
+      "path": "results/frozen_geometry/BS71_source_rows_and_distances.csv.gz",
+      "size": 735311,
+      "sha256": "75e7cdf3abcc2fda3e1a1a82a3412e3be5e8bb05d78d5320b7313462936b9898"
+    },
+    {
+      "path": "results/frozen_geometry/CHECKS.json",
+      "size": 3605,
+      "sha256": "6b8c50aad02ffaecae0c858a918b996e60e17aab92944d2a94aa0e7182017507"
+    },
+    {
+      "path": "results/frozen_geometry/ENVIRONMENT.json",
+      "size": 246,
+      "sha256": "f87394302bd0895be4ed8894a3779930eb76bde92588f16858baa33b0b2be427"
+    },
+    {
+      "path": "results/frozen_geometry/INPUT_RECEIPT.json",
+      "size": 2894,
+      "sha256": "98dc0febb323408df47e670e2ddbba03b38209b302ed0f90e5c29a25a4a6176f"
+    },
+    {
+      "path": "results/frozen_geometry/audited_RSSFIT_source.txt",
+      "size": 3774,
+      "sha256": "0e27abd92d50fe41ee73aaa8d10bace8b46ac81895239d883b30f73ef6d50520"
+    },
+    {
+      "path": "results/frozen_geometry/calibration_locations_for_plot.csv.gz",
+      "size": 318841,
+      "sha256": "df3d95d761152f91ee1df594b5a270aa3c9ea94b8f8f65d4187ad7bb5eeba1e1"
+    },
+    {
+      "path": "results/frozen_geometry/coordinate_summary.json",
+      "size": 2889,
+      "sha256": "72476159ad0965d7b69a2423ba58b9fbd969e11496a5ad99fc4e3999333a1300"
+    },
+    {
+      "path": "results/frozen_geometry/density_component_ranges.csv",
+      "size": 876,
+      "sha256": "eee1f30eefa8c42bfbeaf80b9e04ab7d8e8cf5a60f6357910ed3a80e4b8331b7"
+    },
+    {
+      "path": "results/frozen_geometry/existing_density_decomposition.csv",
+      "size": 14987,
+      "sha256": "b982be6e2aa74dfa92fa03258d8bac28d30daf6701c9894f5c8f6e08e597dd56"
+    },
+    {
+      "path": "results/frozen_geometry/metadata33_calibration_distance_context.csv",
+      "size": 752,
+      "sha256": "681ce013cf2c91848120c59c0e0b427473c21592a74f711b83111b7c5a1f9774"
+    },
+    {
+      "path": "results/frozen_geometry/primary_identity_summary.json",
+      "size": 327,
+      "sha256": "dd7ba0e4c0d0d54be1cbf13bcbb610f329e47d3a8a6993febd8519a4545f9977"
+    },
+    {
+      "path": "results/frozen_geometry/primary_weighted_coordinate_shift.csv.gz",
+      "size": 124589,
+      "sha256": "1e4bca1ab54097ffe8a7db8a19c6ab7523f502d0bdad53baab5cd9f96c886a24"
+    },
+    {
+      "path": "results/frozen_geometry/receiver_geometry33.csv",
+      "size": 9531,
+      "sha256": "fd4ceeb87246c510bf96f45665c3fe2e8a8ddebec63f4ed69427130e6d938292"
+    },
+    {
+      "path": "results/frozen_geometry/reconstructed_fit_inputs.csv.gz",
+      "size": 307152,
+      "sha256": "46821b18defcc4665ba46279a024bdd060d5d4ad765ff525167c69a257e32df5"
+    },
+    {
+      "path": "results/frozen_geometry/rssfit_receiver_traversal.csv",
+      "size": 1343,
+      "sha256": "013a7dccd4025b6adab89b694209cecd736336315c028148c5cb69210b553231"
+    },
+    {
+      "path": "results/frozen_geometry/rssfit_search_boxes41.csv",
+      "size": 11067,
+      "sha256": "f9f8ae68cc39923fdec0a55472717febe4645aef79678be9c65b67b166ddfae2"
+    }
+  ]
+}

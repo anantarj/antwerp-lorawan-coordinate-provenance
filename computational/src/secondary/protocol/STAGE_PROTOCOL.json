@@ -1,0 +1,72 @@
+{
+  "stage": "A4b bounded within-scope controls and A6 first applied working revision",
+  "version": "R1",
+  "declared_before_outcome_calculation": true,
+  "scope": "Retain release-specific receiver-removal and geographic-transfer sensitivity; no family-wide transfer theorem, no new estimator, no pruning or switching-policy validation programme.",
+  "csv_sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+  "reference": "frozen existing metadata-derived 33; no coordinate changes and no inclusion of surplus JSON record",
+  "density": {
+    "parent_population": "existing official33 primary 2495 rows",
+    "retained_receiver_counts": [
+      33,
+      23,
+      16,
+      10,
+      6
+    ],
+    "draws_per_nonfull_count": 8,
+    "subset_seed_rule": "random.Random(20260905+100*receiver_count+draw_index).sample(numerically_sorted_frozen33, receiver_count)",
+    "training_database": "same existing 8000 fingerprint database row IDs",
+    "methods": [
+      "FP_k3",
+      "MinMax"
+    ],
+    "prediction_rule": "restrict both database and queries to the same receiver subset; MinMax uses existing per-receiver intercepts (no pooled fit or imputation)",
+    "eligibility": "at least three receptions on the subset for paired geometry comparison; FP additionally scored on all parent rows, with no assertion it needs three receptions",
+    "primary_reporting": "each subset draw separately; treatment and selection median components plus availability; across-draw quantiles descriptive, not confidence intervals or independent message samples",
+    "new_numerical_uncertainty": "conditional paired-message and 1000m-spatial bootstrap for each specified subset; no equivalence or family-wide winner claims; tiny populations visibly retained"
+  },
+  "geography": {
+    "parent_calibration": "existing 16612 calibration records only; evaluation from existing disjoint primary2495",
+    "boundary": "median UTM easting of existing calibration positions; west x<boundary, east x>=boundary",
+    "budget": "minimum of 8000, number of west calibration records, number of east calibration records; same budget for citywide and either opposite-half arm",
+    "replicate_seeds": [
+      3101,
+      3102,
+      3103
+    ],
+    "primary_seed": 3101,
+    "selection": "random.Random(seed).sample for each of citywide,west,east pools, with original calibration iteration order as pool order",
+    "roster": "intersection of frozen33 receiver IDs having >=10 calibration receptions in ALL 9 sampled training arms; fixed across both directions and all repeats; no imputation",
+    "evaluation": "for each direction, parent primary rows in that half with >=3 receptions on the shared calibrated roster; no resampling/refill; same IDs within paired arms and all repeats",
+    "methods": [
+      "FP_k3",
+      "WCL_raw",
+      "WCL_bc",
+      "ABS_mean",
+      "DIFF_median",
+      "MinMax"
+    ],
+    "directions": [
+      "east_eval_west_cal",
+      "west_eval_east_cal"
+    ],
+    "fingerprinting": "same sampled training IDs used for the fingerprint database and intercept fitting; k3, Euclidean RSSI, -200 fill, stable distance ties",
+    "interpretation": "conditional equal-budget contrast for this baseline and reference; geography includes route/receiver-coverage distribution shift, not geographic distance alone"
+  },
+  "inference": {
+    "replicates": 6000,
+    "seed": 20260905,
+    "percentile": 95,
+    "geography_primary_schemes": [
+      "paired_messages",
+      "spatial_500m",
+      "spatial_1000m",
+      "UTC_calendar_day"
+    ],
+    "geography_other_repeats": "point and per-message sensitivity records, no new independent-dataset interpretation",
+    "multiplicity": "no multiplicity-adjusted discovery claim; report all specified contrasts, median primary, p90 descriptive"
+  },
+  "stop_rule": "complete these declared contrasts then integrate scope-selected manuscript/supplement text; do not open new experiments solely to recover stronger old conclusions",
+  "manuscript_gate": "Working R1, not submission-ready; final primary-source bibliography and artifact version audit, author disposition review, and final A7 validation remain explicit gates."
+}

@@ -1,0 +1,121 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "check": "fresh_join_rebuilt_full_identities.json",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "fresh_join_rebuilt_calibration_identities.json",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "fresh_join_rebuilt_catalogue_all39.json",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "fresh_join_rebuilt_calibration_ge10_35.json",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "fresh_join_rebuilt_calibration_ge20_33.json",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "fresh_join_surplus_json_records.json",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "complete_signature_evidence_matches",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "CSV_JSON_population_and_endpoint",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "all_frozen33_coordinates_rederived",
+      "detail": {
+        "n": 33
+      },
+      "pass": true
+    },
+    {
+      "check": "stable41_map_unchanged",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "CSV_original_hash",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "working_source_rows_exact",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "ordered_calibration_exact",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "primary_selection_recipe_and_order",
+      "detail": {
+        "after_exclusions": 2495,
+        "eligible_complement": 38691,
+        "sampled": 2500
+      },
+      "pass": true
+    },
+    {
+      "check": "fingerprint_database_recipe_and_order",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "initialization_row_and_RSSI_order_exact",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "initialization_projected_coordinates",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "raw_WCL_replayed_all_9976_cases",
+      "detail": {
+        "maximum_error_difference_m": 4.5743036025669426e-09,
+        "maximum_position_difference_m": 4.669691231132387e-09
+      },
+      "pass": true
+    },
+    {
+      "check": "same_map_control_zero",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "primary33_paired_row_and_receiver_identity",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "no71_paired_row_and_receiver_identity",
+      "detail": null,
+      "pass": true
+    }
+  ],
+  "n_checks": 21,
+  "scope": "Fresh identity join/projection, independent population reconstruction, RSSFIT input selection only, frozen-map raw-centroid replay. No coordinate refit or non-WCL optimizer."
+}

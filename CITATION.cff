@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these resources, please cite the associated paper and the archived release."
+title: "Antwerp LoRaWAN coordinate provenance and benchmark audit"
+type: software
+authors:
+  - family-names: Ranjan
+    given-names: Ananta
+    orcid: "https://orcid.org/0000-0002-1105-0666"
+version: "1.0.0"
+date-released: "2026-09-11"
+repository-code: "https://github.com/anantarj/antwerp-lorawan-coordinate-provenance"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22143329"
+    description: "Paper A concept DOI; cite the exact release-version DOI for reproducibility once reserved."
+keywords:
+  - LoRaWAN
+  - RSSI localization
+  - benchmark audit
+  - coordinate provenance
+  - reproducibility
+license: MIT

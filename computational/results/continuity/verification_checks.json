@@ -1,0 +1,126 @@
+{
+  "all_pass": true,
+  "checks": {
+    "all_geometric_errors_recomputed_from_CSV_ground_truth": {
+      "detail": {
+        "ABS_mean": 9.313225746154785e-10,
+        "DIFF_median": 9.310383575211745e-10,
+        "HYBRID_mean": 9.299014891439583e-10,
+        "MinMax": 9.313225746154785e-10,
+        "NLLS": 9.313225746154785e-10,
+        "Trilat": 9.313225746154785e-10,
+        "WCL_bc": 9.313225746154785e-10,
+        "WCL_raw": 9.315499482909217e-10
+      },
+      "pass": true
+    },
+    "all_rawWCL_predictions_independently_recomputed": {
+      "detail": {
+        "cases": 9976,
+        "max_delta_m": 4.669691231132387e-09
+      },
+      "pass": true
+    },
+    "all_receivers_and_RSSI_rebuilt_from_raw_CSV": {
+      "detail": null,
+      "pass": true
+    },
+    "all_temporal_timestamps_match_original_rows": {
+      "detail": null,
+      "pass": true
+    },
+    "benchmark_source_row_ground_truth_and_time": {
+      "detail": null,
+      "pass": true
+    },
+    "bridge_pairing_official": {
+      "detail": null,
+      "pass": true
+    },
+    "bridge_pairing_recovered": {
+      "detail": null,
+      "pass": true
+    },
+    "bridge_rawWCL_invariant_official": {
+      "detail": null,
+      "pass": true
+    },
+    "bridge_rawWCL_invariant_recovered": {
+      "detail": null,
+      "pass": true
+    },
+    "official_primary_reconstructed_from_CSV": {
+      "detail": {
+        "eligible": 38691,
+        "retained": 2495,
+        "sampled": 2500
+      },
+      "pass": true
+    },
+    "optimizer_status_crosscheck_no71_official": {
+      "detail": null,
+      "pass": true
+    },
+    "optimizer_status_crosscheck_no71_rssfit_stable": {
+      "detail": null,
+      "pass": true
+    },
+    "optimizer_status_crosscheck_primary33_official": {
+      "detail": null,
+      "pass": true
+    },
+    "optimizer_status_crosscheck_primary33_rssfit_stable": {
+      "detail": null,
+      "pass": true
+    },
+    "original_uploaded_source_matches_baseline_001_160826.py": {
+      "detail": {
+        "candidate_count": 1,
+        "sha256": "67645c7727643a5b6f23b9ead9f362131b7410bdfff668c66e8ec84e0fe922f3"
+      },
+      "pass": true
+    },
+    "original_uploaded_source_matches_deltamesh_antwerp_eval_v10_fixed_080826.py": {
+      "detail": {
+        "candidate_count": 1,
+        "sha256": "b14b35b5748e447971e5b22da7c39ededc8277aa04e5690eeff672bf1311cac5"
+      },
+      "pass": true
+    },
+    "raw_working_and_calibration_membership": {
+      "detail": {
+        "calibration": 16612,
+        "working": 55375
+      },
+      "pass": true
+    },
+    "stable_patch_is_exactly_one_sort_change": {
+      "detail": null,
+      "pass": true
+    },
+    "stage_manifest_matches_archived_content": {
+      "detail": {
+        "files": 87,
+        "mismatches": []
+      },
+      "pass": true
+    },
+    "temporal_original_rows_early": {
+      "detail": {
+        "end": "2019-01-09 09:22:42.503000+00:00",
+        "n": 16612,
+        "start": "2018-11-16 11:31:35.384000+00:00"
+      },
+      "pass": true
+    },
+    "temporal_original_rows_interleaved": {
+      "detail": {
+        "end": "2019-02-05 19:58:14.754000+00:00",
+        "n": 16612,
+        "start": "2018-11-16 11:31:35.384000+00:00"
+      },
+      "pass": true
+    }
+  },
+  "n_checks": 21
+}

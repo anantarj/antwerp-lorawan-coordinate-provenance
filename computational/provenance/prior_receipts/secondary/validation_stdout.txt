@@ -1,0 +1,3 @@
+RSSI column family selection: use_bs=True (score_bs=0.039, score_rssi=-1.000) | n_cols=72 | rssi_range=[-150.0,-20.0]
+RSSI sample stats (filtered): count=13916 | min=-123.0 | p01=-120.0 | median=-112.0 | p99=-87.0 | max=-74.0
+PASS 209

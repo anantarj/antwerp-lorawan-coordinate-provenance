@@ -1,0 +1,177 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "no_unresolved_table_tokens",
+      "pass": true
+    },
+    {
+      "check": "six_numbered_main_tables",
+      "pass": true
+    },
+    {
+      "check": "two_new_figures",
+      "pass": true
+    },
+    {
+      "check": "ten_body_sections_preserved",
+      "pass": true
+    },
+    {
+      "check": "all_nine_supplement_sections",
+      "pass": true
+    },
+    {
+      "check": "refined_temporal_positive_evidence_present",
+      "pass": true
+    },
+    {
+      "check": "primary_numbers_named",
+      "pass": true
+    },
+    {
+      "check": "new_vs_historical29_not_confused",
+      "pass": true
+    },
+    {
+      "check": "46_unique_review_actions",
+      "pass": true
+    },
+    {
+      "check": "40_original_material_records",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:inputs/prior_fresh_join_comparison.json",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:inputs/prior_join_column_evidence.csv",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:inputs/base_benchmark_summary.csv",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:inputs/base_geometric_predictions.csv.gz",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:inputs/base_fingerprint_predictions.csv.gz",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:inputs/common27_stable_bridge.csv",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:inputs/rssfit_stable41.json",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:inputs/prior_paired_intervals.csv",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:inputs/prior_temporal_summary.csv",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:inputs/prior_temporal_definitions.json",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:inputs/prior_matched_temporal_bridge.csv",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:inputs/prior_temporal_other_metrics.csv",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:inputs/prior_temporal_other_intervals.csv",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:results/density/draw_definitions.json",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:results/density/per_draw_summary.csv",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:results/density/predictions.csv.gz",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:results/density/conditional_intervals.csv",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:results/geography/definitions.json",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:results/geography/contrasts.csv",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:results/geography/predictions.csv.gz",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:results/geography/primary_intervals.csv",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:results/residual_version/summary.json",
+      "pass": true
+    },
+    {
+      "check": "evidence_hash:results/residual_version/matched_links.csv.gz",
+      "pass": true
+    },
+    {
+      "check": "eight_unique_numbered_references",
+      "pass": true
+    },
+    {
+      "check": "bib_matches_inline_dois",
+      "pass": true
+    },
+    {
+      "check": "PAPER-A-REVISION-R1.pdf:no_page_edge_overflow",
+      "pass": true
+    },
+    {
+      "check": "PAPER-A-REVISION-R1.pdf:no_replacement_characters",
+      "pass": true
+    },
+    {
+      "check": "SUPPLEMENTARY-A-REVISION-R1.pdf:no_page_edge_overflow",
+      "pass": true
+    },
+    {
+      "check": "SUPPLEMENTARY-A-REVISION-R1.pdf:no_replacement_characters",
+      "pass": true
+    }
+  ],
+  "pdfs": [
+    {
+      "path": "revision/PAPER-A-REVISION-R1.pdf",
+      "pages": 15,
+      "sha256": "18341bb534d97a051612d2ebf6ef5fe228c19a18f1e119ca025ba14b75a84f4f",
+      "page_edge_overflows": [],
+      "scope": "Automated text-edge check; visual rendering reviewed separately."
+    },
+    {
+      "path": "revision/SUPPLEMENTARY-A-REVISION-R1.pdf",
+      "pages": 14,
+      "sha256": "5beddd24cc97bf0b0185a1955b38ac0dea394a29ecf3730522c0b059c029c333",
+      "page_edge_overflows": [],
+      "scope": "Automated text-edge check; visual rendering reviewed separately."
+    }
+  ]
+}

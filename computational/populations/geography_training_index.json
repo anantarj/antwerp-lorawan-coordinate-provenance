@@ -1,0 +1,47 @@
+[
+  {
+    "region": "citywide",
+    "seed": 3101,
+    "row_file": "geography_training_00_rows.csv"
+  },
+  {
+    "region": "west",
+    "seed": 3101,
+    "row_file": "geography_training_01_rows.csv"
+  },
+  {
+    "region": "east",
+    "seed": 3101,
+    "row_file": "geography_training_02_rows.csv"
+  },
+  {
+    "region": "citywide",
+    "seed": 3102,
+    "row_file": "geography_training_03_rows.csv"
+  },
+  {
+    "region": "west",
+    "seed": 3102,
+    "row_file": "geography_training_04_rows.csv"
+  },
+  {
+    "region": "east",
+    "seed": 3102,
+    "row_file": "geography_training_05_rows.csv"
+  },
+  {
+    "region": "citywide",
+    "seed": 3103,
+    "row_file": "geography_training_06_rows.csv"
+  },
+  {
+    "region": "west",
+    "seed": 3103,
+    "row_file": "geography_training_07_rows.csv"
+  },
+  {
+    "region": "east",
+    "seed": 3103,
+    "row_file": "geography_training_08_rows.csv"
+  }
+]

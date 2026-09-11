@@ -1,0 +1,76 @@
+{
+  "stage": "A3b official-map benchmark and A4a temporal repair",
+  "created_at_utc": "2026-09-05T12:50:04.459783+00:00",
+  "origin": "post-review protocol, written before executing the new benchmark and temporal comparisons; prior-stage exploratory tie-sensitivity results already seen",
+  "no_result_target": "Stable ties chosen for explicit input-order preservation, NOT to match 3683 m or maximize assignment contrast. Historical, prior current-default, and revised-stable outputs remain distinct.",
+  "RSSFIT_contract": {
+    "code_change": "only np.argsort(-rssi, kind=\"stable\") replaces unspecified np.argsort(-rssi)",
+    "calibration_order": "same shuffled input/calibration order as prior reconstruction (Random(1), .3 of >=3 census)",
+    "gateway_iteration": "first occurrence in that ordered calibration; one shared Random(1) for max-2000 subsampling in this order",
+    "equal_RSSI_order": "original order in retained per-gateway subsample after quantile filter",
+    "other_parameters": "source defaults: .75 quantile, retain filter only if >=50; top50 init; source step search unchanged",
+    "validation": "repeat fit, compare prior independently generated stable-policy map, save exact artifacts and input row ledger; not a cross-environment exactness guarantee"
+  },
+  "population": {
+    "csv_sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+    "csv_rows_immutable": true,
+    "reference_roster": "supplied official33, no expansion, no coordinate repair",
+    "historical_bridge": "prior common27 evaluation IDs for raw-centroid bridge",
+    "primary_official33": ">=3 receptions on official33 in original split complement; Random(9).sample 2500; exclude calibration-content overlaps, no refill; do not select on error",
+    "assignment_comparison": "official33 versus freshly fitted stable RSSFIT restricted to identical33; same selected receivers/messages",
+    "anomaly": "remove BS71 from BOTH assignments and evaluate exact surviving primary sample; disclose coverage loss and same-survivor before/after"
+  },
+  "methods": {
+    "included": [
+      "WCL_raw",
+      "WCL_bc",
+      "ABS_mean",
+      "DIFF_median",
+      "HYBRID_mean",
+      "NLLS",
+      "Trilat",
+      "MinMax",
+      "FP_k3"
+    ],
+    "intercepts": "baseline median r+47log10(distance+1); >=10 calibration receptions; no imputation",
+    "DIFF_empty_pair_policy": "return WCL_bc initializer if no |corrected difference| >=3dB pair; export legacy first-grid-point result as diagnostic; never silently count zero-pair fix as differential evidence",
+    "NLLS": "unchanged source estimate selection; raw WCL initializer; map bbox padded3000m;3starts,120iter,gtol1e-6,ftol1e-15,Huber1.345,Halton_seed1; record every optimizer outcome and returned boundary flag separately; retain finite outputs regardless of termination status",
+    "Trilat": "unchanged joint intercept LM kernel, record least_squares status",
+    "MinMax": "unchanged inverted-interval midpoint, count infeasibility separately",
+    "FP_k3": "8000 calibration rows sampled with Random(33), Euclidean rawRSSI filled -200 on matching receiver roster, mean3nearest; explicit distance ties preserve database order, not tuned; save selected database IDs, neighbor IDs and ties"
+  },
+  "temporal": {
+    "primary_map": "official33 (and exclude71 sensitivity)",
+    "ordering": "original row RX Time parsed UTC, chronological; equal times preserve original Random(1) shuffle rank",
+    "evaluation": "sample1200 from latest40% with Random(9), then fixed shared-calibrated receiver roster >=3",
+    "calibration_budget": 16612,
+    "early": "take first16612 in chronological list after excluding evaluation content keys; record extension/exclusions vs earliest30pct",
+    "random": "sample16612 from same evaluation-content-excluded chronological list with Random(4242)",
+    "calibration_support": "intersection of receiver IDs with >=10 links in BOTH calibration arms; identical selected receivers/messages; no imputation",
+    "interpretation": "historical early-versus-interleaved comparison repaired; random arm includes later campaign data and is not a prospective deployment; differences do not isolate physical temporal drift from geographic/support shift",
+    "scope_methods": [
+      "WCL_raw",
+      "WCL_bc",
+      "ABS_mean",
+      "DIFF_median",
+      "MinMax"
+    ],
+    "legacy_bridge": "source-ordered/reassigned timestamp recovered29 replay and timestamp-only repaired recovered29 execution exported separately, not treated as same evaluation population"
+  },
+  "uncertainty": {
+    "confidence": 0.95,
+    "replicates": 6000,
+    "seed": 20260905,
+    "paired": true,
+    "units": [
+      "messages",
+      "500m UTM occupied squares origin0",
+      "1000m UTM occupied squares origin0",
+      "UTC calendar day"
+    ],
+    "cluster_sampling": "uniform occupied clusters with replacement; all rows and multiplicities; variable replicate message count",
+    "conditional_on": "fixed fitted maps and calibration sets; dependence sensitivity, not proof of cluster independence",
+    "ranking": "descriptive medians only; no floor veto and no automatic declaration every pair separated; selected paired contrasts versus WCL_raw and cross-assignment per method"
+  },
+  "preservation": "no original dataset, map, manuscript, supplement, archive modified; no external publication/upload"
+}

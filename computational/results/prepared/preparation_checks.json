@@ -1,0 +1,36 @@
+{
+  "counts": {
+    "calibration": 16612,
+    "common27": 2496,
+    "eligible_official_complement": 38691,
+    "excluded_calibration_content": 5,
+    "fingerprint_database": 8000,
+    "no71_lost": 2,
+    "no71_survivors": 2493,
+    "primary_evaluation": 2495,
+    "sampled": 2500
+  },
+  "fitted_map_sha256": "93e4509d1e7300b92a0a6b3dabbfab251237ea686e4cdd786986419b755f57d6",
+  "primary_new_vs_historical_common27_overlap": 174,
+  "source_note": "fresh documented stable policy; not proof of historical 3683m settings",
+  "stable_common27": {
+    "estimated_worse_count": 2467,
+    "official": {
+      "median_m": 425.2837804269002,
+      "n": 2496,
+      "over_1km_fraction": 0.18790064102564102,
+      "p90_m": 1326.0659212333476,
+      "p95_m": 1647.9404722426525
+    },
+    "ratio": 8.600712825491813,
+    "rssfit": {
+      "median_m": 3657.7436647912846,
+      "n": 2496,
+      "over_1km_fraction": 0.7760416666666666,
+      "p90_m": 4963.235245711606,
+      "p95_m": 5438.449178227705
+    }
+  },
+  "stable_fit_repeat_max_difference_m": 0.0,
+  "stable_fit_vs_previous_diagnostic_max_difference_m": 0.0
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+*.swp
+*.tmp
+.env
+.venv/
+venv/
+paper_a_verify/
+paper_a_core/
+paper_a_primary/
+paper_a_secondary/

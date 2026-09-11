@@ -1,0 +1,18 @@
+[
+  {
+    "experiment": "primary33",
+    "metadata_median_m": 480.08719486250845,
+    "n": 2495,
+    "ratio_of_medians": 7.53867671227892,
+    "rssfit_median_m": 3619.2221557733046,
+    "rssfit_worse_count": 2462
+  },
+  {
+    "experiment": "no71",
+    "metadata_median_m": 479.4601660745231,
+    "n": 2493,
+    "ratio_of_medians": 7.557945475849551,
+    "rssfit_median_m": 3623.7337930330164,
+    "rssfit_worse_count": 2468
+  }
+]

@@ -1,0 +1,219 @@
+{
+  "version": "Anonymous-S1",
+  "records": [
+    {
+      "document_location": "Main Table 1",
+      "description": "Experimental-question inventory",
+      "evidence_files": [
+        "../manuscript/Manuscript_without_author_details.md"
+      ],
+      "producer_route": "Conceptual table: current methods section; not a numerical experiment."
+    },
+    {
+      "document_location": "Main Table 2",
+      "description": "Primary paired/block assignment intervals",
+      "evidence_files": [
+        "results/inference/paired_intervals.csv",
+        "results/inference/primary33_median_draws.npz",
+        "results/inference/primary33_draw_columns.json"
+      ],
+      "producer_route": "python commands/paper_a.py primary --csv DATA.csv.zip --out NEW_RUN"
+    },
+    {
+      "document_location": "Main Table 4",
+      "description": "Primary implementation benchmark",
+      "evidence_files": [
+        "results/benchmark/summary.csv",
+        "results/benchmark/geometric_predictions.csv.gz",
+        "results/benchmark/fingerprint_predictions.csv.gz",
+        "populations/official33_primary_rows.csv",
+        "populations/fingerprint_database_rows.csv"
+      ],
+      "producer_route": "python commands/paper_a.py primary --csv DATA.csv.zip --out NEW_RUN"
+    },
+    {
+      "document_location": "Main Table 5",
+      "description": "Bidirectional equal-budget geography",
+      "evidence_files": [
+        "results/geography/summary.csv",
+        "results/geography/predictions.csv.gz",
+        "populations/geographic_definitions.json",
+        "results/geography/primary_intervals.csv"
+      ],
+      "producer_route": "python commands/paper_a.py secondary --csv DATA.csv.zip --out NEW_RUN"
+    },
+    {
+      "document_location": "Main Table 6",
+      "description": "Receiver removal and availability",
+      "evidence_files": [
+        "results/density/across_draw_descriptions.csv",
+        "results/density/per_draw_summary.csv",
+        "results/density/predictions.csv.gz",
+        "populations/removal_definitions.json"
+      ],
+      "producer_route": "python commands/paper_a.py secondary --csv DATA.csv.zip --out NEW_RUN"
+    },
+    {
+      "document_location": "Main Table 7",
+      "description": "Optimizer and boundary events",
+      "evidence_files": [
+        "results/benchmark/solver_status_summary.json",
+        "results/benchmark/nlls_start_records.csv.gz",
+        "results/benchmark/geometric_predictions.csv.gz"
+      ],
+      "producer_route": "python commands/paper_a.py primary --csv DATA.csv.zip --out NEW_RUN"
+    },
+    {
+      "document_location": "Main Figure 1",
+      "description": "Raw-WCL empirical error distributions",
+      "evidence_files": [
+        "results/benchmark/geometric_predictions.csv.gz",
+        "../manuscript/figures/F1_assignment_ecdf.pdf",
+        "src/secondary/code/make_figures.py"
+      ],
+      "producer_route": "python commands/paper_a.py figures --out NEW_FIGURES"
+    },
+    {
+      "document_location": "Main Figure 3",
+      "description": "Unchanged CSV reception census",
+      "evidence_files": [
+        "src/secondary/inputs/reception_census.csv",
+        "src/secondary/inputs/release_reception_counts.csv",
+        "results/join/construction_summary.json",
+        "../manuscript/figures/F2_observed_receptions.pdf"
+      ],
+      "producer_route": "python commands/paper_a.py core --csv DATA.csv.zip --json DATA.json.zip --out NEW_RUN; then python commands/paper_a.py figures --out NEW_FIGURES"
+    },
+    {
+      "document_location": "Supplement S1 / F2 Table F2.1",
+      "description": "Complete identity and coverage resource",
+      "evidence_files": [
+        "data_products/receiver_crosswalk.csv",
+        "data_products/receiver_crosswalk.json",
+        "data_products/identities44.json",
+        "results/join/column_evidence.csv",
+        "results/join/alignment.csv.gz"
+      ],
+      "producer_route": "python commands/paper_a.py core --csv DATA.csv.zip --json DATA.json.zip --out NEW_RUN"
+    },
+    {
+      "document_location": "Supplement S2 / F2 Table F2.3",
+      "description": "Exact execution contracts",
+      "evidence_files": [
+        "src/primary/code/evaluator_stable.py",
+        "src/primary/snapshots/baseline_001_160826.py",
+        "environment/executed_environment.json",
+        "environment/least_squares_signature_and_version.json",
+        "populations/rssfit_receiver_traversal.csv",
+        "populations/rssfit_ordered_fit_inputs.csv.gz"
+      ],
+      "producer_route": "Source/ordering specification; core verifies receiver-input order; primary replays the coordinate fit."
+    },
+    {
+      "document_location": "Supplement S3",
+      "description": "Ordered source populations and exclusions",
+      "evidence_files": [
+        "populations/working_source_ledger.csv.gz",
+        "populations/primary_role_ledger.csv.gz",
+        "populations/temporal_role_ledger.csv.gz",
+        "populations/geographic_definitions.json"
+      ],
+      "producer_route": "Core independently checks the primary selections; primary/secondary execute the documented population recipes."
+    },
+    {
+      "document_location": "Supplement S4 / historical common-27",
+      "description": "Historical-population stable-map bridge and exclusion",
+      "evidence_files": [
+        "results/prepared/common27_stable_bridge.csv",
+        "results/benchmark/anomaly_decomposition.csv",
+        "data_products/metadata_common27.json",
+        "data_products/rssfit_common27.json",
+        "populations/historical_common27_rows.csv"
+      ],
+      "producer_route": "python commands/paper_a.py primary --csv DATA.csv.zip --out NEW_RUN"
+    },
+    {
+      "document_location": "Supplement S5.1",
+      "description": "Endpoint counts in both source representations",
+      "evidence_files": [
+        "results/join/construction_summary.json",
+        "results/join/surplus_json_records.json"
+      ],
+      "producer_route": "python commands/paper_a.py core --csv DATA.csv.zip --json DATA.json.zip --out NEW_RUN"
+    },
+    {
+      "document_location": "Supplement S5.2",
+      "description": "Stable-map matched residual diagnostic",
+      "evidence_files": [
+        "results/residual_version/matched_links.csv.gz",
+        "results/residual_version/summary.json",
+        "src/secondary/code/reconcile_residuals.py"
+      ],
+      "producer_route": "python commands/paper_a.py secondary --csv DATA.csv.zip --out NEW_RUN"
+    },
+    {
+      "document_location": "Supplement Table S6.1",
+      "description": "Geographic contrasts and dependence intervals",
+      "evidence_files": [
+        "results/geography/primary_intervals.csv",
+        "results/geography/calibration_counts.csv",
+        "results/geography/definitions.json"
+      ],
+      "producer_route": "python commands/paper_a.py secondary --csv DATA.csv.zip --out NEW_RUN"
+    },
+    {
+      "document_location": "Supplement Table S6.2",
+      "description": "Every six-receiver subset",
+      "evidence_files": [
+        "results/density/per_draw_summary.csv",
+        "results/density/conditional_intervals.csv",
+        "results/density/draw_definitions.json"
+      ],
+      "producer_route": "python commands/paper_a.py secondary --csv DATA.csv.zip --out NEW_RUN"
+    },
+    {
+      "document_location": "Supplement Table S6.3",
+      "description": "Original-timestamp temporal comparison",
+      "evidence_files": [
+        "results/temporal/summary.csv",
+        "results/temporal/predictions.csv.gz",
+        "results/temporal/definitions.json",
+        "results/inference/paired_intervals.csv"
+      ],
+      "producer_route": "python commands/paper_a.py primary --csv DATA.csv.zip --out NEW_RUN"
+    },
+    {
+      "document_location": "Supplement S6.3 matched-map bridge",
+      "description": "Conditional recovered versus metadata reference bridge",
+      "evidence_files": [
+        "results/continuity/matched_temporal_bridge_summary.csv",
+        "results/continuity/matched_temporal_bridge_predictions.csv.gz",
+        "results/continuity/matched_temporal_bridge_block_intervals.csv",
+        "src/join_and_continuity/continuity_and_bridge.py",
+        "src/join_and_continuity/bridge_block_sensitivity.py"
+      ],
+      "producer_route": "python commands/replay_continuity.py --csv DATA.csv.zip --out NEW_RUN"
+    },
+    {
+      "document_location": "Supplement Table S6.4",
+      "description": "Exploratory temporal mean and tail evidence",
+      "evidence_files": [
+        "results/continuity/descriptive_other_temporal_estimands.csv",
+        "results/continuity/exploratory_temporal_mean_p90_intervals.csv",
+        "src/join_and_continuity/temporal_other_metrics.py"
+      ],
+      "producer_route": "python commands/replay_continuity.py --csv DATA.csv.zip --out NEW_RUN"
+    },
+    {
+      "document_location": "Supplement S7",
+      "description": "Actual validation records",
+      "evidence_files": [
+        "provenance/prior_receipts/primary/validation_results.json",
+        "provenance/prior_receipts/secondary/VALIDATION.json",
+        "commands/verify_evidence.py"
+      ],
+      "producer_route": "python commands/paper_a.py verify --out NEW_CHECK; new replay receipts in checks/ are separately scoped."
+    }
+  ],
+  "note": "Current evidence-only locator; attributed historic document builds are excluded."
+}

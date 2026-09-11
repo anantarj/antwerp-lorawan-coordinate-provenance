@@ -1,0 +1,3 @@
+assignment,primary_n,survivor_n,lost_n,survivors_not_receiving_BS71,NLLS_error_changed_non71,NLLS_position_changed_non71,predicate_disagreement_non71,full_primary_WCL_median_m,before_survivor_WCL_median_m,after_survivor_WCL_median_m
+official,2495,2493,2,2487,1908,1908,0,480.087194862526,480.0201262504464,479.4601660745637
+rssfit_stable,2495,2493,2,2487,0,0,0,3619.222155773533,3619.222155773533,3623.7337930322697

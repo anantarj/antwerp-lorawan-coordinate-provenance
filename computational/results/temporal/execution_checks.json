@@ -1,0 +1,29 @@
+{
+  "legacy_early": {
+    "n": 1172,
+    "rounded_matches": {
+      "ABS_mean": true,
+      "DIFF_median": true,
+      "WCL_bc": true
+    }
+  },
+  "legacy_interleaved": {
+    "n": 1172,
+    "rounded_matches": {
+      "ABS_mean": true,
+      "DIFF_median": true,
+      "WCL_bc": true
+    }
+  },
+  "no_missing_original_timestamps": true,
+  "temporal_official_matched": {
+    "raw_WCL_max_error_delta_m": 0.0,
+    "same_row_ids": true,
+    "same_selected_receivers": true
+  },
+  "temporal_official_no71": {
+    "raw_WCL_max_error_delta_m": 0.0,
+    "same_row_ids": true,
+    "same_selected_receivers": true
+  }
+}

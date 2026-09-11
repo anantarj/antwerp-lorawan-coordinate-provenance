@@ -1,0 +1,134 @@
+{
+  "all_pass": true,
+  "checks": {
+    "additive_paired_control": {
+      "detail": null,
+      "pass": true
+    },
+    "all_predicted_errors_finite": {
+      "detail": null,
+      "pass": true
+    },
+    "all_solver_starts_retained": {
+      "detail": {
+        "cases": 9976,
+        "starts": 29928
+      },
+      "pass": true
+    },
+    "data_unchanged": {
+      "detail": null,
+      "pass": true
+    },
+    "empty_pair_returns_correctedWCL_not_first_grid_point": {
+      "detail": {
+        "legacy_offset": [
+          -3750.0,
+          -3750.0
+        ]
+      },
+      "pass": true
+    },
+    "fingerprint_database_only_calibration": {
+      "detail": null,
+      "pass": true
+    },
+    "independent_stabilized_rawWCL_formula_all_cases": {
+      "detail": {
+        "max_position_delta_m": 4.669691231132387e-09
+      },
+      "pass": true
+    },
+    "legacy_temporal_numeric_replay": {
+      "detail": null,
+      "pass": true
+    },
+    "no71_FP_same_population": {
+      "detail": null,
+      "pass": true
+    },
+    "no71_assignment_pairing": {
+      "detail": null,
+      "pass": true
+    },
+    "no71_official_real_empty_pair_fallback": {
+      "detail": null,
+      "pass": true
+    },
+    "no71_removed_everywhere": {
+      "detail": null,
+      "pass": true
+    },
+    "no71_rssfit_stable_real_empty_pair_fallback": {
+      "detail": null,
+      "pass": true
+    },
+    "nonempty_pair_preserves_original_kernel": {
+      "detail": null,
+      "pass": true
+    },
+    "official_rawWCL_unchanged_without_receiving71": {
+      "detail": null,
+      "pass": true
+    },
+    "one_selected_optimizer_result_per_case": {
+      "detail": null,
+      "pass": true
+    },
+    "optimizer_instrumentation_does_not_change_estimates": {
+      "detail": {
+        "NLLS_max_delta_m": 0.0,
+        "Trilat_max_delta_m": 0.0,
+        "cases": 11
+      },
+      "pass": true
+    },
+    "primary33_FP_same_population": {
+      "detail": null,
+      "pass": true
+    },
+    "primary33_assignment_pairing": {
+      "detail": null,
+      "pass": true
+    },
+    "primary33_official_real_empty_pair_fallback": {
+      "detail": null,
+      "pass": true
+    },
+    "primary33_rssfit_stable_real_empty_pair_fallback": {
+      "detail": null,
+      "pass": true
+    },
+    "primary_content_exclusion": {
+      "detail": null,
+      "pass": true
+    },
+    "rssfit_stable_rawWCL_unchanged_without_receiving71": {
+      "detail": null,
+      "pass": true
+    },
+    "same_map_paired_control": {
+      "detail": null,
+      "pass": true
+    },
+    "source_and_input_copies_unchanged": {
+      "detail": {
+        "files": 8
+      },
+      "pass": true
+    },
+    "stable_evaluator_is_only_declared_one_line_patch": {
+      "detail": null,
+      "pass": true
+    },
+    "temporal_official_matched_fixed_rows_and_rawWCL_invariant": {
+      "detail": null,
+      "pass": true
+    },
+    "temporal_official_no71_fixed_rows_and_rawWCL_invariant": {
+      "detail": null,
+      "pass": true
+    }
+  },
+  "n_checks": 28
+}

@@ -1,0 +1,179 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "check": "master_archive_unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_230_preserved_scientific_files_identical",
+      "pass": true,
+      "detail": {
+        "files": 230,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "geometry_math_AST_unchanged_except_declared_digest_and_input_receipt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Manuscript_without_author_details_all_displayed_equations_unchanged",
+      "pass": true,
+      "detail": {
+        "equations": 7
+      }
+    },
+    {
+      "check": "Manuscript_without_author_details_all_table_rows_unchanged",
+      "pass": true,
+      "detail": {
+        "rows": 49
+      }
+    },
+    {
+      "check": "Supplementary_material_without_author_details_all_displayed_equations_unchanged",
+      "pass": true,
+      "detail": {
+        "equations": 8
+      }
+    },
+    {
+      "check": "Supplementary_material_without_author_details_all_table_rows_unchanged",
+      "pass": true,
+      "detail": {
+        "rows": 275
+      }
+    },
+    {
+      "check": "all_17_full_precision_table_views_identical",
+      "pass": true,
+      "detail": {
+        "files": 17,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "new_geometry_descriptors_match_saved_scientific_records",
+      "pass": true,
+      "detail": [
+        {
+          "file": "BS71_description.json",
+          "identical": true
+        },
+        {
+          "file": "BS71_distance_summary.csv",
+          "identical": true
+        },
+        {
+          "file": "BS71_existing_NLLS_change_records.csv.gz",
+          "identical": true
+        },
+        {
+          "file": "BS71_existing_exclusion_summary.csv",
+          "identical": true
+        },
+        {
+          "file": "BS71_source_rows_and_distances.csv.gz",
+          "identical": true
+        },
+        {
+          "file": "audited_RSSFIT_source.txt",
+          "identical": true
+        },
+        {
+          "file": "calibration_locations_for_plot.csv.gz",
+          "identical": true
+        },
+        {
+          "file": "coordinate_summary.json",
+          "identical": true
+        },
+        {
+          "file": "density_component_ranges.csv",
+          "identical": true
+        },
+        {
+          "file": "existing_density_decomposition.csv",
+          "identical": true
+        },
+        {
+          "file": "metadata33_calibration_distance_context.csv",
+          "identical": true
+        },
+        {
+          "file": "primary_identity_summary.json",
+          "identical": true
+        },
+        {
+          "file": "primary_weighted_coordinate_shift.csv.gz",
+          "identical": true
+        },
+        {
+          "file": "receiver_geometry33.csv",
+          "identical": true
+        },
+        {
+          "file": "reconstructed_fit_inputs.csv.gz",
+          "identical": true
+        },
+        {
+          "file": "rssfit_receiver_traversal.csv",
+          "identical": true
+        },
+        {
+          "file": "rssfit_search_boxes41.csv",
+          "identical": true
+        }
+      ]
+    },
+    {
+      "check": "no_known_author_identifiers_in_reviewer_payload",
+      "pass": true,
+      "detail": {
+        "counts": {
+          "files": 322,
+          "pdfs": 13,
+          "gzip_records": 26,
+          "npz_arrays": 20,
+          "images": 11
+        },
+        "hits": [],
+        "unparsed_binary_files": []
+      }
+    },
+    {
+      "check": "Manuscript_without_author_details.pdf_empty_author_metadata",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Manuscript_without_author_details.pdf_no_embedded_attachments",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Manuscript_without_author_details.pdf_no_author_hyperlinks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Supplementary_material_without_author_details.pdf_empty_author_metadata",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Supplementary_material_without_author_details.pdf_no_embedded_attachments",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Supplementary_material_without_author_details.pdf_no_author_hyperlinks",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "scope": "Scientific preservation, exact table/equation identity and screening of known direct identifiers, not a fresh scientific validation or guarantee against inference from public scientific content."
+}

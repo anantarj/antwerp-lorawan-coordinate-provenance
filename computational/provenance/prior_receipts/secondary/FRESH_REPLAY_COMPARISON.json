@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "scope": "Fresh execution of bounded density/geography numerical stage; not a rerun of inherited primary/temporal/join experiments or independent external replication.",
+  "files_checked": 13,
+  "differences": 0,
+  "validation_outputs_equal": true,
+  "records": [
+    {
+      "path": "results/density/across_draw_descriptions.csv",
+      "basis": "file_bytes",
+      "equal": true,
+      "sha256": "22758ef88427660ccc30c2e4a3f4cbec2324462ad8bede1a5c5454afdc52ace6",
+      "replay_sha256": "22758ef88427660ccc30c2e4a3f4cbec2324462ad8bede1a5c5454afdc52ace6"
+    },
+    {
+      "path": "results/density/checks.json",
+      "basis": "file_bytes",
+      "equal": true,
+      "sha256": "a7d69ddcc7987acb6907ef8e81928a650012dc54c0e2ba12e2d1f93343e49174",
+      "replay_sha256": "a7d69ddcc7987acb6907ef8e81928a650012dc54c0e2ba12e2d1f93343e49174"
+    },
+    {
+      "path": "results/density/conditional_intervals.csv",
+      "basis": "file_bytes",
+      "equal": true,
+      "sha256": "e298961aafb6cd55b5e10ce891bc8b14ba6e6ee0d33858de6a8fe99b76032e65",
+      "replay_sha256": "e298961aafb6cd55b5e10ce891bc8b14ba6e6ee0d33858de6a8fe99b76032e65"
+    },
+    {
+      "path": "results/density/draw_definitions.json",
+      "basis": "file_bytes",
+      "equal": true,
+      "sha256": "0b4cf8f6b6a7f22c4364e4cd672a4939a6dc7d08dda0344b1c776ce423bf283b",
+      "replay_sha256": "0b4cf8f6b6a7f22c4364e4cd672a4939a6dc7d08dda0344b1c776ce423bf283b"
+    },
+    {
+      "path": "results/density/per_draw_summary.csv",
+      "basis": "file_bytes",
+      "equal": true,
+      "sha256": "1abedca5ff4a1a40c44c630f1ed30b44c572d7fe7ba521201eeea76540e63435",
+      "replay_sha256": "1abedca5ff4a1a40c44c630f1ed30b44c572d7fe7ba521201eeea76540e63435"
+    },
+    {
+      "path": "results/density/predictions.csv.gz",
+      "basis": "uncompressed_payload",
+      "equal": true,
+      "sha256": "0f1191288defce31e94ca27e1a5f3805e0728e43071cca1b99e16b21a41bbfa8",
+      "replay_sha256": "0f1191288defce31e94ca27e1a5f3805e0728e43071cca1b99e16b21a41bbfa8"
+    },
+    {
+      "path": "results/geography/calibration_counts.csv",
+      "basis": "file_bytes",
+      "equal": true,
+      "sha256": "a6319b4e679cebe78535b3635b6ca674c35e9807f703dda1303b057b06f23b6c",
+      "replay_sha256": "a6319b4e679cebe78535b3635b6ca674c35e9807f703dda1303b057b06f23b6c"
+    },
+    {
+      "path": "results/geography/checks.json",
+      "basis": "file_bytes",
+      "equal": true,
+      "sha256": "fc611db7c2f6a8ddcc609a9afb9e7df023ae368684ed71d64f2a466bfe8b2f32",
+      "replay_sha256": "fc611db7c2f6a8ddcc609a9afb9e7df023ae368684ed71d64f2a466bfe8b2f32"
+    },
+    {
+      "path": "results/geography/contrasts.csv",
+      "basis": "file_bytes",
+      "equal": true,
+      "sha256": "073e484b6f0a2f7c7d7050c6164caa45ae89fcd163e8af2cd9a97a5cec5507ca",
+      "replay_sha256": "073e484b6f0a2f7c7d7050c6164caa45ae89fcd163e8af2cd9a97a5cec5507ca"
+    },
+    {
+      "path": "results/geography/definitions.json",
+      "basis": "file_bytes",
+      "equal": true,
+      "sha256": "6b220d897742ab4f643f668367667ca03261815d9e4c341182806b1c72e9a38c",
+      "replay_sha256": "6b220d897742ab4f643f668367667ca03261815d9e4c341182806b1c72e9a38c"
+    },
+    {
+      "path": "results/geography/predictions.csv.gz",
+      "basis": "uncompressed_payload",
+      "equal": true,
+      "sha256": "6d8dcf794a940bce66ee4ebc98bea52fb2ed1cee319829fb944775fb01e72541",
+      "replay_sha256": "6d8dcf794a940bce66ee4ebc98bea52fb2ed1cee319829fb944775fb01e72541"
+    },
+    {
+      "path": "results/geography/primary_intervals.csv",
+      "basis": "file_bytes",
+      "equal": true,
+      "sha256": "60d3a6bbdd968c5bd12481d9923026fa877ec875582b666b7251e9c6d4945bc5",
+      "replay_sha256": "60d3a6bbdd968c5bd12481d9923026fa877ec875582b666b7251e9c6d4945bc5"
+    },
+    {
+      "path": "results/geography/summary.csv",
+      "basis": "file_bytes",
+      "equal": true,
+      "sha256": "3b90fb27f3bc26678ed6a65c997803f0728ce5fa4f4aa162a14e7ff473aedb3c",
+      "replay_sha256": "3b90fb27f3bc26678ed6a65c997803f0728ce5fa4f4aa162a14e7ff473aedb3c"
+    }
+  ]
+}

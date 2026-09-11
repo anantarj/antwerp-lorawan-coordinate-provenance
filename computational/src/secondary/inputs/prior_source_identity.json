@@ -1,0 +1,30 @@
+{
+  "primary_source": "https://zenodo.org/records/3904158",
+  "record_version": "1.3",
+  "retrieved_for_check": "2026-09-05",
+  "inputs": {
+    "lorawan_antwerp_2019_dataset.csv": {
+      "size": 56521687,
+      "md5": "9c336dd917074c19b2868dfd71f3774b",
+      "sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+      "published_md5": "9c336dd917074c19b2868dfd71f3774b",
+      "matches_published_md5": true
+    },
+    "lorawan_antwerp_2019_dataset.json.txt": {
+      "size": 96148293,
+      "md5": "c3a6f09bfa1d5029c236a93e83e05196",
+      "sha256": "f2f1fbd478cdef2b76fb8e3aae33751d332b50fc8546684d8e73fdb1505451cb",
+      "published_md5": "c3a6f09bfa1d5029c236a93e83e05196",
+      "matches_published_md5": true
+    },
+    "lorawan_antwerp_gateway_locations.json": {
+      "size": 14896,
+      "md5": "5f80a045617ae7b889737aa6850b7008",
+      "sha256": "507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d",
+      "published_md5": "5f80a045617ae7b889737aa6850b7008",
+      "matches_published_md5": true
+    }
+  },
+  "all_match": true,
+  "scope": "Matches the published checksums of the actual scientific payloads, not the enclosing user ZIPs. Does not establish physical coordinate correctness or explain the one-record difference."
+}

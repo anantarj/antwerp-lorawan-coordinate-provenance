@@ -1,0 +1,11 @@
+--- snapshots/deltamesh_antwerp_eval_v10_fixed_080826.py
++++ code/evaluator_stable.py
+@@ -993,7 +993,7 @@
+                 tx_xy = tx_xy[mask]
+ 
+         # init: weighted centroid over top-K strongest
+-        order = np.argsort(-rssi)
++        order = np.argsort(-rssi, kind="stable")
+         k = min(init_topk_centroid, len(rssi))
+         idx = order[:k]
+         rssi_k = rssi[idx]

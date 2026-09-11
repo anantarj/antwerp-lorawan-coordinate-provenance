@@ -1,0 +1,99 @@
+def estimate_gateway_positions_rssfit(
+    train_messages: Sequence[Message],
+    assumed_n: float,
+    max_points_per_gw: int = 2000,
+    strong_quantile: float = 0.75,
+    init_topk_centroid: int = 50,
+    step_schedule_m: Sequence[float] = (2000, 1000, 500, 250, 125, 60),
+    max_iter_per_step: int = 40,
+    seed: int = 0,
+) -> Tuple[Dict[str, np.ndarray], Dict[str, float]]:
+    """
+    Recommended estimator:
+      - For each gateway, gather many (tx_x,tx_y,rssi) from training messages.
+      - Optionally keep only the top 'strong_quantile' RSSI (stronger receptions) to reduce NLOS.
+      - Fit (gx,gy) using a derivative-free pattern search minimizing median absolute RSSI residual.
+      - A0_hat is computed in closed-form (median) for each candidate position.
+
+    Returns:
+      gw_xy: gid -> [x,y]
+      gw_a0: gid -> A0_hat (per-gateway intercept at reference distance 1m under assumed_n)
+    """
+    rng = random.Random(seed)
+
+    by_gw: Dict[str, List[Tuple[float, float, float]]] = {}
+    for m in train_messages:
+        for rx in m.receptions:
+            by_gw.setdefault(rx.gid, []).append((rx.rssi, m.x, m.y))
+
+    gw_xy: Dict[str, np.ndarray] = {}
+    gw_a0: Dict[str, float] = {}
+
+    for gid, recs in by_gw.items():
+        # subsample to keep runtime bounded
+        if len(recs) > max_points_per_gw:
+            recs = rng.sample(recs, k=max_points_per_gw)
+
+        rssi = np.array([t[0] for t in recs], dtype=float)
+        tx_xy = np.array([[t[1], t[2]] for t in recs], dtype=float)
+
+        # keep only stronger receptions if asked
+        if 0.0 < strong_quantile < 1.0:
+            thr = float(np.quantile(rssi, strong_quantile))
+            mask = rssi >= thr
+            if np.sum(mask) >= 50:
+                rssi = rssi[mask]
+                tx_xy = tx_xy[mask]
+
+        # init: weighted centroid over top-K strongest
+        order = np.argsort(-rssi, kind="stable")
+        k = min(init_topk_centroid, len(rssi))
+        idx = order[:k]
+        rssi_k = rssi[idx]
+        tx_k = tx_xy[idx]
+        w = np.power(10.0, rssi_k / 10.0)
+        if float(np.sum(w)) <= 0:
+            cur = np.array([float(np.mean(tx_k[:, 0])), float(np.mean(tx_k[:, 1]))], dtype=float)
+        else:
+            cur = np.array(
+                [
+                    float(np.sum(w * tx_k[:, 0]) / np.sum(w)),
+                    float(np.sum(w * tx_k[:, 1]) / np.sum(w)),
+                ],
+                dtype=float,
+            )
+
+        # clamp box based on tx support (plus margin)
+        min_xy = np.min(tx_xy, axis=0) - 2000.0
+        max_xy = np.max(tx_xy, axis=0) + 2000.0
+
+        def clamp(p: np.ndarray) -> np.ndarray:
+            return np.array(
+                [float(min(max(p[0], min_xy[0]), max_xy[0])), float(min(max(p[1], min_xy[1]), max_xy[1]))],
+                dtype=float,
+            )
+
+        cur = clamp(cur)
+        best_loss, best_a0 = _robust_gateway_loss_and_a0(cur[0], cur[1], tx_xy, rssi, assumed_n)
+
+        # pattern search
+        dirs = [(1,0), (-1,0), (0,1), (0,-1), (1,1), (1,-1), (-1,1), (-1,-1)]
+        for step in step_schedule_m:
+            improved = True
+            it = 0
+            while improved and it < max_iter_per_step:
+                improved = False
+                it += 1
+                for dx, dy in dirs:
+                    cand = clamp(cur + np.array([dx * step, dy * step], dtype=float))
+                    loss, a0_hat = _robust_gateway_loss_and_a0(cand[0], cand[1], tx_xy, rssi, assumed_n)
+                    if loss < best_loss:
+                        best_loss = loss
+                        best_a0 = a0_hat
+                        cur = cand
+                        improved = True
+
+        gw_xy[gid] = cur.copy()
+        gw_a0[gid] = float(best_a0)
+
+    return gw_xy, gw_a0

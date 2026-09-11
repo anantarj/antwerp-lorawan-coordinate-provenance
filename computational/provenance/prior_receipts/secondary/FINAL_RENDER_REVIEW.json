@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "renderer": "PyMuPDF, 108 dpi (1.5 matrix)",
+  "visual_scope": "All 15 main and 14 supplementary pages rendered and visually inspected; initial overflow/orphan issues corrected before final review. Mathematical text, six main tables, supplementary tables and both plots checked.",
+  "documents": [
+    {
+      "name": "PAPER-A-REVISION-R1.pdf",
+      "pages": 15,
+      "sha256": "18341bb534d97a051612d2ebf6ef5fe228c19a18f1e119ca025ba14b75a84f4f",
+      "all_inspected_page_renders_match_final_file": true
+    },
+    {
+      "name": "SUPPLEMENTARY-A-REVISION-R1.pdf",
+      "pages": 14,
+      "sha256": "5beddd24cc97bf0b0185a1955b38ac0dea394a29ecf3730522c0b059c029c333",
+      "all_inspected_page_renders_match_final_file": true
+    }
+  ]
+}

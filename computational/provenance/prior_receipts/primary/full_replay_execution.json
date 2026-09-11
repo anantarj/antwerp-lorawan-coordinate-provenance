@@ -1,0 +1,68 @@
+{
+  "complete": true,
+  "steps": [
+    {
+      "step": "prepare.py",
+      "returncode": 0,
+      "elapsed_seconds": 29.759432554244995,
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-u",
+        "/mnt/data/_paper_a_next/stage_full_repeat/code/prepare.py",
+        "--data",
+        "/tmp/paper_a_csv_qdcta_pj/lorawan_antwerp_2019_dataset.csv"
+      ]
+    },
+    {
+      "step": "benchmark.py",
+      "returncode": 0,
+      "elapsed_seconds": 88.08720183372498,
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-u",
+        "/mnt/data/_paper_a_next/stage_full_repeat/code/benchmark.py",
+        "--data",
+        "/tmp/paper_a_csv_qdcta_pj/lorawan_antwerp_2019_dataset.csv",
+        "--workers",
+        "4"
+      ]
+    },
+    {
+      "step": "temporal.py",
+      "returncode": 0,
+      "elapsed_seconds": 56.94878149032593,
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-u",
+        "/mnt/data/_paper_a_next/stage_full_repeat/code/temporal.py",
+        "--data",
+        "/tmp/paper_a_csv_qdcta_pj/lorawan_antwerp_2019_dataset.csv"
+      ]
+    },
+    {
+      "step": "inference.py",
+      "returncode": 0,
+      "elapsed_seconds": 43.82359743118286,
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-u",
+        "/mnt/data/_paper_a_next/stage_full_repeat/code/inference.py"
+      ]
+    },
+    {
+      "step": "validate.py",
+      "returncode": 0,
+      "elapsed_seconds": 28.21542739868164,
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-u",
+        "/mnt/data/_paper_a_next/stage_full_repeat/code/validate.py",
+        "--data",
+        "/tmp/paper_a_csv_qdcta_pj/lorawan_antwerp_2019_dataset.csv"
+      ]
+    }
+  ],
+  "elapsed_seconds": 247.04281449317932,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41"
+}

@@ -1,0 +1,18 @@
+{
+  "legacy_position_time_recovered29": {
+    "n_unique": 1172,
+    "overlap_with_bridge": 62
+  },
+  "temporal_official_matched": {
+    "n_unique": 1198,
+    "overlap_with_bridge": 1172
+  },
+  "temporal_official_no71": {
+    "n_unique": 1198,
+    "overlap_with_bridge": 1172
+  },
+  "timestamp_only_recovered29": {
+    "n_unique": 1174,
+    "overlap_with_bridge": 1172
+  }
+}

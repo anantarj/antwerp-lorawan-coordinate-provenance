@@ -1,0 +1,1063 @@
+{
+  "checks": [
+    {
+      "check": "census_and_calibration_membership",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_33_predeclared_draws",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_fp_is_finite_on_all_parent_rows",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_missing_geometric_predictions_are_exact_ineligible_rows",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_33_0",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_33_0",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_33_0",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_33_0_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_33_0_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_23_0",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_23_0",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_23_0",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_0_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_0_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_23_1",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_23_1",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_23_1",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_1_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_1_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_23_2",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_23_2",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_23_2",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_2_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_2_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_23_3",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_23_3",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_23_3",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_3_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_3_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_23_4",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_23_4",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_23_4",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_4_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_4_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_23_5",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_23_5",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_23_5",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_5_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_5_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_23_6",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_23_6",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_23_6",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_6_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_6_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_23_7",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_23_7",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_23_7",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_7_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_23_7_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_16_0",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_16_0",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_16_0",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_0_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_0_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_16_1",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_16_1",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_16_1",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_1_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_1_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_16_2",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_16_2",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_16_2",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_2_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_2_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_16_3",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_16_3",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_16_3",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_3_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_3_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_16_4",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_16_4",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_16_4",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_4_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_4_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_16_5",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_16_5",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_16_5",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_5_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_5_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_16_6",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_16_6",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_16_6",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_6_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_6_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_16_7",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_16_7",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_16_7",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_7_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_16_7_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_10_0",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_10_0",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_10_0",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_0_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_0_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_10_1",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_10_1",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_10_1",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_1_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_1_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_10_2",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_10_2",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_10_2",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_2_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_2_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_10_3",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_10_3",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_10_3",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_3_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_3_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_10_4",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_10_4",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_10_4",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_4_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_4_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_10_5",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_10_5",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_10_5",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_5_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_5_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_10_6",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_10_6",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_10_6",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_6_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_6_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_10_7",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_10_7",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_10_7",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_7_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_10_7_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_6_0",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_6_0",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_6_0",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_0_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_0_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_6_1",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_6_1",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_6_1",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_1_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_1_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_6_2",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_6_2",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_6_2",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_2_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_2_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_6_3",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_6_3",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_6_3",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_3_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_3_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_6_4",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_6_4",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_6_4",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_4_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_4_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_6_5",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_6_5",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_6_5",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_5_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_5_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_6_6",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_6_6",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_6_6",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_6_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_6_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "density_parent_order_removal_6_7",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "draw_identity_removal_6_7",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "survivor_IDs_removal_6_7",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_7_5063",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "fingerprint_neighbor_IDs_removal_6_7_15449",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "all_eligible_MinMax_positions_independently_recomputed",
+      "detail": {
+        "max_abs_difference_m": 9.313225746154785e-10
+      },
+      "pass_": true
+    },
+    {
+      "check": "independent_FP_positions",
+      "detail": {
+        "max_abs_difference_m": 9.313225746154785e-10,
+        "queries": 66
+      },
+      "pass_": true
+    },
+    {
+      "check": "per_draw_decomposition_identity",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "all_saved_errors_are_errors_of_saved_positions",
+      "detail": {
+        "maximum_discrepancy_m": 9.31777321966365e-10
+      },
+      "pass_": true
+    },
+    {
+      "check": "geographic_roster_constant_and_not_recovered29",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "geographic_roster_is_calibration_intersection",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_draw_3101_citywide",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_eval_content_disjoint_3101_citywide",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_draw_3101_west",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_eval_content_disjoint_3101_west",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_draw_3101_east",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_eval_content_disjoint_3101_east",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_draw_3102_citywide",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_eval_content_disjoint_3102_citywide",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_draw_3102_west",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_eval_content_disjoint_3102_west",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_draw_3102_east",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_eval_content_disjoint_3102_east",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_draw_3103_citywide",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_eval_content_disjoint_3103_citywide",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_draw_3103_west",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_eval_content_disjoint_3103_west",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_draw_3103_east",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "calibration_eval_content_disjoint_3103_east",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "geographic_pairing_east3101",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "raw_WCL_invariance_east3101",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "geographic_pairing_east3102",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "raw_WCL_invariance_east3102",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "geographic_pairing_east3103",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "raw_WCL_invariance_east3103",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "geographic_pairing_west3101",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "raw_WCL_invariance_west3101",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "geographic_pairing_west3102",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "raw_WCL_invariance_west3102",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "geographic_pairing_west3103",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "raw_WCL_invariance_west3103",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "all_geographic_raw_WCL_positions_independently_recomputed",
+      "detail": {
+        "max_abs_difference_m": 4.6566128730773926e-09
+      },
+      "pass_": true
+    },
+    {
+      "check": "geographic_no_unreported_missing_predictions",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "paired_additive_offset_control",
+      "detail": null,
+      "pass_": true
+    },
+    {
+      "check": "paired_identical_arm_control",
+      "detail": null,
+      "pass_": true
+    }
+  ],
+  "density_records": 82335,
+  "failed": 0,
+  "geographic_records": 14886,
+  "note": "Checks of source identity, membership, formulas and finite output. Not independent external replication or all-method reimplementation.",
+  "passed": 209
+}

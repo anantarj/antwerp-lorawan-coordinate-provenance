@@ -1,0 +1,29 @@
+{
+  "definition": "count(abs(v)>3*std(v,ddof=0))/N; v has each receiver median removed, no further centring in the threshold; std uses the pooled mean.",
+  "records": [
+    {
+      "assignment": "official_common27",
+      "n_links": 69988,
+      "pooled_mean_db": -0.12052459979095904,
+      "pooled_median_db": 0.0,
+      "sd_about_pooled_mean_ddof0_db": 8.855296098573561,
+      "threshold_centre_db": 0,
+      "strict_threshold_magnitude_db": 26.565888295720683,
+      "tail_count_about_zero": 632,
+      "tail_fraction_about_zero": 0.009030119449048407,
+      "excess_kurtosis_fisher_bias_true": 1.5913036055643115
+    },
+    {
+      "assignment": "rssfit_stable_common27",
+      "n_links": 69988,
+      "pooled_mean_db": -0.0656865342316261,
+      "pooled_median_db": 0.0,
+      "sd_about_pooled_mean_ddof0_db": 6.283689664774857,
+      "threshold_centre_db": 0,
+      "strict_threshold_magnitude_db": 18.85106899432457,
+      "tail_count_about_zero": 856,
+      "tail_fraction_about_zero": 0.01223066811453392,
+      "excess_kurtosis_fisher_bias_true": 18.307600281824513
+    }
+  ]
+}

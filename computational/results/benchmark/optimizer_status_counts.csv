@@ -1,0 +1,25 @@
+experiment,assignment,selected,success,status,message,count
+no71,official,False,False,2,ABNORMAL: ,450
+no71,official,False,True,0,CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL,2098
+no71,official,False,True,0,CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH,2438
+no71,official,True,False,2,ABNORMAL: ,295
+no71,official,True,True,0,CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL,1071
+no71,official,True,True,0,CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH,1127
+no71,rssfit_stable,False,False,2,ABNORMAL: ,428
+no71,rssfit_stable,False,True,0,CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL,2314
+no71,rssfit_stable,False,True,0,CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH,2244
+no71,rssfit_stable,True,False,2,ABNORMAL: ,294
+no71,rssfit_stable,True,True,0,CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL,1193
+no71,rssfit_stable,True,True,0,CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH,1006
+primary33,official,False,False,2,ABNORMAL: ,482
+primary33,official,False,True,0,CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL,2052
+primary33,official,False,True,0,CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH,2456
+primary33,official,True,False,2,ABNORMAL: ,281
+primary33,official,True,True,0,CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL,1058
+primary33,official,True,True,0,CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH,1156
+primary33,rssfit_stable,False,False,2,ABNORMAL: ,426
+primary33,rssfit_stable,False,True,0,CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL,2320
+primary33,rssfit_stable,False,True,0,CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH,2244
+primary33,rssfit_stable,True,False,2,ABNORMAL: ,296
+primary33,rssfit_stable,True,True,0,CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL,1195
+primary33,rssfit_stable,True,True,0,CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH,1004

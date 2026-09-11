@@ -1,0 +1,408 @@
+[
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_33_0",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_33_0",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "zero_removal_reproduces_prior",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "zero_removal_reproduces_prior",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_0",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_0",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_1",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_1",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_2",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_2",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_3",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_3",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_4",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_4",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_5",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_5",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_6",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_6",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_7",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_23_7",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_0",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_0",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_1",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_1",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_2",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_2",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_3",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_3",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_4",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_4",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_5",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_5",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_6",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_6",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_7",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_16_7",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_0",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_0",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_1",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_1",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_2",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_2",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_3",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_3",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_4",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_4",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_5",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_5",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_6",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_6",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_7",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_10_7",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_0",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_0",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_1",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_1",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_2",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_2",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_3",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_3",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_4",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_4",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_5",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_5",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_6",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_6",
+    "method": "MinMax",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_7",
+    "method": "FP_k3",
+    "pass": true
+  },
+  {
+    "check": "median_decomposition",
+    "experiment": "removal_6_7",
+    "method": "MinMax",
+    "pass": true
+  }
+]

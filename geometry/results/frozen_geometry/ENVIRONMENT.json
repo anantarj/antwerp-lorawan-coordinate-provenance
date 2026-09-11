@@ -1,0 +1,8 @@
+{
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "pyproj": "3.7.2",
+  "PROJ": "9.5.1",
+  "scope": "Descriptive geometry, raw-data selection reconstruction, saved-output arithmetic. No coordinate or localization optimization."
+}
