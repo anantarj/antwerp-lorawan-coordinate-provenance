@@ -1,12 +1,10 @@
 {
-  "version": "Anonymous-S1",
+  "version": "public-repository-v1.0.0-staging",
   "records": [
     {
       "document_location": "Main Table 1",
       "description": "Experimental-question inventory",
-      "evidence_files": [
-        "../manuscript/Manuscript_without_author_details.md"
-      ],
+      "evidence_files": [],
       "producer_route": "Conceptual table: current methods section; not a numerical experiment."
     },
     {
@@ -68,7 +66,6 @@
       "description": "Raw-WCL empirical error distributions",
       "evidence_files": [
         "results/benchmark/geometric_predictions.csv.gz",
-        "../manuscript/figures/F1_assignment_ecdf.pdf",
         "src/secondary/code/make_figures.py"
       ],
       "producer_route": "python commands/paper_a.py figures --out NEW_FIGURES"
@@ -79,8 +76,7 @@
       "evidence_files": [
         "src/secondary/inputs/reception_census.csv",
         "src/secondary/inputs/release_reception_counts.csv",
-        "results/join/construction_summary.json",
-        "../manuscript/figures/F2_observed_receptions.pdf"
+        "results/join/construction_summary.json"
       ],
       "producer_route": "python commands/paper_a.py core --csv DATA.csv.zip --json DATA.json.zip --out NEW_RUN; then python commands/paper_a.py figures --out NEW_FIGURES"
     },
@@ -215,5 +211,5 @@
       "producer_route": "python commands/paper_a.py verify --out NEW_CHECK; new replay receipts in checks/ are separately scoped."
     }
   ],
-  "note": "Current evidence-only locator; attributed historic document builds are excluded."
+  "note": "Public repository evidence index. Document-location labels identify where results appear in the article; the repository verifier checks underlying scientific records and producer sources and does not require the manuscript source or rendered article figures."
 }

@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-staging",
+  "version": "1.0.0-staging-public",
   "files": [
     {
       "path": ".gitignore",
@@ -113,8 +113,13 @@
     },
     {
       "path": "computational/MANIFEST.json",
-      "bytes": 42404,
-      "sha256": "e8b27917dce9c4e730ec50584dc4bba84b61cbd4dd46cc0eb2bff25c67913aeb"
+      "bytes": 42425,
+      "sha256": "4ebaca2be70dd98624119003f276fd35e208dcc5e9770f8d1c2fa4c83752ef45"
+    },
+    {
+      "path": "computational/commands/__pycache__/_support.cpython-313.pyc",
+      "bytes": 10173,
+      "sha256": "dd3d42ad8e1cbb52f07e6f29a1926612ee36b2bb3c11494452edad2b76db47d6"
     },
     {
       "path": "computational/commands/_support.py",
@@ -1293,8 +1298,8 @@
     },
     {
       "path": "computational/table_figure_index/INDEX.json",
-      "bytes": 9316,
-      "sha256": "b4f006016cf2274af1a029d9ed0631aaa3d501994299464eabdbb4018075e790"
+      "bytes": 9330,
+      "sha256": "6fd04bb7c8badefe79746e09762688a1d839148b33c67c3ee7bf564866d704e0"
     },
     {
       "path": "diagnostics/CITY_VIEW_SCOPE.json",
@@ -1502,24 +1507,9 @@
       "sha256": "f9f8ae68cc39923fdec0a55472717febe4645aef79678be9c65b67b166ddfae2"
     },
     {
-      "path": "manuscript/Manuscript_without_author_details.md",
-      "bytes": 51836,
-      "sha256": "9831f8a59abab3711f0a431f1eb16cdb6b7d71911d1ea77f567caba5f7929395"
-    },
-    {
-      "path": "manuscript/figures/F1_assignment_ecdf.pdf",
-      "bytes": 39613,
-      "sha256": "7c9fbdcc079d2bbb1962037bf65096b9703b5710b371e4b81fcbf60a07387a7f"
-    },
-    {
-      "path": "manuscript/figures/F2_observed_receptions.pdf",
-      "bytes": 13913,
-      "sha256": "d841d928c8a71cb555f3ed03f2cd676499a6b731fb182f17e8eeff4816188455"
-    },
-    {
       "path": "table_figure_index/INDEX.md",
-      "bytes": 12607,
-      "sha256": "aca1bad70c11b2c0f2ff66752f43e8d71208de57c0ca4b1f5e34be687de29539"
+      "bytes": 7715,
+      "sha256": "e75f03fdbeb9a63ffbe208b3728a501b127cb81ad18caae7116c2f54863bd27a"
     }
   ]
 }

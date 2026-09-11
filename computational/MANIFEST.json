@@ -1180,7 +1180,8 @@
     {
       "path": "table_figure_index/INDEX.json",
       "size": 9316,
-      "sha256": "b4f006016cf2274af1a029d9ed0631aaa3d501994299464eabdbb4018075e790"
+      "sha256": "6fd04bb7c8badefe79746e09762688a1d839148b33c67c3ee7bf564866d704e0",
+      "bytes": 9330
     }
   ]
 }
