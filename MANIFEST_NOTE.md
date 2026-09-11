@@ -1,1 +1,1 @@
-PUBLIC_REPOSITORY_MANIFEST.json inventories repository files created before the manifest itself; the manifest intentionally does not hash itself.
+PUBLIC_REPOSITORY_MANIFEST.json inventories all tracked repository files except itself and MANIFEST_NOTE.md to avoid self-reference.

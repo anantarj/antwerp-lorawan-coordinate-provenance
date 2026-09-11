@@ -1502,6 +1502,21 @@
       "sha256": "f9f8ae68cc39923fdec0a55472717febe4645aef79678be9c65b67b166ddfae2"
     },
     {
+      "path": "manuscript/Manuscript_without_author_details.md",
+      "bytes": 51836,
+      "sha256": "9831f8a59abab3711f0a431f1eb16cdb6b7d71911d1ea77f567caba5f7929395"
+    },
+    {
+      "path": "manuscript/figures/F1_assignment_ecdf.pdf",
+      "bytes": 39613,
+      "sha256": "7c9fbdcc079d2bbb1962037bf65096b9703b5710b371e4b81fcbf60a07387a7f"
+    },
+    {
+      "path": "manuscript/figures/F2_observed_receptions.pdf",
+      "bytes": 13913,
+      "sha256": "d841d928c8a71cb555f3ed03f2cd676499a6b731fb182f17e8eeff4816188455"
+    },
+    {
       "path": "table_figure_index/INDEX.md",
       "bytes": 12607,
       "sha256": "aca1bad70c11b2c0f2ff66752f43e8d71208de57c0ca4b1f5e34be687de29539"
