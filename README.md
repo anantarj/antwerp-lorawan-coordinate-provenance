@@ -73,9 +73,11 @@ Expected SHA-256 payloads:
 
 Paper A concept DOI: https://doi.org/10.5281/zenodo.22143329
 
-The **exact version DOI corresponding to the public repository release must be
-inserted here before the public `v1.0.0` tag is frozen.** Do not substitute an
-older Paper A version merely because the concept DOI resolves to it.
+Exact reproducibility release DOI: https://doi.org/10.5281/zenodo.22703158
+
+The version DOI above identifies the Zenodo release corresponding to the frozen
+GitHub `v1.0.0` repository state. The concept DOI resolves to the latest Paper A
+version.
 
 ## Licensing
 

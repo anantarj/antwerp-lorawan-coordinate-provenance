@@ -9,10 +9,14 @@ authors:
 version: "1.0.0"
 date-released: "2026-09-11"
 repository-code: "https://github.com/anantarj/antwerp-lorawan-coordinate-provenance"
+doi: "10.5281/zenodo.22703158"
 identifiers:
   - type: doi
+    value: "10.5281/zenodo.22703158"
+    description: "Exact archived release corresponding to GitHub v1.0.0."
+  - type: doi
     value: "10.5281/zenodo.22143329"
-    description: "Paper A concept DOI; cite the exact release-version DOI for reproducibility once reserved."
+    description: "Paper A concept DOI resolving to the latest archived version."
 keywords:
   - LoRaWAN
   - RSSI localization

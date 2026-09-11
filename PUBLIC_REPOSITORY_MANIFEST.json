@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-staging-public",
+  "version": "1.0.0-release-candidate",
   "files": [
     {
       "path": ".gitignore",
@@ -8,13 +8,13 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 735,
-      "sha256": "6f6649e4074e031bc6ffc11cd3df4f33a5167e903a4424a9244f81c70541d3a9"
+      "bytes": 862,
+      "sha256": "ccd09e335ade171e6aa808654f195e6abfd493c1c6cc130a6a24fdc8dec037a8"
     },
     {
       "path": "DATA_AVAILABILITY.md",
-      "bytes": 687,
-      "sha256": "7a9679751e74d6e7c77e6ae3bf26ed1a35a298c2c3e9baf33211c968270d84bb"
+      "bytes": 753,
+      "sha256": "12a83d3dbd2b043e40a7c06c34b959d0091026ac041ac92ccc32430ccdfc061b"
     },
     {
       "path": "LICENSE",
@@ -27,9 +27,14 @@
       "sha256": "dd3c66c3f56df82f3030521c78d6029b8f252de2949bf1062e3aa3d0b6e03e82"
     },
     {
+      "path": "MANIFEST_NOTE.md",
+      "bytes": 155,
+      "sha256": "eae1eb0bd5e1961937fa0e6a6158525a8ee62873fd6072fc44248226c2050f7b"
+    },
+    {
       "path": "README.md",
-      "bytes": 3915,
-      "sha256": "37e43cfdb5b86d3c37eca6e21f2721b036fd8c5bce13a980f894e05bbb0450c3"
+      "bytes": 3934,
+      "sha256": "d937b0f74c5a0545d6985968403f8eb27adbccc18606bc91c736776d6bb57230"
     },
     {
       "path": "START_HERE.md",
@@ -115,11 +120,6 @@
       "path": "computational/MANIFEST.json",
       "bytes": 42425,
       "sha256": "4ebaca2be70dd98624119003f276fd35e208dcc5e9770f8d1c2fa4c83752ef45"
-    },
-    {
-      "path": "computational/commands/__pycache__/_support.cpython-313.pyc",
-      "bytes": 10173,
-      "sha256": "dd3d42ad8e1cbb52f07e6f29a1926612ee36b2bb3c11494452edad2b76db47d6"
     },
     {
       "path": "computational/commands/_support.py",
