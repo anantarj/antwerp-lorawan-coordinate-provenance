@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/opt/pyvenv/bin/python",
+    "-B",
+    "-u",
+    "/mnt/data/_paper_a_pr2_work/Computational_Supplement_Anonymous/computational/src/join_and_continuity/rebuild_join.py",
+    "--csv",
+    "/tmp/paper_a_input_4bbnxpiv/lorawan_antwerp_2019_dataset.csv",
+    "--json",
+    "/tmp/paper_a_input_sqazsevc/lorawan_antwerp_2019_dataset.json.txt",
+    "--out",
+    "/mnt/data/Paper_A_PR2_20260920/results/raw_join/join"
+  ],
+  "elapsed_seconds": 10.395710229873657,
+  "log": "join.log",
+  "returncode": 0
+}

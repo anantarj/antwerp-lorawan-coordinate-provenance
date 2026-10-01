@@ -1,0 +1,6 @@
+{
+  "existing_destination_refused": true,
+  "existing_result_files_unchanged": true,
+  "error_type": "FileExistsError",
+  "scope": "One saved-summary-audit destination refusal, not an optimizer test"
+}

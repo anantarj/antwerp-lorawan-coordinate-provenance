@@ -1,0 +1,58 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "check": "fresh_join_rebuilt_full_identities.json",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "fresh_join_rebuilt_calibration_identities.json",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "fresh_join_rebuilt_catalogue_all39.json",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "fresh_join_rebuilt_calibration_ge10_35.json",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "fresh_join_rebuilt_calibration_ge20_33.json",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "fresh_join_surplus_json_records.json",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "complete_signature_evidence_matches",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "CSV_JSON_population_and_endpoint",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "all_frozen33_coordinates_rederived",
+      "detail": {
+        "n": 33
+      },
+      "pass": true
+    },
+    {
+      "check": "stable41_map_unchanged",
+      "detail": null,
+      "pass": true
+    }
+  ],
+  "mode": "join only; no localization"
+}

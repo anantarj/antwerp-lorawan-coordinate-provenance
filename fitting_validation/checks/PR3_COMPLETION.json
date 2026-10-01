@@ -1,0 +1,54 @@
+{
+  "stage": "PA-PR1 Stage 3 / PR3",
+  "status": "COMPLETE_AT_DECLARED_SCOPE",
+  "completed_utc": "2026-09-20T03:37:28.921297+00:00",
+  "protocol_sha256": "405bf282c73545fe8c00fbccbddcdd099cffdbc0bfb567f926e6cde98010973c",
+  "code_gate_sha256": "f009e1d10e790f77e0d20f19077b7648daa14020f5a42675e9c06bdabbb2bc5d",
+  "scientific_splits": {
+    "group80": {
+      "common_complete_n": 2495,
+      "finite_profile_rows": 5544,
+      "new_local_search_runs": 396,
+      "primary_receivers_reported": 33,
+      "receiver_arm_rows": 198,
+      "requested_downstream_rows": 12475,
+      "scope": "New split-specific receiver fits, frozen-intercept predictions, prescribed finite profiles and raw-WCL predictions; not external replication or population inference.",
+      "search_objective_calls": 31812,
+      "split": "group80",
+      "start_rows": 396,
+      "status": "COMPLETE"
+    },
+    "space1000": {
+      "common_complete_n": 2487,
+      "finite_profile_rows": 5376,
+      "new_local_search_runs": 384,
+      "primary_receivers_reported": 33,
+      "receiver_arm_rows": 198,
+      "requested_downstream_rows": 12475,
+      "scope": "New split-specific receiver fits, frozen-intercept predictions, prescribed finite profiles and raw-WCL predictions; not external replication or population inference.",
+      "search_objective_calls": 30664,
+      "split": "space1000",
+      "start_rows": 384,
+      "status": "COMPLETE"
+    }
+  },
+  "source_and_output_checks": {
+    "checks": 3704,
+    "every_logged_search_objective_checked": 62476,
+    "failed": 0,
+    "finite_centroid_predictions_checked": 24918,
+    "finite_profile_points_checked": 10920,
+    "original_source_fit_receivers_in_verification_replays": 77,
+    "primary_native_fits_compared_to_original_source": 65,
+    "reception_prediction_cells_checked": 897792,
+    "scope": "Post-run formula, state-transition, native-source replay, population, validation and centroid verification. Verification replays are not additional arms, independent replications or statistical confirmation.",
+    "status": "PASS"
+  },
+  "repeat_scientific_files_equal": 20,
+  "original_S1_PR1_PR2_manifests_unchanged": true,
+  "report_displayed_downstream_values_checked": 10,
+  "no_new_population_inference": true,
+  "not_external_replication": true,
+  "no_manuscript_or_public_repository_mutation": true,
+  "next": "Stage 4 contribution adjudication; preserve remaining exact closest-work access gaps and domain/control limitations."
+}

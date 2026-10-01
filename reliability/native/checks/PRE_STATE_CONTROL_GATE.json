@@ -1,0 +1,7 @@
+{
+  "status": "BEFORE_STATE_CONTROL_EVALUATION",
+  "case_families_fixed_in_prior_execution_protocol": true,
+  "localizer_calibration_outcomes_already_known": true,
+  "path": "code/state_controls.py",
+  "sha256": "86afdaba45fceacce65ee59fa327ce47f3d335569c3d124796a269d92d2f0a18"
+}

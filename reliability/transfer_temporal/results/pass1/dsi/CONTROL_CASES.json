@@ -1,0 +1,65 @@
+[
+  {
+    "case": "clean_descriptive_evaluation",
+    "integrated_violations": [],
+    "n_requested": 115,
+    "offline_reference_uses_labels": false,
+    "raw_predictions_available": 115,
+    "strong_conventional_violations": [],
+    "valid_descriptive_records": 115
+  },
+  {
+    "case": "restored_row_feature_views",
+    "integrated_violations": [],
+    "n_requested": 115,
+    "offline_reference_uses_labels": false,
+    "raw_predictions_available": 115,
+    "strong_conventional_violations": [],
+    "valid_descriptive_records": 115
+  },
+  {
+    "case": "source_wrong_signed_quantity",
+    "integrated_violations": [
+      "signed_quantity_mismatch_offline"
+    ],
+    "n_requested": 115,
+    "offline_reference_uses_labels": true,
+    "raw_predictions_available": 115,
+    "strong_conventional_violations": [
+      "signed_quantity_mismatch_offline"
+    ],
+    "valid_descriptive_records": 0
+  },
+  {
+    "case": "incorrect_DD_DDL_binding",
+    "integrated_violations": [
+      "error_model_mismatch"
+    ],
+    "n_requested": 115,
+    "offline_reference_uses_labels": false,
+    "raw_predictions_available": 115,
+    "strong_conventional_violations": [
+      "error_model_mismatch"
+    ],
+    "valid_descriptive_records": 0
+  },
+  {
+    "case": "undeclared_population_drop",
+    "integrated_violations": [
+      "population_mismatch"
+    ],
+    "n_requested": 115,
+    "offline_reference_uses_labels": false,
+    "raw_predictions_available": 115,
+    "strong_conventional_violations": [
+      "population_mismatch"
+    ],
+    "valid_descriptive_records": 0
+  },
+  {
+    "both_routes": "retain descriptive outcomes; do not announce formal arbitrary-shift reliability",
+    "case": "same_digital_contract_cannot_prove_exchangeability",
+    "raw_predictions_available": 115,
+    "state": "assumption_not_certified"
+  }
+]

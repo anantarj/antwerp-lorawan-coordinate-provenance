@@ -1,0 +1,13 @@
+{
+  "intended_git_tag": "v2.0.0",
+  "previous_version_doi": "10.5281/zenodo.22703158",
+  "public_resource_type": "mixed software, derived data, saved outputs, and documentation",
+  "release_date": "2026-10-01",
+  "repository": "https://github.com/anantarj/antwerp-lorawan-coordinate-provenance",
+  "title": "Receiver Provenance, Population Selection, and Reliability Trade-offs in RSSI Localization \u2014 Reproducibility Resources",
+  "version": "2.0.0",
+  "zenodo_concept_doi": "10.5281/zenodo.22143329",
+  "zenodo_draft_id": 23083321,
+  "zenodo_status_at_binding": "unpublished draft",
+  "zenodo_version_doi": "10.5281/zenodo.23083321"
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "all_runs_sweep_cap_hit_count": 0,
+    "common_complete_n": 2495,
+    "duplicate_projected_starts": 0,
+    "finite_profile_rows": 5544,
+    "maximum_calls_per_start": 121,
+    "median_calls_per_start": 81.0,
+    "new_local_search_runs": 396,
+    "primary_receivers_reported": 33,
+    "receiver_arm_rows": 198,
+    "requested_downstream_rows": 12475,
+    "scope": "New split-specific receiver fits, frozen-intercept predictions, prescribed finite profiles and raw-WCL predictions; not external replication or population inference.",
+    "search_objective_calls": 31812,
+    "split": "group80",
+    "start_rows": 396,
+    "status": "COMPLETE"
+  },
+  {
+    "all_runs_sweep_cap_hit_count": 0,
+    "common_complete_n": 2487,
+    "duplicate_projected_starts": 0,
+    "finite_profile_rows": 5376,
+    "maximum_calls_per_start": 113,
+    "median_calls_per_start": 81.0,
+    "new_local_search_runs": 384,
+    "primary_receivers_reported": 33,
+    "receiver_arm_rows": 198,
+    "requested_downstream_rows": 12475,
+    "scope": "New split-specific receiver fits, frozen-intercept predictions, prescribed finite profiles and raw-WCL predictions; not external replication or population inference.",
+    "search_objective_calls": 30664,
+    "split": "space1000",
+    "start_rows": 384,
+    "status": "COMPLETE"
+  }
+]

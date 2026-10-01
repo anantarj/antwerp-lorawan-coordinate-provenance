@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "name": "ALL_CALIBRATED_TEST_RADII.csv.gz",
+      "sha256": "46f97e783a3c1ec2663add1e37e3dc683412aa8291c5b92a3190a64c413cca5f",
+      "byte_identical": true
+    },
+    {
+      "name": "CALIBRATION_STATES.json",
+      "sha256": "3a47cd2dc981c1d43b7507a87a3d07d4f0951800e1cbdef4abea090947476949",
+      "byte_identical": true
+    },
+    {
+      "name": "DECISION_CURVES.csv.gz",
+      "sha256": "9aee032336af7ab5bfb9e8039cc67c2a1cf1641f239aab5597a9ba1217436e2c",
+      "byte_identical": true
+    },
+    {
+      "name": "DECISION_LANDMARKS.csv",
+      "sha256": "a39b985af626e6e5d4bdfc615bf581422d5e5b41b5b38d84701d73c7dbc14f08",
+      "byte_identical": true
+    },
+    {
+      "name": "EVALUATION_RECEIPT.json",
+      "sha256": "e9436c26a5b309b618e860601b6516a0cc1a7889ef1ec20d59de57a07fd297a6",
+      "byte_identical": true
+    },
+    {
+      "name": "LOCALIZATION_SUMMARIES.csv",
+      "sha256": "c0e2f91b0728eabe749f44625c8694f8d1e7cd8c1869c94876e507246c4712d6",
+      "byte_identical": true
+    },
+    {
+      "name": "POINT_ERROR_SUMMARIES.csv",
+      "sha256": "8c88598234dd80a5ed3284c7e1bb45f91bc821caf9ff0001402d928a893a1c74",
+      "byte_identical": true
+    },
+    {
+      "name": "SIGNED_EXPRESSION_RECORDS.csv.gz",
+      "sha256": "87129db1c91cfc6e41f4f1f5085308c23a4f754e3a0117964973ed01fb53b7e1",
+      "byte_identical": true
+    },
+    {
+      "name": "SOURCE_SELECTION_AXIS_AUDIT.json",
+      "sha256": "c457114b2d828e949f099d29354047d3f8368d28e1d225572de49356f87c95bd",
+      "byte_identical": true
+    },
+    {
+      "name": "SOURCE_SIGNED_EXPRESSION_AUDIT.json",
+      "sha256": "c4ce9f8dcdb8979d943af12bacbffefcb7ad84196e231c8d06f30ef0b0111edf",
+      "byte_identical": true
+    },
+    {
+      "name": "UPPER_RADIUS_SUMMARIES.csv",
+      "sha256": "581b163a792eb9949290f005f840a5e2d958a5b87626ab12a7fa5abcb76daa13",
+      "byte_identical": true
+    }
+  ],
+  "n_files": 11
+}

@@ -1,0 +1,25 @@
+test_bad_quantile (__main__.TestContract.test_bad_quantile) ... ok
+test_bad_shape (__main__.TestContract.test_bad_shape) ... ok
+test_cvar_fractional (__main__.TestContract.test_cvar_fractional) ... ok
+test_cvar_ties (__main__.TestContract.test_cvar_ties) ... ok
+test_cvar_weight (__main__.TestContract.test_cvar_weight) ... ok
+test_equality_inclusive (__main__.TestContract.test_equality_inclusive) ... ok
+test_identical_metric (__main__.TestContract.test_identical_metric) ... ok
+test_independent_metric (__main__.TestContract.test_independent_metric) ... ok
+test_infinite_radius_refused (__main__.TestContract.test_infinite_radius_refused) ... ok
+test_infinite_sparse (__main__.TestContract.test_infinite_sparse) ... ok
+test_invalid_metric (__main__.TestContract.test_invalid_metric) ... ok
+test_joint_event (__main__.TestContract.test_joint_event) ... ok
+test_known_package_example (__main__.TestContract.test_known_package_example) ... ok
+test_negative_correction (__main__.TestContract.test_negative_correction) ... ok
+test_quantile_exact_n19 (__main__.TestContract.test_quantile_exact_n19) ... ok
+test_reject_all (__main__.TestContract.test_reject_all) ... ok
+test_signed_not_absolute (__main__.TestContract.test_signed_not_absolute) ... ok
+test_subset_denominator (__main__.TestContract.test_subset_denominator) ... ok
+test_ties (__main__.TestContract.test_ties) ... ok
+test_zero_calibration (__main__.TestContract.test_zero_calibration) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.026s
+
+OK

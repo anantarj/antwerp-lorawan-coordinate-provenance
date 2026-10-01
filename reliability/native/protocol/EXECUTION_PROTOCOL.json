@@ -1,0 +1,199 @@
+{
+  "id": "PA-G2-DAE-RELIABILITY-EXEC1-20260922",
+  "version": "1.0",
+  "status": "FROZEN_BEFORE_THIS_STAGE_MODEL_AND_ERROR_SCORING",
+  "scope": "Native LoRaWAN DD + predeclared DDL sensitivity, independent semantic audit, conventional point-to-upper-radius calibration, and bounded state/metric controls. Not full external notebook/paper replication. No new localizer design.",
+  "source_ids": {
+    "DAE_Benchmarking_Public.ipynb": {
+      "source_path": "/mnt/data/DAE_Benchmarking_Public.ipynb",
+      "bytes": 2796421,
+      "md5": "9cfacad82e421fa8317f534a9a4a3573",
+      "sha256": "457774fa6779fb5bde0af289be1d7e5abbfb18c1a579c71fe05c245d3e748ceb"
+    },
+    "DAE_script.py": {
+      "source_path": "/mnt/data/DAE_script.py",
+      "bytes": 13206,
+      "md5": "da7a0446526592379bfeeb0fea72fd52",
+      "sha256": "3d9c7ac728c38bc254c9afa41d502672be4a2c43af0e34d669b0759e85d2651e"
+    },
+    "haversine_script.py": {
+      "source_path": "/mnt/data/haversine_script(2).py",
+      "bytes": 3243,
+      "md5": "8268f506a56827b81baa126d18f59974",
+      "sha256": "2db16ee5e3c13ed53ce39af75d18d0620afc63cd8aa88d9157736fdae5207c77"
+    },
+    "files.zip": {
+      "source_path": "/mnt/data/files(27).zip",
+      "bytes": 23400388,
+      "md5": "9b624e7106fa1f1adf77907eb8a09e2f",
+      "sha256": "0674261d878403af3da744202875ad6c520565a52159605e10fa7632a581803a"
+    },
+    "Paper_A_G1_Bounded_Extension_20260921.zip": {
+      "source_path": "/mnt/data/Paper_A_G1_Bounded_Extension_20260921.zip",
+      "bytes": 10685009,
+      "sha256": "fad17c8f1f96299a2ac093c8db05c278828df2800b83abdcbc54b70cfd59ce83"
+    },
+    "Paper_A_G2_0_Feasibility_Checkpoint_20260921.zip": {
+      "source_path": "/mnt/data/Paper_A_G2_0_Feasibility_Checkpoint_20260921.zip",
+      "bytes": 1323482,
+      "sha256": "043ceca7f17099a1d45770bfd9fb0d9d077d16286cc6181b6712341f6a7205b1"
+    },
+    "Paper_A_G2_DAE_Intake_and_Reliability_Design_20260922.zip": {
+      "source_path": "/mnt/data/Paper_A_G2_DAE_Intake_and_Reliability_Design_20260922.zip",
+      "bytes": 373596,
+      "sha256": "20ea18d03effc2d829a0e2ed42f3378c03ebf31b5bb03adfc11dfa4f24312d23"
+    },
+    "Paper_A_G2_Integrated_Contribution_Plan_20260921.zip": {
+      "source_path": "/mnt/data/Paper_A_G2_Integrated_Contribution_Plan_20260921.zip",
+      "bytes": 49385,
+      "sha256": "0de6fc9a8c03f50eb8f75475730a6f49a85ea133bd285628083fe7e74eeb69ad"
+    }
+  },
+  "native_configuration": {
+    "dataset": "lorawan",
+    "native_archive_arrays": true,
+    "preprocessing": "source cell 1 sentinel -200 replaced with int(min(after training sentinel->0)-1), training-only value; validation/test same value",
+    "training_split": {
+      "ratio": 0.5,
+      "random_state": 42
+    },
+    "models": {
+      "n_estimators": 100,
+      "max_depth": 60,
+      "min_samples_split": 6,
+      "min_samples_leaf": 1,
+      "n_jobs": 2,
+      "random_state": 42
+    },
+    "DD": "M1 on train1; DD on train2 predicting M1 positional errors",
+    "DDL": "same DD labels, append fixed M1 predicted latitude/longitude to features",
+    "source_statements": "assignment and fit/predict statements selected verbatim from cells 5 and 7; original definition bodies for metric helpers; notebook reporting, tuning, NN comparisons, Keras and plotting not executed"
+  },
+  "execution_environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "pyproj": "3.7.2",
+    "joblib": "1.5.3",
+    "parallel_backend": "joblib sequential backend, source model n_jobs parameter remains 2; deterministic scheduling, not a new tree parameter"
+  },
+  "metric": {
+    "id": "sphere_mean_earth_haversine_m_v1",
+    "earth_radius_m": 6371008.8,
+    "inputs": "latitude,longitude in degrees",
+    "compatibility": "haversine package unavailable; explicit scalar haversine implementation injected into unchanged expanded helper definitions. Independent pyproj.Geod spherical geodesic oracle. This is a disclosed metric dependency substitution, not installation of the original library or certification of its historical version.",
+    "oracle_tolerance_m": 1e-05,
+    "source_reference": "https://github.com/mapado/haversine/blob/main/haversine/haversine.py"
+  },
+  "repeat": {
+    "runs": 2,
+    "positions_atol_degrees": 1e-10,
+    "error_prediction_atol_m": 0.0001,
+    "rtol": 0,
+    "exact_hash_comparisons_also_reported": true
+  },
+  "roles": {
+    "native": "source train1/train2, validation, test unchanged",
+    "primary_calibration": "validation groups that do not intersect either native model-training half",
+    "primary_evaluation": "test groups intersecting neither native training nor the complete original validation population",
+    "group_definition": "transitive union of raw CSV original-serialization key (RX Time,SF,HDOP 2 decimals,sorted nonreception-excluded RSSI) or baseline content key (EPSG32631 x/y rounded .001m, lexically sorted BS/RSSI pairs with .001dB quantization), across all 55,375 retained source rows",
+    "policy": "No policy tuning. Fixed threshold grid is descriptive, not a deployment target. Native-all case summaries are retained as secondary outputs."
+  },
+  "calibration": {
+    "fixed_models": [
+      "DD",
+      "DDL"
+    ],
+    "alphas": [
+      0.1,
+      0.05,
+      0.01,
+      0.001
+    ],
+    "primary_alpha": 0.05,
+    "score": "actual_position_error_m - point_error_estimate_m",
+    "rank": "ceil((n+1)*(1-alpha)) with Decimal arithmetic; +inf if rank exceeds n",
+    "radius": "max(0,h+q)",
+    "constant_control": "same calibration cases, kth actual_error order statistic",
+    "no_label_reuse_for_tuning": true,
+    "finite_bound_required": false,
+    "interpretation": "Rank theorem is conditional on exchangeability; source has within-route dependence and adaptive history. Measurements here are empirical, not independent deployment guarantees or conditional accepted-risk guarantees."
+  },
+  "endpoints": {
+    "point_models": [
+      "DD",
+      "DDL",
+      "train2_constant_mean",
+      "train2_constant_median"
+    ],
+    "quantiles": [
+      0.5,
+      0.9,
+      0.95,
+      0.99
+    ],
+    "tail_beta": 0.95,
+    "coverage": "inclusive actual_error <= radius; strict original overestimation reported separately",
+    "accepted": "finite radius <= tau AND integrity certified",
+    "denominators": "all source test requests, scored primary test requests, accepted cases explicitly separate",
+    "conditional_failure_when_empty": null,
+    "thresholds_m": [
+      0,
+      25,
+      50,
+      100,
+      200,
+      500,
+      1000,
+      2000,
+      5000,
+      10000
+    ],
+    "curve_grid": "[0] + logspace(0,4,201); endpoints descriptive, no test-driven threshold choice",
+    "methods": [
+      "native_DD_point",
+      "native_DDL_point",
+      "train2_constant_mean_point",
+      "train2_constant_median_point",
+      "DD_conformal",
+      "DDL_conformal",
+      "constant_conformal"
+    ]
+  },
+  "source_expression_audit": {
+    "signed_plot": "source cell35 e-abs(e-DDL), displayed DD; correct reference e-DDL; source first two labels swapped. Evaluate validation/test separately, test application is a new controlled audit not an original published test figure.",
+    "selection_axis": "source cell23 nonempty prefixes 1..n-1 plotted at 100*(k-1)/(n-1); compare 100*k/n and restore n endpoint. No published figure claim."
+  },
+  "controls": {
+    "information": "strong conventional and integrated routes have identical model hashes, row/feature handles, metric references, role evidence and calibration values; no superiority inferred from equal results",
+    "cases": [
+      "clean",
+      "benign_row_reorder_with_handles",
+      "benign_feature_reorder_with_handles",
+      "source_signed_derived_quantity",
+      "source_DD_DDL_label_binding",
+      "DD_calibration_used_with_DDL",
+      "stale_position_model_identity",
+      "unit_m_vs_km",
+      "undeclared_test_population_substitution",
+      "reject_all",
+      "unknown_shared_consistent_error"
+    ],
+    "oracle": "metric checks using true transmitter labels are offline evaluation checks only; not deployment detectors",
+    "actual_model_shift": "none this stage: stale position-model case tests a declared identity change without asserting a numerical changed-model effect"
+  },
+  "pending": [
+    "temporal/spatial changed-task refit not run in this stage",
+    "conditional DSI transfer awaits raw/prepared lineage gate",
+    "journal significance adjudication awaits complete study"
+  ],
+  "stop_conditions": [
+    "No outcome-based source, scenario, threshold, seed, or model selection",
+    "Any native/independent disagreement above fixed numerical tolerance pauses affected results",
+    "No inference that source native DAE claimed a calibrated upper bound",
+    "Original files, G1 core, R1 documents and public releases unchanged"
+  ],
+  "compute_budget_seconds": 900
+}

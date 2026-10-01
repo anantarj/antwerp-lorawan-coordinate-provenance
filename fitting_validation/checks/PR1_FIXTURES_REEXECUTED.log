@@ -1,0 +1,26 @@
+test_01_duplicate_transitive_union (__main__.ContractTests.test_01_duplicate_transitive_union) ... ok
+test_02_serialization_duplicates_cannot_separate (__main__.ContractTests.test_02_serialization_duplicates_cannot_separate) ... ok
+test_03_spatial_cell_union (__main__.ContractTests.test_03_spatial_cell_union) ... ok
+test_04_group_order_invariance (__main__.ContractTests.test_04_group_order_invariance) ... ok
+test_05_role_determinism (__main__.ContractTests.test_05_role_determinism) ... ok
+test_06_bad_group_lengths_refused (__main__.ContractTests.test_06_bad_group_lengths_refused) ... ok
+test_07_random_generator_not_consumed_without_subsample (__main__.ContractTests.test_07_random_generator_not_consumed_without_subsample) ... ok
+test_08_random_generator_consumed_with_subsample (__main__.ContractTests.test_08_random_generator_consumed_with_subsample) ... ok
+test_09_strong_filter_fallback (__main__.ContractTests.test_09_strong_filter_fallback) ... ok
+test_10_strong_filter_on_fitting_only (__main__.ContractTests.test_10_strong_filter_on_fitting_only) ... ok
+test_11_domain_nesting (__main__.ContractTests.test_11_domain_nesting) ... ok
+test_12_validation_coordinates_do_not_define_box (__main__.ContractTests.test_12_validation_coordinates_do_not_define_box) ... ok
+test_13_validation_intercept_not_refitted (__main__.ContractTests.test_13_validation_intercept_not_refitted) ... ok
+test_14_constant_uses_fitting_median (__main__.ContractTests.test_14_constant_uses_fitting_median) ... ok
+test_15_finite_bound_random_constructed (__main__.ContractTests.test_15_finite_bound_random_constructed) ... ok
+test_16_far_distance_limit_fixture (__main__.ContractTests.test_16_far_distance_limit_fixture) ... ok
+test_17_common_rssi_shift_invariance (__main__.ContractTests.test_17_common_rssi_shift_invariance) ... ok
+test_18_bad_scoring_inputs_refused (__main__.ContractTests.test_18_bad_scoring_inputs_refused) ... ok
+test_19_median_intercept_not_exact_minimizer (__main__.ContractTests.test_19_median_intercept_not_exact_minimizer) ... ok
+test_20_native_source_agreement_constructed (__main__.ContractTests.test_20_native_source_agreement_constructed) ... ok
+test_21_search_incumbent_never_worsens (__main__.ContractTests.test_21_search_incumbent_never_worsens) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.036s
+
+OK

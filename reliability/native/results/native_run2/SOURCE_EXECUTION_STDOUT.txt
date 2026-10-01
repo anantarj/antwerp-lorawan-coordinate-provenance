@@ -1,0 +1,18 @@
+minimum
+-128
+DAE_miss_singed (19381,)
+DAE_miss (19381,)
+DAE_miss_singed (19381,)
+DAE_miss (19381,)
+DAE_miss_singed (19381,)
+DAE_miss (19381,)
+DAE_miss_singed (19381,)
+DAE_miss (19381,)
+DAE_miss_singed (8306,)
+DAE_miss (8306,)
+DAE_miss_singed (8306,)
+DAE_miss (8306,)
+DAE_miss_singed (8307,)
+DAE_miss (8307,)
+DAE_miss_singed (8307,)
+DAE_miss (8307,)

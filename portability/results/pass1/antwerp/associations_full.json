@@ -1,0 +1,576 @@
+{
+  "alignment_rows": 130429,
+  "all_supported_uniquely_resolved": true,
+  "complete_occurrence_equivalence": false,
+  "features": [
+    {
+      "candidates": [
+        "FF010714"
+      ],
+      "feature": "BS 1",
+      "status": "unique",
+      "support": 11050
+    },
+    {
+      "candidates": [
+        "FF01072B"
+      ],
+      "feature": "BS 2",
+      "status": "unique",
+      "support": 25615
+    },
+    {
+      "candidates": [
+        "FF010877"
+      ],
+      "feature": "BS 3",
+      "status": "unique",
+      "support": 3522
+    },
+    {
+      "candidates": [
+        "080E0149"
+      ],
+      "feature": "BS 4",
+      "status": "unique",
+      "support": 11879
+    },
+    {
+      "candidates": [
+        "FF010560"
+      ],
+      "feature": "BS 5",
+      "status": "unique",
+      "support": 14596
+    },
+    {
+      "candidates": [
+        "FF010721"
+      ],
+      "feature": "BS 6",
+      "status": "unique",
+      "support": 6259
+    },
+    {
+      "candidates": [
+        "080605EE"
+      ],
+      "feature": "BS 7",
+      "status": "unique",
+      "support": 7340
+    },
+    {
+      "candidates": [],
+      "feature": "BS 8",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [
+        "FF01085B"
+      ],
+      "feature": "BS 9",
+      "status": "unique",
+      "support": 23088
+    },
+    {
+      "candidates": [
+        "080E00B9"
+      ],
+      "feature": "BS 10",
+      "status": "unique",
+      "support": 36185
+    },
+    {
+      "candidates": [
+        "FF01052A"
+      ],
+      "feature": "BS 11",
+      "status": "unique",
+      "support": 13753
+    },
+    {
+      "candidates": [
+        "08060622"
+      ],
+      "feature": "BS 12",
+      "status": "unique",
+      "support": 9327
+    },
+    {
+      "candidates": [],
+      "feature": "BS 13",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [
+        "FF0107C9"
+      ],
+      "feature": "BS 14",
+      "status": "unique",
+      "support": 32352
+    },
+    {
+      "candidates": [
+        "FF01099B"
+      ],
+      "feature": "BS 15",
+      "status": "unique",
+      "support": 3436
+    },
+    {
+      "candidates": [
+        "FF010581"
+      ],
+      "feature": "BS 16",
+      "status": "unique",
+      "support": 1307
+    },
+    {
+      "candidates": [
+        "FF010739"
+      ],
+      "feature": "BS 17",
+      "status": "unique",
+      "support": 7666
+    },
+    {
+      "candidates": [
+        "FF0178DF"
+      ],
+      "feature": "BS 18",
+      "status": "unique",
+      "support": 17786
+    },
+    {
+      "candidates": [
+        "FF010667"
+      ],
+      "feature": "BS 19",
+      "status": "unique",
+      "support": 7537
+    },
+    {
+      "candidates": [
+        "FF010595"
+      ],
+      "feature": "BS 20",
+      "status": "unique",
+      "support": 13939
+    },
+    {
+      "candidates": [],
+      "feature": "BS 21",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [
+        "FF010628"
+      ],
+      "feature": "BS 22",
+      "status": "unique",
+      "support": 6280
+    },
+    {
+      "candidates": [
+        "FF0105CB"
+      ],
+      "feature": "BS 23",
+      "status": "unique",
+      "support": 1653
+    },
+    {
+      "candidates": [],
+      "feature": "BS 24",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [
+        "080E0116"
+      ],
+      "feature": "BS 25",
+      "status": "unique",
+      "support": 4887
+    },
+    {
+      "candidates": [],
+      "feature": "BS 26",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [
+        "08060716"
+      ],
+      "feature": "BS 27",
+      "status": "unique",
+      "support": 32812
+    },
+    {
+      "candidates": [],
+      "feature": "BS 28",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [],
+      "feature": "BS 29",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [],
+      "feature": "BS 30",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [
+        "FF010EFE"
+      ],
+      "feature": "BS 31",
+      "status": "unique",
+      "support": 5368
+    },
+    {
+      "candidates": [
+        "FF0108A3"
+      ],
+      "feature": "BS 32",
+      "status": "unique",
+      "support": 22642
+    },
+    {
+      "candidates": [
+        "FF01060B"
+      ],
+      "feature": "BS 33",
+      "status": "unique",
+      "support": 263
+    },
+    {
+      "candidates": [
+        "FF010719"
+      ],
+      "feature": "BS 34",
+      "status": "unique",
+      "support": 3155
+    },
+    {
+      "candidates": [
+        "004A05D4"
+      ],
+      "feature": "BS 35",
+      "status": "unique",
+      "support": 419
+    },
+    {
+      "candidates": [],
+      "feature": "BS 36",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [
+        "FF010639"
+      ],
+      "feature": "BS 37",
+      "status": "unique",
+      "support": 1238
+    },
+    {
+      "candidates": [],
+      "feature": "BS 38",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [],
+      "feature": "BS 39",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [],
+      "feature": "BS 40",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [
+        "004A0DA4"
+      ],
+      "feature": "BS 41",
+      "status": "unique",
+      "support": 230
+    },
+    {
+      "candidates": [],
+      "feature": "BS 42",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [
+        "FF0107BB"
+      ],
+      "feature": "BS 43",
+      "status": "unique",
+      "support": 45
+    },
+    {
+      "candidates": [
+        "FF0105C2"
+      ],
+      "feature": "BS 44",
+      "status": "unique",
+      "support": 182
+    },
+    {
+      "candidates": [],
+      "feature": "BS 45",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [],
+      "feature": "BS 46",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [
+        "C0000209"
+      ],
+      "feature": "BS 47",
+      "status": "unique",
+      "support": 10
+    },
+    {
+      "candidates": [
+        "FF010605"
+      ],
+      "feature": "BS 48",
+      "status": "unique",
+      "support": 341
+    },
+    {
+      "candidates": [
+        "004A0D9C"
+      ],
+      "feature": "BS 49",
+      "status": "unique",
+      "support": 3
+    },
+    {
+      "candidates": [
+        "FF010957"
+      ],
+      "feature": "BS 50",
+      "status": "unique",
+      "support": 869
+    },
+    {
+      "candidates": [],
+      "feature": "BS 51",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [
+        "FF010894"
+      ],
+      "feature": "BS 52",
+      "status": "unique",
+      "support": 51
+    },
+    {
+      "candidates": [
+        "C000028C"
+      ],
+      "feature": "BS 53",
+      "status": "unique",
+      "support": 4
+    },
+    {
+      "candidates": [],
+      "feature": "BS 54",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [
+        "FF0105B5"
+      ],
+      "feature": "BS 55",
+      "status": "unique",
+      "support": 3
+    },
+    {
+      "candidates": [],
+      "feature": "BS 56",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [],
+      "feature": "BS 57",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [],
+      "feature": "BS 58",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [
+        "FF010930"
+      ],
+      "feature": "BS 59",
+      "status": "unique",
+      "support": 29
+    },
+    {
+      "candidates": [
+        "FF010603"
+      ],
+      "feature": "BS 60",
+      "status": "unique",
+      "support": 9
+    },
+    {
+      "candidates": [],
+      "feature": "BS 61",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [],
+      "feature": "BS 62",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [],
+      "feature": "BS 63",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [],
+      "feature": "BS 64",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [],
+      "feature": "BS 65",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [],
+      "feature": "BS 66",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [],
+      "feature": "BS 67",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [],
+      "feature": "BS 68",
+      "status": "unsupported",
+      "support": 0
+    },
+    {
+      "candidates": [
+        "FF01753E"
+      ],
+      "feature": "BS 69",
+      "status": "unique",
+      "support": 28529
+    },
+    {
+      "candidates": [
+        "FF017649"
+      ],
+      "feature": "BS 70",
+      "status": "unique",
+      "support": 4080
+    },
+    {
+      "candidates": [
+        "004A026B"
+      ],
+      "feature": "BS 71",
+      "status": "unique",
+      "support": 509
+    },
+    {
+      "candidates": [
+        "FF01031C"
+      ],
+      "feature": "BS 72",
+      "status": "unique",
+      "support": 1
+    }
+  ],
+  "mapping": {
+    "BS 1": "FF010714",
+    "BS 10": "080E00B9",
+    "BS 11": "FF01052A",
+    "BS 12": "08060622",
+    "BS 14": "FF0107C9",
+    "BS 15": "FF01099B",
+    "BS 16": "FF010581",
+    "BS 17": "FF010739",
+    "BS 18": "FF0178DF",
+    "BS 19": "FF010667",
+    "BS 2": "FF01072B",
+    "BS 20": "FF010595",
+    "BS 22": "FF010628",
+    "BS 23": "FF0105CB",
+    "BS 25": "080E0116",
+    "BS 27": "08060716",
+    "BS 3": "FF010877",
+    "BS 31": "FF010EFE",
+    "BS 32": "FF0108A3",
+    "BS 33": "FF01060B",
+    "BS 34": "FF010719",
+    "BS 35": "004A05D4",
+    "BS 37": "FF010639",
+    "BS 4": "080E0149",
+    "BS 41": "004A0DA4",
+    "BS 43": "FF0107BB",
+    "BS 44": "FF0105C2",
+    "BS 47": "C0000209",
+    "BS 48": "FF010605",
+    "BS 49": "004A0D9C",
+    "BS 5": "FF010560",
+    "BS 50": "FF010957",
+    "BS 52": "FF010894",
+    "BS 53": "C000028C",
+    "BS 55": "FF0105B5",
+    "BS 59": "FF010930",
+    "BS 6": "FF010721",
+    "BS 60": "FF010603",
+    "BS 69": "FF01753E",
+    "BS 7": "080605EE",
+    "BS 70": "FF017649",
+    "BS 71": "004A026B",
+    "BS 72": "FF01031C",
+    "BS 9": "FF01085B"
+  },
+  "recovery_rows": 130429,
+  "scope": "Exact association under declared record alignment and canonicalization, not physical authentication",
+  "surplus_count": 1
+}

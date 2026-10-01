@@ -1,0 +1,8 @@
+{
+  "existing_output_refused": true,
+  "preserved_choice_file_sha256": "4d4e27329dc15d91da0b0ed1034f6583cb82710df183cc8f0a055983fd81ad29",
+  "tampered_protocol_refused": true,
+  "existing_output_exit": 1,
+  "tampered_protocol_exit": 1,
+  "tampered_case_no_complete": true
+}

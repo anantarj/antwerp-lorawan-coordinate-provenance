@@ -1,0 +1,137 @@
+{
+  "created_utc": "2026-09-21T08:35:58.423369+00:00",
+  "phase": "Before G13/G14 new executions",
+  "files": [
+    {
+      "path": "code/adapters.py",
+      "sha256": "b60a2ee5772c29f211e23486f41c4c5895af93427644f44f517372bc32e2e1c5"
+    },
+    {
+      "path": "code/identity_core.py",
+      "sha256": "021a57e37c99b2f15af9a889b65669df804652519ce552ca7c4d6e7eb556867c"
+    },
+    {
+      "path": "code/reference_dae.py",
+      "sha256": "c9d703c922dfebce590c60ef8371d2fdd18562b44b426a2626daffebcf401881"
+    },
+    {
+      "path": "code/run_g1.py",
+      "sha256": "3f6bf9b3cf510fe442ab8d52a4a7af5cbc110a2ba69bf8df4cee92127c780a29"
+    },
+    {
+      "path": "code/sidecars.py",
+      "sha256": "dab7f40739d1373c3240873a9b301e8a179febd23f02a2bc4a34a9f3b3076c1d"
+    },
+    {
+      "path": "fixtures/BASE_FIXTURE.json",
+      "sha256": "ca598502fa5814181115f7bf2a2525e8dc6234eef234d5d69593b37e53de7fc9"
+    },
+    {
+      "path": "protocol/G1_DESIGN.md",
+      "sha256": "b717c8ea1514aa34dd1dd3eb8bf95606f3e4d159eb3bf5739416bdcaa37724b8"
+    },
+    {
+      "path": "protocol/G1_EXECUTION_CONTRACT.json",
+      "sha256": "67a4a866d9cb6ed40392215f6bf26e4c5cc50049af094fbc6739c59cfa34150c"
+    },
+    {
+      "path": "protocol/G1_PROTOCOL.json",
+      "sha256": "710b05c4c3a9addcb24f9aba8749bef82d8f3417773a11ee5a54e0e57dc3f166"
+    },
+    {
+      "path": "protocol/G1_TEST_MATRIX.csv",
+      "sha256": "44453f6fe7e2263856ada380901e9b8af06476c5836e65e88ac28c9a7ec7d3f5"
+    },
+    {
+      "path": "protocol/INPUTS_AND_SOURCES.json",
+      "sha256": "5e8cffbf3ed3f1d3666787deebdba29f7f37b07d1fd8dce1cb6ce66ff2f72794"
+    },
+    {
+      "path": "protocol/MANIFEST.json",
+      "sha256": "5d2afda81761689e59d1468f21c56fc1b04c703e0e433994e64a0b4efab8d970"
+    },
+    {
+      "path": "sources/Creating_files_LoRaWAN_dataset.ipynb",
+      "sha256": "b3137875da89a4bb5f50426f505772d03d5e2e78d37781802abc263f2a36ef4c"
+    },
+    {
+      "path": "sources/audit_selection_directions.py",
+      "sha256": "94ede695dfe4a41dbfffad10dd2d34efab7047b4c1d0e87207fd51103cbfad3f"
+    },
+    {
+      "path": "sources/calibration_rows.csv",
+      "sha256": "8da4d6b101d57c68273a1b3341630e4d83ac294514848758cf1cfb316f54ec4a"
+    },
+    {
+      "path": "sources/check_package.py",
+      "sha256": "ca056afef5e65f0652d4fcda1570d3bdaa031c17dfd0fc5b6db24eb570ac9c8e"
+    },
+    {
+      "path": "sources/column_evidence.csv",
+      "sha256": "bc8a051d4acb9d4f0f30c381a0a99e17a37b49f4f9f9debf09049e2268d408d6"
+    },
+    {
+      "path": "sources/compare_representations.py",
+      "sha256": "7a519b5d8b7f48bba752f91002b78dbeb1d6865d076c40bb1d096c07cdd5082a"
+    },
+    {
+      "path": "sources/construction_summary.json",
+      "sha256": "546ebe5213291404b5b4a85d948aac29d4ac04bbd5ecf37418f6dbc7253d8955"
+    },
+    {
+      "path": "sources/gateway_catalogue_249.json",
+      "sha256": "507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d"
+    },
+    {
+      "path": "sources/metadata33.json",
+      "sha256": "4addbd3c9073501ecd46b80f2351b508d56aee378b6dde115ca71c5395ebbc93"
+    },
+    {
+      "path": "sources/official33_primary_rows.csv",
+      "sha256": "0029e4cbba080f3c99fe6de09c37b1e3a27d408c583d7faca4ef679c538e3fb8"
+    },
+    {
+      "path": "sources/prior_join_column_evidence.csv",
+      "sha256": "bc8a051d4acb9d4f0f30c381a0a99e17a37b49f4f9f9debf09049e2268d408d6"
+    },
+    {
+      "path": "sources/rebuild_join.py",
+      "sha256": "670260ec149ef2bc6ac64b73b794bb1698f3a6db3eac283670eb24372779b4d4"
+    },
+    {
+      "path": "sources/rebuilt_calibration_identities.json",
+      "sha256": "301985030013d0a2d66e520434e2b6fee8171565d38cb968566f8efffab7e9bd"
+    },
+    {
+      "path": "sources/rebuilt_full_identities.json",
+      "sha256": "037c50d6f6947de0e3738cad2b9a6e666dc75b65de72d39f98dd699d7ddc5104"
+    },
+    {
+      "path": "sources/resource_contract.py",
+      "sha256": "1ac61833a81f97a55dda9dc83f57b2f3b5abbb117ad921952f124d8d80566b3d"
+    },
+    {
+      "path": "sources/surplus_json_records.json",
+      "sha256": "db4ae3235287c7a6486923aad08b031ab9c47a534cf7dbaee39d7e8b5ad27cb6"
+    },
+    {
+      "path": "sources/test_join_contract.py",
+      "sha256": "0b6636120db25b06437290d9d1effd858cf82e6ab051ebb75be33d43874e1240"
+    },
+    {
+      "path": "sources/test_resource_contract.py",
+      "sha256": "9d978aefe020e564fae382a296cdeb14839dc74d6c3a8b8f2a27829eab3239ac"
+    },
+    {
+      "path": "tests/test_core.py",
+      "sha256": "474d99b637ed46bc92fc4d2e52c8ef4d92e79cf8cc6228345cc71a2f6858d8b3"
+    }
+  ],
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "pyproj": "3.7.2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "manifest_checks": [
+    {
+      "source": "Computational_Supplement_Anonymous/MANIFEST.json",
+      "entries": 329,
+      "mismatches": []
+    },
+    {
+      "source": "Computational_Supplement_Anonymous/EVIDENCE_MANIFEST.json",
+      "entries": 230,
+      "mismatches": []
+    },
+    {
+      "source": "Paper_A_PR1_20260919/MANIFEST.json",
+      "entries": 43,
+      "mismatches": []
+    }
+  ],
+  "protocol_sha256": "405bf282c73545fe8c00fbccbddcdd099cffdbc0bfb567f926e6cde98010973c",
+  "public_repositories_modified": false,
+  "manuscript_PDFs_modified": false
+}

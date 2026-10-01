@@ -1,0 +1,31 @@
+test_01_instrumentation_matches_PR1 (__main__.MV1Tests.test_01_instrumentation_matches_PR1) ... ok
+test_02_source_fitter_multiple_sizes (__main__.MV1Tests.test_02_source_fitter_multiple_sizes) ... ok
+test_03_source_shared_rng_receiver_order (__main__.MV1Tests.test_03_source_shared_rng_receiver_order) ... ok
+test_04_source_objective_direct (__main__.MV1Tests.test_04_source_objective_direct) ... ok
+test_05_complete_trace_and_budget (__main__.MV1Tests.test_05_complete_trace_and_budget) ... ok
+test_06_clipped_candidates_count (__main__.MV1Tests.test_06_clipped_candidates_count) ... ok
+test_07_five_shared_starts_and_order (__main__.MV1Tests.test_07_five_shared_starts_and_order) ... ok
+test_08_selector_ties_first (__main__.MV1Tests.test_08_selector_ties_first) ... ok
+test_09_selector_only_training (__main__.MV1Tests.test_09_selector_only_training) ... ok
+test_10_selector_rejects_nan (__main__.MV1Tests.test_10_selector_rejects_nan) ... ok
+test_11_validation_no_recentering (__main__.MV1Tests.test_11_validation_no_recentering) ... ok
+test_12_const_fitting_only (__main__.MV1Tests.test_12_const_fitting_only) ... ok
+test_13_empty_validation_explicit (__main__.MV1Tests.test_13_empty_validation_explicit) ... ok
+test_14_profiles_exact_shape_and_bound (__main__.MV1Tests.test_14_profiles_exact_shape_and_bound) ... ok
+test_15_profile_does_not_mutate (__main__.MV1Tests.test_15_profile_does_not_mutate) ... ok
+test_16_receiver_missing_is_not_removed (__main__.MV1Tests.test_16_receiver_missing_is_not_removed) ... ok
+test_17_const_has_no_coordinates (__main__.MV1Tests.test_17_const_has_no_coordinates) ... ok
+test_18_centroid_direct_agreement (__main__.MV1Tests.test_18_centroid_direct_agreement) ... ok
+test_19_weight_shift_invariance (__main__.MV1Tests.test_19_weight_shift_invariance) ... ok
+test_20_duplicate_receiver_refused (__main__.MV1Tests.test_20_duplicate_receiver_refused) ... ok
+test_21_geometry_flags (__main__.MV1Tests.test_21_geometry_flags) ... ok
+test_22_bad_shapes_and_finiteness (__main__.MV1Tests.test_22_bad_shapes_and_finiteness) ... ok
+test_23_native_multistart_zero_repeat (__main__.MV1Tests.test_23_native_multistart_zero_repeat) ... ok
+test_24_synthetic_end_to_end (__main__.MV1Tests.test_24_synthetic_end_to_end) ... ok
+test_25_even_median_convention (__main__.MV1Tests.test_25_even_median_convention) ... ok
+test_26_profiles_wrong_origin_refused (__main__.MV1Tests.test_26_profiles_wrong_origin_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.202s
+
+OK

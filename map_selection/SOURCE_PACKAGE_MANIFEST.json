@@ -1,0 +1,231 @@
+{
+  "version": "PaperA-PR4-Stage4-20260920",
+  "scope": "Retrospective selection proof of work, integrated adjudication and unchanged PR3 parent archive; excludes this manifest itself and Python caches. No scientific-priority or journal-outcome certification.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2891,
+      "sha256": "0e3e557dc4196ae79cabddafd495418af481b6f04278041635bf24c737ea5ddb"
+    },
+    {
+      "path": "STAGE4_REPORT.md",
+      "bytes": 13266,
+      "sha256": "bf9ca6ff263d243ed1032ed32837858011048a0dcfa7e1ba6071ec780881eaa3"
+    },
+    {
+      "path": "checks/CODE_GATE.json",
+      "bytes": 563,
+      "sha256": "096d5be910d546f3a36bfb43a66dd883115f36353bc1c34a2105c523507f9afc"
+    },
+    {
+      "path": "checks/COMPLETION_SCOPE.json",
+      "bytes": 1832,
+      "sha256": "de254bd04cad9eff6e149e375e9fef7857fd77bdf0f4070a6991519cda33ca62"
+    },
+    {
+      "path": "checks/FIXTURE_TESTS.log",
+      "bytes": 1717,
+      "sha256": "de2b487b2074838ff277d7a5e195f51241bc428fbeec207e5ac2d20d2966b365"
+    },
+    {
+      "path": "checks/REEXECUTION.json",
+      "bytes": 3712,
+      "sha256": "c7e5cb2f92a37c4880c15cb2b6c7fc217095ba4eb0bc417026874e940b1f044b"
+    },
+    {
+      "path": "checks/REPEAT.log",
+      "bytes": 7051,
+      "sha256": "12c4de57c630ebdef5186e55fdefe3852c45820490374e0dff50ae99dbc1bd6d"
+    },
+    {
+      "path": "checks/RUN.log",
+      "bytes": 7051,
+      "sha256": "12c4de57c630ebdef5186e55fdefe3852c45820490374e0dff50ae99dbc1bd6d"
+    },
+    {
+      "path": "checks/SAFETY_TESTS.json",
+      "bytes": 274,
+      "sha256": "6e492fe36d6f3e22593ecffcb1bf18e490a9f1713d5c904a18d602d5320c9c36"
+    },
+    {
+      "path": "checks/VERIFICATION_RECEIPT.json",
+      "bytes": 24658,
+      "sha256": "debcebd171e2e0f8f4dc2ebf5cf66368182d49835fe695e20d1149419638fc76"
+    },
+    {
+      "path": "code/task_selection.py",
+      "bytes": 18507,
+      "sha256": "c73b5cf4f327bada310a96a44f921f84e7401ee29ed2ab6932ebae493fd1a8ae"
+    },
+    {
+      "path": "code/verify_results.py",
+      "bytes": 4279,
+      "sha256": "67eb59878c25582526a2789ab10b4b3f48363f72c5a2c07acec2054decb6600e"
+    },
+    {
+      "path": "drafts/MANUSCRIPT_ARCHITECTURE.md",
+      "bytes": 5125,
+      "sha256": "f1419ff21dbaca40587cf91b3e74055a5c4b0dd7f1c25bf3b4ef92b1f9487acc"
+    },
+    {
+      "path": "handoff/CURRENT_STATE.md",
+      "bytes": 1783,
+      "sha256": "6a5b41ba05a8113a3d6cc802f3e9c7d7ed2af38ebd34b7747af39b87e295f520"
+    },
+    {
+      "path": "parents/Paper_A_PR3_Stage3_20260920.zip",
+      "bytes": 23659298,
+      "sha256": "3ed84201715a0ffc3e4781aa22fe94c4ad0914a02bddc55460b6901c74b089a4"
+    },
+    {
+      "path": "plan/INTEGRATED_CONTRIBUTION_DECISION.md",
+      "bytes": 7302,
+      "sha256": "dd4b5d945d43503ad8b2b5c794f5dc814bd94b749cfc3c6f85dcde454c109f62"
+    },
+    {
+      "path": "plan/OBLIGATIONS.csv",
+      "bytes": 4615,
+      "sha256": "d97a31ae8227b5908b2be2e2a8249392a06e17f438a4a8621eafd1f47e4ba313"
+    },
+    {
+      "path": "plan/OBLIGATIONS_CARRIED_FROM_PR3.csv",
+      "bytes": 3449,
+      "sha256": "4d9216969af096b09ffae5240701debdf1a9e3d204b9eceb954895aea43325e2"
+    },
+    {
+      "path": "protocol/PROTOCOL_LOCK.json",
+      "bytes": 263,
+      "sha256": "2971a2804398ff4cb9964b835e306a2478b43502ea8484c1e25fe94aa7e7fbf7"
+    },
+    {
+      "path": "protocol/TASK_SELECTION_PROTOCOL.json",
+      "bytes": 5191,
+      "sha256": "2e647b556c25e562eaac6453bab8a734dc5bab5943ce7825a559efa88e7151f5"
+    },
+    {
+      "path": "protocol/write_protocol.py",
+      "bytes": 5606,
+      "sha256": "00f5c3640731e429f1ac487228b4c101bfb08ed10a4a7b582c67a8106c9f0122"
+    },
+    {
+      "path": "results/task_selection/ALL_CANDIDATE_SUMMARIES.csv",
+      "bytes": 5410,
+      "sha256": "d6221f2e42b74e56edc7e4142deb12376ececd92e7956d2c8488f02ab989587f"
+    },
+    {
+      "path": "results/task_selection/COMPLETE.json",
+      "bytes": 1339,
+      "sha256": "5341c2d276e7438eee050e4b6e599c1afb6f3187b337f8a3dca22ddb8a434055"
+    },
+    {
+      "path": "results/task_selection/FROZEN_CHOICES.json",
+      "bytes": 577,
+      "sha256": "4d4e27329dc15d91da0b0ed1034f6583cb82710df183cc8f0a055983fd81ad29"
+    },
+    {
+      "path": "results/task_selection/INPUT_IDENTITIES.json",
+      "bytes": 1535,
+      "sha256": "c58ac1affdf07e2a4610b2f230a0c830fb06be088ec2b0776cdb170972219815"
+    },
+    {
+      "path": "results/task_selection/INPUT_POPULATION_CHECKS.json",
+      "bytes": 326,
+      "sha256": "d5f8f90d7ee7c454baf97af3ddc2baf32d51155015d19e7c3585f88bc7d4d647"
+    },
+    {
+      "path": "results/task_selection/NUMERICAL_CHECKS.json",
+      "bytes": 1951,
+      "sha256": "be66e78c7cabc28051497434b96cdb8e65fe668a27d73dd9b68161a64f65b05a"
+    },
+    {
+      "path": "results/task_selection/POLICY_OUTCOMES.csv",
+      "bytes": 4947,
+      "sha256": "2aeecb1d15263df0915a7335b2fcd938f92cdbef6df659bdd904a090c2ad427f"
+    },
+    {
+      "path": "results/task_selection/SOURCE_ROLE_LEDGER.csv.gz",
+      "bytes": 4723809,
+      "sha256": "239666ff4f0c1b18c8ee6c3cd03616ce24fd563f82b385970df86c68d97ee92a"
+    },
+    {
+      "path": "results/task_selection/group80_SELECTION_FROZEN.json",
+      "bytes": 1261,
+      "sha256": "caaf9e822c06a8d6d1711442e12227f4bb800e5499d5a732f7da4ea7ece258ef"
+    },
+    {
+      "path": "results/task_selection/group80_complement_COMMON_ROWS.csv",
+      "bytes": 222117,
+      "sha256": "85bf469ab1f132b7c9e379020a469258010a87a088c473f3d88a93ab8a029155"
+    },
+    {
+      "path": "results/task_selection/group80_complement_PREDICTIONS.csv.gz",
+      "bytes": 11467609,
+      "sha256": "fbc9ca5982cf73a98dfd097696d62a95275f030eb3884ff5807136d5c3f81072"
+    },
+    {
+      "path": "results/task_selection/group80_old_primary_COMMON_ROWS.csv",
+      "bytes": 15355,
+      "sha256": "7a90c1565be4e842e756013e30dbd4f867a1e061adedf651c711b95692bd0463"
+    },
+    {
+      "path": "results/task_selection/group80_old_primary_PREDICTIONS.csv.gz",
+      "bytes": 809040,
+      "sha256": "210ec57d1ce52b9c2feb91ca46c50b67c33e59f2662717ff3b6ba2fed93deb05"
+    },
+    {
+      "path": "results/task_selection/group80_validation_COMMON_ROWS.csv",
+      "bytes": 20369,
+      "sha256": "3d433fc7238f78a9129a431921ac0300eea11822b3a91ab000bcbcdeaa604240"
+    },
+    {
+      "path": "results/task_selection/group80_validation_PREDICTIONS.csv.gz",
+      "bytes": 1076000,
+      "sha256": "06aebdaf9ff0397c6e31f464800884ab06ebe3e681faa545dcfc64e6ccdbcdd1"
+    },
+    {
+      "path": "results/task_selection/space1000_SELECTION_FROZEN.json",
+      "bytes": 1259,
+      "sha256": "9b9bcaa426b5257652a3b86e1cd1461fd498d78f54a41be1905289e65b728585"
+    },
+    {
+      "path": "results/task_selection/space1000_complement_COMMON_ROWS.csv",
+      "bytes": 221178,
+      "sha256": "d2533165c90513ec04f84779433f9415124d871e2fa86205c5c8efd02d2e302b"
+    },
+    {
+      "path": "results/task_selection/space1000_complement_PREDICTIONS.csv.gz",
+      "bytes": 11488960,
+      "sha256": "32e520d086a0c257448aa82f0c7d5025924d33e1f7ba212d1a2c688bb1c6d7c6"
+    },
+    {
+      "path": "results/task_selection/space1000_old_primary_COMMON_ROWS.csv",
+      "bytes": 15307,
+      "sha256": "f05068ef94179d98604d11c81d599161488be00ba5479826a4a1648fa28d6b50"
+    },
+    {
+      "path": "results/task_selection/space1000_old_primary_PREDICTIONS.csv.gz",
+      "bytes": 810752,
+      "sha256": "819597404a30711c7c06a59821eb189d01e97112068900d86424744b2cce8074"
+    },
+    {
+      "path": "results/task_selection/space1000_validation_COMMON_ROWS.csv",
+      "bytes": 24500,
+      "sha256": "4fae7a3a7dce791e93fa9607e883efc220647219ac6e4cfbd6dfd6f6483e471c"
+    },
+    {
+      "path": "results/task_selection/space1000_validation_PREDICTIONS.csv.gz",
+      "bytes": 1336376,
+      "sha256": "18e6d15c3a19f94d40bcf65c324e395a52d8da9c3d6ea151932eb71898880566"
+    },
+    {
+      "path": "sources/PRIOR_ART_BOUNDARIES.md",
+      "bytes": 4204,
+      "sha256": "7a14f9f65e70ce3b603de06173f6cb6fc6e567f83fa8e044bd7ec2a7933bfab6"
+    },
+    {
+      "path": "tests/test_task_selection.py",
+      "bytes": 3615,
+      "sha256": "b910e9178dbe40e14f939114c71d9664d1888e032b0197c82eb9ecae686643b3"
+    }
+  ]
+}

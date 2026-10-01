@@ -1,0 +1,4 @@
+RUN rebuild_join.py
+RUN project_rebuilt_maps.py
+RUN check_core.py
+COMPLETE join /mnt/data/Paper_A_PR2_20260920/results/raw_join

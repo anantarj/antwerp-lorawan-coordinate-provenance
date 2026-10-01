@@ -1,0 +1,20 @@
+{
+  "calibration_rows": 16612,
+  "catalogue_available": 39,
+  "catalogue_missing_active": 5,
+  "duplicate_groups": 147,
+  "feature_columns": 72,
+  "inactive_full": 28,
+  "max_CSV_JSON_displacement_m": 0.0,
+  "max_saved_displacement_m": 4.669691231132387e-09,
+  "original_source_reexecuted": true,
+  "primary_rows": 130429,
+  "raw_WCL_median_m": 480.08719486250845,
+  "replay_rows": 2495,
+  "saved_mapping_is_inference_input": false,
+  "secondary_rows": 130430,
+  "status": "PASS",
+  "surplus_count": 1,
+  "unique_calibration": 41,
+  "unique_full": 44
+}

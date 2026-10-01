@@ -1,0 +1,24 @@
+{
+  "status": "READY_FOR_REAL_DATA_EXECUTION",
+  "locked_utc": "2026-09-20T03:23:04.706265+00:00",
+  "protocol_sha256": "405bf282c73545fe8c00fbccbddcdd099cffdbc0bfb567f926e6cde98010973c",
+  "locked_files": {
+    "code/mv1_core.py": "1f394f2eb1794e50bb6460c4ef1e337811428a372c0ef56fc815ecc2f469ed09",
+    "code/preflight.py": "a1b6627186a679dc60f0050dfd08dee26b1b5e1a627d6b685b19be6a15a12c03",
+    "code/run_mv1.py": "2fd3c5d6f027d38e1c28ebecaa78a5a1ec24eb202b4f9fc2b715d9c7e9f2a26e",
+    "code/source_reference.py": "752063a91b0a719db174738562326c4aa53c651c3ae04272d40a390cf53f6814",
+    "code/study_contract.py": "2016260e353152837bcd9133e2f41f219507ed55d09e91ee7469d7424ff0b15d",
+    "protocol/IMPLEMENTATION_RESOLUTIONS.md": "9ed63610c31ac960327b30657143310cdaaf79e441cd931bcbebf4a5a0bb0599",
+    "tests/test_contract_pr1.py": "4aba71b7cdb02e40316f4e3b657654e6ca1636236a8e2afcb19b8415363ede42",
+    "tests/test_mv1.py": "12ca40e39b162b5da5a9483644a540376e3cea09036ee7a5f3e11c93797b1a8d"
+  },
+  "preflight": {
+    "files_byte_identical": 14,
+    "new_real_fit_outcomes_examined": 0
+  },
+  "checks": {
+    "new_producer_fixtures": 26,
+    "carried_PR1_fixtures_reexecuted": 21
+  },
+  "scope": "Code and implementation resolutions locked after constructed tests and input revalidation, before new split-specific coordinate fitting or validation scoring. Retrospective internal validation, not external preregistration."
+}

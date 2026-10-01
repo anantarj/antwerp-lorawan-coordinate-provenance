@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/opt/pyvenv/bin/python",
+    "-B",
+    "-u",
+    "/mnt/data/_paper_a_pr2_work/Computational_Supplement_Anonymous/computational/src/join_and_continuity/project_rebuilt_maps.py",
+    "--join",
+    "/mnt/data/Paper_A_PR2_20260920/results/raw_join/join",
+    "--catalogue",
+    "/mnt/data/lorawan_antwerp_gateway_locations.json"
+  ],
+  "elapsed_seconds": 0.7692675590515137,
+  "log": "projection.log",
+  "returncode": 0
+}

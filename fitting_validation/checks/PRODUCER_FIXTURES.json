@@ -1,0 +1,8 @@
+{
+  "tests_run": 26,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "scope": "Constructed source, preprocessing, tracing, starts, fixed validation intercept, finite profile, missingness and centroid tests; no new real-data outcomes."
+}

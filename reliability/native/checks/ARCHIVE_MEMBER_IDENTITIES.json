@@ -1,0 +1,177 @@
+[
+  {
+    "member": "files/sigfox/y_val.csv",
+    "bytes": 72417,
+    "sha256": "46edb0e1a169b84540b60221262fe7c9f3ef5ac29cb0c8469e733b40508478e0"
+  },
+  {
+    "member": "files/sigfox/sigfox_dataset_antwerp.csv",
+    "bytes": 6804501,
+    "sha256": "7d7356b1e00b09150e5d9e76939d8b19ee00d915526ec018602a9bdf3f3a95e2"
+  },
+  {
+    "member": "files/sigfox/x_train.csv",
+    "bytes": 4265347,
+    "sha256": "05b70a850d45b1af4c1a880f039dff7b9c2d745dfa13764373e36dac77efbd71"
+  },
+  {
+    "member": "files/sigfox/x_val.csv",
+    "bytes": 913923,
+    "sha256": "e1bd5b7b5dd3987ee095e234d4786c93705fc7f95c536f812d463c080ee77bea"
+  },
+  {
+    "member": "files/sigfox/y_train.csv",
+    "bytes": 343099,
+    "sha256": "2fd824f5494b881572244ecd51affa4eb8e2f54644f30e5f6f760c681d2b9e48"
+  },
+  {
+    "member": "files/sigfox/y_test.csv",
+    "bytes": 72598,
+    "sha256": "083ed3987bf0b344866c8ebd363ca2db48b10fd3ac5e37d091cb676ac0f5af5a"
+  },
+  {
+    "member": "files/sigfox/x_test.csv",
+    "bytes": 913797,
+    "sha256": "a36cfe59ea32aeb8e118ac682311517bb8a410c40c0626706c33fa3b5239a033"
+  },
+  {
+    "member": "files/lorawan/lorawan_antwerp_2019_dataset.json",
+    "bytes": 96148293,
+    "sha256": "f2f1fbd478cdef2b76fb8e3aae33751d332b50fc8546684d8e73fdb1505451cb"
+  },
+  {
+    "member": "files/lorawan/lorawan_dataset_antwerp.csv",
+    "bytes": 56521687,
+    "sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446"
+  },
+  {
+    "member": "files/lorawan/y_val.csv",
+    "bytes": 290765,
+    "sha256": "eff96d2a5ddba9989384dede3c6df5505a394549aa9295a96bdc6a948f3c7f57"
+  },
+  {
+    "member": "files/lorawan/x_train.csv",
+    "bytes": 13943362,
+    "sha256": "f3f1b3d4ce8095aa6b0ca8a2874ce825b64eb24b9dd1ed928b83f9607381dd2a"
+  },
+  {
+    "member": "files/lorawan/x_val.csv",
+    "bytes": 2988157,
+    "sha256": "fdb49fdbc2bcc3f4c38de2be7bc3a4373c9f26eb87848c91ea7b9811951b2b57"
+  },
+  {
+    "member": "files/lorawan/y_train.csv",
+    "bytes": 1355828,
+    "sha256": "3d192e1c759cae5dae364f77b80c4003da668f481f1bb794aa23e9510fac6b5f"
+  },
+  {
+    "member": "files/lorawan/lorawan_antwerp_gateway_locations.json",
+    "bytes": 14896,
+    "sha256": "507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d"
+  },
+  {
+    "member": "files/lorawan/y_test.csv",
+    "bytes": 290784,
+    "sha256": "8afb8f3bc7403a89c56b99a12388b310be686cdee430d2a7cc09124ef8157a1d"
+  },
+  {
+    "member": "files/lorawan/x_test.csv",
+    "bytes": 2988545,
+    "sha256": "56b980e9b373ec2e445c1896dcfa92891046eaf23ebd0e65b2244bb1c929b3eb"
+  },
+  {
+    "member": "files/DSI/tj_rss.csv",
+    "bytes": 264957,
+    "sha256": "15af1a79c50b04d0ecc87bf553b9a34d4187350612b5882cdab28f3ab0c9f1bc"
+  },
+  {
+    "member": "files/DSI/rm_crd.csv",
+    "bytes": 49028,
+    "sha256": "9f444b7ee359e7788d4f75bd17f66280e55faf213f4763fc18e2782cf980f284"
+  },
+  {
+    "member": "files/DSI/tj_tms.csv",
+    "bytes": 3828,
+    "sha256": "d34961a18ba65d59158ce19e72aa6db1af950f3a8574563582de048ba40de761"
+  },
+  {
+    "member": "files/DSI/y_val.csv",
+    "bytes": 4188,
+    "sha256": "236c8cc840c70f2372e73696a83bf1f7bf742aec4f2b87cf2290d52334e16c36"
+  },
+  {
+    "member": "files/DSI/x_train.csv",
+    "bytes": 219062,
+    "sha256": "0ab44b8aa7b5bf671ff56a4d5a25bd0a26cc7bfe1f2b1349b40637e1df6e2afe"
+  },
+  {
+    "member": "files/DSI/x_val.csv",
+    "bytes": 72738,
+    "sha256": "2eef3f1b2ac3515a0f757d42ff7f090544d2a4fd4c201f4d33100dd11dc1a009"
+  },
+  {
+    "member": "files/DSI/rm_tms.csv",
+    "bytes": 15059,
+    "sha256": "2a4912c53e3eb3ad612fdc380645c84510307aab922f090ee159ebf17880899f"
+  },
+  {
+    "member": "files/DSI/y_train.csv",
+    "bytes": 12600,
+    "sha256": "9727a427df0ca2c89b521baa01a6e0f86ac1b8b6808bf8fcc59808f3a99e0110"
+  },
+  {
+    "member": "files/DSI/DSI_dataset.pdf",
+    "bytes": 334380,
+    "sha256": "c86f47a81dc836923d7c67f68efdaec8eb472539ca677f823d0ad76ef421040d"
+  },
+  {
+    "member": "files/DSI/y_test.csv",
+    "bytes": 4188,
+    "sha256": "c6ba46623ef42ef336bf3b7e0403aa9fdcb28717bbd9bd72375a1c01adb62522"
+  },
+  {
+    "member": "files/DSI/x_test.csv",
+    "bytes": 72738,
+    "sha256": "f3e6b48352cd9174ec6e5c468536f3dca8160f087b4db0d0bae4cc8d592b5c3b"
+  },
+  {
+    "member": "files/DSI/tj_crd.csv",
+    "bytes": 12430,
+    "sha256": "51b78a83777fab473df0ea0fb8789793470632e7870dcc2259a06e0321c23522"
+  },
+  {
+    "member": "files/DSI/rm_rss.csv",
+    "bytes": 1040686,
+    "sha256": "36814c4bf7948944be4c08d4c151c4a5042ae280cda00e9f942386d259c5856f"
+  },
+  {
+    "member": "files/M/y_val.csv",
+    "bytes": 222,
+    "sha256": "5f8e2015cfaa4733956579b8fb91dcf55244c1c0d7d2af62efec38294dbd469b"
+  },
+  {
+    "member": "files/M/x_train.csv",
+    "bytes": 14669,
+    "sha256": "7551447f1b0bb5c8fd6cbe0cd2c659163930e57982aa4218b9b69a09bef10dd7"
+  },
+  {
+    "member": "files/M/x_val.csv",
+    "bytes": 2543,
+    "sha256": "1e5f2233b4ac06ad73d2f792c8adfd0b17315a8a56eb5d6962d1fb157c9b1704"
+  },
+  {
+    "member": "files/M/y_train.csv",
+    "bytes": 1014,
+    "sha256": "8e1c4cabe44cb90669afe89104a9d4139c85b619e0a4818bb1b4586f209b636d"
+  },
+  {
+    "member": "files/M/y_test.csv",
+    "bytes": 220,
+    "sha256": "0901d2e202b67d2d8a723d856b211504e6209dbe49d09f4e752296251f8835b5"
+  },
+  {
+    "member": "files/M/x_test.csv",
+    "bytes": 2551,
+    "sha256": "4837847e38c4288176988b7d01d0c42c163008fe01df7349ad24276906b9e6af"
+  }
+]

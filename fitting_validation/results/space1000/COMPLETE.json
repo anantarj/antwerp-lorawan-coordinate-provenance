@@ -1,0 +1,13 @@
+{
+  "common_complete_n": 2487,
+  "finite_profile_rows": 5376,
+  "new_local_search_runs": 384,
+  "primary_receivers_reported": 33,
+  "receiver_arm_rows": 198,
+  "requested_downstream_rows": 12475,
+  "scope": "New split-specific receiver fits, frozen-intercept predictions, prescribed finite profiles and raw-WCL predictions; not external replication or population inference.",
+  "search_objective_calls": 30664,
+  "split": "space1000",
+  "start_rows": 384,
+  "status": "COMPLETE"
+}

@@ -1,0 +1,46 @@
+{
+  "DAE_Benchmarking_Public.ipynb": {
+    "source_path": "/mnt/data/DAE_Benchmarking_Public.ipynb",
+    "bytes": 2796421,
+    "md5": "9cfacad82e421fa8317f534a9a4a3573",
+    "sha256": "457774fa6779fb5bde0af289be1d7e5abbfb18c1a579c71fe05c245d3e748ceb"
+  },
+  "DAE_script.py": {
+    "source_path": "/mnt/data/DAE_script.py",
+    "bytes": 13206,
+    "md5": "da7a0446526592379bfeeb0fea72fd52",
+    "sha256": "3d9c7ac728c38bc254c9afa41d502672be4a2c43af0e34d669b0759e85d2651e"
+  },
+  "haversine_script.py": {
+    "source_path": "/mnt/data/haversine_script(2).py",
+    "bytes": 3243,
+    "md5": "8268f506a56827b81baa126d18f59974",
+    "sha256": "2db16ee5e3c13ed53ce39af75d18d0620afc63cd8aa88d9157736fdae5207c77"
+  },
+  "files.zip": {
+    "source_path": "/mnt/data/files(27).zip",
+    "bytes": 23400388,
+    "md5": "9b624e7106fa1f1adf77907eb8a09e2f",
+    "sha256": "0674261d878403af3da744202875ad6c520565a52159605e10fa7632a581803a"
+  },
+  "Paper_A_G1_Bounded_Extension_20260921.zip": {
+    "source_path": "/mnt/data/Paper_A_G1_Bounded_Extension_20260921.zip",
+    "bytes": 10685009,
+    "sha256": "fad17c8f1f96299a2ac093c8db05c278828df2800b83abdcbc54b70cfd59ce83"
+  },
+  "Paper_A_G2_0_Feasibility_Checkpoint_20260921.zip": {
+    "source_path": "/mnt/data/Paper_A_G2_0_Feasibility_Checkpoint_20260921.zip",
+    "bytes": 1323482,
+    "sha256": "043ceca7f17099a1d45770bfd9fb0d9d077d16286cc6181b6712341f6a7205b1"
+  },
+  "Paper_A_G2_DAE_Intake_and_Reliability_Design_20260922.zip": {
+    "source_path": "/mnt/data/Paper_A_G2_DAE_Intake_and_Reliability_Design_20260922.zip",
+    "bytes": 373596,
+    "sha256": "20ea18d03effc2d829a0e2ed42f3378c03ebf31b5bb03adfc11dfa4f24312d23"
+  },
+  "Paper_A_G2_Integrated_Contribution_Plan_20260921.zip": {
+    "source_path": "/mnt/data/Paper_A_G2_Integrated_Contribution_Plan_20260921.zip",
+    "bytes": 49385,
+    "sha256": "0de6fc9a8c03f50eb8f75475730a6f49a85ea133bd285628083fe7e74eeb69ad"
+  }
+}

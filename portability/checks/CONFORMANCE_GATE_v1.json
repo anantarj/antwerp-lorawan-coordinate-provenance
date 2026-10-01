@@ -1,0 +1,50 @@
+{
+  "phase": "G01-G12 initial implementation",
+  "created_utc": "2026-09-21T08:31:01.192972+00:00",
+  "files": [
+    {
+      "path": "code/adapters.py",
+      "sha256": "b60a2ee5772c29f211e23486f41c4c5895af93427644f44f517372bc32e2e1c5"
+    },
+    {
+      "path": "code/identity_core.py",
+      "sha256": "021a57e37c99b2f15af9a889b65669df804652519ce552ca7c4d6e7eb556867c"
+    },
+    {
+      "path": "code/sidecars.py",
+      "sha256": "dab7f40739d1373c3240873a9b301e8a179febd23f02a2bc4a34a9f3b3076c1d"
+    },
+    {
+      "path": "fixtures/BASE_FIXTURE.json",
+      "sha256": "ca598502fa5814181115f7bf2a2525e8dc6234eef234d5d69593b37e53de7fc9"
+    },
+    {
+      "path": "protocol/G1_DESIGN.md",
+      "sha256": "b717c8ea1514aa34dd1dd3eb8bf95606f3e4d159eb3bf5739416bdcaa37724b8"
+    },
+    {
+      "path": "protocol/G1_EXECUTION_CONTRACT.json",
+      "sha256": "67a4a866d9cb6ed40392215f6bf26e4c5cc50049af094fbc6739c59cfa34150c"
+    },
+    {
+      "path": "protocol/G1_PROTOCOL.json",
+      "sha256": "710b05c4c3a9addcb24f9aba8749bef82d8f3417773a11ee5a54e0e57dc3f166"
+    },
+    {
+      "path": "protocol/G1_TEST_MATRIX.csv",
+      "sha256": "44453f6fe7e2263856ada380901e9b8af06476c5836e65e88ac28c9a7ec7d3f5"
+    },
+    {
+      "path": "protocol/INPUTS_AND_SOURCES.json",
+      "sha256": "5e8cffbf3ed3f1d3666787deebdba29f7f37b07d1fd8dce1cb6ce66ff2f72794"
+    },
+    {
+      "path": "protocol/MANIFEST.json",
+      "sha256": "5d2afda81761689e59d1468f21c56fc1b04c703e0e433994e64a0b4efab8d970"
+    },
+    {
+      "path": "tests/test_core.py",
+      "sha256": "474d99b637ed46bc92fc4d2e52c8ef4d92e79cf8cc6228345cc71a2f6858d8b3"
+    }
+  ]
+}

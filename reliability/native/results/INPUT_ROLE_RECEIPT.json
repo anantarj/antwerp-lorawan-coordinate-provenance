@@ -1,0 +1,72 @@
+{
+  "checks": [
+    {
+      "feature_exact": true,
+      "features": 72,
+      "partition": "train",
+      "row_sha256": "56d2a1e31782e8ab4c86dd626cd611c69ef8f2bcf6501e4f14cb98d77dc2941d",
+      "rows": 38762,
+      "target_max_difference_deg": 1.4210854715202004e-14
+    },
+    {
+      "feature_exact": true,
+      "features": 72,
+      "partition": "val",
+      "row_sha256": "e67410e18ddb6246892064869298aa1f533bdda9959be4fd230bca7aa9d07cc6",
+      "rows": 8306,
+      "target_max_difference_deg": 1.4210854715202004e-14
+    },
+    {
+      "feature_exact": true,
+      "features": 72,
+      "partition": "test",
+      "row_sha256": "75774584b20d4bec09c694f500bcc61055825da02fc452cb7b726b2cab354c5b",
+      "rows": 8307,
+      "target_max_difference_deg": 1.4210854715202004e-14
+    }
+  ],
+  "n_groups": 55248,
+  "n_source_rows": 55375,
+  "native_model_training_unchanged": true,
+  "no_independence_claim": true,
+  "protocol_sha256": "1d4c43230c53e00f95931b07e0befca94c526aecddf08f61c8281b82614c7396",
+  "role_counts": [
+    {
+      "n": 25,
+      "partition": "test",
+      "primary_role_eligible": false,
+      "reason": "group_touches_training"
+    },
+    {
+      "n": 7,
+      "partition": "test",
+      "primary_role_eligible": false,
+      "reason": "group_touches_validation"
+    },
+    {
+      "n": 8275,
+      "partition": "test",
+      "primary_role_eligible": true,
+      "reason": "retained"
+    },
+    {
+      "n": 38762,
+      "partition": "train",
+      "primary_role_eligible": true,
+      "reason": "native_training"
+    },
+    {
+      "n": 20,
+      "partition": "val",
+      "primary_role_eligible": false,
+      "reason": "group_touches_training"
+    },
+    {
+      "n": 8286,
+      "partition": "val",
+      "primary_role_eligible": true,
+      "reason": "retained"
+    }
+  ],
+  "role_ledger_sha256": "9e7e43bb7c752a3a227ed40fe6e7925d656855d47e1ded6ae6d7b64c103f7655"
+}

@@ -1,0 +1,958 @@
+{
+  "status": "PASS",
+  "checks": 237,
+  "failed": 0,
+  "alternate_scalar_centroid_predictions_checked": 422077,
+  "max_alternate_centroid_position_difference_m": 3.732559164492739e-09,
+  "scope": "Row-level audit, alternative summary formulas, exact selected-map association, missingness, complement key disjointness and gate preservation; not fresh fitting or external replication.",
+  "checks_detail": [
+    {
+      "check": "Code/protocol still matches execution gate code/task_selection.py",
+      "pass": true
+    },
+    {
+      "check": "Code/protocol still matches execution gate tests/test_task_selection.py",
+      "pass": true
+    },
+    {
+      "check": "Code/protocol still matches execution gate protocol/TASK_SELECTION_PROTOCOL.json",
+      "pass": true
+    },
+    {
+      "check": "Deterministic selection group80 TASK_VAL",
+      "pass": true
+    },
+    {
+      "check": "Deterministic selection group80 TRAIN_RSSI",
+      "pass": true
+    },
+    {
+      "check": "Deterministic selection group80 VAL_RSSI_EQUAL",
+      "pass": true
+    },
+    {
+      "check": "Deterministic selection group80 VAL_RSSI_POOLED",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort group80 validation CAT",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit group80 validation CAT",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing group80 validation CAT",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 validation CAT median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 validation CAT mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 validation CAT p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort group80 validation NARROW",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit group80 validation NARROW",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing group80 validation NARROW",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 validation NARROW median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 validation NARROW mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 validation NARROW p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort group80 validation WIDE",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit group80 validation WIDE",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing group80 validation WIDE",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 validation WIDE median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 validation WIDE mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 validation WIDE p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort group80 validation NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit group80 validation NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing group80 validation NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 validation NARROW_MS median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 validation NARROW_MS mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 validation NARROW_MS p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort group80 validation WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit group80 validation WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing group80 validation WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 validation WIDE_MS median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 validation WIDE_MS mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 validation WIDE_MS p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort group80 complement CAT",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit group80 complement CAT",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing group80 complement CAT",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 complement CAT median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 complement CAT mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 complement CAT p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort group80 complement NARROW",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit group80 complement NARROW",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing group80 complement NARROW",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 complement NARROW median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 complement NARROW mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 complement NARROW p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort group80 complement WIDE",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit group80 complement WIDE",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing group80 complement WIDE",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 complement WIDE median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 complement WIDE mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 complement WIDE p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort group80 complement NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit group80 complement NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing group80 complement NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 complement NARROW_MS median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 complement NARROW_MS mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 complement NARROW_MS p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort group80 complement WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit group80 complement WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing group80 complement WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 complement WIDE_MS median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 complement WIDE_MS mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 complement WIDE_MS p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map group80 complement TASK_VAL",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate group80 complement TASK_VAL",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map group80 complement TRAIN_RSSI",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate group80 complement TRAIN_RSSI",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map group80 complement VAL_RSSI_EQUAL",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate group80 complement VAL_RSSI_EQUAL",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map group80 complement VAL_RSSI_POOLED",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate group80 complement VAL_RSSI_POOLED",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map group80 complement NATIVE_FIXED",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate group80 complement NATIVE_FIXED",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort group80 old_primary CAT",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit group80 old_primary CAT",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing group80 old_primary CAT",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 old_primary CAT median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 old_primary CAT mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 old_primary CAT p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort group80 old_primary NARROW",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit group80 old_primary NARROW",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing group80 old_primary NARROW",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 old_primary NARROW median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 old_primary NARROW mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 old_primary NARROW p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort group80 old_primary WIDE",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit group80 old_primary WIDE",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing group80 old_primary WIDE",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 old_primary WIDE median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 old_primary WIDE mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 old_primary WIDE p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort group80 old_primary NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit group80 old_primary NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing group80 old_primary NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 old_primary NARROW_MS median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 old_primary NARROW_MS mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 old_primary NARROW_MS p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort group80 old_primary WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit group80 old_primary WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing group80 old_primary WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 old_primary WIDE_MS median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 old_primary WIDE_MS mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary group80 old_primary WIDE_MS p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map group80 old_primary TASK_VAL",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate group80 old_primary TASK_VAL",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map group80 old_primary TRAIN_RSSI",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate group80 old_primary TRAIN_RSSI",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map group80 old_primary VAL_RSSI_EQUAL",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate group80 old_primary VAL_RSSI_EQUAL",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map group80 old_primary VAL_RSSI_POOLED",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate group80 old_primary VAL_RSSI_POOLED",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map group80 old_primary NATIVE_FIXED",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate group80 old_primary NATIVE_FIXED",
+      "pass": true
+    },
+    {
+      "check": "Pooled-RSSI tie is retained group80",
+      "pass": true
+    },
+    {
+      "check": "Deterministic selection space1000 TASK_VAL",
+      "pass": true
+    },
+    {
+      "check": "Deterministic selection space1000 TRAIN_RSSI",
+      "pass": true
+    },
+    {
+      "check": "Deterministic selection space1000 VAL_RSSI_EQUAL",
+      "pass": true
+    },
+    {
+      "check": "Deterministic selection space1000 VAL_RSSI_POOLED",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort space1000 validation CAT",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit space1000 validation CAT",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing space1000 validation CAT",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 validation CAT median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 validation CAT mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 validation CAT p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort space1000 validation NARROW",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit space1000 validation NARROW",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing space1000 validation NARROW",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 validation NARROW median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 validation NARROW mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 validation NARROW p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort space1000 validation WIDE",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit space1000 validation WIDE",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing space1000 validation WIDE",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 validation WIDE median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 validation WIDE mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 validation WIDE p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort space1000 validation NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit space1000 validation NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing space1000 validation NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 validation NARROW_MS median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 validation NARROW_MS mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 validation NARROW_MS p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort space1000 validation WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit space1000 validation WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing space1000 validation WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 validation WIDE_MS median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 validation WIDE_MS mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 validation WIDE_MS p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort space1000 complement CAT",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit space1000 complement CAT",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing space1000 complement CAT",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 complement CAT median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 complement CAT mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 complement CAT p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort space1000 complement NARROW",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit space1000 complement NARROW",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing space1000 complement NARROW",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 complement NARROW median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 complement NARROW mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 complement NARROW p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort space1000 complement WIDE",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit space1000 complement WIDE",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing space1000 complement WIDE",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 complement WIDE median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 complement WIDE mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 complement WIDE p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort space1000 complement NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit space1000 complement NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing space1000 complement NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 complement NARROW_MS median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 complement NARROW_MS mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 complement NARROW_MS p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort space1000 complement WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit space1000 complement WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing space1000 complement WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 complement WIDE_MS median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 complement WIDE_MS mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 complement WIDE_MS p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map space1000 complement TASK_VAL",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate space1000 complement TASK_VAL",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map space1000 complement TRAIN_RSSI",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate space1000 complement TRAIN_RSSI",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map space1000 complement VAL_RSSI_EQUAL",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate space1000 complement VAL_RSSI_EQUAL",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map space1000 complement VAL_RSSI_POOLED",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate space1000 complement VAL_RSSI_POOLED",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map space1000 complement NATIVE_FIXED",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate space1000 complement NATIVE_FIXED",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort space1000 old_primary CAT",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit space1000 old_primary CAT",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing space1000 old_primary CAT",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 old_primary CAT median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 old_primary CAT mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 old_primary CAT p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort space1000 old_primary NARROW",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit space1000 old_primary NARROW",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing space1000 old_primary NARROW",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 old_primary NARROW median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 old_primary NARROW mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 old_primary NARROW p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort space1000 old_primary WIDE",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit space1000 old_primary WIDE",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing space1000 old_primary WIDE",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 old_primary WIDE median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 old_primary WIDE mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 old_primary WIDE p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort space1000 old_primary NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit space1000 old_primary NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing space1000 old_primary NARROW_MS",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 old_primary NARROW_MS median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 old_primary NARROW_MS mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 old_primary NARROW_MS p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Matched complete cohort space1000 old_primary WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Requests explicit space1000 old_primary WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Unsupported predictions are missing space1000 old_primary WIDE_MS",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 old_primary WIDE_MS median_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 old_primary WIDE_MS mean_error_m",
+      "pass": true
+    },
+    {
+      "check": "Summary space1000 old_primary WIDE_MS p90_error_m",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map space1000 old_primary TASK_VAL",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate space1000 old_primary TASK_VAL",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map space1000 old_primary TRAIN_RSSI",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate space1000 old_primary TRAIN_RSSI",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map space1000 old_primary VAL_RSSI_EQUAL",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate space1000 old_primary VAL_RSSI_EQUAL",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map space1000 old_primary VAL_RSSI_POOLED",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate space1000 old_primary VAL_RSSI_POOLED",
+      "pass": true
+    },
+    {
+      "check": "Recorded policy map space1000 old_primary NATIVE_FIXED",
+      "pass": true
+    },
+    {
+      "check": "Policy matches unchanged candidate space1000 old_primary NATIVE_FIXED",
+      "pass": true
+    },
+    {
+      "check": "Pooled-RSSI tie is retained space1000",
+      "pass": true
+    },
+    {
+      "check": "Complement disjoint legacy_content_sha256",
+      "pass": true
+    },
+    {
+      "check": "Complement disjoint serialization_sha256",
+      "pass": true
+    },
+    {
+      "check": "Complement disjoint component_min_csv_row0",
+      "pass": true
+    },
+    {
+      "check": "Complement disjoint csv_row_index0",
+      "pass": true
+    }
+  ]
+}

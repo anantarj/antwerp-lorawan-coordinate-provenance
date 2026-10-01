@@ -1,0 +1,7 @@
+{
+  "checks_passed": 32,
+  "public_note": "The local execution path was intentionally omitted from this public receipt.",
+  "result": "PASS",
+  "source_log_sha256": "0e4053cc85be592ac09e6089e046aa54aa72de5cc4e4fb5384c940d23c3490a8",
+  "verification": "retained v1 saved-evidence verification"
+}

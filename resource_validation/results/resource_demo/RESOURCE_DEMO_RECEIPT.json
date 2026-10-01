@@ -1,0 +1,42 @@
+{
+  "scope": "Recomputed errors from saved coordinates and all 66 method/draw summaries on original ordered 2495-row parent; no producer rerun.",
+  "source_hashes": {
+    "density_predictions": "d52a817e2718b22ac0d9c8dde197c5741809c75cdc73b361ccba6fced5055ee3",
+    "density_summary": "1abedca5ff4a1a40c44c630f1ed30b44c572d7fe7ba521201eeea76540e63435",
+    "primary_rows": "0029e4cbba080f3c99fe6de09c37b1e3a27d408c583d7faca4ef679c538e3fb8"
+  },
+  "parent_rows": 2495,
+  "experiments": 33,
+  "method_draw_summaries_checked": 66,
+  "summary_mismatches": 0,
+  "max_saved_error_recalculation_difference_m": 9.31777321966365e-10,
+  "max_summary_recalculation_difference_m": 4.4423131839721464e-10,
+  "worked_example": [
+    {
+      "experiment": "removal_23_0",
+      "method": "FP_k3",
+      "parent_n": 2495,
+      "survivors": 1676,
+      "retained_receivers": 23,
+      "full_parent_median_m": 219.29225647763056,
+      "full_survivor_median_m": 162.61331358674732,
+      "reduced_survivor_median_m": 154.62976364441295,
+      "unseparated_change_m": -64.66249283321761,
+      "selection_component_m": -56.678942890883235,
+      "removal_component_m": -7.983549942334378
+    },
+    {
+      "experiment": "removal_23_0",
+      "method": "MinMax",
+      "parent_n": 2495,
+      "survivors": 1676,
+      "retained_receivers": 23,
+      "full_parent_median_m": 467.635802988949,
+      "full_survivor_median_m": 451.531910295162,
+      "reduced_survivor_median_m": 488.6838578696119,
+      "unseparated_change_m": 21.048054880662903,
+      "selection_component_m": -16.10389269378703,
+      "removal_component_m": 37.151947574449935
+    }
+  ]
+}

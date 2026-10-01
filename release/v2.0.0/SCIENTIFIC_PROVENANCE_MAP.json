@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "public_component": "reliability/interfaces",
+      "source_archive_sha256": "d877fd448504414e770f270a7745534339f5b9965afb38887e82eccf9b52f5ad",
+      "source_internal_root": "Paper_A_IEEE_IoTJ_R4_1_G2_20261001"
+    },
+    {
+      "public_component": "fitting_validation",
+      "source_archive_sha256": "3ed84201715a0ffc3e4781aa22fe94c4ad0914a02bddc55460b6901c74b089a4",
+      "source_internal_root": "Paper_A_PR3_20260920"
+    },
+    {
+      "public_component": "resource_validation",
+      "source_archive_sha256": "46bc701eb4ad5cf929a1bec1ba79ce9c8c34e14ee32472251cf14d885d1a1559",
+      "source_internal_root": "Paper_A_PR1_20260919"
+    },
+    {
+      "public_component": "representation_population",
+      "source_archive_sha256": "5f763a45bd0ba46dba9786595681521370922ccfdc7b459dbbd344498118e7f0",
+      "source_internal_root": "Paper_A_PR2_20260920"
+    },
+    {
+      "public_component": "map_selection",
+      "source_archive_sha256": "b342745106cf93e08bc276ae1f393a229e55864bf8dcec2823a8ec0ce12a5ac7",
+      "source_internal_root": "Paper_A_PR4_20260920"
+    },
+    {
+      "public_component": "portability",
+      "source_archive_sha256": "fad17c8f1f96299a2ac093c8db05c278828df2800b83abdcbc54b70cfd59ce83",
+      "source_internal_root": "Paper_A_G1_Implementation_20260921",
+      "third_party_payloads_redistributed": false
+    },
+    {
+      "public_component": "reliability/native",
+      "source_archive_sha256": "df15eb4e022a2ff74b9dc42c07dbf46447a8ed92f08dbdd0cd251bff341aa768",
+      "source_internal_root": "Paper_A_G2_Reliability_Execution_20260922",
+      "third_party_payloads_redistributed": false
+    },
+    {
+      "public_component": "reliability/transfer_temporal",
+      "source_archive_sha256": "c987493d8ae8e9edb77bf1a3b3d77104f846513e18440fcf36947ccf065e7135",
+      "source_internal_root": "Paper_A_G2_Transfer_Temporal_20260922",
+      "third_party_payloads_redistributed": false
+    },
+    {
+      "public_component": "reliability/posthoc",
+      "source_archive_sha256": "642dc73657a4545cd26f00fb635baebd9a765a75ad7a901895a0d4c25e8f697d",
+      "source_internal_root": "Paper_A_G2_Assessment_Reconciliation_20260922"
+    }
+  ],
+  "current_scientific_bundle": {
+    "bytes": 191721913,
+    "filename": "Paper_A_IEEE_IoTJ_R4_1_G2_Complete_Review_Bundle_20261001.zip",
+    "sha256": "d877fd448504414e770f270a7745534339f5b9965afb38887e82eccf9b52f5ad"
+  },
+  "policy": "Public top-level names are scientific. Historical internal execution identifiers are retained only inside exact component provenance where changing them could break or obscure the executed record.",
+  "public_baseline": {
+    "commit": "d315da5e9f747405a93ac079860d0180b13cf91b",
+    "repository": "anantarj/antwerp-lorawan-coordinate-provenance",
+    "tag": "v1.0.0"
+  }
+}

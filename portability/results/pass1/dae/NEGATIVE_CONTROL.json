@@ -1,0 +1,13 @@
+{
+  "operation": "Swap two distinct source-row handles in a copy only",
+  "original_exports_untouched": true,
+  "original_source_rows": [
+    109295,
+    17115
+  ],
+  "positions": [
+    0,
+    1
+  ],
+  "refusal_code": "partition_values_misaligned"
+}

@@ -1,0 +1,75 @@
+{
+  "scope": "Input/split/support preparation only. No coordinate optimization, model validation scoring or new localization predictions.",
+  "calibration_duplicate_components": 16598,
+  "duplicate_components_with_multiple_rows": 11,
+  "splits": {
+    "group80": {
+      "calibration_rows": 16612,
+      "fitting_rows": 13300,
+      "validation_rows": 3312,
+      "split_components": 16598,
+      "fitting_components": 13288,
+      "validation_components": 3310,
+      "all_fitting_receivers": 40,
+      "primary_receivers": 33,
+      "primary_fit_supported": 33,
+      "primary_validation_supported": 33,
+      "primary_fit_and_validation_supported": 33,
+      "primary_min_fitting_receptions": 40,
+      "primary_min_validation_receptions": 6,
+      "no_validation_receivers": [],
+      "fit_unsupported_receivers": [],
+      "existing_primary_messages_with_all_selected_coordinates_supported": 2495,
+      "primary_messages_total": 2495,
+      "all_retained_fitting_links": 12064,
+      "primary_retained_fitting_links": 11955,
+      "wide_box": {
+        "lower": [
+          590559.2238088003,
+          5669393.25164725
+        ],
+        "upper": [
+          603828.8447644523,
+          5679034.892108071
+        ]
+      }
+    },
+    "space1000": {
+      "calibration_rows": 16612,
+      "fitting_rows": 12564,
+      "validation_rows": 4048,
+      "split_components": 44,
+      "fitting_components": 38,
+      "validation_components": 6,
+      "all_fitting_receivers": 37,
+      "primary_receivers": 33,
+      "primary_fit_supported": 32,
+      "primary_validation_supported": 32,
+      "primary_fit_and_validation_supported": 31,
+      "primary_min_fitting_receptions": 0,
+      "primary_min_validation_receptions": 0,
+      "no_validation_receivers": [
+        10
+      ],
+      "fit_unsupported_receivers": [
+        71
+      ],
+      "existing_primary_messages_with_all_selected_coordinates_supported": 2487,
+      "primary_messages_total": 2495,
+      "all_retained_fitting_links": 11105,
+      "primary_retained_fitting_links": 11003,
+      "wide_box": {
+        "lower": [
+          590559.2238088003,
+          5669393.25164725
+        ],
+        "upper": [
+          603828.8447644523,
+          5679034.892108071
+        ]
+      }
+    }
+  },
+  "check_count": 105,
+  "checks_failed": 0
+}

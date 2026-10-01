@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "file": "results/representation_replay/REPLAY_RECEIPT.json",
+      "byte_identical": true,
+      "sha256": "f3bb8baa97ab4fef9da9b87a1bef9c4a4fbcf95c97fe5d8d3a2287ad5fbac215"
+    },
+    {
+      "file": "results/representation_replay/ROW_PRESERVING_REPLAY.csv.gz",
+      "byte_identical": true,
+      "sha256": "0fa53efe84fabdce95d009509150355a8e1e6ca1aa15036ca51cd561f8d13c49"
+    },
+    {
+      "file": "results/selection_directions/ALL_64_DIRECTION_RECORDS.csv",
+      "byte_identical": true,
+      "sha256": "1fa02ab27b0dedbc5c81529e6e955a7c59b77ecf076faefa059c2857911ff20c"
+    },
+    {
+      "file": "results/selection_directions/SELECTION_DIRECTION_RECEIPT.json",
+      "byte_identical": true,
+      "sha256": "c01c65fa67c6c11a70ab1c1de307c9e83f835231cd669166ff28c30a98dbeeaa"
+    },
+    {
+      "file": "results/selection_directions/SIGN_REVERSAL_RECORDS.csv",
+      "byte_identical": true,
+      "sha256": "dcae580d675a4b2b6c917cd5facafc2e96db5674f1bd9c7f6361c862d28dabfa"
+    }
+  ],
+  "scope": "Re-execution of reader replay and descriptive aggregation only; no new fitting"
+}

@@ -1,0 +1,17 @@
+scenario,calibration_role,model,tau_m,raw_accepted_at_same_numeric_threshold,raw_harmful_at_same_numeric_threshold,calibrated_accepted,calibrated_useful,calibrated_harmful,equivalent_raw_score_threshold_m,equivalent_raw_mask_identical
+lorawan_same_regime,same_regime_calibration,DD,500,6998,752,2002,2001,1,57.701426661067217,True
+lorawan_same_regime,same_regime_calibration,DD,1000,8242,319,7356,7210,146,557.70142666106722,True
+lorawan_same_regime,same_regime_calibration,DDL,500,6970,686,2194,2190,4,88.602559229085841,True
+lorawan_same_regime,same_regime_calibration,DDL,1000,8215,297,7463,7335,128,588.60255922908584,True
+dsi,calibration_reference,DD,5,115,51,0,0,0,-6.7094079531136703,True
+dsi,calibration_reference,DD,10,115,8,0,0,0,-1.7094079531136703,True
+dsi,calibration_reference,DDL,5,115,51,0,0,0,-6.6960058756256124,True
+dsi,calibration_reference,DDL,10,115,8,0,0,0,-1.6960058756256124,True
+lorawan_temporal,calibration_reference,DD,500,4119,663,0,0,0,-292.19103173568544,True
+lorawan_temporal,calibration_reference,DD,1000,4854,360,2149,2143,6,207.80896826431456,True
+lorawan_temporal,calibration_reference,DDL,500,4029,559,0,0,0,-243.46297989501261,True
+lorawan_temporal,calibration_reference,DDL,1000,4845,353,2528,2510,18,256.53702010498739,True
+lorawan_temporal,calibration_recent,DD,500,4119,663,0,0,0,-300.36920965104321,True
+lorawan_temporal,calibration_recent,DD,1000,4854,360,2085,2079,6,199.63079034895679,True
+lorawan_temporal,calibration_recent,DDL,500,4029,559,0,0,0,-266.0393865329911,True
+lorawan_temporal,calibration_recent,DDL,1000,4845,353,2359,2345,14,233.9606134670089,True

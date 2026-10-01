@@ -1,0 +1,92 @@
+{
+  "actual_source_containers": [
+    {
+      "role": "diagnosis_report",
+      "filename": "Paper_A_Post_Rejection_Diagnosis_20260919(1).md",
+      "bytes": 22725,
+      "sha256": "e8289d9a4ef0cbefa25f4a4c1e1b805d8ec36b34df2de0512bb3da31c68d5e2b"
+    },
+    {
+      "role": "diagnosis_evidence",
+      "filename": "Paper_A_Diagnosis_Evidence_20260919(1).zip",
+      "bytes": 16377,
+      "sha256": "a7e9f025d3e307d7ceb5dff826e9b9342e33da61285162f42c8889fe9d098a91"
+    },
+    {
+      "role": "previous_assessment",
+      "filename": "Paper_A_Proposal_Assessment_and_Checks_20260919.zip",
+      "bytes": 11508,
+      "sha256": "b6902e1e114482d4bc606634b7d45e948903f093963f9066f12ca7d1571fe6f8"
+    },
+    {
+      "role": "actual_S1_baseline",
+      "filename": "Computational_Supplement_Anonymous_S1.zip",
+      "bytes": 67629969,
+      "sha256": "97a98dd8cc0f1ba6638b62a546563178bb98ce86c5ff1bc53fce2512c64cdb43"
+    },
+    {
+      "role": "raw_csv_container",
+      "filename": "lorawan_antwerp_2019_dataset.csv.zip",
+      "bytes": 5330157,
+      "sha256": "3809dd72b9f99319aa989c03d5eb94988ad6aa685da159a2500910b245084c8b"
+    },
+    {
+      "role": "raw_json_container",
+      "filename": "lorawan_antwerp_2019_dataset.json.txt.zip",
+      "bytes": 14558476,
+      "sha256": "4907da9263efd649e106c0bc4a1775441d24b4935efdca9f017d8afa703fd239"
+    },
+    {
+      "role": "source_catalogue",
+      "filename": "lorawan_antwerp_gateway_locations.json",
+      "bytes": 14896,
+      "sha256": "507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d"
+    }
+  ],
+  "source_packet_manifests": [
+    {
+      "packet": "diagnosis",
+      "manifest": "MANIFEST.json",
+      "verified_entries": 6,
+      "failures": []
+    },
+    {
+      "packet": "previous_assessment",
+      "manifest": "CHECKS_MANIFEST.json",
+      "verified_entries": 5,
+      "failures": []
+    }
+  ],
+  "four_diagnostic_input_hashes": [
+    {
+      "path": "computational/populations/rssfit_ordered_fit_inputs.csv.gz",
+      "expected_sha256": "361faa4a563246ca64187cca272c40c5eacbe4bde7622b882ed925aec0af3fb1",
+      "actual_sha256": "361faa4a563246ca64187cca272c40c5eacbe4bde7622b882ed925aec0af3fb1",
+      "matches": true
+    },
+    {
+      "path": "computational/data_products/metadata33.json",
+      "expected_sha256": "4addbd3c9073501ecd46b80f2351b508d56aee378b6dde115ca71c5395ebbc93",
+      "actual_sha256": "4addbd3c9073501ecd46b80f2351b508d56aee378b6dde115ca71c5395ebbc93",
+      "matches": true
+    },
+    {
+      "path": "computational/data_products/rssfit33.json",
+      "expected_sha256": "2adfbcbe19c2f7e2460aa7e1e345995ed7a5c8349ec6402cec1ad50a47fc4927",
+      "actual_sha256": "2adfbcbe19c2f7e2460aa7e1e345995ed7a5c8349ec6402cec1ad50a47fc4927",
+      "matches": true
+    },
+    {
+      "path": "geometry/results/frozen_geometry/receiver_geometry33.csv",
+      "expected_sha256": "fd4ceeb87246c510bf96f45665c3fe2e8a8ddebec63f4ed69427130e6d938292",
+      "actual_sha256": "fd4ceeb87246c510bf96f45665c3fe2e8a8ddebec63f4ed69427130e6d938292",
+      "matches": true
+    }
+  ],
+  "public_release_reference": {
+    "commit": "d315da5e9f747405a93ac079860d0180b13cf91b",
+    "archive_sha256": "004e2a05561df1f2e5bf886065f4a7d0717251b249d7f8e8fdc84bf53df67576",
+    "fresh_public_download_in_PR1": false
+  },
+  "journal_pdf_binding": "S1 preparation-pair hashes verified; no journal-generated PDF or portal filename/hash receipt recovered."
+}

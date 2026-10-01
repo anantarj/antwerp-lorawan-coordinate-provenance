@@ -1,70 +1,69 @@
+
 # Start here
 
-## 1. Obtain the external data
+These are the public reproducibility resources for
+*Receiver Provenance, Population Selection, and Reliability Trade-offs in RSSI Localization*.
 
-Download the original Antwerp LoRaWAN v1.3 CSV and message JSON from:
-
-https://doi.org/10.5281/zenodo.3904158
-
-The replay tools verify their expected SHA-256 fingerprints before scientific use.
-
-## 2. Create a Python environment
-
-The recorded environment and package/version evidence are under
-`computational/environment/`.
-
-For a lightweight verification environment, install the scientific dependencies
-documented there. Do not interpret successful installation on one machine as
-independent replication of the deployment.
-
-## 3. Verify packaged evidence
+## 1. Verify the packaged public release
 
 From the repository root:
 
-```bash
-python computational/commands/paper_a.py verify --out ../paper_a_verify
-python computational/commands/paper_a.py tables --out ../paper_a_tables
-```
+    python release/v2.0.0/verify_public_v2.py
 
-These routes use saved evidence. They do not refit coordinates or rerun all
-localization producers.
+This performs the public manifest check, the retained v1 saved-evidence
+verification, and the packaged unit/contract suites. It does not refit every
+model or download third-party data.
 
-## 4. Reconstruct the raw identity join and frozen-map centroid
+Saved-output verification receipts produced during release preparation are in:
 
-```bash
-python computational/commands/paper_a.py core \
-  --csv /path/lorawan_antwerp_2019_dataset.csv.zip \
-  --json /path/lorawan_antwerp_2019_dataset.json.txt.zip \
-  --out ../paper_a_core
-```
+`release/v2.0.0/verification/`
 
-The output directory must not already exist and must be outside the repository.
+## 2. Historical Antwerp reconstruction
 
-## 5. Full retained producers
+Original Antwerp LoRaWAN v1.3 measurements are obtained separately from:
 
-```bash
-python computational/commands/paper_a.py primary \
-  --csv /path/lorawan_antwerp_2019_dataset.csv.zip \
-  --out ../paper_a_primary --workers 4
+DOI `10.5281/zenodo.3904158`
 
-python computational/commands/paper_a.py secondary \
-  --csv /path/lorawan_antwerp_2019_dataset.csv.zip \
-  --out ../paper_a_secondary
-```
+The retained v1 reconstruction route remains:
 
-Additional temporal/geometry/diagnostic routes are documented in the included
-README files and source tree.
+    python computational/commands/paper_a.py core       --csv /path/lorawan_antwerp_2019_dataset.csv.zip       --json /path/lorawan_antwerp_2019_dataset.json.txt.zip       --out ../paper_a_core
 
-## 6. Trace a reported result to evidence
+## 3. Post-rejection scientific components
 
-Start with:
+- `representation_population/`
+- `resource_validation/`
+- `fitting_validation/`
+- `map_selection/`
+- `portability/`
+- `reliability/native/`
+- `reliability/transfer_temporal/`
+- `reliability/posthoc/`
+- `reliability/interfaces/`
 
-`table_figure_index/INDEX.md`
+Each component preserves the code/results/receipts needed for its public scope.
+Where a full reexecution requires third-party inputs, consult the component's
+`EXTERNAL_INPUTS.md` and source-identification checks.
 
-It maps the retained manuscript tables/figures and supplementary groups to the
-saved artifacts and producer routes.
+## 4. Reproducibility boundary
 
-## Reproducibility boundary
+These are distinct operations:
 
-A saved-output check, a frozen-map replay, a coordinate refit, and a full producer
-execution are different scopes. The repository preserves those distinctions.
+- validating package hashes;
+- checking retained saved outputs;
+- executing unit/contract tests;
+- replaying a frozen computation;
+- reconstructing source relations from raw measurements;
+- rerunning a model/calibration experiment.
+
+A successful saved-output or unit-test verification is not described as an
+independent empirical replication.
+
+## 5. Release provenance
+
+- exact version DOI: `10.5281/zenodo.23083321`
+- concept DOI: `10.5281/zenodo.22143329`
+- historical v1 DOI: `10.5281/zenodo.22703158`
+- repository: `https://github.com/anantarj/antwerp-lorawan-coordinate-provenance`
+- intended tag: `v2.0.0`
+
+See `release/v2.0.0/` for the public release map and provenance.

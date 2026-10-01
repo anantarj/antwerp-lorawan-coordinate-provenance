@@ -1,0 +1,40 @@
+[
+  {
+    "correct_DDL_overestimation": 5168,
+    "correct_DDL_underestimation": 3138,
+    "correct_quantity": "e - DDL",
+    "deployment_detector": false,
+    "different_values": 8306,
+    "first_plotted_label_in_source": "DD attached to erroneous DDL expression",
+    "max_abs_discrepancy_m": 1933.3395576107437,
+    "n": 8306,
+    "native_metric_function_correct_DDL_input": true,
+    "opposite_strict_signs": 3165,
+    "published_figure_authentication": false,
+    "scope": "source_validation",
+    "second_plotted_label_in_source": "DDL attached to DD signed residual",
+    "sign_category_disagreement": 3165,
+    "source_expression": "e - abs(e - DDL)",
+    "source_expression_negative": 2003,
+    "source_expression_positive": 6303
+  },
+  {
+    "correct_DDL_overestimation": 5142,
+    "correct_DDL_underestimation": 3165,
+    "correct_quantity": "e - DDL",
+    "deployment_detector": false,
+    "different_values": 8307,
+    "first_plotted_label_in_source": "DD attached to erroneous DDL expression",
+    "max_abs_discrepancy_m": 3073.519163706872,
+    "n": 8307,
+    "native_metric_function_correct_DDL_input": true,
+    "opposite_strict_signs": 3148,
+    "published_figure_authentication": false,
+    "scope": "new_test_audit",
+    "second_plotted_label_in_source": "DDL attached to DD signed residual",
+    "sign_category_disagreement": 3148,
+    "source_expression": "e - abs(e - DDL)",
+    "source_expression_negative": 1994,
+    "source_expression_positive": 6313
+  }
+]

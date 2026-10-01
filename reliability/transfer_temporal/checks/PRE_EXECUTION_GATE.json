@@ -1,0 +1,27 @@
+{
+  "files": {
+    "code/lineage.py": "634dda63677449fc7dd4cd45054045521c2c1249e830c35230e9cb131ea6d475",
+    "code/run_followup.py": "c99296d758b4d33aa1f8aea397dcb56ec62dfd8344ec6fa651295ad9e654d5d6",
+    "protocol/FOLLOWUP_PROTOCOL.json": "2718be01da948aa5bc0683a78d109a85a36ed65e365c90fba2d3639403526130",
+    "protocol/FOLLOWUP_PROTOCOL.sha256": "9e52a6da3fa8567163dd45d188365b0892f43e9aca4100e5ab3f4a58179883b4",
+    "results/input_audit/DSI_LINEAGE.csv": "5e31962ceaacd4e7eb34e2151fe2be5547e323fd3261e020e369ac58e06b6f0d",
+    "results/input_audit/DSI_LINEAGE_RECEIPT.json": "5e63ab6a3a87665b772ad186eb01a6528c8e302f062843fc97ae540abcc77a06",
+    "results/input_audit/DSI_OCCURRENCE_CANDIDATES.json": "ae8872ded856b2d626f5ee62eaf422eb97fa03b1b157f242e41a7237d398d216",
+    "results/input_audit/INPUT_MEMBER_IDENTITIES.json": "6737eaf9ac2eb84bdfb5ae28d08a0068491c19498d38a7097f07f2e0d1cb6802",
+    "results/input_audit/LORAWAN_TEMPORAL_ROLE_LEDGER.csv.gz": "0b92958222d7cc07179c25343b7aabeb600ee047d7b30840623c87c8125d9831",
+    "results/input_audit/TEMPORAL_ROLE_RECEIPT.json": "abe4c55b6fbdbf7f6e08e5b657e75de9824c3232b7b6aee09658bc263f338f5d",
+    "sources/DSI_dataset.pdf": "c86f47a81dc836923d7c67f68efdaec8eb472539ca677f823d0ad76ef421040d",
+    "sources/DSI_description.txt": "549083f07400228a006453ee6f338aad073cb5555d830a5ba462dcb693799d09",
+    "sources/inherited/ROW_ROLE_LEDGER.csv.gz": "9e7e43bb7c752a3a227ed40fe6e7925d656855d47e1ded6ae6d7b64c103f7655",
+    "sources/inherited/common.py": "b5705b35aca801573ddc64adc7c0205cfbfbf4e8b4e6cb487afa3048282b5e49",
+    "sources/inherited/evaluate.py": "a8ee58289095daf8f3115db11ebf7428bd1928b9aee47e1cf6b4d541dd7da6eb",
+    "sources/inherited/identity_core.py": "021a57e37c99b2f15af9a889b65669df804652519ce552ca7c4d6e7eb556867c",
+    "sources/inherited/run_native.py": "cfa26f877fcce061d977a78bc5780e6b826558d9e660e7d7af0db3ece9d72c8d",
+    "sources/original/DAE_Benchmarking_Public.ipynb": "457774fa6779fb5bde0af289be1d7e5abbfb18c1a579c71fe05c245d3e748ceb",
+    "sources/original/DAE_script.py": "3d9c7ac728c38bc254c9afa41d502672be4a2c43af0e34d669b0759e85d2651e",
+    "sources/original/haversine_script.py": "2db16ee5e3c13ed53ce39af75d18d0620afc63cd8aa88d9157736fdae5207c77",
+    "tests/test_followup.py": "26872c1d3608003ecbde3b2d78ad0420148d21ed56cc816bf41f3d426ec22ecc"
+  },
+  "state": "PINNED_AFTER_PRERUN_TESTS_BEFORE_FOLLOWUP_MODELS",
+  "utc": "2026-09-22T04:08:51.299329+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "RSS_units": "KiB on this Linux host; not simultaneous process-tree peak",
+  "execution_gate_sha256": "e8b72be5c1951a754917aaa90765fb0c39f042b6ee577a6782fba52981d5406a",
+  "inputs": {
+    "baseline": "97a98dd8cc0f1ba6638b62a546563178bb98ce86c5ff1bc53fce2512c64cdb43",
+    "catalogue": "507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d",
+    "csv": "3809dd72b9f99319aa989c03d5eb94988ad6aa685da159a2500910b245084c8b",
+    "json": "4907da9263efd649e106c0bc4a1775441d24b4935efdca9f017d8afa703fd239",
+    "notebook": "b3137875da89a4bb5f50426f505772d03d5e2e78d37781802abc263f2a36ef4c"
+  },
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "peak_child_rss_platform_units": 1083780,
+  "peak_self_rss_platform_units": 1139724,
+  "performance_scope": "Descriptive single-environment execution metadata, not a speed/memory comparison",
+  "python": "3.13.5",
+  "scikit_learn": "1.8.0",
+  "wall_seconds": 29.39998355800003
+}

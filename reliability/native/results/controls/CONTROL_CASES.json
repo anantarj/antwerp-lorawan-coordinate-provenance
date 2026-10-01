@@ -1,0 +1,166 @@
+[
+  {
+    "attempted_records": 8275,
+    "case": "clean",
+    "evidence_class": "native baseline",
+    "expected_state": "equivalent_continuation",
+    "integrated_certified_records": 8275,
+    "integrated_violations": [],
+    "new_algorithm_superiority": false,
+    "numerical_oracle_requires_labels": false,
+    "physical_prediction_availability_records": 8275,
+    "same_information": true,
+    "strong_simple_certified_records": 8275,
+    "strong_simple_violations": []
+  },
+  {
+    "attempted_records": 8275,
+    "case": "benign_row_reorder_with_handles",
+    "evidence_class": "controlled benign, restored before checking",
+    "expected_state": "equivalent_continuation",
+    "integrated_certified_records": 8275,
+    "integrated_violations": [],
+    "new_algorithm_superiority": false,
+    "numerical_oracle_requires_labels": false,
+    "physical_prediction_availability_records": 8275,
+    "same_information": true,
+    "strong_simple_certified_records": 8275,
+    "strong_simple_violations": []
+  },
+  {
+    "attempted_records": 8275,
+    "case": "benign_feature_reorder_with_handles",
+    "evidence_class": "controlled benign, restored before checking",
+    "expected_state": "equivalent_continuation",
+    "integrated_certified_records": 8275,
+    "integrated_violations": [],
+    "new_algorithm_superiority": false,
+    "numerical_oracle_requires_labels": false,
+    "physical_prediction_availability_records": 8275,
+    "same_information": true,
+    "strong_simple_certified_records": 8275,
+    "strong_simple_violations": []
+  },
+  {
+    "attempted_records": 8275,
+    "case": "source_signed_derived_quantity",
+    "evidence_class": "source-expression replay with correct DDL binding",
+    "expected_state": "unsupported_original_claim",
+    "integrated_certified_records": 0,
+    "integrated_violations": [
+      "signed_quantity_mismatch_offline"
+    ],
+    "new_algorithm_superiority": false,
+    "numerical_oracle_requires_labels": true,
+    "physical_prediction_availability_records": 8275,
+    "same_information": true,
+    "strong_simple_certified_records": 0,
+    "strong_simple_violations": [
+      "signed_quantity_mismatch_offline"
+    ]
+  },
+  {
+    "attempted_records": 8275,
+    "case": "source_DD_DDL_label_binding",
+    "evidence_class": "source DD label attached to DDL quantity",
+    "expected_state": "unsupported_original_claim",
+    "integrated_certified_records": 0,
+    "integrated_violations": [
+      "error_model_mismatch"
+    ],
+    "new_algorithm_superiority": false,
+    "numerical_oracle_requires_labels": false,
+    "physical_prediction_availability_records": 8275,
+    "same_information": true,
+    "strong_simple_certified_records": 0,
+    "strong_simple_violations": [
+      "error_model_mismatch"
+    ]
+  },
+  {
+    "attempted_records": 8275,
+    "case": "DD_calibration_used_with_DDL",
+    "evidence_class": "controlled stale calibration dependency",
+    "expected_state": "unsupported_original_claim",
+    "integrated_certified_records": 0,
+    "integrated_violations": [
+      "error_model_mismatch"
+    ],
+    "new_algorithm_superiority": false,
+    "numerical_oracle_requires_labels": false,
+    "physical_prediction_availability_records": 8275,
+    "same_information": true,
+    "strong_simple_certified_records": 0,
+    "strong_simple_violations": [
+      "error_model_mismatch"
+    ]
+  },
+  {
+    "attempted_records": 8275,
+    "case": "stale_position_model_identity",
+    "evidence_class": "controlled model identity only; no new model fit",
+    "expected_state": "unsupported_original_claim",
+    "integrated_certified_records": 0,
+    "integrated_violations": [
+      "position_model_mismatch"
+    ],
+    "new_algorithm_superiority": false,
+    "numerical_oracle_requires_labels": false,
+    "physical_prediction_availability_records": 8275,
+    "same_information": true,
+    "strong_simple_certified_records": 0,
+    "strong_simple_violations": [
+      "position_model_mismatch"
+    ]
+  },
+  {
+    "attempted_records": 8275,
+    "case": "unit_m_vs_km",
+    "evidence_class": "controlled units substitution",
+    "expected_state": "unsupported_original_claim",
+    "integrated_certified_records": 0,
+    "integrated_violations": [
+      "error_units_mismatch"
+    ],
+    "new_algorithm_superiority": false,
+    "numerical_oracle_requires_labels": false,
+    "physical_prediction_availability_records": 8275,
+    "same_information": true,
+    "strong_simple_certified_records": 0,
+    "strong_simple_violations": [
+      "error_units_mismatch"
+    ]
+  },
+  {
+    "attempted_records": 8275,
+    "case": "undeclared_test_population_substitution",
+    "evidence_class": "controlled different population declaration",
+    "expected_state": "unsupported_original_claim",
+    "integrated_certified_records": 0,
+    "integrated_violations": [
+      "population_mismatch"
+    ],
+    "new_algorithm_superiority": false,
+    "numerical_oracle_requires_labels": false,
+    "physical_prediction_availability_records": 8275,
+    "same_information": true,
+    "strong_simple_certified_records": 0,
+    "strong_simple_violations": [
+      "population_mismatch"
+    ]
+  },
+  {
+    "attempted_records": 8275,
+    "case": "reject_all",
+    "certified_records": 0,
+    "conditional_risk": null,
+    "interpretation": "Not a useful assurance method",
+    "raw_prediction_availability_records": 8275,
+    "useful_certified_coverage": 0
+  },
+  {
+    "case": "unknown_shared_consistent_error",
+    "interpretation": "Same-key consistent source error or unannounced distribution change cannot be ruled out by these checks; no false detection credit",
+    "state": "out_of_scope"
+  }
+]

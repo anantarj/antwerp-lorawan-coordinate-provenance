@@ -1,0 +1,12 @@
+{
+  "files": 5,
+  "byte_identical": true,
+  "hashes": {
+    "FINITE_SHIFT_ORDER_AUDIT.csv": "fd2506c6b3a1f402ac8d54609b58eaf4053929a387e2fc869499feea81571b07",
+    "AUDIT_RECEIPT.json": "3de8b083a51cacf1108e1643c64810d5f42fe0e5b95a03f14e0951aa4fe3b912",
+    "ORIGINAL_LANDMARK_MASK_AUDIT.csv": "36f26c6560412bcf02416ec957706ef78e169cfbeab598d3cb59a22e904ce268",
+    "POSTHOC_SAME_K_COMPARISONS.csv": "cdb9e03f148750b216c2db25f8b3826025246651f9acba05cac8de2079dec178",
+    "ORIGINAL_LANDMARK_EXPLANATION.csv": "90e87033e68e155f4f7cee2233b37a14478861617ca54557bd56d50a31f7719d"
+  },
+  "scope": "repeat existing-output analysis only, no model fitting"
+}

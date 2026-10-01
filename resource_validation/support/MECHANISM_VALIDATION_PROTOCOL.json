@@ -1,0 +1,170 @@
+{
+  "protocol_id": "PA-PR-MV1-20260919",
+  "protocol_version": "1.0",
+  "status": "Locked before new split-specific receiver fitting or validation outcome scoring",
+  "design_status": "Retrospective follow-up; not external preregistration or an untouched confirmatory dataset",
+  "question": "Does a justified fitting-domain expansion resolve the mismatch between the declared RSSI score and task-relevant geometry, and does RSSI fit generalize without intercept refitting?",
+  "reference_evidence": {
+    "released_tag": "v1.0.0",
+    "released_commit": "d315da5e9f747405a93ac079860d0180b13cf91b",
+    "zenodo_version_doi": "10.5281/zenodo.22703158",
+    "released_zip_sha256": "004e2a05561df1f2e5bf886065f4a7d0717251b249d7f8e8fdc84bf53df67576",
+    "actual_scientific_input_container": "Computational_Supplement_Anonymous_S1.zip",
+    "actual_container_sha256": "97a98dd8cc0f1ba6638b62a546563178bb98ce86c5ff1bc53fce2512c64cdb43"
+  },
+  "raw_input_hashes": {
+    "csv": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+    "json": "f2f1fbd478cdef2b76fb8e3aae33751d332b50fc8546684d8e73fdb1505451cb",
+    "catalogue": "507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d"
+  },
+  "immutable_populations": {
+    "working_rows": 55375,
+    "source_csv_rows": 130429,
+    "original_calibration_rows": 16612,
+    "primary_evaluation_rows": 2495,
+    "primary_receivers": 33,
+    "input_order": "Saved original calibration order and source-row identities; no refill/reselection of primary evaluation."
+  },
+  "splits": {
+    "parent": "Only the original 16612 calibration messages; split before RSSI subsampling or strong-observation selection",
+    "duplicate_grouping": "Transitive union of equal legacy content keys and equal original CSV serialization keys. Legacy key: millimetre-rounded EPSG:32631 transmitter xy plus lexically sorted BS-ID/RSSI pairs rounded to 0.001 dB. Serialization key: literal RX Time, integer SF, HDOP rounded to 2 decimals, sorted non-sentinel RSSI multiset. No independent original identity is asserted within an indistinguishable group.",
+    "primary": {
+      "name": "group80",
+      "unit": "duplicate component",
+      "component_key": "minimum zero-based CSV row index in the component",
+      "salt": "PA-PR-MV1|group80|20260919|",
+      "assignment": "SHA256(salt + decimal component_key), interpreted big-endian unsigned integer, < floor(2**256/5) means validation; otherwise fitting. No seed search, redraw, balancing or resampling to obtain preferred counts."
+    },
+    "sensitivity": {
+      "name": "space1000",
+      "unit": "transitive union of duplicate components and occupied 1000m cells",
+      "cell": "floor(easting/1000), floor(northing/1000), origin (0,0), EPSG:32631",
+      "component_key": "minimum zero-based CSV row index in the component",
+      "salt": "PA-PR-MV1|space1000|20260919|",
+      "assignment": "Same SHA256 threshold. Empty per-receiver support remains reported; no favorable resplit."
+    },
+    "interpretation": "The first split measures internal interpolation-style generalization; the second is spatial-holdout sensitivity. Neither establishes independent deployments, temporal stability, or population confidence coverage. Original calibration observations were already used in historical analyses."
+  },
+  "preprocessing": {
+    "valid_rssi_dbm": [
+      -150.0,
+      -20.0
+    ],
+    "receiver_order": "first encounter in fitting messages retained in saved calibration order; receptions stable descending RSSI with original numerical BS order on ties",
+    "shared_random_seed": 1,
+    "max_points_per_receiver": 2000,
+    "strong_quantile": 0.75,
+    "quantile_interpolation": "linear",
+    "strong_filter_min_retained": 50,
+    "filter_fallback": "Use unfiltered subsample if fewer than 50 survive; validation is never filtered by this fitted threshold for the primary validation score.",
+    "process_all_fitting_receivers_before_primary_projection": true,
+    "fitting_eligibility": "At least 10 valid pre-filter fitting receptions; this is an explicit follow-up rule inherited from the baseline intercept-support convention, not an optimum or source RSSFIT requirement. Lower-support receivers are retained as unsupported, with no old-map or catalogue fallback.",
+    "validation_eligibility": "At least one valid validation reception permits descriptive loss; report exact support; no reliability claim for tiny strata."
+  },
+  "arms": {
+    "CAT": {
+      "position": "Frozen metadata33 coordinate; no coordinate optimization",
+      "intercept": "Median(r + 47*log10(distance+1)) on the same retained fitting observations used by NARROW and WIDE",
+      "interpretation": "Catalogue reference, not independent physical ground truth"
+    },
+    "CONST": {
+      "position": null,
+      "prediction": "Constant median fitting RSSI, estimated from the same retained observations",
+      "interpretation": "No-spatial-information predictive control, not a localization method"
+    },
+    "NARROW": {
+      "domain": "Per-receiver retained fitting-transmitter bounding box expanded by 2000m per side",
+      "intercept_and_score": "Original plug-in median intercept and median absolute RSSI residual"
+    },
+    "WIDE": {
+      "domain": "Bounding box of ALL fitting-side messages in the given split expanded by the SAME 2000m per side",
+      "intercept_and_score": "Identical to NARROW; same retained per-receiver observations",
+      "rationale": "Changes receiver-specific selected support envelope to complete available fitting-survey envelope; nested, finite and independent of catalogue/validation/evaluation coordinates. It is not a certified receiver deployment boundary and is not guaranteed to include BS71 or other true coordinates."
+    }
+  },
+  "optimizer": {
+    "primary": "Original single-initializer local pattern search for both NARROW and WIDE",
+    "initializer": "Raw RSSI-power-weighted centroid of first up-to-50 strongest retained fitting observations, stable on ties; same pre-clamp initializer across domains",
+    "step_schedule_m": [
+      2000,
+      1000,
+      500,
+      250,
+      125,
+      60
+    ],
+    "max_sweeps_per_step": 40,
+    "directions": [
+      [
+        1,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        -1
+      ]
+    ],
+    "acceptance": "strictly smaller training loss; immediate incumbent update after each accepted candidate; clip candidates to arm domain",
+    "selection": "Lowest loss visited within each run; preserve native source output. Do not silently import one arm's best point into the other. A nested domain does not guarantee a lower finite-budget local-search return.",
+    "maximum_evaluations_per_start": 1921,
+    "secondary_multistart": "For the same arrays/domains, rerun with five scheduled starts: common primary initializer plus four (0.25,0.25),(0.25,0.75),(0.75,0.25),(0.75,0.75) fractional positions of the global fitting footprint box before its 2000m buffer. Project each start into the corresponding domain; run all five, report duplicates. Select by training loss only, first scheduled start breaks exact ties. Same schedule/budget ceilings in both domains; record actual calls and sweep-cap hits.",
+    "sensitivity_not_primary_replacement": true,
+    "no_claims": "No global optimality, equal actual runtime, novel optimizer or optimal coordinate-recovery claim."
+  },
+  "scoring": {
+    "training": "Per-receiver median absolute residual on retained fitting observations; also report all-fitting-reception score with frozen intercept as a selection diagnostic",
+    "validation": "Median absolute predictive RSSI residual on ALL valid validation receptions, using fitted coordinate and FITTING intercept without recentering/refitting; mean absolute residual and p90 are secondary",
+    "constant": "Use median RSSI of retained FITTING observations on validation unchanged",
+    "geometry": "Catalogue-relative receiver displacement; fitting-box membership; objective range term. No physical-error certification.",
+    "downstream": "Recompute raw-WCL on the old fixed 2495 evaluation messages with original selected receiver lists and raw RSSI weights. No estimator tuning, refitting or receiver reselection on evaluation. CONST has no downstream coordinate map.",
+    "missing_map": "Keep all 33 receiver rows. Mark unsupported fits; no coordinate imputation. For old messages whose original selected coordinates are unavailable in any fitted comparison arm, report missing predictions and coverage, and compare all arms on the exact common complete subset with metadata rescored there.",
+    "aggregation": "Receiver-level matched tables first. Unweighted receiver median is descriptive; also save reception-level losses and exact weights. All split/arm/start outcomes retained, including null and adverse results.",
+    "statistical_scope": "No new population-significance claim. Any later uncertainty calculation requires a versioned plan before it is used; do not promote descriptive thresholds or repeated starts into independent replications."
+  },
+  "finite_diagnostic": {
+    "bound": "abs(L(g)-MAD(r)) <= 47*log10((max_j distance(g,t_j)+1)/(min_j distance(g,t_j)+1))",
+    "scope": "Elementary derived bound for the stated finite-data plug-in objective, to be tested on constructed fixtures; not a priority claim or a physical propagation theorem.",
+    "finite_domain_trace": "For each fitted primary receiver, score 21 equally spaced points from its shared initializer toward each of the 8 ray/domain-boundary intersections in WIDE; rays follow the 8 source directions normalized only for ray geometry. Same retained observations, no optimization or validation-based selection. Report score, intercept and bound. No astronomical receiver coordinates used as plausible fits.",
+    "no_conclusions_in_advance": "Finite limit does not prove exact finite-coordinate nonidentifiability, global optimum at infinity, or that this mechanism causes every boundary solution."
+  },
+  "decision_rules": [
+    "Training gain with validation deterioration is evidence of poor generalization under the specified split; it alone does not identify overfitting versus model/selection mismatch.",
+    "Training and validation gains with persistent catalogue discrepancy and poor raw-WCL indicate predictive-fit/task-geometry divergence for these conditions; catalogue uncertainty remains.",
+    "If wider-domain or multistart controls materially reduce the original vulnerability, report that reduction and narrow the claim; preservation of 7.54x is not a success criterion.",
+    "If spatial sensitivity changes the direction, report split-dependence rather than pooling away the disagreement.",
+    "If original-style search is frequently sweep-capped or results depend strongly on the fixed-start schedule, retain an optimization limitation; do not attribute it solely to the objective.",
+    "If no consequential new knowledge or validated resource value is established, choose the narrower resource/case-study route rather than inflating claims."
+  ],
+  "before_scientific_execution": [
+    "Verify source hashes and primary populations",
+    "Verify duplicate/spatial split closure and fitting-only preprocessing",
+    "Test frozen validation intercept against deliberate recentering failure",
+    "Compare implemented native fitter with the preserved helper/function on synthetic fixtures",
+    "Freeze code and protocol hashes; no new real-data objective outcomes examined before this gate"
+  ],
+  "stage1_scope": "Input integrity, row/key reconstruction, split/support/input ledgers, synthetic tests and saved-output resource demonstration only. No new receiver coordinate fit, validation score, raw-source JSON join or new localization prediction."
+}

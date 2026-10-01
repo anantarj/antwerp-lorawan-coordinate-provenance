@@ -1,0 +1,34 @@
+{
+  "existing_output_refused": true,
+  "return_code": 1,
+  "message": "Output exists; refusing overwrite: /mnt/data/Paper_A_PR3_20260920/results/group80",
+  "existing_output_files_unchanged": 14,
+  "tampered_protocol_refused": "Protocol mismatch",
+  "protocol_actual_sha256": "405bf282c73545fe8c00fbccbddcdd099cffdbc0bfb567f926e6cde98010973c",
+  "preservation": [
+    {
+      "manifest": "MANIFEST.json",
+      "entries": 329,
+      "sha256": "1678503d546cdfa2f007ba1196d25eee8816192c7e2046a8cdb472e9efbab935",
+      "failures": []
+    },
+    {
+      "manifest": "EVIDENCE_MANIFEST.json",
+      "entries": 230,
+      "sha256": "0da1d6ff75ca833ed04d0bbdfbf383aac3a4de46c2d9e6099af0bbd1f76fb39b",
+      "failures": []
+    },
+    {
+      "manifest": "MANIFEST.json",
+      "entries": 43,
+      "sha256": "ebf28f1d0cf1b895979c0e37f5b1939b2ee2ae19be1efd9a4816a2e9bbcb4167",
+      "failures": []
+    },
+    {
+      "manifest": "MANIFEST.json",
+      "entries": 57,
+      "sha256": "6b07d29dcae9d166febe5072eb459b6a5cc64da8176089e1977f1d336cc3ec2c",
+      "failures": []
+    }
+  ]
+}

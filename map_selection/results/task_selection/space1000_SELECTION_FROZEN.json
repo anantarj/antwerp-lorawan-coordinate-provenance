@@ -1,0 +1,41 @@
+{
+  "known_original_PR3_outcomes_informed_researcher_design": true,
+  "new_complement_errors_computed_before_freeze": false,
+  "protocol_sha256": "2e647b556c25e562eaac6453bab8a734dc5bab5943ce7825a559efa88e7151f5",
+  "scores": {
+    "TASK_VAL": {
+      "NARROW": 3288.5508873596204,
+      "NARROW_MS": 2667.9176244220976,
+      "WIDE": 4012.963009179572,
+      "WIDE_MS": 5434.545268847725
+    },
+    "TRAIN_RSSI": {
+      "NARROW": 1.9783910881823559,
+      "NARROW_MS": 1.7204082030156584,
+      "WIDE": 1.8635394100295315,
+      "WIDE_MS": 1.2785778069644849
+    },
+    "VAL_RSSI_EQUAL": {
+      "NARROW": 4.382873825059505,
+      "NARROW_MS": 4.30491541681225,
+      "WIDE": 3.985799294076642,
+      "WIDE_MS": 3.648633003033453
+    },
+    "VAL_RSSI_POOLED": {
+      "NARROW": 4.399922352172084,
+      "NARROW_MS": 4.100852433376822,
+      "WIDE": 4.215359020407696,
+      "WIDE_MS": 4.111365220486398
+    }
+  },
+  "selection": {
+    "NATIVE_FIXED": "NARROW",
+    "TASK_VAL": "NARROW_MS",
+    "TRAIN_RSSI": "WIDE_MS",
+    "VAL_RSSI_EQUAL": "WIDE_MS",
+    "VAL_RSSI_POOLED": "NARROW_MS"
+  },
+  "selection_uses_evaluation_labels": false,
+  "split": "space1000",
+  "validation_row_sha256": "a46edb82c4b1ae585b08a4099be8db7ed7cbe18cfed4266f689e1f538f362432"
+}

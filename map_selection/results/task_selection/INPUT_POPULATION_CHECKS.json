@@ -1,0 +1,12 @@
+{
+  "PR1_manifest_entries": 43,
+  "PR3_manifest_entries": 82,
+  "complement_request_n": 36195,
+  "connected_duplicate_exclusions": 73,
+  "disjoint_content_and_serialization": true,
+  "old_primary_n": 2495,
+  "original_calibration_n": 16612,
+  "raw_rows": 130429,
+  "whole_working_components": 55248,
+  "working_rows": 55375
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/mnt/data/Paper_A_G2_Design_Assessment_20260922(1).md",
+    "bytes": 17162,
+    "sha256": "869cf5f99fa4f227a9e9b6e1c1ec241211043930405f45236b9458ff892c72dc"
+  },
+  {
+    "path": "/mnt/data/Paper_A_G2_Native_Reliability_Execution_20260922.zip",
+    "bytes": 23430794,
+    "sha256": "df15eb4e022a2ff74b9dc42c07dbf46447a8ed92f08dbdd0cd251bff341aa768"
+  },
+  {
+    "path": "/mnt/data/Paper_A_G2_Transfer_Temporal_Execution_20260922.zip",
+    "bytes": 11051332,
+    "sha256": "c987493d8ae8e9edb77bf1a3b3d77104f846513e18440fcf36947ccf065e7135"
+  }
+]

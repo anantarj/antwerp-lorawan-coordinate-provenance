@@ -1,0 +1,12 @@
+{
+  "checks": 3704,
+  "every_logged_search_objective_checked": 62476,
+  "failed": 0,
+  "finite_centroid_predictions_checked": 24918,
+  "finite_profile_points_checked": 10920,
+  "original_source_fit_receivers_in_verification_replays": 77,
+  "primary_native_fits_compared_to_original_source": 65,
+  "reception_prediction_cells_checked": 897792,
+  "scope": "Post-run formula, state-transition, native-source replay, population, validation and centroid verification. Verification replays are not additional arms, independent replications or statistical confirmation.",
+  "status": "PASS"
+}

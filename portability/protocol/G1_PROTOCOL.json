@@ -1,0 +1,111 @@
+{
+  "id": "PA-G1-PORTABILITY-20260921",
+  "version": "1.0-design",
+  "status": "DESIGNED_NOT_EXECUTED",
+  "research_context": "Retrospective optional side-extension; prior PR5D findings known.",
+  "main_question": "Can the same exact-correspondence core operate under declared schemas and attach receiver metadata to an independently authored CSV workflow without changing its experimental arrays or ordered partitions?",
+  "core_mode": "exact_correspondence_only",
+  "learning": false,
+  "schemas": [
+    "Antwerp existing parser conventions",
+    "explicitly synthetic alternative schema with presence mask"
+  ],
+  "external_workflow": {
+    "name": "DAE LoRaWAN preparation",
+    "source_filename": "Creating_files_LoRaWAN_dataset.ipynb",
+    "source_md5": "0d21a33bdc3501ba16cd989584bd344b",
+    "reference": "original computational cells staged in isolated workspace",
+    "split_random_state": 42,
+    "first_test_size": 0.3,
+    "second_test_size": 0.5,
+    "legacy_feature_width": 72,
+    "legacy_target_column_start": 75,
+    "sidecar_not_feature": true,
+    "no_retraining": true,
+    "comparison_exports": 9,
+    "historical_export_identity_claim": false
+  },
+  "pre_run_gate": [
+    "Pin actual producer/core/adapter/test source hashes",
+    "Pin complete fixed fixture inputs and expected statuses",
+    "Pin common execution environment for source and integrated DAE branches",
+    "Read and pin inherited floating-point replay tolerance before scientific replay",
+    "Verify listed original input hashes"
+  ],
+  "mandatory_equalities": [
+    "Exact normalized measurement/presence signatures for confirmed associations",
+    "Exact ordered authoritative source-row and partition identities",
+    "Exact DAE feature/target/HDOP numeric arrays and order",
+    "No mutation of original bytes"
+  ],
+  "mandatory_reporting": [
+    "ambiguity classes",
+    "unsupported features",
+    "record alignment conflicts",
+    "surplus secondary occurrences",
+    "missing registry coordinates",
+    "all failed tests and revised code versions"
+  ],
+  "primary_success": "Zero false unique links on truth-known fixtures; exact preserved identities and nine DAE exports; every required refusal/status correct; frozen Antwerp parity.",
+  "test_families": [
+    "G01",
+    "G02",
+    "G03",
+    "G04",
+    "G05",
+    "G06",
+    "G07",
+    "G08",
+    "G09",
+    "G10",
+    "G11",
+    "G12",
+    "G13",
+    "G14"
+  ],
+  "descriptive_only": [
+    "wall time",
+    "peak memory",
+    "source-level interface differences"
+  ],
+  "not_claimed": [
+    "universal schema matching",
+    "noisy-record reconciliation",
+    "cross-dataset localization generalization",
+    "independent adoption",
+    "reproduction of DAE predictive scores",
+    "higher-tier acceptance"
+  ],
+  "excluded_changes": [
+    "receiver fits",
+    "RSSFIT objective/exponent/filter",
+    "localization kernel",
+    "baseline rows or partition recipes",
+    "validation map selection",
+    "Paper B/DeltaMesh/ACFSE material",
+    "new data acquisition",
+    "public repository/deposit mutation"
+  ],
+  "implementation_blocks": [
+    "Core/adapters and conformance",
+    "Frozen parity plus DAE differential preparation",
+    "One evidence-and-document integration"
+  ],
+  "stop_rule": "Stop at declared closure or recorded limitation. Fuzzy matching, new dataset, new method or expanding literature benchmark requires new authorization.",
+  "manuscript_budget": {
+    "target_main_words": [
+      500,
+      800
+    ],
+    "main_tables": 1,
+    "new_supplement_sections": 1,
+    "is_page_limit": false
+  },
+  "selected_venue": null,
+  "provisional_venue_strategy": {
+    "primary": "Computer Networks, conditional on full-article suitability and current no-APC/SCIE verification",
+    "alternative": "Wireless Networks, official subscription/no-APC and SCIE verified",
+    "TMC": "stretch only; not phase design objective",
+    "TWC": "not recommended for the current contribution"
+  }
+}

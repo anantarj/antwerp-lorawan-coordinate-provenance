@@ -1,0 +1,34 @@
+[
+  {
+    "path": "/mnt/data/_pa_pr4_inputs/Paper_A_PR3_20260920/results/group80/models.json",
+    "sha256": "3c78a4e825a22d1b9883e53f422f3eb52d5d5995d9e4ab7741d5540b14fcd3c9"
+  },
+  {
+    "path": "/mnt/data/_pa_pr4_inputs/Paper_A_PR3_20260920/results/group80/receiver_results.csv",
+    "sha256": "42b61319128c31443df9890cae69cd1530c1577b08fe9479efa33ce0724cd549"
+  },
+  {
+    "path": "/mnt/data/_pa_pr4_inputs/Paper_A_PR3_20260920/results/group80/all_reception_predictions.csv.gz",
+    "sha256": "0a0595f871a44006ef48518f17970ba18510edf8700f90f1fc117af759ad6387"
+  },
+  {
+    "path": "/mnt/data/_pa_pr4_inputs/Paper_A_PR1_20260919/results/preflight/group80/split_rows.csv.gz",
+    "sha256": "917f65bc12f1fed434c2b6c17d2dc418aae15160634bb13f04cf45f6c1c1f5d9"
+  },
+  {
+    "path": "/mnt/data/_pa_pr4_inputs/Paper_A_PR3_20260920/results/space1000/models.json",
+    "sha256": "680be86d11fb050c648be0940e7dc25df960a559a5021804d3adecd2ef5b7339"
+  },
+  {
+    "path": "/mnt/data/_pa_pr4_inputs/Paper_A_PR3_20260920/results/space1000/receiver_results.csv",
+    "sha256": "50c028e552fc4d4e2ed0a8e9db7428b94ff17596cc7da4c8e30e010b28559b38"
+  },
+  {
+    "path": "/mnt/data/_pa_pr4_inputs/Paper_A_PR3_20260920/results/space1000/all_reception_predictions.csv.gz",
+    "sha256": "20ec568eaba13f0d51e983bf31e50bc74562fa252e3e541f2633750dab05afde"
+  },
+  {
+    "path": "/mnt/data/_pa_pr4_inputs/Paper_A_PR1_20260919/results/preflight/space1000/split_rows.csv.gz",
+    "sha256": "7f1f3a7e7a8ed292f7a06bb30143bcc12d02c17e331d7911a59f743061a64524"
+  }
+]

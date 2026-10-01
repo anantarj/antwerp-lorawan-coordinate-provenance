@@ -1,0 +1,12 @@
+{
+  "correct_first_percent": 0.012039489525644112,
+  "max_axis_error_percentage_points": 0.012039489525644112,
+  "n": 8306,
+  "native_prefix_counts": [
+    1,
+    8305
+  ],
+  "no_new_model_selection": true,
+  "source_full_N_endpoint_missing": true,
+  "source_x_first": 0
+}

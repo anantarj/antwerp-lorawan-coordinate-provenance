@@ -1,0 +1,58 @@
+[
+  {
+    "path": "results/preflight/PREFLIGHT_SUMMARY.json",
+    "match": true
+  },
+  {
+    "path": "results/preflight/CHECKS.json",
+    "match": true
+  },
+  {
+    "path": "results/preflight/space1000/primary33_support.csv",
+    "match": true
+  },
+  {
+    "path": "results/preflight/space1000/split_rows.csv.gz",
+    "match": true
+  },
+  {
+    "path": "results/preflight/space1000/retained_fit_rows.csv.gz",
+    "match": true
+  },
+  {
+    "path": "results/preflight/space1000/summary.json",
+    "match": true
+  },
+  {
+    "path": "results/preflight/space1000/fixed_primary_selection.csv.gz",
+    "match": true
+  },
+  {
+    "path": "results/preflight/space1000/all_receiver_support_and_domains.csv",
+    "match": true
+  },
+  {
+    "path": "results/preflight/group80/primary33_support.csv",
+    "match": true
+  },
+  {
+    "path": "results/preflight/group80/split_rows.csv.gz",
+    "match": true
+  },
+  {
+    "path": "results/preflight/group80/retained_fit_rows.csv.gz",
+    "match": true
+  },
+  {
+    "path": "results/preflight/group80/summary.json",
+    "match": true
+  },
+  {
+    "path": "results/preflight/group80/fixed_primary_selection.csv.gz",
+    "match": true
+  },
+  {
+    "path": "results/preflight/group80/all_receiver_support_and_domains.csv",
+    "match": true
+  }
+]

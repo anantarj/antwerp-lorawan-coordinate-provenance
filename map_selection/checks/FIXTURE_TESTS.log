@@ -1,0 +1,25 @@
+test_at_most_ten (__main__.Contracts.test_at_most_ten) ... ok
+test_candidate_omission_refused (__main__.Contracts.test_candidate_omission_refused) ... ok
+test_duplicate_receiver_refused (__main__.Contracts.test_duplicate_receiver_refused) ... ok
+test_duplicate_source_ids_refused (__main__.Contracts.test_duplicate_source_ids_refused) ... ok
+test_exact_centroid (__main__.Contracts.test_exact_centroid) ... ok
+test_first_tie (__main__.Contracts.test_first_tie) ... ok
+test_inclusive_rssi (__main__.Contracts.test_inclusive_rssi) ... ok
+test_insufficient_receptions (__main__.Contracts.test_insufficient_receptions) ... ok
+test_invalid_map_refused (__main__.Contracts.test_invalid_map_refused) ... ok
+test_minimum (__main__.Contracts.test_minimum) ... ok
+test_no_catalogue_candidate (__main__.Contracts.test_no_catalogue_candidate) ... ok
+test_no_coordinate_fallback (__main__.Contracts.test_no_coordinate_fallback) ... ok
+test_no_receiver_reselection (__main__.Contracts.test_no_receiver_reselection) ... ok
+test_nonfinite_refused (__main__.Contracts.test_nonfinite_refused) ... ok
+test_opposite_evaluation_does_not_change_selection (__main__.Contracts.test_opposite_evaluation_does_not_change_selection) ... ok
+test_padded_no_receiver (__main__.Contracts.test_padded_no_receiver) ... ok
+test_stable_receiver_ties (__main__.Contracts.test_stable_receiver_ties) ... ok
+test_tolerance_tie (__main__.Contracts.test_tolerance_tie) ... ok
+test_transitive_group_closure (__main__.Contracts.test_transitive_group_closure) ... ok
+test_zero_coverage_not_zero_error (__main__.Contracts.test_zero_coverage_not_zero_error) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.007s
+
+OK

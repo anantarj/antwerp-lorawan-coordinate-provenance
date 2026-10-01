@@ -1,0 +1,36 @@
+{
+  "count": 6,
+  "matched": true,
+  "files": [
+    {
+      "path": "DSI_LINEAGE.csv",
+      "identical": true,
+      "sha256": "5e31962ceaacd4e7eb34e2151fe2be5547e323fd3261e020e369ac58e06b6f0d"
+    },
+    {
+      "path": "DSI_LINEAGE_RECEIPT.json",
+      "identical": true,
+      "sha256": "5e63ab6a3a87665b772ad186eb01a6528c8e302f062843fc97ae540abcc77a06"
+    },
+    {
+      "path": "DSI_OCCURRENCE_CANDIDATES.json",
+      "identical": true,
+      "sha256": "ae8872ded856b2d626f5ee62eaf422eb97fa03b1b157f242e41a7237d398d216"
+    },
+    {
+      "path": "INPUT_MEMBER_IDENTITIES.json",
+      "identical": true,
+      "sha256": "6737eaf9ac2eb84bdfb5ae28d08a0068491c19498d38a7097f07f2e0d1cb6802"
+    },
+    {
+      "path": "LORAWAN_TEMPORAL_ROLE_LEDGER.csv.gz",
+      "identical": true,
+      "sha256": "0b92958222d7cc07179c25343b7aabeb600ee047d7b30840623c87c8125d9831"
+    },
+    {
+      "path": "TEMPORAL_ROLE_RECEIPT.json",
+      "identical": true,
+      "sha256": "abe4c55b6fbdbf7f6e08e5b657e75de9824c3232b7b6aee09658bc263f338f5d"
+    }
+  ]
+}

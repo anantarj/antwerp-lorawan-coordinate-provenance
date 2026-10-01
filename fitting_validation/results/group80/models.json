@@ -1,0 +1,2093 @@
+{
+  "CAT": {
+    "1": {
+      "coordinate": [
+        601353.8,
+        5671754.9
+      ],
+      "fitting_intercept_or_constant_db": 44.15130837812764,
+      "retained_training_loss_db": 2.42780472559231,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "10": {
+      "coordinate": [
+        599200.3,
+        5672483.5
+      ],
+      "fitting_intercept_or_constant_db": 6.133513993103172,
+      "retained_training_loss_db": 1.0483589850602044,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "11": {
+      "coordinate": [
+        601196.1,
+        5677715.3
+      ],
+      "fitting_intercept_or_constant_db": 51.1159953166956,
+      "retained_training_loss_db": 4.629889929149471,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "12": {
+      "coordinate": [
+        599642.7,
+        5675011.9
+      ],
+      "fitting_intercept_or_constant_db": 25.019353613458094,
+      "retained_training_loss_db": 7.987877243177053,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "14": {
+      "coordinate": [
+        598695.3,
+        5675156.5
+      ],
+      "fitting_intercept_or_constant_db": 30.949769643896296,
+      "retained_training_loss_db": 9.298361640644004,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "15": {
+      "coordinate": [
+        593182.1,
+        5673676.1
+      ],
+      "fitting_intercept_or_constant_db": 40.56305953526238,
+      "retained_training_loss_db": 14.972144885465596,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "16": {
+      "coordinate": [
+        596565.6,
+        5682254.4
+      ],
+      "fitting_intercept_or_constant_db": 65.58243310273681,
+      "retained_training_loss_db": 1.3438284597250458,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "17": {
+      "coordinate": [
+        600665.7,
+        5673496.1
+      ],
+      "fitting_intercept_or_constant_db": 28.824820232273737,
+      "retained_training_loss_db": 7.827114626955904,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "18": {
+      "coordinate": [
+        597489.6,
+        5673202.6
+      ],
+      "fitting_intercept_or_constant_db": 22.277120145688023,
+      "retained_training_loss_db": 5.024851204067261,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "19": {
+      "coordinate": [
+        595733.0,
+        5674981.1
+      ],
+      "fitting_intercept_or_constant_db": 41.72926857455019,
+      "retained_training_loss_db": 3.5628743066056074,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "2": {
+      "coordinate": [
+        599692.9,
+        5672508.3
+      ],
+      "fitting_intercept_or_constant_db": 27.581023603911603,
+      "retained_training_loss_db": 1.8199421294594345,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "20": {
+      "coordinate": [
+        598310.5,
+        5675590.5
+      ],
+      "fitting_intercept_or_constant_db": 21.869951164471566,
+      "retained_training_loss_db": 4.778957679288126,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "22": {
+      "coordinate": [
+        598152.1,
+        5680136.1
+      ],
+      "fitting_intercept_or_constant_db": 55.31259013966056,
+      "retained_training_loss_db": 1.2069807797447822,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "23": {
+      "coordinate": [
+        593165.0,
+        5672339.9
+      ],
+      "fitting_intercept_or_constant_db": 60.51939684343546,
+      "retained_training_loss_db": 5.85608589249324,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "25": {
+      "coordinate": [
+        596470.2,
+        5672389.9
+      ],
+      "fitting_intercept_or_constant_db": 34.71546444093789,
+      "retained_training_loss_db": 3.82481676850378,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "27": {
+      "coordinate": [
+        597692.9,
+        5673639.8
+      ],
+      "fitting_intercept_or_constant_db": 25.79169406458186,
+      "retained_training_loss_db": 5.653246762504338,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "3": {
+      "coordinate": [
+        600790.2,
+        5670486.4
+      ],
+      "fitting_intercept_or_constant_db": 57.740566515671105,
+      "retained_training_loss_db": 7.191500622377845,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "31": {
+      "coordinate": [
+        603267.4,
+        5675692.6
+      ],
+      "fitting_intercept_or_constant_db": 57.78793883871707,
+      "retained_training_loss_db": 3.5855304097708256,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "32": {
+      "coordinate": [
+        597840.9,
+        5675025.6
+      ],
+      "fitting_intercept_or_constant_db": 25.89017254273699,
+      "retained_training_loss_db": 12.9610965000862,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "33": {
+      "coordinate": [
+        592165.5,
+        5681084.1
+      ],
+      "fitting_intercept_or_constant_db": 68.14305144208886,
+      "retained_training_loss_db": 1.010724979330135,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "34": {
+      "coordinate": [
+        592422.1,
+        5678266.8
+      ],
+      "fitting_intercept_or_constant_db": 65.08843102305502,
+      "retained_training_loss_db": 1.0076738130016452,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "37": {
+      "coordinate": [
+        604063.4,
+        5677746.0
+      ],
+      "fitting_intercept_or_constant_db": 58.819278989402235,
+      "retained_training_loss_db": 2.99398431459376,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "4": {
+      "coordinate": [
+        599058.3,
+        5678634.4
+      ],
+      "fitting_intercept_or_constant_db": 44.87160403334488,
+      "retained_training_loss_db": 2.2778789045161716,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "44": {
+      "coordinate": [
+        591670.5,
+        5686481.3
+      ],
+      "fitting_intercept_or_constant_db": 76.92299778203814,
+      "retained_training_loss_db": 0.6233792866939893,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "48": {
+      "coordinate": [
+        604714.7,
+        5673050.4
+      ],
+      "fitting_intercept_or_constant_db": 57.305921304736415,
+      "retained_training_loss_db": 2.6252982962564744,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "5": {
+      "coordinate": [
+        596677.3,
+        5677998.7
+      ],
+      "fitting_intercept_or_constant_db": 51.73112220561069,
+      "retained_training_loss_db": 2.0964064422645095,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "50": {
+      "coordinate": [
+        593121.3,
+        5674389.6
+      ],
+      "fitting_intercept_or_constant_db": 18.146910431437867,
+      "retained_training_loss_db": 5.924456309929511,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "6": {
+      "coordinate": [
+        596877.3,
+        5680052.1
+      ],
+      "fitting_intercept_or_constant_db": 57.40654301884338,
+      "retained_training_loss_db": 1.1583199366250057,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "69": {
+      "coordinate": [
+        598286.3,
+        5672726.9
+      ],
+      "fitting_intercept_or_constant_db": 27.968748740861017,
+      "retained_training_loss_db": 1.0799160379319233,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "7": {
+      "coordinate": [
+        601956.0,
+        5675160.4
+      ],
+      "fitting_intercept_or_constant_db": 44.097650496069264,
+      "retained_training_loss_db": 3.4977498797361477,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "70": {
+      "coordinate": [
+        602522.4,
+        5673395.8
+      ],
+      "fitting_intercept_or_constant_db": 38.04991598165131,
+      "retained_training_loss_db": 5.070431304744062,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "71": {
+      "coordinate": [
+        579736.5,
+        5633188.3
+      ],
+      "fitting_intercept_or_constant_db": 110.55049430963507,
+      "retained_training_loss_db": 1.94414938266155,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    },
+    "9": {
+      "coordinate": [
+        599419.4,
+        5675384.8
+      ],
+      "fitting_intercept_or_constant_db": 31.22502436734065,
+      "retained_training_loss_db": 8.241806062517995,
+      "selected_start_rank0": null,
+      "source": "fixed_catalogue",
+      "total_objective_calls": 1
+    }
+  },
+  "CONST": {
+    "1": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -115.0,
+      "retained_training_loss_db": 0.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "10": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -88.0,
+      "retained_training_loss_db": 1.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "11": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -107.0,
+      "retained_training_loss_db": 2.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "12": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -108.0,
+      "retained_training_loss_db": 3.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "14": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -104.0,
+      "retained_training_loss_db": 2.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "15": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -109.0,
+      "retained_training_loss_db": 2.5,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "16": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -112.0,
+      "retained_training_loss_db": 1.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "17": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -109.0,
+      "retained_training_loss_db": 2.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "18": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -104.0,
+      "retained_training_loss_db": 3.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "19": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -112.0,
+      "retained_training_loss_db": 2.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "2": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -102.0,
+      "retained_training_loss_db": 2.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "20": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -112.0,
+      "retained_training_loss_db": 1.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "22": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -112.0,
+      "retained_training_loss_db": 1.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "23": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -109.0,
+      "retained_training_loss_db": 2.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "25": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -112.0,
+      "retained_training_loss_db": 2.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "27": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -105.0,
+      "retained_training_loss_db": 3.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "3": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -111.0,
+      "retained_training_loss_db": 2.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "31": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -112.5,
+      "retained_training_loss_db": 0.5,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "32": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -109.0,
+      "retained_training_loss_db": 2.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "33": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -114.0,
+      "retained_training_loss_db": 1.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "34": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -113.0,
+      "retained_training_loss_db": 1.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "37": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -112.0,
+      "retained_training_loss_db": 1.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "4": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -113.0,
+      "retained_training_loss_db": 1.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "44": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -115.0,
+      "retained_training_loss_db": 0.5,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "48": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -120.0,
+      "retained_training_loss_db": 1.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "5": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -105.0,
+      "retained_training_loss_db": 2.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "50": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -113.5,
+      "retained_training_loss_db": 1.5,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "6": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -111.0,
+      "retained_training_loss_db": 1.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "69": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -111.0,
+      "retained_training_loss_db": 1.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "7": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -109.0,
+      "retained_training_loss_db": 2.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "70": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -112.0,
+      "retained_training_loss_db": 1.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "71": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -109.0,
+      "retained_training_loss_db": 2.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    },
+    "9": {
+      "coordinate": null,
+      "fitting_intercept_or_constant_db": -108.0,
+      "retained_training_loss_db": 2.0,
+      "selected_start_rank0": null,
+      "source": "constant_fitting_rssi",
+      "total_objective_calls": 0
+    }
+  },
+  "NARROW": {
+    "1": {
+      "coordinate": [
+        593565.4910354649,
+        5675952.281460018
+      ],
+      "fitting_intercept_or_constant_db": 65.50672300352203,
+      "retained_training_loss_db": 1.1389327714485233,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 89
+    },
+    "10": {
+      "coordinate": [
+        599129.9597299264,
+        5672868.3933571
+      ],
+      "fitting_intercept_or_constant_db": 37.15859141402336,
+      "retained_training_loss_db": 0.9832636925578697,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 81
+    },
+    "11": {
+      "coordinate": [
+        603550.8808416433,
+        5678784.067589548
+      ],
+      "fitting_intercept_or_constant_db": 66.45238846750127,
+      "retained_training_loss_db": 2.836057411258679,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 65
+    },
+    "12": {
+      "coordinate": [
+        600036.0940405161,
+        5678878.266369523
+      ],
+      "fitting_intercept_or_constant_db": 61.570880325103616,
+      "retained_training_loss_db": 2.1270595585124994,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 89
+    },
+    "14": {
+      "coordinate": [
+        603281.8055477919,
+        5671981.1708943425
+      ],
+      "fitting_intercept_or_constant_db": 73.86636562165741,
+      "retained_training_loss_db": 2.2238834825265457,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 81
+    },
+    "15": {
+      "coordinate": [
+        595454.6631643764,
+        5670373.710097808
+      ],
+      "fitting_intercept_or_constant_db": 62.839370554857865,
+      "retained_training_loss_db": 3.1012832793854983,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 81
+    },
+    "16": {
+      "coordinate": [
+        599295.940103608,
+        5670601.066550474
+      ],
+      "fitting_intercept_or_constant_db": 65.66803530724901,
+      "retained_training_loss_db": 0.9044099307977831,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 97
+    },
+    "17": {
+      "coordinate": [
+        603550.8808416433,
+        5677696.067581127
+      ],
+      "fitting_intercept_or_constant_db": 64.82270914343499,
+      "retained_training_loss_db": 2.3091633088427415,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 73
+    },
+    "18": {
+      "coordinate": [
+        596416.3517269496,
+        5670913.29049555
+      ],
+      "fitting_intercept_or_constant_db": 58.16573371987148,
+      "retained_training_loss_db": 2.8294908113326898,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 81
+    },
+    "19": {
+      "coordinate": [
+        591559.2238088003,
+        5676904.247985415
+      ],
+      "fitting_intercept_or_constant_db": 65.97522668509279,
+      "retained_training_loss_db": 1.5795308873357499,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 65
+    },
+    "2": {
+      "coordinate": [
+        600441.4499297722,
+        5673860.850958211
+      ],
+      "fitting_intercept_or_constant_db": 52.666005096596336,
+      "retained_training_loss_db": 1.567390351103711,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 73
+    },
+    "20": {
+      "coordinate": [
+        600930.8431339969,
+        5672556.784572726
+      ],
+      "fitting_intercept_or_constant_db": 59.998917011468606,
+      "retained_training_loss_db": 1.4429136801564795,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 73
+    },
+    "22": {
+      "coordinate": [
+        603207.213654103,
+        5678598.634357189
+      ],
+      "fitting_intercept_or_constant_db": 62.86403430076132,
+      "retained_training_loss_db": 1.639014143994757,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 89
+    },
+    "23": {
+      "coordinate": [
+        598889.8910239227,
+        5670783.884139135
+      ],
+      "fitting_intercept_or_constant_db": 63.93285555229744,
+      "retained_training_loss_db": 2.569006828593402,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 97
+    },
+    "25": {
+      "coordinate": [
+        599685.1996292406,
+        5678785.703379314
+      ],
+      "fitting_intercept_or_constant_db": 65.99916804202587,
+      "retained_training_loss_db": 2.5351719446291554,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 73
+    },
+    "27": {
+      "coordinate": [
+        601595.9980246747,
+        5670427.365581452
+      ],
+      "fitting_intercept_or_constant_db": 70.53826031367876,
+      "retained_training_loss_db": 3.5645175581494186,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 65
+    },
+    "3": {
+      "coordinate": [
+        598497.646788777,
+        5678940.827406942
+      ],
+      "fitting_intercept_or_constant_db": 66.5385063309553,
+      "retained_training_loss_db": 2.8882330570088186,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 65
+    },
+    "31": {
+      "coordinate": [
+        599717.7136373469,
+        5679030.054792717
+      ],
+      "fitting_intercept_or_constant_db": 50.20371404723464,
+      "retained_training_loss_db": 1.710129379244151,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 65
+    },
+    "32": {
+      "coordinate": [
+        601454.0642694847,
+        5674125.417134033
+      ],
+      "fitting_intercept_or_constant_db": 58.88331520323766,
+      "retained_training_loss_db": 2.8779074451158806,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 97
+    },
+    "33": {
+      "coordinate": [
+        600304.0759228847,
+        5678802.561827109
+      ],
+      "fitting_intercept_or_constant_db": 50.11307709038363,
+      "retained_training_loss_db": 0.9886773862497478,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 57
+    },
+    "34": {
+      "coordinate": [
+        601686.1596488669,
+        5678783.936681185
+      ],
+      "fitting_intercept_or_constant_db": 55.82672650503983,
+      "retained_training_loss_db": 1.3543461719608558,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 81
+    },
+    "37": {
+      "coordinate": [
+        603828.8447644523,
+        5678800.037400032
+      ],
+      "fitting_intercept_or_constant_db": 60.61114678781823,
+      "retained_training_loss_db": 2.919543719910024,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 57
+    },
+    "4": {
+      "coordinate": [
+        603207.213654103,
+        5678974.892108071
+      ],
+      "fitting_intercept_or_constant_db": 62.41243909231039,
+      "retained_training_loss_db": 1.7374729393117718,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 73
+    },
+    "44": {
+      "coordinate": [
+        600383.3328164218,
+        5673901.444686004
+      ],
+      "fitting_intercept_or_constant_db": 50.42750854224889,
+      "retained_training_loss_db": 0.5054228584119613,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 57
+    },
+    "48": {
+      "coordinate": [
+        596059.4762159069,
+        5670368.338569325
+      ],
+      "fitting_intercept_or_constant_db": 59.47537358557186,
+      "retained_training_loss_db": 2.160212992702597,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 73
+    },
+    "5": {
+      "coordinate": [
+        602212.9394189791,
+        5678980.620284165
+      ],
+      "fitting_intercept_or_constant_db": 67.10331944360945,
+      "retained_training_loss_db": 2.3265301390341193,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 65
+    },
+    "50": {
+      "coordinate": [
+        599922.6299463756,
+        5678144.787821637
+      ],
+      "fitting_intercept_or_constant_db": 69.79264211083412,
+      "retained_training_loss_db": 1.9178884429681773,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 97
+    },
+    "6": {
+      "coordinate": [
+        603155.6953076742,
+        5679033.634357189
+      ],
+      "fitting_intercept_or_constant_db": 64.15444464628395,
+      "retained_training_loss_db": 1.4560022311598004,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 65
+    },
+    "69": {
+      "coordinate": [
+        601539.9988806007,
+        5677310.253206166
+      ],
+      "fitting_intercept_or_constant_db": 64.64336347764514,
+      "retained_training_loss_db": 1.0012963479537405,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 73
+    },
+    "7": {
+      "coordinate": [
+        603828.8447644523,
+        5676606.223941652
+      ],
+      "fitting_intercept_or_constant_db": 57.72265486974621,
+      "retained_training_loss_db": 2.2847115421002115,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 65
+    },
+    "70": {
+      "coordinate": [
+        603696.3241078965,
+        5678910.246303273
+      ],
+      "fitting_intercept_or_constant_db": 65.2533666183169,
+      "retained_training_loss_db": 1.462176724553018,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 89
+    },
+    "71": {
+      "coordinate": [
+        598040.814612575,
+        5674691.07470968
+      ],
+      "fitting_intercept_or_constant_db": 41.29600086182174,
+      "retained_training_loss_db": 1.0980371131267077,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 89
+    },
+    "9": {
+      "coordinate": [
+        602978.1448060679,
+        5676599.892108071
+      ],
+      "fitting_intercept_or_constant_db": 62.567621293757554,
+      "retained_training_loss_db": 2.062476939605972,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 97
+    }
+  },
+  "NARROW_MS": {
+    "1": {
+      "coordinate": [
+        593375.4910354649,
+        5673374.481992865
+      ],
+      "fitting_intercept_or_constant_db": 63.0236520406593,
+      "retained_training_loss_db": 1.116589986610407,
+      "selected_start_rank0": 2,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 421
+    },
+    "10": {
+      "coordinate": [
+        599136.4395255393,
+        5672553.3933571
+      ],
+      "fitting_intercept_or_constant_db": 13.604573355253173,
+      "retained_training_loss_db": 0.9804645132995091,
+      "selected_start_rank0": 4,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 413
+    },
+    "11": {
+      "coordinate": [
+        602126.6290477134,
+        5671573.842067459
+      ],
+      "fitting_intercept_or_constant_db": 69.68420048334448,
+      "retained_training_loss_db": 2.214302366900057,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 365
+    },
+    "12": {
+      "coordinate": [
+        600056.6781191329,
+        5678878.266369523
+      ],
+      "fitting_intercept_or_constant_db": 61.57770083087216,
+      "retained_training_loss_db": 2.105761030572637,
+      "selected_start_rank0": 2,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 341
+    },
+    "14": {
+      "coordinate": [
+        603281.8055477919,
+        5671981.1708943425
+      ],
+      "fitting_intercept_or_constant_db": 73.86636562165741,
+      "retained_training_loss_db": 2.2238834825265457,
+      "selected_start_rank0": 0,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 373
+    },
+    "15": {
+      "coordinate": [
+        595626.6290477134,
+        5670623.710097808
+      ],
+      "fitting_intercept_or_constant_db": 62.20903079607058,
+      "retained_training_loss_db": 3.09456557011832,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 389
+    },
+    "16": {
+      "coordinate": [
+        599321.4395255393,
+        5670601.066550474
+      ],
+      "fitting_intercept_or_constant_db": 65.67761716197106,
+      "retained_training_loss_db": 0.9043855467999578,
+      "selected_start_rank0": 3,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 437
+    },
+    "17": {
+      "coordinate": [
+        603550.8808416433,
+        5677696.067581127
+      ],
+      "fitting_intercept_or_constant_db": 64.82270914343499,
+      "retained_training_loss_db": 2.3091633088427415,
+      "selected_start_rank0": 0,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 405
+    },
+    "18": {
+      "coordinate": [
+        592613.2711585866,
+        5673924.197161669
+      ],
+      "fitting_intercept_or_constant_db": 69.22664711497005,
+      "retained_training_loss_db": 2.7772903910456677,
+      "selected_start_rank0": 2,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 413
+    },
+    "19": {
+      "coordinate": [
+        591559.2238088003,
+        5676904.247985415
+      ],
+      "fitting_intercept_or_constant_db": 65.97522668509279,
+      "retained_training_loss_db": 1.5795308873357499,
+      "selected_start_rank0": 0,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 349
+    },
+    "2": {
+      "coordinate": [
+        600122.7423440526,
+        5672553.6617624555
+      ],
+      "fitting_intercept_or_constant_db": 39.04533450432268,
+      "retained_training_loss_db": 1.5213589243992658,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 381
+    },
+    "20": {
+      "coordinate": [
+        593739.4643842209,
+        5672681.784572726
+      ],
+      "fitting_intercept_or_constant_db": 64.88947318291218,
+      "retained_training_loss_db": 1.2910295031721688,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 365
+    },
+    "22": {
+      "coordinate": [
+        600642.213654103,
+        5671653.896915453
+      ],
+      "fitting_intercept_or_constant_db": 63.2605178920555,
+      "retained_training_loss_db": 0.7909491653715008,
+      "selected_start_rank0": 4,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 397
+    },
+    "23": {
+      "coordinate": [
+        594561.6290477134,
+        5677413.214842022
+      ],
+      "fitting_intercept_or_constant_db": 60.45175646050792,
+      "retained_training_loss_db": 1.5410372728904491,
+      "selected_start_rank0": 2,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 421
+    },
+    "25": {
+      "coordinate": [
+        592876.6290477134,
+        5670359.120520516
+      ],
+      "fitting_intercept_or_constant_db": 63.570231742811984,
+      "retained_training_loss_db": 2.244121796600723,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 405
+    },
+    "27": {
+      "coordinate": [
+        594057.354201738,
+        5678295.361710104
+      ],
+      "fitting_intercept_or_constant_db": 72.7627146292725,
+      "retained_training_loss_db": 3.469381451369429,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 357
+    },
+    "3": {
+      "coordinate": [
+        603578.8771992559,
+        5674553.6617624555
+      ],
+      "fitting_intercept_or_constant_db": 62.74116974488564,
+      "retained_training_loss_db": 2.161314473945282,
+      "selected_start_rank0": 3,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 389
+    },
+    "31": {
+      "coordinate": [
+        599951.4395255393,
+        5670932.82990886
+      ],
+      "fitting_intercept_or_constant_db": 64.01493129623319,
+      "retained_training_loss_db": 1.0760131130452208,
+      "selected_start_rank0": 3,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 341
+    },
+    "32": {
+      "coordinate": [
+        593049.6826020448,
+        5676113.6617624555
+      ],
+      "fitting_intercept_or_constant_db": 66.77941617665277,
+      "retained_training_loss_db": 2.0268646139831503,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 397
+    },
+    "33": {
+      "coordinate": [
+        597741.8239981612,
+        5678802.561827109
+      ],
+      "fitting_intercept_or_constant_db": 44.4732676572028,
+      "retained_training_loss_db": 0.7796262447551214,
+      "selected_start_rank0": 2,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 341
+    },
+    "34": {
+      "coordinate": [
+        593003.3728885168,
+        5678553.6617624555
+      ],
+      "fitting_intercept_or_constant_db": 63.61262733877817,
+      "retained_training_loss_db": 0.9795956367088365,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 373
+    },
+    "37": {
+      "coordinate": [
+        603828.8447644523,
+        5672108.410196237
+      ],
+      "fitting_intercept_or_constant_db": 63.75577075077997,
+      "retained_training_loss_db": 1.5699368345364348,
+      "selected_start_rank0": 3,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 357
+    },
+    "4": {
+      "coordinate": [
+        603142.213654103,
+        5672487.438575651
+      ],
+      "fitting_intercept_or_constant_db": 65.3609409577231,
+      "retained_training_loss_db": 1.631033686600233,
+      "selected_start_rank0": 3,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 357
+    },
+    "44": {
+      "coordinate": [
+        595783.836293388,
+        5677994.595869947
+      ],
+      "fitting_intercept_or_constant_db": 47.35900868406512,
+      "retained_training_loss_db": 0.38878897964298176,
+      "selected_start_rank0": 2,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 325
+    },
+    "48": {
+      "coordinate": [
+        599576.4395255393,
+        5674684.481992865
+      ],
+      "fitting_intercept_or_constant_db": 33.93337285077307,
+      "retained_training_loss_db": 2.130955684378776,
+      "selected_start_rank0": 4,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 357
+    },
+    "5": {
+      "coordinate": [
+        594752.6507487935,
+        5678980.620284165
+      ],
+      "fitting_intercept_or_constant_db": 65.36630456867955,
+      "retained_training_loss_db": 1.8532727675523688,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 373
+    },
+    "50": {
+      "coordinate": [
+        599261.4395255393,
+        5671618.470541262
+      ],
+      "fitting_intercept_or_constant_db": 66.9622538223578,
+      "retained_training_loss_db": 1.522968381617801,
+      "selected_start_rank0": 3,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 445
+    },
+    "6": {
+      "coordinate": [
+        601905.6953076742,
+        5672631.065631911
+      ],
+      "fitting_intercept_or_constant_db": 63.74430741678859,
+      "retained_training_loss_db": 1.0081259837080694,
+      "selected_start_rank0": 4,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 341
+    },
+    "69": {
+      "coordinate": [
+        601539.9988806007,
+        5677310.253206166
+      ],
+      "fitting_intercept_or_constant_db": 64.64336347764514,
+      "retained_training_loss_db": 1.0012963479537405,
+      "selected_start_rank0": 0,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 365
+    },
+    "7": {
+      "coordinate": [
+        596757.7108942543,
+        5673993.6617624555
+      ],
+      "fitting_intercept_or_constant_db": 61.88283484932376,
+      "retained_training_loss_db": 2.20172645513793,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 405
+    },
+    "70": {
+      "coordinate": [
+        603696.3241078965,
+        5678910.246303273
+      ],
+      "fitting_intercept_or_constant_db": 65.2533666183169,
+      "retained_training_loss_db": 1.462176724553018,
+      "selected_start_rank0": 0,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 389
+    },
+    "71": {
+      "coordinate": [
+        598040.814612575,
+        5674691.07470968
+      ],
+      "fitting_intercept_or_constant_db": 41.29600086182174,
+      "retained_training_loss_db": 1.0980371131267077,
+      "selected_start_rank0": 0,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 501
+    },
+    "9": {
+      "coordinate": [
+        602978.1448060679,
+        5676599.892108071
+      ],
+      "fitting_intercept_or_constant_db": 62.567621293757554,
+      "retained_training_loss_db": 2.062476939605972,
+      "selected_start_rank0": 0,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 413
+    }
+  },
+  "WIDE": {
+    "1": {
+      "coordinate": [
+        590559.2238088003,
+        5676447.281460018
+      ],
+      "fitting_intercept_or_constant_db": 72.9029790638852,
+      "retained_training_loss_db": 1.0269395086975805,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 113
+    },
+    "10": {
+      "coordinate": [
+        599129.9597299264,
+        5672904.877705355
+      ],
+      "fitting_intercept_or_constant_db": 38.715857458850984,
+      "retained_training_loss_db": 0.9840411843863421,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 81
+    },
+    "11": {
+      "coordinate": [
+        603828.8447644523,
+        5678909.892108071
+      ],
+      "fitting_intercept_or_constant_db": 67.63627166148953,
+      "retained_training_loss_db": 2.7294906647755965,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 65
+    },
+    "12": {
+      "coordinate": [
+        600078.8447644523,
+        5678969.892108071
+      ],
+      "fitting_intercept_or_constant_db": 62.06137225334028,
+      "retained_training_loss_db": 2.1082061537385783,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 89
+    },
+    "14": {
+      "coordinate": [
+        603638.8447644523,
+        5676247.605051839
+      ],
+      "fitting_intercept_or_constant_db": 71.04269991590684,
+      "retained_training_loss_db": 2.2383671461169,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 89
+    },
+    "15": {
+      "coordinate": [
+        593014.6631643764,
+        5669393.25164725
+      ],
+      "fitting_intercept_or_constant_db": 66.63283212737177,
+      "retained_training_loss_db": 2.7480143291546426,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 81
+    },
+    "16": {
+      "coordinate": [
+        599578.8447644523,
+        5669708.25164725
+      ],
+      "fitting_intercept_or_constant_db": 68.50646756973136,
+      "retained_training_loss_db": 0.8757142408116891,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 97
+    },
+    "17": {
+      "coordinate": [
+        603643.8447644523,
+        5677196.067581127
+      ],
+      "fitting_intercept_or_constant_db": 63.322760621104564,
+      "retained_training_loss_db": 2.258178298954263,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 89
+    },
+    "18": {
+      "coordinate": [
+        596481.3517269496,
+        5670643.25164725
+      ],
+      "fitting_intercept_or_constant_db": 59.77295338747729,
+      "retained_training_loss_db": 2.8381395463404147,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 97
+    },
+    "19": {
+      "coordinate": [
+        591559.2238088003,
+        5676954.545208384
+      ],
+      "fitting_intercept_or_constant_db": 66.05847854307416,
+      "retained_training_loss_db": 1.575145559203179,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 65
+    },
+    "2": {
+      "coordinate": [
+        600441.4499297722,
+        5673860.850958211
+      ],
+      "fitting_intercept_or_constant_db": 52.666005096596336,
+      "retained_training_loss_db": 1.567390351103711,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 73
+    },
+    "20": {
+      "coordinate": [
+        598794.2920282161,
+        5669393.25164725
+      ],
+      "fitting_intercept_or_constant_db": 68.26449815138372,
+      "retained_training_loss_db": 1.098263281041227,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 89
+    },
+    "22": {
+      "coordinate": [
+        603828.8447644523,
+        5678969.892108071
+      ],
+      "fitting_intercept_or_constant_db": 65.48276119018081,
+      "retained_training_loss_db": 1.5771515130430203,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 81
+    },
+    "23": {
+      "coordinate": [
+        599074.8910239227,
+        5669393.25164725
+      ],
+      "fitting_intercept_or_constant_db": 68.56458647435187,
+      "retained_training_loss_db": 2.206381735828245,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 81
+    },
+    "25": {
+      "coordinate": [
+        602500.1996292406,
+        5675105.171010792
+      ],
+      "fitting_intercept_or_constant_db": 65.5297623194634,
+      "retained_training_loss_db": 2.7593651398642294,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 65
+    },
+    "27": {
+      "coordinate": [
+        596285.9980246747,
+        5669518.25164725
+      ],
+      "fitting_intercept_or_constant_db": 67.81004755843188,
+      "retained_training_loss_db": 3.367662072750221,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 89
+    },
+    "3": {
+      "coordinate": [
+        598437.646788777,
+        5678034.892108071
+      ],
+      "fitting_intercept_or_constant_db": 63.56822165133934,
+      "retained_training_loss_db": 2.821209369741524,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 81
+    },
+    "31": {
+      "coordinate": [
+        599717.7136373469,
+        5679034.892108071
+      ],
+      "fitting_intercept_or_constant_db": 50.23684807752481,
+      "retained_training_loss_db": 1.7055089258985277,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 65
+    },
+    "32": {
+      "coordinate": [
+        603828.8447644523,
+        5669453.25164725
+      ],
+      "fitting_intercept_or_constant_db": 75.84930261024516,
+      "retained_training_loss_db": 2.3643838139969944,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 73
+    },
+    "33": {
+      "coordinate": [
+        603703.8447644523,
+        5676719.892108071
+      ],
+      "fitting_intercept_or_constant_db": 61.78172697736866,
+      "retained_training_loss_db": 0.9188459734309902,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 81
+    },
+    "34": {
+      "coordinate": [
+        603828.8447644523,
+        5676844.892108071
+      ],
+      "fitting_intercept_or_constant_db": 62.63977543484384,
+      "retained_training_loss_db": 1.1899411325655365,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 73
+    },
+    "37": {
+      "coordinate": [
+        603828.8447644523,
+        5679034.892108071
+      ],
+      "fitting_intercept_or_constant_db": 61.30164427495008,
+      "retained_training_loss_db": 2.8962150082822973,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 57
+    },
+    "4": {
+      "coordinate": [
+        603828.8447644523,
+        5678909.892108071
+      ],
+      "fitting_intercept_or_constant_db": 64.31969472518333,
+      "retained_training_loss_db": 1.7129757942184654,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 73
+    },
+    "44": {
+      "coordinate": [
+        603828.8447644523,
+        5671930.148280027
+      ],
+      "fitting_intercept_or_constant_db": 66.43430163098483,
+      "retained_training_loss_db": 0.3272961168282933,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 105
+    },
+    "48": {
+      "coordinate": [
+        592275.8798581532,
+        5669393.25164725
+      ],
+      "fitting_intercept_or_constant_db": 67.94554540061313,
+      "retained_training_loss_db": 1.4045942709952755,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 89
+    },
+    "5": {
+      "coordinate": [
+        599578.8447644523,
+        5669518.25164725
+      ],
+      "fitting_intercept_or_constant_db": 75.79556393134119,
+      "retained_training_loss_db": 2.0122201344738073,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 105
+    },
+    "50": {
+      "coordinate": [
+        600182.0541647223,
+        5679034.892108071
+      ],
+      "fitting_intercept_or_constant_db": 71.61807278707889,
+      "retained_training_loss_db": 1.9015986146863924,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 89
+    },
+    "6": {
+      "coordinate": [
+        603638.8447644523,
+        5679034.892108071
+      ],
+      "fitting_intercept_or_constant_db": 65.68736831544327,
+      "retained_training_loss_db": 1.3873909350013065,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 81
+    },
+    "69": {
+      "coordinate": [
+        602306.9997994651,
+        5678191.039522225
+      ],
+      "fitting_intercept_or_constant_db": 68.50484747861329,
+      "retained_training_loss_db": 1.0002150348091305,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 73
+    },
+    "7": {
+      "coordinate": [
+        603828.8447644523,
+        5676606.223941652
+      ],
+      "fitting_intercept_or_constant_db": 57.72265486974621,
+      "retained_training_loss_db": 2.2847115421002115,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 65
+    },
+    "70": {
+      "coordinate": [
+        603828.8447644523,
+        5679034.892108071
+      ],
+      "fitting_intercept_or_constant_db": 65.8089370742519,
+      "retained_training_loss_db": 1.450222130341757,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 65
+    },
+    "71": {
+      "coordinate": [
+        598100.814612575,
+        5674651.195058385
+      ],
+      "fitting_intercept_or_constant_db": 41.561587176527894,
+      "retained_training_loss_db": 1.1118791553379026,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 89
+    },
+    "9": {
+      "coordinate": [
+        603828.8447644523,
+        5677594.892108071
+      ],
+      "fitting_intercept_or_constant_db": 67.12797480876247,
+      "retained_training_loss_db": 2.033731616558896,
+      "selected_start_rank0": 0,
+      "source": "native",
+      "total_objective_calls": 81
+    }
+  },
+  "WIDE_MS": {
+    "1": {
+      "coordinate": [
+        596446.4395255393,
+        5678969.892108071
+      ],
+      "fitting_intercept_or_constant_db": 66.07645383930988,
+      "retained_training_loss_db": 1.0161281686027763,
+      "selected_start_rank0": 4,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 485
+    },
+    "10": {
+      "coordinate": [
+        599126.6290477134,
+        5672868.6617624555
+      ],
+      "fitting_intercept_or_constant_db": 37.171723258313556,
+      "retained_training_loss_db": 0.9817103119112716,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 493
+    },
+    "11": {
+      "coordinate": [
+        602703.8447644523,
+        5669643.25164725
+      ],
+      "fitting_intercept_or_constant_db": 75.53738894784368,
+      "retained_training_loss_db": 2.1371344759659507,
+      "selected_start_rank0": 3,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 469
+    },
+    "12": {
+      "coordinate": [
+        600078.8447644523,
+        5678969.892108071
+      ],
+      "fitting_intercept_or_constant_db": 62.06137225334028,
+      "retained_training_loss_db": 2.1082061537385783,
+      "selected_start_rank0": 0,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 421
+    },
+    "14": {
+      "coordinate": [
+        603578.8447644523,
+        5669393.25164725
+      ],
+      "fitting_intercept_or_constant_db": 79.88496269486289,
+      "retained_training_loss_db": 2.141969614929252,
+      "selected_start_rank0": 4,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 453
+    },
+    "15": {
+      "coordinate": [
+        593001.6290477134,
+        5669393.25164725
+      ],
+      "fitting_intercept_or_constant_db": 66.64712540507077,
+      "retained_training_loss_db": 2.741845562447864,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 405
+    },
+    "16": {
+      "coordinate": [
+        599578.8447644523,
+        5669708.25164725
+      ],
+      "fitting_intercept_or_constant_db": 68.50646756973136,
+      "retained_training_loss_db": 0.8757142408116891,
+      "selected_start_rank0": 0,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 429
+    },
+    "17": {
+      "coordinate": [
+        591001.6290477134,
+        5669518.25164725
+      ],
+      "fitting_intercept_or_constant_db": 81.1321274301158,
+      "retained_training_loss_db": 2.131452689196692,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 397
+    },
+    "18": {
+      "coordinate": [
+        592619.2238088003,
+        5673928.6617624555
+      ],
+      "fitting_intercept_or_constant_db": 69.20167949928106,
+      "retained_training_loss_db": 2.777483926303148,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 445
+    },
+    "19": {
+      "coordinate": [
+        591559.2238088003,
+        5676954.545208384
+      ],
+      "fitting_intercept_or_constant_db": 66.05847854307416,
+      "retained_training_loss_db": 1.575145559203179,
+      "selected_start_rank0": 0,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 357
+    },
+    "2": {
+      "coordinate": [
+        600136.4395255393,
+        5672553.6617624555
+      ],
+      "fitting_intercept_or_constant_db": 39.31643976691046,
+      "retained_training_loss_db": 1.5263154237665333,
+      "selected_start_rank0": 3,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 389
+    },
+    "20": {
+      "coordinate": [
+        590559.2238088003,
+        5669703.25164725
+      ],
+      "fitting_intercept_or_constant_db": 76.33016230229006,
+      "retained_training_loss_db": 1.0288487979555327,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 461
+    },
+    "22": {
+      "coordinate": [
+        601703.8447644523,
+        5669518.25164725
+      ],
+      "fitting_intercept_or_constant_db": 70.65635366786447,
+      "retained_training_loss_db": 0.7747141280766812,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 397
+    },
+    "23": {
+      "coordinate": [
+        594376.6290477134,
+        5679034.892108071
+      ],
+      "fitting_intercept_or_constant_db": 66.91815484702991,
+      "retained_training_loss_db": 1.6549934101783776,
+      "selected_start_rank0": 2,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 373
+    },
+    "25": {
+      "coordinate": [
+        591434.2238088003,
+        5669518.25164725
+      ],
+      "fitting_intercept_or_constant_db": 69.18742893067298,
+      "retained_training_loss_db": 2.1661119181461856,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 405
+    },
+    "27": {
+      "coordinate": [
+        592251.6290477134,
+        5679034.892108071
+      ],
+      "fitting_intercept_or_constant_db": 77.92960192880261,
+      "retained_training_loss_db": 3.3332127676067103,
+      "selected_start_rank0": 2,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 389
+    },
+    "3": {
+      "coordinate": [
+        603828.8447644523,
+        5674659.892108071
+      ],
+      "fitting_intercept_or_constant_db": 63.82333816533145,
+      "retained_training_loss_db": 2.1508347420841574,
+      "selected_start_rank0": 4,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 389
+    },
+    "31": {
+      "coordinate": [
+        600511.4395255393,
+        5669738.6617624555
+      ],
+      "fitting_intercept_or_constant_db": 68.08961467192967,
+      "retained_training_loss_db": 1.0268549365977577,
+      "selected_start_rank0": 3,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 373
+    },
+    "32": {
+      "coordinate": [
+        591184.2238088003,
+        5676249.481992865
+      ],
+      "fitting_intercept_or_constant_db": 72.76433888698267,
+      "retained_training_loss_db": 1.9495939161127467,
+      "selected_start_rank0": 2,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 469
+    },
+    "33": {
+      "coordinate": [
+        597751.6290477134,
+        5679034.892108071
+      ],
+      "fitting_intercept_or_constant_db": 46.27863975496287,
+      "retained_training_loss_db": 0.7062469746639977,
+      "selected_start_rank0": 2,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 453
+    },
+    "34": {
+      "coordinate": [
+        599076.4395255393,
+        5669929.481992865
+      ],
+      "fitting_intercept_or_constant_db": 66.95698584606163,
+      "retained_training_loss_db": 0.9563133655177012,
+      "selected_start_rank0": 4,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 477
+    },
+    "37": {
+      "coordinate": [
+        601328.8447644523,
+        5669393.25164725
+      ],
+      "fitting_intercept_or_constant_db": 68.21319056949893,
+      "retained_training_loss_db": 1.3101422396982656,
+      "selected_start_rank0": 3,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 365
+    },
+    "4": {
+      "coordinate": [
+        602446.4395255393,
+        5669458.25164725
+      ],
+      "fitting_intercept_or_constant_db": 71.093765629688,
+      "retained_training_loss_db": 1.4436519837076673,
+      "selected_start_rank0": 3,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 405
+    },
+    "44": {
+      "coordinate": [
+        603828.8447644523,
+        5671934.481992865
+      ],
+      "fitting_intercept_or_constant_db": 66.42737684045889,
+      "retained_training_loss_db": 0.32716719506609593,
+      "selected_start_rank0": 4,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 445
+    },
+    "48": {
+      "coordinate": [
+        592251.6290477134,
+        5669393.25164725
+      ],
+      "fitting_intercept_or_constant_db": 67.99151021311977,
+      "retained_training_loss_db": 1.4005652341386536,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 389
+    },
+    "5": {
+      "coordinate": [
+        595316.6290477134,
+        5679034.892108071
+      ],
+      "fitting_intercept_or_constant_db": 63.32245774514422,
+      "retained_training_loss_db": 1.8295559238319612,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 445
+    },
+    "50": {
+      "coordinate": [
+        601636.4395255393,
+        5669453.25164725
+      ],
+      "fitting_intercept_or_constant_db": 74.20276071972333,
+      "retained_training_loss_db": 1.4962589810366325,
+      "selected_start_rank0": 3,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 469
+    },
+    "6": {
+      "coordinate": [
+        603768.8447644523,
+        5670708.25164725
+      ],
+      "fitting_intercept_or_constant_db": 71.97590815188352,
+      "retained_training_loss_db": 0.8242656740457903,
+      "selected_start_rank0": 3,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 421
+    },
+    "69": {
+      "coordinate": [
+        602513.8447644523,
+        5678909.892108071
+      ],
+      "fitting_intercept_or_constant_db": 70.64921294676539,
+      "retained_training_loss_db": 0.9999030063021621,
+      "selected_start_rank0": 3,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 421
+    },
+    "7": {
+      "coordinate": [
+        590684.2238088003,
+        5672428.6617624555
+      ],
+      "fitting_intercept_or_constant_db": 79.98243628373493,
+      "retained_training_loss_db": 2.0283543771085704,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 413
+    },
+    "70": {
+      "coordinate": [
+        590559.2238088003,
+        5669893.25164725
+      ],
+      "fitting_intercept_or_constant_db": 78.53161434124107,
+      "retained_training_loss_db": 1.2102445848497894,
+      "selected_start_rank0": 1,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 357
+    },
+    "71": {
+      "coordinate": [
+        598100.814612575,
+        5674651.195058385
+      ],
+      "fitting_intercept_or_constant_db": 41.561587176527894,
+      "retained_training_loss_db": 1.1118791553379026,
+      "selected_start_rank0": 0,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 445
+    },
+    "9": {
+      "coordinate": [
+        602953.8447644523,
+        5669458.25164725
+      ],
+      "fitting_intercept_or_constant_db": 74.83149448479935,
+      "retained_training_loss_db": 1.9751275412538405,
+      "selected_start_rank0": 3,
+      "source": "five_scheduled_starts",
+      "total_objective_calls": 381
+    }
+  }
+}

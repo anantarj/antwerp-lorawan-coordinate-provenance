@@ -1,0 +1,32 @@
+[
+  {
+    "source": "PR1:results/resource_demo/matched_survivor_reconstruction.csv",
+    "destination": "evidence/pr1/results/resource_demo/matched_survivor_reconstruction.csv",
+    "sha256": "fe9a21136a29e12325dd3356f0fbb30c35fda4ba6451daf6134f6dcbb25caa18",
+    "unchanged": true
+  },
+  {
+    "source": "PR1:results/resource_demo/RESOURCE_DEMO_RECEIPT.json",
+    "destination": "evidence/pr1/results/resource_demo/RESOURCE_DEMO_RECEIPT.json",
+    "sha256": "92c50f81ae290dc9343e1dcc01ea68ae18be65c05aae9ad245297da6f32e83f5",
+    "unchanged": true
+  },
+  {
+    "source": "PR1:protocol/MECHANISM_VALIDATION_PROTOCOL.json",
+    "destination": "evidence/pr1/protocol/MECHANISM_VALIDATION_PROTOCOL.json",
+    "sha256": "405bf282c73545fe8c00fbccbddcdd099cffdbc0bfb567f926e6cde98010973c",
+    "unchanged": true
+  },
+  {
+    "source": "PR1:checks/PROTOCOL_LOCK.json",
+    "destination": "evidence/pr1/checks/PROTOCOL_LOCK.json",
+    "sha256": "6d553a4f5e37c5fa87441450bef3a5ab9d00b41925008b2a271f7f2bf73becbf",
+    "unchanged": true
+  },
+  {
+    "source": "PR1:plan/REVISION_PLAN.md",
+    "destination": "evidence/pr1/plan/REVISION_PLAN.md",
+    "sha256": "1a4f86ab6598915f95ee592e348bdbb344ba4be7cfda57309d574448786816a1",
+    "unchanged": true
+  }
+]

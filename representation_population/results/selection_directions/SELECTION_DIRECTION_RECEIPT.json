@@ -1,0 +1,57 @@
+{
+  "scope": "New descriptive aggregation of all 64 reduced-roster method/draw summaries previously reconstructed and checked in PR1; no new fitting, localization or bootstrap.",
+  "numerical_zero_tolerance_m": 1e-07,
+  "method_summaries": [
+    {
+      "method": "FP_k3",
+      "draws": 32,
+      "opposite_displayed_and_within_survivor_signs": 2,
+      "selection_absolute_exceeds_removal": 17,
+      "apparent_improvement_with_within_survivor_deterioration": 1,
+      "apparent_deterioration_with_within_survivor_improvement": 1
+    },
+    {
+      "method": "MinMax",
+      "draws": 32,
+      "opposite_displayed_and_within_survivor_signs": 6,
+      "selection_absolute_exceeds_removal": 19,
+      "apparent_improvement_with_within_survivor_deterioration": 0,
+      "apparent_deterioration_with_within_survivor_improvement": 6
+    }
+  ],
+  "total_sign_reversals": 8,
+  "reversal_survivor_counts": [
+    1374,
+    1438,
+    1069,
+    960,
+    807,
+    1276,
+    25,
+    12
+  ],
+  "worked_example_16_4_fingerprint": [
+    {
+      "experiment": "removal_16_4",
+      "method": "FP_k3",
+      "parent_n": 2495,
+      "survivors": 1276,
+      "retained_receivers": 16,
+      "full_parent_median_m": 219.29225647763056,
+      "full_survivor_median_m": 59.29562148253908,
+      "reduced_survivor_median_m": 75.77344186586217,
+      "unseparated_change_m": -143.5188146117684,
+      "selection_component_m": -159.99663499509148,
+      "removal_component_m": 16.477820383323092,
+      "unseparated_sign": -1,
+      "within_survivor_sign": 1,
+      "sign_reversal": true,
+      "selection_absolute_exceeds_removal": true
+    }
+  ],
+  "input_hashes": {
+    "matched_survivor_reconstruction.csv": "fe9a21136a29e12325dd3356f0fbb30c35fda4ba6451daf6134f6dcbb25caa18",
+    "RESOURCE_DEMO_RECEIPT.json": "92c50f81ae290dc9343e1dcc01ea68ae18be65c05aae9ad245297da6f32e83f5"
+  },
+  "warning": "Overlapping draws are not independent experiments; sign is not statistical significance. Tiny survivor strata remain explicit, not evidence of general frequency."
+}

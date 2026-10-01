@@ -1,0 +1,5 @@
+# Recorded experiment Python: 3.13.5; PROJ 9.5.1 through pyproj.
+# This file records dependencies, not an assertion of fresh-install verification.
+numpy==2.3.5
+pandas==2.2.3
+pyproj==3.7.2

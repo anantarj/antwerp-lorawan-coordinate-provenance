@@ -1,0 +1,25 @@
+{
+  "source_relative_path": "computational/src/primary/code/evaluator_stable.py",
+  "source_container": "Computational_Supplement_Anonymous_S1.zip",
+  "source_sha256": "526d05718ce19f3ce1cae1f7592e378000653e7ff49348fc5cc26e71033cc900",
+  "excerpt_sha256": "752063a91b0a719db174738562326c4aa53c651c3ae04272d40a390cf53f6814",
+  "functions": [
+    {
+      "name": "_robust_gateway_loss_and_a0",
+      "source_lines": [
+        925,
+        945
+      ],
+      "body_sha256": "278c32d3e76cce0a01129dab5fc2502ab461b67c1b56ef65def17bebd2ca868a"
+    },
+    {
+      "name": "estimate_gateway_positions_rssfit",
+      "source_lines": [
+        948,
+        1046
+      ],
+      "body_sha256": "2c14743ded857b8142548b5673bf9c045b24d51c773121c023e76b58ba617230"
+    }
+  ],
+  "use": "Exact source-function comparison only. No full-module import, main execution, or claim of new algorithm."
+}

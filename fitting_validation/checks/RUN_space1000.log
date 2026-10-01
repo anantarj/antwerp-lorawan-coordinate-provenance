@@ -1,0 +1,36 @@
+space1000 BS1 1/33 fitting_support=2363 validation_support=418 complete
+space1000 BS2 2/33 fitting_support=4601 validation_support=56 complete
+space1000 BS3 3/33 fitting_support=970 validation_support=95 complete
+space1000 BS4 4/33 fitting_support=1557 validation_support=1634 complete
+space1000 BS5 5/33 fitting_support=1643 validation_support=1905 complete
+space1000 BS6 6/33 fitting_support=945 validation_support=780 complete
+space1000 BS7 7/33 fitting_support=1343 validation_support=254 complete
+space1000 BS9 8/33 fitting_support=3485 validation_support=1539 complete
+space1000 BS10 9/33 fitting_support=4027 validation_support=0 complete
+space1000 BS11 10/33 fitting_support=2428 validation_support=1144 complete
+space1000 BS12 11/33 fitting_support=1597 validation_support=34 complete
+space1000 BS14 12/33 fitting_support=5072 validation_support=1941 complete
+space1000 BS15 13/33 fitting_support=449 validation_support=158 complete
+space1000 BS16 14/33 fitting_support=149 validation_support=212 complete
+space1000 BS17 15/33 fitting_support=1091 validation_support=414 complete
+space1000 BS18 16/33 fitting_support=1989 validation_support=1230 complete
+space1000 BS19 17/33 fitting_support=1282 validation_support=426 complete
+space1000 BS20 18/33 fitting_support=1580 validation_support=1540 complete
+space1000 BS22 19/33 fitting_support=917 validation_support=832 complete
+space1000 BS23 20/33 fitting_support=260 validation_support=76 complete
+space1000 BS25 21/33 fitting_support=614 validation_support=595 complete
+space1000 BS27 22/33 fitting_support=3891 validation_support=1789 complete
+space1000 BS31 23/33 fitting_support=938 validation_support=607 complete
+space1000 BS32 24/33 fitting_support=3301 validation_support=1876 complete
+space1000 BS33 25/33 fitting_support=31 validation_support=38 complete
+space1000 BS34 26/33 fitting_support=254 validation_support=668 complete
+space1000 BS37 27/33 fitting_support=337 validation_support=29 complete
+space1000 BS44 28/33 fitting_support=37 validation_support=9 complete
+space1000 BS48 29/33 fitting_support=72 validation_support=19 complete
+space1000 BS50 30/33 fitting_support=83 validation_support=7 complete
+space1000 BS69 31/33 fitting_support=5547 validation_support=664 complete
+space1000 BS70 32/33 fitting_support=584 validation_support=361 complete
+space1000 BS71 33/33 fitting_support=0 validation_support=58 complete
+/mnt/data/Paper_A_PR3_20260920/code/run_mv1.py:268: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  write_csv(out/'all_reception_predictions.csv.gz',pd.concat(obsframes,ignore_index=True))
+COMPLETE /mnt/data/Paper_A_PR3_20260920/results/space1000

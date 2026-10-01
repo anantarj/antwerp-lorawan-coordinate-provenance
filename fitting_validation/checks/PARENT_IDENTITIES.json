@@ -1,0 +1,16 @@
+{
+  "parents": [
+    {
+      "file": "parents/Paper_A_PR1_Plan_and_Stage1_20260919.zip",
+      "bytes": 3310771,
+      "sha256": "46bc701eb4ad5cf929a1bec1ba79ce9c8c34e14ee32472251cf14d885d1a1559",
+      "original_bytes_equal": true
+    },
+    {
+      "file": "parents/Paper_A_PR2_Stage2_20260920.zip",
+      "bytes": 912220,
+      "sha256": "5f763a45bd0ba46dba9786595681521370922ccfdc7b459dbbd344498118e7f0",
+      "original_bytes_equal": true
+    }
+  ]
+}

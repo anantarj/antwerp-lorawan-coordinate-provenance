@@ -1,0 +1,112 @@
+{
+  "scientific_files": 21,
+  "all_identical": true,
+  "files": [
+    {
+      "file": "ALL_CANDIDATE_SUMMARIES.csv",
+      "identical": true,
+      "sha256": "d6221f2e42b74e56edc7e4142deb12376ececd92e7956d2c8488f02ab989587f"
+    },
+    {
+      "file": "FROZEN_CHOICES.json",
+      "identical": true,
+      "sha256": "4d4e27329dc15d91da0b0ed1034f6583cb82710df183cc8f0a055983fd81ad29"
+    },
+    {
+      "file": "INPUT_IDENTITIES.json",
+      "identical": true,
+      "sha256": "c58ac1affdf07e2a4610b2f230a0c830fb06be088ec2b0776cdb170972219815"
+    },
+    {
+      "file": "INPUT_POPULATION_CHECKS.json",
+      "identical": true,
+      "sha256": "d5f8f90d7ee7c454baf97af3ddc2baf32d51155015d19e7c3585f88bc7d4d647"
+    },
+    {
+      "file": "NUMERICAL_CHECKS.json",
+      "identical": true,
+      "sha256": "be66e78c7cabc28051497434b96cdb8e65fe668a27d73dd9b68161a64f65b05a"
+    },
+    {
+      "file": "POLICY_OUTCOMES.csv",
+      "identical": true,
+      "sha256": "2aeecb1d15263df0915a7335b2fcd938f92cdbef6df659bdd904a090c2ad427f"
+    },
+    {
+      "file": "SOURCE_ROLE_LEDGER.csv.gz",
+      "identical": true,
+      "sha256": "239666ff4f0c1b18c8ee6c3cd03616ce24fd563f82b385970df86c68d97ee92a"
+    },
+    {
+      "file": "group80_SELECTION_FROZEN.json",
+      "identical": true,
+      "sha256": "caaf9e822c06a8d6d1711442e12227f4bb800e5499d5a732f7da4ea7ece258ef"
+    },
+    {
+      "file": "group80_complement_COMMON_ROWS.csv",
+      "identical": true,
+      "sha256": "85bf469ab1f132b7c9e379020a469258010a87a088c473f3d88a93ab8a029155"
+    },
+    {
+      "file": "group80_complement_PREDICTIONS.csv.gz",
+      "identical": true,
+      "sha256": "fbc9ca5982cf73a98dfd097696d62a95275f030eb3884ff5807136d5c3f81072"
+    },
+    {
+      "file": "group80_old_primary_COMMON_ROWS.csv",
+      "identical": true,
+      "sha256": "7a90c1565be4e842e756013e30dbd4f867a1e061adedf651c711b95692bd0463"
+    },
+    {
+      "file": "group80_old_primary_PREDICTIONS.csv.gz",
+      "identical": true,
+      "sha256": "210ec57d1ce52b9c2feb91ca46c50b67c33e59f2662717ff3b6ba2fed93deb05"
+    },
+    {
+      "file": "group80_validation_COMMON_ROWS.csv",
+      "identical": true,
+      "sha256": "3d433fc7238f78a9129a431921ac0300eea11822b3a91ab000bcbcdeaa604240"
+    },
+    {
+      "file": "group80_validation_PREDICTIONS.csv.gz",
+      "identical": true,
+      "sha256": "06aebdaf9ff0397c6e31f464800884ab06ebe3e681faa545dcfc64e6ccdbcdd1"
+    },
+    {
+      "file": "space1000_SELECTION_FROZEN.json",
+      "identical": true,
+      "sha256": "9b9bcaa426b5257652a3b86e1cd1461fd498d78f54a41be1905289e65b728585"
+    },
+    {
+      "file": "space1000_complement_COMMON_ROWS.csv",
+      "identical": true,
+      "sha256": "d2533165c90513ec04f84779433f9415124d871e2fa86205c5c8efd02d2e302b"
+    },
+    {
+      "file": "space1000_complement_PREDICTIONS.csv.gz",
+      "identical": true,
+      "sha256": "32e520d086a0c257448aa82f0c7d5025924d33e1f7ba212d1a2c688bb1c6d7c6"
+    },
+    {
+      "file": "space1000_old_primary_COMMON_ROWS.csv",
+      "identical": true,
+      "sha256": "f05068ef94179d98604d11c81d599161488be00ba5479826a4a1648fa28d6b50"
+    },
+    {
+      "file": "space1000_old_primary_PREDICTIONS.csv.gz",
+      "identical": true,
+      "sha256": "819597404a30711c7c06a59821eb189d01e97112068900d86424744b2cce8074"
+    },
+    {
+      "file": "space1000_validation_COMMON_ROWS.csv",
+      "identical": true,
+      "sha256": "4fae7a3a7dce791e93fa9607e883efc220647219ac6e4cfbd6dfd6f6483e471c"
+    },
+    {
+      "file": "space1000_validation_PREDICTIONS.csv.gz",
+      "identical": true,
+      "sha256": "18e6d15c3a19f94d40bcf65c324e395a52d8da9c3d6ea151932eb71898880566"
+    }
+  ],
+  "excluded": "COMPLETE.json has invocation/time metadata"
+}

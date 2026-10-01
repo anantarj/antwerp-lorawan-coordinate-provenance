@@ -1,0 +1,21 @@
+test_RSSI_global_offset_invariance (__main__.Contracts.test_RSSI_global_offset_invariance) ... ok
+test_conflicting_group_receptions_rejected (__main__.Contracts.test_conflicting_group_receptions_rejected) ... ok
+test_different_members_same_count_rejected (__main__.Contracts.test_different_members_same_count_rejected) ... ok
+test_duplicate_row_ids_rejected (__main__.Contracts.test_duplicate_row_ids_rejected) ... ok
+test_equal_count_wrong_order_rejected (__main__.Contracts.test_equal_count_wrong_order_rejected) ... ok
+test_exact_order_accepted (__main__.Contracts.test_exact_order_accepted) ... ok
+test_hand_computed_centroid (__main__.Contracts.test_hand_computed_centroid) ... ok
+test_identical_duplicate_receptions_accepted (__main__.Contracts.test_identical_duplicate_receptions_accepted) ... ok
+test_insufficient_json_multiplicity_rejected (__main__.Contracts.test_insufficient_json_multiplicity_rejected) ... ok
+test_leading_zeros_preserved (__main__.Contracts.test_leading_zeros_preserved) ... ok
+test_missing_coordinates_rejected (__main__.Contracts.test_missing_coordinates_rejected) ... ok
+test_nonbijective_receiver_link_rejected (__main__.Contracts.test_nonbijective_receiver_link_rejected) ... ok
+test_nonfinite_coordinate_rejected (__main__.Contracts.test_nonfinite_coordinate_rejected) ... ok
+test_numeric_BS_tie_rule (__main__.Contracts.test_numeric_BS_tie_rule) ... ok
+test_surplus_json_not_automatically_appended (__main__.Contracts.test_surplus_json_not_automatically_appended) ... ok
+test_wrong_source_hash_rejected (__main__.Contracts.test_wrong_source_hash_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.007s
+
+OK

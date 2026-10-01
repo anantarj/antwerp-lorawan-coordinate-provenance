@@ -1,0 +1,27 @@
+{
+  "scope": "Compact attribution for established general ideas; not an exhaustive new priority comparison or external algorithm benchmark",
+  "sources": [
+    {
+      "reference": 14,
+      "title": "A Survey of Approaches to Automatic Schema Matching",
+      "authors": "E. Rahm and P. A. Bernstein",
+      "year": 2001,
+      "doi": "10.1007/s007780100057",
+      "evidence": "Author database-group bibliographic/abstract record; no claim of complete matcher reproduction"
+    },
+    {
+      "reference": 15,
+      "title": "PROV-DM: The PROV Data Model",
+      "url": "https://www.w3.org/TR/prov-dm/",
+      "date": "2013-04-30",
+      "evidence": "Official W3C recommendation; domain-independent provenance context"
+    },
+    {
+      "reference": 16,
+      "title": "Metamorphic Testing: A Review of Challenges and Opportunities",
+      "doi": "10.1145/3143561",
+      "year": 2018,
+      "evidence": "Author/institutional records; terminology and bibliographic attribution"
+    }
+  ]
+}

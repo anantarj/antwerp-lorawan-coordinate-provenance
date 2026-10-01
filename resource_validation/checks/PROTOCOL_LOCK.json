@@ -1,0 +1,7 @@
+{
+  "protocol_id": "PA-PR-MV1-20260919",
+  "sha256": "405bf282c73545fe8c00fbccbddcdd099cffdbc0bfb567f926e6cde98010973c",
+  "locked_utc": "2026-09-19T08:47:34.586475+00:00",
+  "event": "Before new split preflight and any new coordinate fits; existing historical and 19-Sep diagnostic outcomes already known",
+  "external_preregistration": false
+}

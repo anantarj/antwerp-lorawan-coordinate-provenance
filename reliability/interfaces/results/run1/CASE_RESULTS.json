@@ -1,0 +1,142 @@
+{
+  "cases": [
+    {
+      "case": "clean",
+      "integrated": {
+        "state": "equivalent_continuation",
+        "violations": []
+      },
+      "conventional": {
+        "state": "equivalent_continuation",
+        "violations": []
+      },
+      "equal": true
+    },
+    {
+      "case": "reordered_view_restored_with_original_handles",
+      "integrated": {
+        "state": "equivalent_continuation",
+        "violations": []
+      },
+      "conventional": {
+        "state": "equivalent_continuation",
+        "violations": []
+      },
+      "equal": true
+    },
+    {
+      "case": "unrestored_order",
+      "integrated": {
+        "state": "unsupported_comparison",
+        "violations": [
+          "ordered_row_handles:mismatch"
+        ]
+      },
+      "conventional": {
+        "state": "unsupported_comparison",
+        "violations": [
+          "ordered_row_handles:mismatch"
+        ]
+      },
+      "equal": true
+    },
+    {
+      "case": "unrestored_features",
+      "integrated": {
+        "state": "unsupported_comparison",
+        "violations": [
+          "feature_schema:mismatch"
+        ]
+      },
+      "conventional": {
+        "state": "unsupported_comparison",
+        "violations": [
+          "feature_schema:mismatch"
+        ]
+      },
+      "equal": true
+    },
+    {
+      "case": "stale_position_binding",
+      "integrated": {
+        "state": "unsupported_comparison",
+        "violations": [
+          "position_model:mismatch"
+        ]
+      },
+      "conventional": {
+        "state": "unsupported_comparison",
+        "violations": [
+          "position_model:mismatch"
+        ]
+      },
+      "equal": true
+    },
+    {
+      "case": "stale_DD_DDL_binding",
+      "integrated": {
+        "state": "unsupported_comparison",
+        "violations": [
+          "error_model:mismatch"
+        ]
+      },
+      "conventional": {
+        "state": "unsupported_comparison",
+        "violations": [
+          "error_model:mismatch"
+        ]
+      },
+      "equal": true
+    },
+    {
+      "case": "different_metric",
+      "integrated": {
+        "state": "unsupported_comparison",
+        "violations": [
+          "coordinate_metric:mismatch"
+        ]
+      },
+      "conventional": {
+        "state": "unsupported_comparison",
+        "violations": [
+          "coordinate_metric:mismatch"
+        ]
+      },
+      "equal": true
+    },
+    {
+      "case": "different_calibration_role",
+      "integrated": {
+        "state": "unsupported_comparison",
+        "violations": [
+          "calibration_role:mismatch"
+        ]
+      },
+      "conventional": {
+        "state": "unsupported_comparison",
+        "violations": [
+          "calibration_role:mismatch"
+        ]
+      },
+      "equal": true
+    },
+    {
+      "case": "different_units",
+      "integrated": {
+        "state": "unsupported_comparison",
+        "violations": [
+          "error_units:mismatch"
+        ]
+      },
+      "conventional": {
+        "state": "unsupported_comparison",
+        "violations": [
+          "error_units:mismatch"
+        ]
+      },
+      "equal": true
+    }
+  ],
+  "labels_received": false,
+  "file_network_hooks_disabled_during_checks": true
+}

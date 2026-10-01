@@ -1,0 +1,80 @@
+{
+  "scope": "additive retrospective assessment reconciliation and saved-output diagnostic; not original G2 execution",
+  "files": [
+    {
+      "path": "G2_ASSESSMENT_RECONCILIATION.md",
+      "bytes": 16324,
+      "sha256": "8f34059c5d9e67e4cb7f1a4dfb444e1bd775ee275a306a36dc257178ff9b9cc2"
+    },
+    {
+      "path": "INPUT_IDENTITIES.json",
+      "bytes": 563,
+      "sha256": "0ac067a0d729951236f794f7aa2ff90aa9d746b6b8cb6e7ea0c4c9d5ec53f45f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1244,
+      "sha256": "3b695c2c7b68c78319bcccb8d52d5b864666715562be9a01270a4890317d485b"
+    },
+    {
+      "path": "code/audit_saved_selection.py",
+      "bytes": 10420,
+      "sha256": "795ef079761b3a59d3ddd7dec59fe2a54727d5d758d8505758d9cc42ec40e570"
+    },
+    {
+      "path": "results/REPEAT_CHECK.json",
+      "bytes": 651,
+      "sha256": "88034a06e06c0dc2985a3eaa14169e529a7faae6b0217c7f600f278379735c77"
+    },
+    {
+      "path": "results/selection_audit/AUDIT_RECEIPT.json",
+      "bytes": 2802,
+      "sha256": "3de8b083a51cacf1108e1643c64810d5f42fe0e5b95a03f14e0951aa4fe3b912"
+    },
+    {
+      "path": "results/selection_audit/FINITE_SHIFT_ORDER_AUDIT.csv",
+      "bytes": 5098,
+      "sha256": "fd2506c6b3a1f402ac8d54609b58eaf4053929a387e2fc869499feea81571b07"
+    },
+    {
+      "path": "results/selection_audit/ORIGINAL_LANDMARK_EXPLANATION.csv",
+      "bytes": 1609,
+      "sha256": "90e87033e68e155f4f7cee2233b37a14478861617ca54557bd56d50a31f7719d"
+    },
+    {
+      "path": "results/selection_audit/ORIGINAL_LANDMARK_MASK_AUDIT.csv",
+      "bytes": 28562,
+      "sha256": "36f26c6560412bcf02416ec957706ef78e169cfbeab598d3cb59a22e904ce268"
+    },
+    {
+      "path": "results/selection_audit/POSTHOC_SAME_K_COMPARISONS.csv",
+      "bytes": 12879,
+      "sha256": "cdb9e03f148750b216c2db25f8b3826025246651f9acba05cac8de2079dec178"
+    },
+    {
+      "path": "review/ASSESSMENT_STATUS_MATRIX.json",
+      "bytes": 7968,
+      "sha256": "85d538c5492aaa33aed58f59ef3ce1ba7ac1658352c1d99850a9a098fdcdbe4c"
+    },
+    {
+      "path": "review/ASSESSMENT_STATUS_MATRIX.md",
+      "bytes": 3955,
+      "sha256": "6b9124aba21d299d4a231782f315ab75b98ca8fac5e84ac52877831f5ea72242"
+    },
+    {
+      "path": "review/ATTACHED_DESIGN_ASSESSMENT.md",
+      "bytes": 17162,
+      "sha256": "869cf5f99fa4f227a9e9b6e1c1ec241211043930405f45236b9458ff892c72dc"
+    },
+    {
+      "path": "review/INFORMATION_AVAILABILITY.json",
+      "bytes": 2793,
+      "sha256": "f2462209ca522b551a315d1f85991493feece5e46e18bedd6355871e03d16f8a"
+    },
+    {
+      "path": "review/SOURCE_INSPECTION_RECEIPT.json",
+      "bytes": 3502,
+      "sha256": "e93b4823dd85ff515871522de5a10fdabb1c68744d67f32b91be81014c9799c9"
+    }
+  ]
+}

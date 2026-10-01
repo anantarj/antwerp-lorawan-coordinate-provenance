@@ -1,0 +1,58 @@
+{
+  "files/DSI/DSI_dataset.pdf": {
+    "bytes": 334380,
+    "sha256": "c86f47a81dc836923d7c67f68efdaec8eb472539ca677f823d0ad76ef421040d"
+  },
+  "files/DSI/rm_crd.csv": {
+    "bytes": 49028,
+    "sha256": "9f444b7ee359e7788d4f75bd17f66280e55faf213f4763fc18e2782cf980f284"
+  },
+  "files/DSI/rm_rss.csv": {
+    "bytes": 1040686,
+    "sha256": "36814c4bf7948944be4c08d4c151c4a5042ae280cda00e9f942386d259c5856f"
+  },
+  "files/DSI/rm_tms.csv": {
+    "bytes": 15059,
+    "sha256": "2a4912c53e3eb3ad612fdc380645c84510307aab922f090ee159ebf17880899f"
+  },
+  "files/DSI/tj_crd.csv": {
+    "bytes": 12430,
+    "sha256": "51b78a83777fab473df0ea0fb8789793470632e7870dcc2259a06e0321c23522"
+  },
+  "files/DSI/tj_rss.csv": {
+    "bytes": 264957,
+    "sha256": "15af1a79c50b04d0ecc87bf553b9a34d4187350612b5882cdab28f3ab0c9f1bc"
+  },
+  "files/DSI/tj_tms.csv": {
+    "bytes": 3828,
+    "sha256": "d34961a18ba65d59158ce19e72aa6db1af950f3a8574563582de048ba40de761"
+  },
+  "files/DSI/x_test.csv": {
+    "bytes": 72738,
+    "sha256": "f3e6b48352cd9174ec6e5c468536f3dca8160f087b4db0d0bae4cc8d592b5c3b"
+  },
+  "files/DSI/x_train.csv": {
+    "bytes": 219062,
+    "sha256": "0ab44b8aa7b5bf671ff56a4d5a25bd0a26cc7bfe1f2b1349b40637e1df6e2afe"
+  },
+  "files/DSI/x_val.csv": {
+    "bytes": 72738,
+    "sha256": "2eef3f1b2ac3515a0f757d42ff7f090544d2a4fd4c201f4d33100dd11dc1a009"
+  },
+  "files/DSI/y_test.csv": {
+    "bytes": 4188,
+    "sha256": "c6ba46623ef42ef336bf3b7e0403aa9fdcb28717bbd9bd72375a1c01adb62522"
+  },
+  "files/DSI/y_train.csv": {
+    "bytes": 12600,
+    "sha256": "9727a427df0ca2c89b521baa01a6e0f86ac1b8b6808bf8fcc59808f3a99e0110"
+  },
+  "files/DSI/y_val.csv": {
+    "bytes": 4188,
+    "sha256": "236c8cc840c70f2372e73696a83bf1f7bf742aec4f2b87cf2290d52334e16c36"
+  },
+  "files/lorawan/lorawan_dataset_antwerp.csv": {
+    "bytes": 56521687,
+    "sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446"
+  }
+}

@@ -1,0 +1,3288 @@
+{
+  "all_calibrated_radius_records_checked": 198984,
+  "all_decision_rows_checked": 320,
+  "all_native_prediction_records_checked": 55375,
+  "checks": [
+    {
+      "check": "independent geodesic train_1",
+      "max_difference_m": 2.169731061485436e-09,
+      "n": 19381,
+      "passed": true
+    },
+    {
+      "check": "finite predictions train_1",
+      "passed": true
+    },
+    {
+      "check": "nonnegative train_1",
+      "passed": true
+    },
+    {
+      "check": "independent geodesic train_2",
+      "max_difference_m": 2.061810278064513e-09,
+      "n": 19381,
+      "passed": true
+    },
+    {
+      "check": "finite predictions train_2",
+      "passed": true
+    },
+    {
+      "check": "nonnegative train_2",
+      "passed": true
+    },
+    {
+      "check": "independent geodesic val",
+      "max_difference_m": 2.0218067220412195e-09,
+      "n": 8306,
+      "passed": true
+    },
+    {
+      "check": "finite predictions val",
+      "passed": true
+    },
+    {
+      "check": "nonnegative val",
+      "passed": true
+    },
+    {
+      "check": "independent geodesic test",
+      "max_difference_m": 2.1782327053188055e-09,
+      "n": 8307,
+      "passed": true
+    },
+    {
+      "check": "finite predictions test",
+      "passed": true
+    },
+    {
+      "check": "nonnegative test",
+      "passed": true
+    },
+    {
+      "check": "calibration group disjoint",
+      "n": 8286,
+      "passed": true
+    },
+    {
+      "check": "test group disjoint",
+      "n": 8275,
+      "passed": true
+    },
+    {
+      "check": "requests retained",
+      "passed": true
+    },
+    {
+      "check": "order statistic DD/0.1",
+      "k": 7459,
+      "n": 8286,
+      "passed": true
+    },
+    {
+      "check": "order statistic DDL/0.1",
+      "k": 7459,
+      "n": 8286,
+      "passed": true
+    },
+    {
+      "check": "order statistic constant/0.1",
+      "k": 7459,
+      "n": 8286,
+      "passed": true
+    },
+    {
+      "check": "order statistic DD/0.05",
+      "k": 7873,
+      "n": 8286,
+      "passed": true
+    },
+    {
+      "check": "order statistic DDL/0.05",
+      "k": 7873,
+      "n": 8286,
+      "passed": true
+    },
+    {
+      "check": "order statistic constant/0.05",
+      "k": 7873,
+      "n": 8286,
+      "passed": true
+    },
+    {
+      "check": "order statistic DD/0.01",
+      "k": 8205,
+      "n": 8286,
+      "passed": true
+    },
+    {
+      "check": "order statistic DDL/0.01",
+      "k": 8205,
+      "n": 8286,
+      "passed": true
+    },
+    {
+      "check": "order statistic constant/0.01",
+      "k": 8205,
+      "n": 8286,
+      "passed": true
+    },
+    {
+      "check": "order statistic DD/0.001",
+      "k": 8279,
+      "n": 8286,
+      "passed": true
+    },
+    {
+      "check": "order statistic DDL/0.001",
+      "k": 8279,
+      "n": 8286,
+      "passed": true
+    },
+    {
+      "check": "order statistic constant/0.001",
+      "k": 8279,
+      "n": 8286,
+      "passed": true
+    },
+    {
+      "check": "radius native_all_test/DDL_conformal/0.001",
+      "n": 8307,
+      "passed": true
+    },
+    {
+      "check": "radius native_all_test/DDL_conformal/0.01",
+      "n": 8307,
+      "passed": true
+    },
+    {
+      "check": "radius native_all_test/DDL_conformal/0.05",
+      "n": 8307,
+      "passed": true
+    },
+    {
+      "check": "radius native_all_test/DDL_conformal/0.1",
+      "n": 8307,
+      "passed": true
+    },
+    {
+      "check": "radius native_all_test/DD_conformal/0.001",
+      "n": 8307,
+      "passed": true
+    },
+    {
+      "check": "radius native_all_test/DD_conformal/0.01",
+      "n": 8307,
+      "passed": true
+    },
+    {
+      "check": "radius native_all_test/DD_conformal/0.05",
+      "n": 8307,
+      "passed": true
+    },
+    {
+      "check": "radius native_all_test/DD_conformal/0.1",
+      "n": 8307,
+      "passed": true
+    },
+    {
+      "check": "radius native_all_test/constant_conformal/0.001",
+      "n": 8307,
+      "passed": true
+    },
+    {
+      "check": "radius native_all_test/constant_conformal/0.01",
+      "n": 8307,
+      "passed": true
+    },
+    {
+      "check": "radius native_all_test/constant_conformal/0.05",
+      "n": 8307,
+      "passed": true
+    },
+    {
+      "check": "radius native_all_test/constant_conformal/0.1",
+      "n": 8307,
+      "passed": true
+    },
+    {
+      "check": "radius primary_test/DDL_conformal/0.001",
+      "n": 8275,
+      "passed": true
+    },
+    {
+      "check": "radius primary_test/DDL_conformal/0.01",
+      "n": 8275,
+      "passed": true
+    },
+    {
+      "check": "radius primary_test/DDL_conformal/0.05",
+      "n": 8275,
+      "passed": true
+    },
+    {
+      "check": "radius primary_test/DDL_conformal/0.1",
+      "n": 8275,
+      "passed": true
+    },
+    {
+      "check": "radius primary_test/DD_conformal/0.001",
+      "n": 8275,
+      "passed": true
+    },
+    {
+      "check": "radius primary_test/DD_conformal/0.01",
+      "n": 8275,
+      "passed": true
+    },
+    {
+      "check": "radius primary_test/DD_conformal/0.05",
+      "n": 8275,
+      "passed": true
+    },
+    {
+      "check": "radius primary_test/DD_conformal/0.1",
+      "n": 8275,
+      "passed": true
+    },
+    {
+      "check": "radius primary_test/constant_conformal/0.001",
+      "n": 8275,
+      "passed": true
+    },
+    {
+      "check": "radius primary_test/constant_conformal/0.01",
+      "n": 8275,
+      "passed": true
+    },
+    {
+      "check": "radius primary_test/constant_conformal/0.05",
+      "n": 8275,
+      "passed": true
+    },
+    {
+      "check": "radius primary_test/constant_conformal/0.1",
+      "n": 8275,
+      "passed": true
+    },
+    {
+      "check": "point MAE train_1/DD",
+      "passed": true
+    },
+    {
+      "check": "point inclusive train_1/DD",
+      "passed": true
+    },
+    {
+      "check": "point MAE train_1/DDL",
+      "passed": true
+    },
+    {
+      "check": "point inclusive train_1/DDL",
+      "passed": true
+    },
+    {
+      "check": "point MAE train_1/constant_mean",
+      "passed": true
+    },
+    {
+      "check": "point inclusive train_1/constant_mean",
+      "passed": true
+    },
+    {
+      "check": "point MAE train_1/constant_median",
+      "passed": true
+    },
+    {
+      "check": "point inclusive train_1/constant_median",
+      "passed": true
+    },
+    {
+      "check": "point MAE train_2/DD",
+      "passed": true
+    },
+    {
+      "check": "point inclusive train_2/DD",
+      "passed": true
+    },
+    {
+      "check": "point MAE train_2/DDL",
+      "passed": true
+    },
+    {
+      "check": "point inclusive train_2/DDL",
+      "passed": true
+    },
+    {
+      "check": "point MAE train_2/constant_mean",
+      "passed": true
+    },
+    {
+      "check": "point inclusive train_2/constant_mean",
+      "passed": true
+    },
+    {
+      "check": "point MAE train_2/constant_median",
+      "passed": true
+    },
+    {
+      "check": "point inclusive train_2/constant_median",
+      "passed": true
+    },
+    {
+      "check": "point MAE val/DD",
+      "passed": true
+    },
+    {
+      "check": "point inclusive val/DD",
+      "passed": true
+    },
+    {
+      "check": "point MAE val/DDL",
+      "passed": true
+    },
+    {
+      "check": "point inclusive val/DDL",
+      "passed": true
+    },
+    {
+      "check": "point MAE val/constant_mean",
+      "passed": true
+    },
+    {
+      "check": "point inclusive val/constant_mean",
+      "passed": true
+    },
+    {
+      "check": "point MAE val/constant_median",
+      "passed": true
+    },
+    {
+      "check": "point inclusive val/constant_median",
+      "passed": true
+    },
+    {
+      "check": "point MAE test/DD",
+      "passed": true
+    },
+    {
+      "check": "point inclusive test/DD",
+      "passed": true
+    },
+    {
+      "check": "point MAE test/DDL",
+      "passed": true
+    },
+    {
+      "check": "point inclusive test/DDL",
+      "passed": true
+    },
+    {
+      "check": "point MAE test/constant_mean",
+      "passed": true
+    },
+    {
+      "check": "point inclusive test/constant_mean",
+      "passed": true
+    },
+    {
+      "check": "point MAE test/constant_median",
+      "passed": true
+    },
+    {
+      "check": "point inclusive test/constant_median",
+      "passed": true
+    },
+    {
+      "check": "point MAE primary_calibration/DD",
+      "passed": true
+    },
+    {
+      "check": "point inclusive primary_calibration/DD",
+      "passed": true
+    },
+    {
+      "check": "point MAE primary_calibration/DDL",
+      "passed": true
+    },
+    {
+      "check": "point inclusive primary_calibration/DDL",
+      "passed": true
+    },
+    {
+      "check": "point MAE primary_calibration/constant_mean",
+      "passed": true
+    },
+    {
+      "check": "point inclusive primary_calibration/constant_mean",
+      "passed": true
+    },
+    {
+      "check": "point MAE primary_calibration/constant_median",
+      "passed": true
+    },
+    {
+      "check": "point inclusive primary_calibration/constant_median",
+      "passed": true
+    },
+    {
+      "check": "point MAE primary_test/DD",
+      "passed": true
+    },
+    {
+      "check": "point inclusive primary_test/DD",
+      "passed": true
+    },
+    {
+      "check": "point MAE primary_test/DDL",
+      "passed": true
+    },
+    {
+      "check": "point inclusive primary_test/DDL",
+      "passed": true
+    },
+    {
+      "check": "point MAE primary_test/constant_mean",
+      "passed": true
+    },
+    {
+      "check": "point inclusive primary_test/constant_mean",
+      "passed": true
+    },
+    {
+      "check": "point MAE primary_test/constant_median",
+      "passed": true
+    },
+    {
+      "check": "point inclusive primary_test/constant_median",
+      "passed": true
+    },
+    {
+      "check": "coverage primary_test/DD/0.1",
+      "passed": true
+    },
+    {
+      "check": "CVaR primary_test/DD/0.1",
+      "passed": true,
+      "tail_mass": 413.75
+    },
+    {
+      "check": "coverage native_all_test/DD/0.1",
+      "passed": true
+    },
+    {
+      "check": "CVaR native_all_test/DD/0.1",
+      "passed": true,
+      "tail_mass": 415.35
+    },
+    {
+      "check": "coverage primary_test/DDL/0.1",
+      "passed": true
+    },
+    {
+      "check": "CVaR primary_test/DDL/0.1",
+      "passed": true,
+      "tail_mass": 413.75
+    },
+    {
+      "check": "coverage native_all_test/DDL/0.1",
+      "passed": true
+    },
+    {
+      "check": "CVaR native_all_test/DDL/0.1",
+      "passed": true,
+      "tail_mass": 415.35
+    },
+    {
+      "check": "coverage primary_test/constant/0.1",
+      "passed": true
+    },
+    {
+      "check": "CVaR primary_test/constant/0.1",
+      "passed": true,
+      "tail_mass": 413.75
+    },
+    {
+      "check": "coverage native_all_test/constant/0.1",
+      "passed": true
+    },
+    {
+      "check": "CVaR native_all_test/constant/0.1",
+      "passed": true,
+      "tail_mass": 415.35
+    },
+    {
+      "check": "coverage primary_test/DD/0.05",
+      "passed": true
+    },
+    {
+      "check": "CVaR primary_test/DD/0.05",
+      "passed": true,
+      "tail_mass": 413.75
+    },
+    {
+      "check": "coverage native_all_test/DD/0.05",
+      "passed": true
+    },
+    {
+      "check": "CVaR native_all_test/DD/0.05",
+      "passed": true,
+      "tail_mass": 415.35
+    },
+    {
+      "check": "coverage primary_test/DDL/0.05",
+      "passed": true
+    },
+    {
+      "check": "CVaR primary_test/DDL/0.05",
+      "passed": true,
+      "tail_mass": 413.75
+    },
+    {
+      "check": "coverage native_all_test/DDL/0.05",
+      "passed": true
+    },
+    {
+      "check": "CVaR native_all_test/DDL/0.05",
+      "passed": true,
+      "tail_mass": 415.35
+    },
+    {
+      "check": "coverage primary_test/constant/0.05",
+      "passed": true
+    },
+    {
+      "check": "CVaR primary_test/constant/0.05",
+      "passed": true,
+      "tail_mass": 413.75
+    },
+    {
+      "check": "coverage native_all_test/constant/0.05",
+      "passed": true
+    },
+    {
+      "check": "CVaR native_all_test/constant/0.05",
+      "passed": true,
+      "tail_mass": 415.35
+    },
+    {
+      "check": "coverage primary_test/DD/0.01",
+      "passed": true
+    },
+    {
+      "check": "CVaR primary_test/DD/0.01",
+      "passed": true,
+      "tail_mass": 413.75
+    },
+    {
+      "check": "coverage native_all_test/DD/0.01",
+      "passed": true
+    },
+    {
+      "check": "CVaR native_all_test/DD/0.01",
+      "passed": true,
+      "tail_mass": 415.35
+    },
+    {
+      "check": "coverage primary_test/DDL/0.01",
+      "passed": true
+    },
+    {
+      "check": "CVaR primary_test/DDL/0.01",
+      "passed": true,
+      "tail_mass": 413.75
+    },
+    {
+      "check": "coverage native_all_test/DDL/0.01",
+      "passed": true
+    },
+    {
+      "check": "CVaR native_all_test/DDL/0.01",
+      "passed": true,
+      "tail_mass": 415.35
+    },
+    {
+      "check": "coverage primary_test/constant/0.01",
+      "passed": true
+    },
+    {
+      "check": "CVaR primary_test/constant/0.01",
+      "passed": true,
+      "tail_mass": 413.75
+    },
+    {
+      "check": "coverage native_all_test/constant/0.01",
+      "passed": true
+    },
+    {
+      "check": "CVaR native_all_test/constant/0.01",
+      "passed": true,
+      "tail_mass": 415.35
+    },
+    {
+      "check": "coverage primary_test/DD/0.001",
+      "passed": true
+    },
+    {
+      "check": "CVaR primary_test/DD/0.001",
+      "passed": true,
+      "tail_mass": 413.75
+    },
+    {
+      "check": "coverage native_all_test/DD/0.001",
+      "passed": true
+    },
+    {
+      "check": "CVaR native_all_test/DD/0.001",
+      "passed": true,
+      "tail_mass": 415.35
+    },
+    {
+      "check": "coverage primary_test/DDL/0.001",
+      "passed": true
+    },
+    {
+      "check": "CVaR primary_test/DDL/0.001",
+      "passed": true,
+      "tail_mass": 413.75
+    },
+    {
+      "check": "coverage native_all_test/DDL/0.001",
+      "passed": true
+    },
+    {
+      "check": "CVaR native_all_test/DDL/0.001",
+      "passed": true,
+      "tail_mass": 415.35
+    },
+    {
+      "check": "coverage primary_test/constant/0.001",
+      "passed": true
+    },
+    {
+      "check": "CVaR primary_test/constant/0.001",
+      "passed": true,
+      "tail_mass": 413.75
+    },
+    {
+      "check": "coverage native_all_test/constant/0.001",
+      "passed": true
+    },
+    {
+      "check": "CVaR native_all_test/constant/0.001",
+      "passed": true,
+      "tail_mass": 415.35
+    },
+    {
+      "check": "decision row 0",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 0",
+      "passed": true
+    },
+    {
+      "check": "decision row 1",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 1",
+      "passed": true
+    },
+    {
+      "check": "decision row 2",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 2",
+      "passed": true
+    },
+    {
+      "check": "decision row 3",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 3",
+      "passed": true
+    },
+    {
+      "check": "decision row 4",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 4",
+      "passed": true
+    },
+    {
+      "check": "decision row 5",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 5",
+      "passed": true
+    },
+    {
+      "check": "decision row 6",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 6",
+      "passed": true
+    },
+    {
+      "check": "decision row 7",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 7",
+      "passed": true
+    },
+    {
+      "check": "decision row 8",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 8",
+      "passed": true
+    },
+    {
+      "check": "decision row 9",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 9",
+      "passed": true
+    },
+    {
+      "check": "decision row 10",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 10",
+      "passed": true
+    },
+    {
+      "check": "decision row 11",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 11",
+      "passed": true
+    },
+    {
+      "check": "decision row 12",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 12",
+      "passed": true
+    },
+    {
+      "check": "decision row 13",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 13",
+      "passed": true
+    },
+    {
+      "check": "decision row 14",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 14",
+      "passed": true
+    },
+    {
+      "check": "decision row 15",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 15",
+      "passed": true
+    },
+    {
+      "check": "decision row 16",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 16",
+      "passed": true
+    },
+    {
+      "check": "decision row 17",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 17",
+      "passed": true
+    },
+    {
+      "check": "decision row 18",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 18",
+      "passed": true
+    },
+    {
+      "check": "decision row 19",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 19",
+      "passed": true
+    },
+    {
+      "check": "decision row 20",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 20",
+      "passed": true
+    },
+    {
+      "check": "decision row 21",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 21",
+      "passed": true
+    },
+    {
+      "check": "decision row 22",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 22",
+      "passed": true
+    },
+    {
+      "check": "decision row 23",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 23",
+      "passed": true
+    },
+    {
+      "check": "decision row 24",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 24",
+      "passed": true
+    },
+    {
+      "check": "decision row 25",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 25",
+      "passed": true
+    },
+    {
+      "check": "decision row 26",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 26",
+      "passed": true
+    },
+    {
+      "check": "decision row 27",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 27",
+      "passed": true
+    },
+    {
+      "check": "decision row 28",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 28",
+      "passed": true
+    },
+    {
+      "check": "decision row 29",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 29",
+      "passed": true
+    },
+    {
+      "check": "decision row 30",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 30",
+      "passed": true
+    },
+    {
+      "check": "decision row 31",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 31",
+      "passed": true
+    },
+    {
+      "check": "decision row 32",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 32",
+      "passed": true
+    },
+    {
+      "check": "decision row 33",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 33",
+      "passed": true
+    },
+    {
+      "check": "decision row 34",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 34",
+      "passed": true
+    },
+    {
+      "check": "decision row 35",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 35",
+      "passed": true
+    },
+    {
+      "check": "decision row 36",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 36",
+      "passed": true
+    },
+    {
+      "check": "decision row 37",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 37",
+      "passed": true
+    },
+    {
+      "check": "decision row 38",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 38",
+      "passed": true
+    },
+    {
+      "check": "decision row 39",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 39",
+      "passed": true
+    },
+    {
+      "check": "decision row 40",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 40",
+      "passed": true
+    },
+    {
+      "check": "decision row 41",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 41",
+      "passed": true
+    },
+    {
+      "check": "decision row 42",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 42",
+      "passed": true
+    },
+    {
+      "check": "decision row 43",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 43",
+      "passed": true
+    },
+    {
+      "check": "decision row 44",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 44",
+      "passed": true
+    },
+    {
+      "check": "decision row 45",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 45",
+      "passed": true
+    },
+    {
+      "check": "decision row 46",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 46",
+      "passed": true
+    },
+    {
+      "check": "decision row 47",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 47",
+      "passed": true
+    },
+    {
+      "check": "decision row 48",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 48",
+      "passed": true
+    },
+    {
+      "check": "decision row 49",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 49",
+      "passed": true
+    },
+    {
+      "check": "decision row 50",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 50",
+      "passed": true
+    },
+    {
+      "check": "decision row 51",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 51",
+      "passed": true
+    },
+    {
+      "check": "decision row 52",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 52",
+      "passed": true
+    },
+    {
+      "check": "decision row 53",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 53",
+      "passed": true
+    },
+    {
+      "check": "decision row 54",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 54",
+      "passed": true
+    },
+    {
+      "check": "decision row 55",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 55",
+      "passed": true
+    },
+    {
+      "check": "decision row 56",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 56",
+      "passed": true
+    },
+    {
+      "check": "decision row 57",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 57",
+      "passed": true
+    },
+    {
+      "check": "decision row 58",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 58",
+      "passed": true
+    },
+    {
+      "check": "decision row 59",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 59",
+      "passed": true
+    },
+    {
+      "check": "decision row 60",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 60",
+      "passed": true
+    },
+    {
+      "check": "decision row 61",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 61",
+      "passed": true
+    },
+    {
+      "check": "decision row 62",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 62",
+      "passed": true
+    },
+    {
+      "check": "decision row 63",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 63",
+      "passed": true
+    },
+    {
+      "check": "decision row 64",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 64",
+      "passed": true
+    },
+    {
+      "check": "decision row 65",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 65",
+      "passed": true
+    },
+    {
+      "check": "decision row 66",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 66",
+      "passed": true
+    },
+    {
+      "check": "decision row 67",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 67",
+      "passed": true
+    },
+    {
+      "check": "decision row 68",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 68",
+      "passed": true
+    },
+    {
+      "check": "decision row 69",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 69",
+      "passed": true
+    },
+    {
+      "check": "decision row 70",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 70",
+      "passed": true
+    },
+    {
+      "check": "decision row 71",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 71",
+      "passed": true
+    },
+    {
+      "check": "decision row 72",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 72",
+      "passed": true
+    },
+    {
+      "check": "decision row 73",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 73",
+      "passed": true
+    },
+    {
+      "check": "decision row 74",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 74",
+      "passed": true
+    },
+    {
+      "check": "decision row 75",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 75",
+      "passed": true
+    },
+    {
+      "check": "decision row 76",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 76",
+      "passed": true
+    },
+    {
+      "check": "decision row 77",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 77",
+      "passed": true
+    },
+    {
+      "check": "decision row 78",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 78",
+      "passed": true
+    },
+    {
+      "check": "decision row 79",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 79",
+      "passed": true
+    },
+    {
+      "check": "decision row 80",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 80",
+      "passed": true
+    },
+    {
+      "check": "decision row 81",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 81",
+      "passed": true
+    },
+    {
+      "check": "decision row 82",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 82",
+      "passed": true
+    },
+    {
+      "check": "decision row 83",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 83",
+      "passed": true
+    },
+    {
+      "check": "decision row 84",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 84",
+      "passed": true
+    },
+    {
+      "check": "decision row 85",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 85",
+      "passed": true
+    },
+    {
+      "check": "decision row 86",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 86",
+      "passed": true
+    },
+    {
+      "check": "decision row 87",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 87",
+      "passed": true
+    },
+    {
+      "check": "decision row 88",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 88",
+      "passed": true
+    },
+    {
+      "check": "decision row 89",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 89",
+      "passed": true
+    },
+    {
+      "check": "decision row 90",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 90",
+      "passed": true
+    },
+    {
+      "check": "decision row 91",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 91",
+      "passed": true
+    },
+    {
+      "check": "decision row 92",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 92",
+      "passed": true
+    },
+    {
+      "check": "decision row 93",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 93",
+      "passed": true
+    },
+    {
+      "check": "decision row 94",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 94",
+      "passed": true
+    },
+    {
+      "check": "decision row 95",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 95",
+      "passed": true
+    },
+    {
+      "check": "decision row 96",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 96",
+      "passed": true
+    },
+    {
+      "check": "decision row 97",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 97",
+      "passed": true
+    },
+    {
+      "check": "decision row 98",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 98",
+      "passed": true
+    },
+    {
+      "check": "decision row 99",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 99",
+      "passed": true
+    },
+    {
+      "check": "decision row 100",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 100",
+      "passed": true
+    },
+    {
+      "check": "decision row 101",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 101",
+      "passed": true
+    },
+    {
+      "check": "decision row 102",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 102",
+      "passed": true
+    },
+    {
+      "check": "decision row 103",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 103",
+      "passed": true
+    },
+    {
+      "check": "decision row 104",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 104",
+      "passed": true
+    },
+    {
+      "check": "decision row 105",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 105",
+      "passed": true
+    },
+    {
+      "check": "decision row 106",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 106",
+      "passed": true
+    },
+    {
+      "check": "decision row 107",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 107",
+      "passed": true
+    },
+    {
+      "check": "decision row 108",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 108",
+      "passed": true
+    },
+    {
+      "check": "decision row 109",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 109",
+      "passed": true
+    },
+    {
+      "check": "decision row 110",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 110",
+      "passed": true
+    },
+    {
+      "check": "decision row 111",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 111",
+      "passed": true
+    },
+    {
+      "check": "decision row 112",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 112",
+      "passed": true
+    },
+    {
+      "check": "decision row 113",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 113",
+      "passed": true
+    },
+    {
+      "check": "decision row 114",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 114",
+      "passed": true
+    },
+    {
+      "check": "decision row 115",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 115",
+      "passed": true
+    },
+    {
+      "check": "decision row 116",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 116",
+      "passed": true
+    },
+    {
+      "check": "decision row 117",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 117",
+      "passed": true
+    },
+    {
+      "check": "decision row 118",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 118",
+      "passed": true
+    },
+    {
+      "check": "decision row 119",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 119",
+      "passed": true
+    },
+    {
+      "check": "decision row 120",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 120",
+      "passed": true
+    },
+    {
+      "check": "decision row 121",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 121",
+      "passed": true
+    },
+    {
+      "check": "decision row 122",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 122",
+      "passed": true
+    },
+    {
+      "check": "decision row 123",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 123",
+      "passed": true
+    },
+    {
+      "check": "decision row 124",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 124",
+      "passed": true
+    },
+    {
+      "check": "decision row 125",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 125",
+      "passed": true
+    },
+    {
+      "check": "decision row 126",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 126",
+      "passed": true
+    },
+    {
+      "check": "decision row 127",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 127",
+      "passed": true
+    },
+    {
+      "check": "decision row 128",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 128",
+      "passed": true
+    },
+    {
+      "check": "decision row 129",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 129",
+      "passed": true
+    },
+    {
+      "check": "decision row 130",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 130",
+      "passed": true
+    },
+    {
+      "check": "decision row 131",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 131",
+      "passed": true
+    },
+    {
+      "check": "decision row 132",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 132",
+      "passed": true
+    },
+    {
+      "check": "decision row 133",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 133",
+      "passed": true
+    },
+    {
+      "check": "decision row 134",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 134",
+      "passed": true
+    },
+    {
+      "check": "decision row 135",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 135",
+      "passed": true
+    },
+    {
+      "check": "decision row 136",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 136",
+      "passed": true
+    },
+    {
+      "check": "decision row 137",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 137",
+      "passed": true
+    },
+    {
+      "check": "decision row 138",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 138",
+      "passed": true
+    },
+    {
+      "check": "decision row 139",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 139",
+      "passed": true
+    },
+    {
+      "check": "decision row 140",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 140",
+      "passed": true
+    },
+    {
+      "check": "decision row 141",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 141",
+      "passed": true
+    },
+    {
+      "check": "decision row 142",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 142",
+      "passed": true
+    },
+    {
+      "check": "decision row 143",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 143",
+      "passed": true
+    },
+    {
+      "check": "decision row 144",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 144",
+      "passed": true
+    },
+    {
+      "check": "decision row 145",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 145",
+      "passed": true
+    },
+    {
+      "check": "decision row 146",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 146",
+      "passed": true
+    },
+    {
+      "check": "decision row 147",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 147",
+      "passed": true
+    },
+    {
+      "check": "decision row 148",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 148",
+      "passed": true
+    },
+    {
+      "check": "decision row 149",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 149",
+      "passed": true
+    },
+    {
+      "check": "decision row 150",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 150",
+      "passed": true
+    },
+    {
+      "check": "decision row 151",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 151",
+      "passed": true
+    },
+    {
+      "check": "decision row 152",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 152",
+      "passed": true
+    },
+    {
+      "check": "decision row 153",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 153",
+      "passed": true
+    },
+    {
+      "check": "decision row 154",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 154",
+      "passed": true
+    },
+    {
+      "check": "decision row 155",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 155",
+      "passed": true
+    },
+    {
+      "check": "decision row 156",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 156",
+      "passed": true
+    },
+    {
+      "check": "decision row 157",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 157",
+      "passed": true
+    },
+    {
+      "check": "decision row 158",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 158",
+      "passed": true
+    },
+    {
+      "check": "decision row 159",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 159",
+      "passed": true
+    },
+    {
+      "check": "decision row 160",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 160",
+      "passed": true
+    },
+    {
+      "check": "decision row 161",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 161",
+      "passed": true
+    },
+    {
+      "check": "decision row 162",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 162",
+      "passed": true
+    },
+    {
+      "check": "decision row 163",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 163",
+      "passed": true
+    },
+    {
+      "check": "decision row 164",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 164",
+      "passed": true
+    },
+    {
+      "check": "decision row 165",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 165",
+      "passed": true
+    },
+    {
+      "check": "decision row 166",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 166",
+      "passed": true
+    },
+    {
+      "check": "decision row 167",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 167",
+      "passed": true
+    },
+    {
+      "check": "decision row 168",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 168",
+      "passed": true
+    },
+    {
+      "check": "decision row 169",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 169",
+      "passed": true
+    },
+    {
+      "check": "decision row 170",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 170",
+      "passed": true
+    },
+    {
+      "check": "decision row 171",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 171",
+      "passed": true
+    },
+    {
+      "check": "decision row 172",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 172",
+      "passed": true
+    },
+    {
+      "check": "decision row 173",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 173",
+      "passed": true
+    },
+    {
+      "check": "decision row 174",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 174",
+      "passed": true
+    },
+    {
+      "check": "decision row 175",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 175",
+      "passed": true
+    },
+    {
+      "check": "decision row 176",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 176",
+      "passed": true
+    },
+    {
+      "check": "decision row 177",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 177",
+      "passed": true
+    },
+    {
+      "check": "decision row 178",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 178",
+      "passed": true
+    },
+    {
+      "check": "decision row 179",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 179",
+      "passed": true
+    },
+    {
+      "check": "decision row 180",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 180",
+      "passed": true
+    },
+    {
+      "check": "decision row 181",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 181",
+      "passed": true
+    },
+    {
+      "check": "decision row 182",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 182",
+      "passed": true
+    },
+    {
+      "check": "decision row 183",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 183",
+      "passed": true
+    },
+    {
+      "check": "decision row 184",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 184",
+      "passed": true
+    },
+    {
+      "check": "decision row 185",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 185",
+      "passed": true
+    },
+    {
+      "check": "decision row 186",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 186",
+      "passed": true
+    },
+    {
+      "check": "decision row 187",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 187",
+      "passed": true
+    },
+    {
+      "check": "decision row 188",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 188",
+      "passed": true
+    },
+    {
+      "check": "decision row 189",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 189",
+      "passed": true
+    },
+    {
+      "check": "decision row 190",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 190",
+      "passed": true
+    },
+    {
+      "check": "decision row 191",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 191",
+      "passed": true
+    },
+    {
+      "check": "decision row 192",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 192",
+      "passed": true
+    },
+    {
+      "check": "decision row 193",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 193",
+      "passed": true
+    },
+    {
+      "check": "decision row 194",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 194",
+      "passed": true
+    },
+    {
+      "check": "decision row 195",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 195",
+      "passed": true
+    },
+    {
+      "check": "decision row 196",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 196",
+      "passed": true
+    },
+    {
+      "check": "decision row 197",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 197",
+      "passed": true
+    },
+    {
+      "check": "decision row 198",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 198",
+      "passed": true
+    },
+    {
+      "check": "decision row 199",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 199",
+      "passed": true
+    },
+    {
+      "check": "decision row 200",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 200",
+      "passed": true
+    },
+    {
+      "check": "decision row 201",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 201",
+      "passed": true
+    },
+    {
+      "check": "decision row 202",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 202",
+      "passed": true
+    },
+    {
+      "check": "decision row 203",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 203",
+      "passed": true
+    },
+    {
+      "check": "decision row 204",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 204",
+      "passed": true
+    },
+    {
+      "check": "decision row 205",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 205",
+      "passed": true
+    },
+    {
+      "check": "decision row 206",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 206",
+      "passed": true
+    },
+    {
+      "check": "decision row 207",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 207",
+      "passed": true
+    },
+    {
+      "check": "decision row 208",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 208",
+      "passed": true
+    },
+    {
+      "check": "decision row 209",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 209",
+      "passed": true
+    },
+    {
+      "check": "decision row 210",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 210",
+      "passed": true
+    },
+    {
+      "check": "decision row 211",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 211",
+      "passed": true
+    },
+    {
+      "check": "decision row 212",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 212",
+      "passed": true
+    },
+    {
+      "check": "decision row 213",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 213",
+      "passed": true
+    },
+    {
+      "check": "decision row 214",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 214",
+      "passed": true
+    },
+    {
+      "check": "decision row 215",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 215",
+      "passed": true
+    },
+    {
+      "check": "decision row 216",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 216",
+      "passed": true
+    },
+    {
+      "check": "decision row 217",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 217",
+      "passed": true
+    },
+    {
+      "check": "decision row 218",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 218",
+      "passed": true
+    },
+    {
+      "check": "decision row 219",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 219",
+      "passed": true
+    },
+    {
+      "check": "decision row 220",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 220",
+      "passed": true
+    },
+    {
+      "check": "decision row 221",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 221",
+      "passed": true
+    },
+    {
+      "check": "decision row 222",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 222",
+      "passed": true
+    },
+    {
+      "check": "decision row 223",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 223",
+      "passed": true
+    },
+    {
+      "check": "decision row 224",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 224",
+      "passed": true
+    },
+    {
+      "check": "decision row 225",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 225",
+      "passed": true
+    },
+    {
+      "check": "decision row 226",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 226",
+      "passed": true
+    },
+    {
+      "check": "decision row 227",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 227",
+      "passed": true
+    },
+    {
+      "check": "decision row 228",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 228",
+      "passed": true
+    },
+    {
+      "check": "decision row 229",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 229",
+      "passed": true
+    },
+    {
+      "check": "decision row 230",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 230",
+      "passed": true
+    },
+    {
+      "check": "decision row 231",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 231",
+      "passed": true
+    },
+    {
+      "check": "decision row 232",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 232",
+      "passed": true
+    },
+    {
+      "check": "decision row 233",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 233",
+      "passed": true
+    },
+    {
+      "check": "decision row 234",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 234",
+      "passed": true
+    },
+    {
+      "check": "decision row 235",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 235",
+      "passed": true
+    },
+    {
+      "check": "decision row 236",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 236",
+      "passed": true
+    },
+    {
+      "check": "decision row 237",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 237",
+      "passed": true
+    },
+    {
+      "check": "decision row 238",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 238",
+      "passed": true
+    },
+    {
+      "check": "decision row 239",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 239",
+      "passed": true
+    },
+    {
+      "check": "decision row 240",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 240",
+      "passed": true
+    },
+    {
+      "check": "decision row 241",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 241",
+      "passed": true
+    },
+    {
+      "check": "decision row 242",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 242",
+      "passed": true
+    },
+    {
+      "check": "decision row 243",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 243",
+      "passed": true
+    },
+    {
+      "check": "decision row 244",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 244",
+      "passed": true
+    },
+    {
+      "check": "decision row 245",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 245",
+      "passed": true
+    },
+    {
+      "check": "decision row 246",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 246",
+      "passed": true
+    },
+    {
+      "check": "decision row 247",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 247",
+      "passed": true
+    },
+    {
+      "check": "decision row 248",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 248",
+      "passed": true
+    },
+    {
+      "check": "decision row 249",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 249",
+      "passed": true
+    },
+    {
+      "check": "decision row 250",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 250",
+      "passed": true
+    },
+    {
+      "check": "decision row 251",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 251",
+      "passed": true
+    },
+    {
+      "check": "decision row 252",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 252",
+      "passed": true
+    },
+    {
+      "check": "decision row 253",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 253",
+      "passed": true
+    },
+    {
+      "check": "decision row 254",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 254",
+      "passed": true
+    },
+    {
+      "check": "decision row 255",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 255",
+      "passed": true
+    },
+    {
+      "check": "decision row 256",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 256",
+      "passed": true
+    },
+    {
+      "check": "decision row 257",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 257",
+      "passed": true
+    },
+    {
+      "check": "decision row 258",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 258",
+      "passed": true
+    },
+    {
+      "check": "decision row 259",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 259",
+      "passed": true
+    },
+    {
+      "check": "decision row 260",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 260",
+      "passed": true
+    },
+    {
+      "check": "decision row 261",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 261",
+      "passed": true
+    },
+    {
+      "check": "decision row 262",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 262",
+      "passed": true
+    },
+    {
+      "check": "decision row 263",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 263",
+      "passed": true
+    },
+    {
+      "check": "decision row 264",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 264",
+      "passed": true
+    },
+    {
+      "check": "decision row 265",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 265",
+      "passed": true
+    },
+    {
+      "check": "decision row 266",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 266",
+      "passed": true
+    },
+    {
+      "check": "decision row 267",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 267",
+      "passed": true
+    },
+    {
+      "check": "decision row 268",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 268",
+      "passed": true
+    },
+    {
+      "check": "decision row 269",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 269",
+      "passed": true
+    },
+    {
+      "check": "decision row 270",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 270",
+      "passed": true
+    },
+    {
+      "check": "decision row 271",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 271",
+      "passed": true
+    },
+    {
+      "check": "decision row 272",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 272",
+      "passed": true
+    },
+    {
+      "check": "decision row 273",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 273",
+      "passed": true
+    },
+    {
+      "check": "decision row 274",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 274",
+      "passed": true
+    },
+    {
+      "check": "decision row 275",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 275",
+      "passed": true
+    },
+    {
+      "check": "decision row 276",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 276",
+      "passed": true
+    },
+    {
+      "check": "decision row 277",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 277",
+      "passed": true
+    },
+    {
+      "check": "decision row 278",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 278",
+      "passed": true
+    },
+    {
+      "check": "decision row 279",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 279",
+      "passed": true
+    },
+    {
+      "check": "decision row 280",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 280",
+      "passed": true
+    },
+    {
+      "check": "decision row 281",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 281",
+      "passed": true
+    },
+    {
+      "check": "decision row 282",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 282",
+      "passed": true
+    },
+    {
+      "check": "decision row 283",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 283",
+      "passed": true
+    },
+    {
+      "check": "decision row 284",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 284",
+      "passed": true
+    },
+    {
+      "check": "decision row 285",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 285",
+      "passed": true
+    },
+    {
+      "check": "decision row 286",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 286",
+      "passed": true
+    },
+    {
+      "check": "decision row 287",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 287",
+      "passed": true
+    },
+    {
+      "check": "decision row 288",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 288",
+      "passed": true
+    },
+    {
+      "check": "decision row 289",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 289",
+      "passed": true
+    },
+    {
+      "check": "decision row 290",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 290",
+      "passed": true
+    },
+    {
+      "check": "decision row 291",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 291",
+      "passed": true
+    },
+    {
+      "check": "decision row 292",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 292",
+      "passed": true
+    },
+    {
+      "check": "decision row 293",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 293",
+      "passed": true
+    },
+    {
+      "check": "decision row 294",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 294",
+      "passed": true
+    },
+    {
+      "check": "decision row 295",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 295",
+      "passed": true
+    },
+    {
+      "check": "decision row 296",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 296",
+      "passed": true
+    },
+    {
+      "check": "decision row 297",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 297",
+      "passed": true
+    },
+    {
+      "check": "decision row 298",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 298",
+      "passed": true
+    },
+    {
+      "check": "decision row 299",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 299",
+      "passed": true
+    },
+    {
+      "check": "decision row 300",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 300",
+      "passed": true
+    },
+    {
+      "check": "decision row 301",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 301",
+      "passed": true
+    },
+    {
+      "check": "decision row 302",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 302",
+      "passed": true
+    },
+    {
+      "check": "decision row 303",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 303",
+      "passed": true
+    },
+    {
+      "check": "decision row 304",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 304",
+      "passed": true
+    },
+    {
+      "check": "decision row 305",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 305",
+      "passed": true
+    },
+    {
+      "check": "decision row 306",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 306",
+      "passed": true
+    },
+    {
+      "check": "decision row 307",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 307",
+      "passed": true
+    },
+    {
+      "check": "decision row 308",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 308",
+      "passed": true
+    },
+    {
+      "check": "decision row 309",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 309",
+      "passed": true
+    },
+    {
+      "check": "decision row 310",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 310",
+      "passed": true
+    },
+    {
+      "check": "decision row 311",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 311",
+      "passed": true
+    },
+    {
+      "check": "decision row 312",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 312",
+      "passed": true
+    },
+    {
+      "check": "decision row 313",
+      "passed": true
+    },
+    {
+      "check": "empty conditional risk 313",
+      "passed": true
+    },
+    {
+      "check": "decision row 314",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 314",
+      "passed": true
+    },
+    {
+      "check": "decision row 315",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 315",
+      "passed": true
+    },
+    {
+      "check": "decision row 316",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 316",
+      "passed": true
+    },
+    {
+      "check": "decision row 317",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 317",
+      "passed": true
+    },
+    {
+      "check": "decision row 318",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 318",
+      "passed": true
+    },
+    {
+      "check": "decision row 319",
+      "passed": true
+    },
+    {
+      "check": "conditional denominator 319",
+      "passed": true
+    },
+    {
+      "check": "source sign change source_validation",
+      "passed": true
+    },
+    {
+      "check": "source sign change new_test_audit",
+      "passed": true
+    },
+    {
+      "check": "fair-control equality clean",
+      "passed": true
+    },
+    {
+      "check": "fair-control equality benign_row_reorder_with_handles",
+      "passed": true
+    },
+    {
+      "check": "fair-control equality benign_feature_reorder_with_handles",
+      "passed": true
+    },
+    {
+      "check": "fair-control equality source_signed_derived_quantity",
+      "passed": true
+    },
+    {
+      "check": "fair-control equality source_DD_DDL_label_binding",
+      "passed": true
+    },
+    {
+      "check": "fair-control equality DD_calibration_used_with_DDL",
+      "passed": true
+    },
+    {
+      "check": "fair-control equality stale_position_model_identity",
+      "passed": true
+    },
+    {
+      "check": "fair-control equality unit_m_vs_km",
+      "passed": true
+    },
+    {
+      "check": "fair-control equality undeclared_test_population_substitution",
+      "passed": true
+    },
+    {
+      "check": "no fabricated shared corruption detector",
+      "passed": true
+    }
+  ],
+  "n_checks": 799,
+  "scope": "Independent saved-output recomputation; no new trained model or independent deployment",
+  "status": "PASSED"
+}

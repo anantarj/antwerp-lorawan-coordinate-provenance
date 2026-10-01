@@ -1,0 +1,22 @@
+{
+  "calibration_states": 12,
+  "decision_landmark_rows": 320,
+  "group_exclusions_calibration": 20,
+  "group_exclusions_test": 32,
+  "main_conformal_level": 0.05,
+  "native_counts": {
+    "test": 8307,
+    "train_1": 19381,
+    "train_2": 19381,
+    "val": 8306
+  },
+  "no_cross_deployment_or_conditional_risk_guarantee": true,
+  "no_deployment_threshold_claim": true,
+  "original_test_requests": 8307,
+  "point_summary_rows": 24,
+  "predictions_not_withheld_by_radio_model": true,
+  "primary_calibration_n": 8286,
+  "primary_test_n": 8275,
+  "protocol_sha256": "1d4c43230c53e00f95931b07e0befca94c526aecddf08f61c8281b82614c7396",
+  "radius_summary_rows": 24
+}

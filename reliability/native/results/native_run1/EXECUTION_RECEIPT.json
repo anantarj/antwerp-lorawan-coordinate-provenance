@@ -1,0 +1,201 @@
+{
+  "checks": [
+    {
+      "array_sha256": "2fed5a2c9f1212d1d7599a8bcb2efb374b445fb9a19255935f78a36e252c628f",
+      "finite": true,
+      "object": "positions",
+      "role": "train_1",
+      "shape": [
+        19381,
+        2
+      ]
+    },
+    {
+      "array_sha256": "958ba4e1b836020fbea5d69ccad78ea30241bf2b92b0780494f3081a553179f1",
+      "finite": true,
+      "object": "error_m",
+      "role": "train_1",
+      "shape": [
+        19381
+      ]
+    },
+    {
+      "array_sha256": "fdf033eeb21969dc8bc8aa89489b321d80bf3cb56a0f384763d31812d6ab3a15",
+      "finite": true,
+      "object": "dd_m",
+      "role": "train_1",
+      "shape": [
+        19381
+      ]
+    },
+    {
+      "array_sha256": "8b2065f9ab0007a1cbc84fff9a251216af03d43748e9804856a7f1d11e469eb9",
+      "finite": true,
+      "object": "ddl_m",
+      "role": "train_1",
+      "shape": [
+        19381
+      ]
+    },
+    {
+      "metric_oracle_max_difference_m": 2.2709940594722866e-09,
+      "role": "train_1"
+    },
+    {
+      "array_sha256": "3181bfbd39a4bdbe63f0ef2e8a44ca78c08e004773265b9ad4d8730d9e5faa13",
+      "finite": true,
+      "object": "positions",
+      "role": "train_2",
+      "shape": [
+        19381,
+        2
+      ]
+    },
+    {
+      "array_sha256": "fab8aa4f4a5c8d90cbdd8cd065a666b7ac6c4497597e5f350adf2d541def6fde",
+      "finite": true,
+      "object": "error_m",
+      "role": "train_2",
+      "shape": [
+        19381
+      ]
+    },
+    {
+      "array_sha256": "e584fe00194f85a5b70b0b685ab03b191c477968d28e0d51ab7b61d250a6b819",
+      "finite": true,
+      "object": "dd_m",
+      "role": "train_2",
+      "shape": [
+        19381
+      ]
+    },
+    {
+      "array_sha256": "909ec4bcd21aa90aa3de33fdea1fdcf76afe448aec8ed0c2e26ed9e817a5d766",
+      "finite": true,
+      "object": "ddl_m",
+      "role": "train_2",
+      "shape": [
+        19381
+      ]
+    },
+    {
+      "metric_oracle_max_difference_m": 2.2396875465346966e-09,
+      "role": "train_2"
+    },
+    {
+      "array_sha256": "6b82e7101cc4adf5f35259a190bb6e73f1601725f8815913ed40938a50b0ca8e",
+      "finite": true,
+      "object": "positions",
+      "role": "val",
+      "shape": [
+        8306,
+        2
+      ]
+    },
+    {
+      "array_sha256": "bd28d85fc3204a4310a3b9f8385dc24842bf4890f2db283f786c1efc71b9330b",
+      "finite": true,
+      "object": "error_m",
+      "role": "val",
+      "shape": [
+        8306
+      ]
+    },
+    {
+      "array_sha256": "1c8f5a38f748bd4b11ea61eae81700ccd8bcbbd7d12bbcacd1bc76ff26c31aa5",
+      "finite": true,
+      "object": "dd_m",
+      "role": "val",
+      "shape": [
+        8306
+      ]
+    },
+    {
+      "array_sha256": "e33ead742c96602ffdd90a968cdea02f9be5f15a4f6f9dda2ad2cf8b58db5cfb",
+      "finite": true,
+      "object": "ddl_m",
+      "role": "val",
+      "shape": [
+        8306
+      ]
+    },
+    {
+      "metric_oracle_max_difference_m": 2.2726851511833956e-09,
+      "role": "val"
+    },
+    {
+      "array_sha256": "dfc34cf9ecb9a74bf46d234a8e4551e5e5fe8598f7f71deaf810df90a2eaef3d",
+      "finite": true,
+      "object": "positions",
+      "role": "test",
+      "shape": [
+        8307,
+        2
+      ]
+    },
+    {
+      "array_sha256": "9a590a30d567f1ef49d2412ed718df2fd746823bc8148431322dbeda7a50b6e8",
+      "finite": true,
+      "object": "error_m",
+      "role": "test",
+      "shape": [
+        8307
+      ]
+    },
+    {
+      "array_sha256": "fdb3eef8b21d6a4ec5c7e5113b74fa70849343f75685181bb18636be85a16d1e",
+      "finite": true,
+      "object": "dd_m",
+      "role": "test",
+      "shape": [
+        8307
+      ]
+    },
+    {
+      "array_sha256": "7de24988b36875391b0399d433f67b52840345b2a118950d34ee9ba04c4a3f21",
+      "finite": true,
+      "object": "ddl_m",
+      "role": "test",
+      "shape": [
+        8307
+      ]
+    },
+    {
+      "metric_oracle_max_difference_m": 2.2069741589803016e-09,
+      "role": "test"
+    },
+    {
+      "input_exact": true,
+      "operation": "composed_benign_row_feature_restore",
+      "prediction_exact": true
+    }
+  ],
+  "environment": {
+    "joblib": "1.5.3",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "parallel_backend": "joblib sequential backend, source model n_jobs parameter remains 2; deterministic scheduling, not a new tree parameter",
+    "pyproj": "3.7.2",
+    "python": "3.13.5",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  },
+  "metric_substitution": {
+    "compatibility": "haversine package unavailable; explicit scalar haversine implementation injected into unchanged expanded helper definitions. Independent pyproj.Geod spherical geodesic oracle. This is a disclosed metric dependency substitution, not installation of the original library or certification of its historical version.",
+    "earth_radius_m": 6371008.8,
+    "id": "sphere_mean_earth_haversine_m_v1",
+    "inputs": "latitude,longitude in degrees",
+    "oracle_tolerance_m": 1e-05,
+    "source_reference": "https://github.com/mapado/haversine/blob/main/haversine/haversine.py"
+  },
+  "model_training_rows": {
+    "DD": 19381,
+    "DDL": 19381,
+    "M1": 19381
+  },
+  "native_training_errors_mean_m": 274.9413427086648,
+  "native_training_errors_median_m": 173.61289685722076,
+  "preprocessing_minimum": -128,
+  "protocol_sha256": "1d4c43230c53e00f95931b07e0befca94c526aecddf08f61c8281b82614c7396",
+  "scope": "Native LoRaWAN DD + predeclared DDL sensitivity, independent semantic audit, conventional point-to-upper-radius calibration, and bounded state/metric controls. Not full external notebook/paper replication. No new localizer design."
+}

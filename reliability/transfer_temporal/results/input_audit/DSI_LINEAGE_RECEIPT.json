@@ -1,0 +1,41 @@
+{
+  "all_prepared_radio_map_rows_compatible_with_first_raw_coordinate_occurrence": true,
+  "ambiguous_absence_mask_prepared_rows": 0,
+  "caution": "First-compatible-occurrence is a reconstruction representative, not a proven historical choice. Prepared model inputs are authoritative. Missing MAC IDs are not fabricated. Values -98 do not themselves identify absence.",
+  "consistent_empirical_value_conversion": "-150 raw absence -> -98; all other values unchanged",
+  "features": 157,
+  "historical_generator_or_seed_authenticated": false,
+  "max_coordinate_roundtrip_difference_m": 1.4210854715202004e-14,
+  "native_prepared_roles_preserved": true,
+  "original_preparation_notebook_retrieved": false,
+  "prepared_counts": {
+    "test": 115,
+    "train": 348,
+    "val": 115
+  },
+  "prepared_rows_with_multiple_compatible_occurrences": 181,
+  "prepared_val_test_coordinates_disjoint": true,
+  "radio_map_unique_coordinates": 230,
+  "raw_counts": {
+    "radio_map": 1369,
+    "trajectory": 348
+  },
+  "raw_present_minus98_count": 40,
+  "raw_time_ranges": {
+    "rm": {
+      "first_unix": 1462196781,
+      "first_utc": "2016-05-02 13:46:21+00:00",
+      "last_unix": 1462268921,
+      "last_utc": "2016-05-03 09:48:41+00:00"
+    },
+    "tj": {
+      "first_unix": 1462269732,
+      "first_utc": "2016-05-03 10:02:12+00:00",
+      "last_unix": 1462272627,
+      "last_utc": "2016-05-03 10:50:27+00:00"
+    }
+  },
+  "status": "PASS_FOR_ARCHIVED_PREPARED_INPUTS_AND_COMPATIBLE_RAW_OCCURRENCE_GROUPS",
+  "train_vs_other_exact_coordinate_groups_disjoint": true,
+  "training_trajectory_order_verified": true
+}

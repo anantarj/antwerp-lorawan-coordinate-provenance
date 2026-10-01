@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": "Independent Researcher",
+        "name": "Ranjan, Ananta",
+        "orcid": "0000-0002-1105-0666"
+      }
+    ],
+    "description": "<p>Version 2.0.0 reproducibility resources supporting <em>Receiver Provenance, Population Selection, and Reliability Trade-offs in RSSI Localization</em>.</p><p>The archive contains author-created code, derived data products, saved outputs, population/provenance records, validation and reliability analyses, and verification tools. It includes the post-rejection representation/population, fitting-validation, map-selection, portability, native reliability, DSI transfer, chronological LoRaWAN, post-hoc, and interface evidence.</p><p>Original Antwerp, DAE and DSI third-party source material remains under its respective source terms and is obtained separately where required for full reexecution.</p><p>Author-created software is MIT licensed; author-created documentation and derived non-code artifacts are CC BY 4.0 where indicated. Third-party materials are not relicensed by Paper A.</p>",
+    "keywords": [
+      "RSSI localization",
+      "LoRaWAN",
+      "receiver provenance",
+      "population selection",
+      "reliability calibration",
+      "benchmark reuse",
+      "reproducibility"
+    ],
+    "license": "other-open",
+    "publication_date": "2026-10-01",
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.3904158",
+        "relation": "references",
+        "resource_type": "dataset"
+      },
+      {
+        "identifier": "10.5281/zenodo.5589651",
+        "relation": "references",
+        "resource_type": "software"
+      },
+      {
+        "identifier": "10.5281/zenodo.3778646",
+        "relation": "references",
+        "resource_type": "dataset"
+      },
+      {
+        "identifier": "https://github.com/anantarj/antwerp-lorawan-coordinate-provenance/tree/v2.0.0",
+        "relation": "isSupplementTo",
+        "resource_type": "software"
+      }
+    ],
+    "title": "Receiver Provenance, Population Selection, and Reliability Trade-offs in RSSI Localization \u2014 Reproducibility Resources",
+    "upload_type": "dataset",
+    "version": "2.0.0"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "date": "2026-09-21",
+  "status": "DESIGN_ONLY",
+  "input_files": [
+    {
+      "path": "/mnt/data/Paper_A_PR5D_Complete_Review_Bundle_20260920.zip",
+      "bytes": 129382845,
+      "sha256": "c9d74f5f8bef7fc8fb151f809ded7cc5a2e7db1acc0f1258b0c7368dfb2be190"
+    },
+    {
+      "path": "/mnt/data/Paper_A_PR5D_Editorial_Completion_20260920.zip",
+      "bytes": 6118300,
+      "sha256": "633ee0465c01f3393b5416efcf4e6212fb0c48034e205db5f1ff968f6b901be4"
+    },
+    {
+      "path": "/mnt/data/Archive 5.zip",
+      "bytes": 677921,
+      "sha256": "c6f02d31ecee08df7ecee0a5eebfef2628fbba16548ef8b84ab1bc14d2f23055"
+    },
+    {
+      "path": "/mnt/data/Paper_A_PR5D_Novelty_Assessment_20260921(1).md",
+      "bytes": 16459,
+      "sha256": "832f712b98e94c3c80e1653f0466d6c66efda141e9f302bdad9f4a5e8cda0bc4"
+    },
+    {
+      "path": "/mnt/data/lorawan_antwerp_2019_dataset.csv.zip",
+      "bytes": 5330157,
+      "sha256": "3809dd72b9f99319aa989c03d5eb94988ad6aa685da159a2500910b245084c8b"
+    },
+    {
+      "path": "/mnt/data/lorawan_antwerp_2019_dataset.json.txt.zip",
+      "bytes": 14558476,
+      "sha256": "4907da9263efd649e106c0bc4a1775441d24b4935efdca9f017d8afa703fd239"
+    },
+    {
+      "path": "/mnt/data/lorawan_antwerp_gateway_locations.json",
+      "bytes": 14896,
+      "sha256": "507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d"
+    },
+    {
+      "path": "/mnt/data/Paper_A_PR5D_20260920/documents/manuscript/Paper_A_PR5D_Manuscript.pdf",
+      "bytes": 107169,
+      "sha256": "726216dc4a443fdf28b25870e02fba1ae9c0499141296973885cc53fbc24f18c"
+    },
+    {
+      "path": "/mnt/data/Paper_A_PR5D_20260920/documents/supplement/Paper_A_PR5D_Supplement.pdf",
+      "bytes": 363233,
+      "sha256": "dba2dd7c19d18d674c59952a942f124359907f20b8cc9555274a375566ef659d"
+    }
+  ],
+  "design_source_inspection": [
+    {
+      "enclosing_path": "Paper_A_PR5D_20260920/parents/Computational_Supplement_Anonymous_S1.zip",
+      "member": "Computational_Supplement_Anonymous/computational/src/join_and_continuity/rebuild_join.py",
+      "bytes": 6772,
+      "sha256": "670260ec149ef2bc6ac64b73b794bb1698f3a6db3eac283670eb24372779b4d4",
+      "lines": 97,
+      "scope": "complete source read; not executed"
+    },
+    {
+      "enclosing_path": "Paper_A_PR5D_20260920/parents/Computational_Supplement_Anonymous_S1.zip",
+      "member": "Computational_Supplement_Anonymous/computational/src/join_and_continuity/test_join_contract.py",
+      "bytes": 1524,
+      "sha256": "0b6636120db25b06437290d9d1effd858cf82e6ab051ebb75be33d43874e1240",
+      "lines": 26,
+      "scope": "complete source read; not executed"
+    },
+    {
+      "enclosing_path": [
+        "Paper_A_PR5D_20260920/parents/Paper_A_PR4_Stage4_20260920.zip",
+        "Paper_A_PR4_20260920/parents/Paper_A_PR3_Stage3_20260920.zip",
+        "Paper_A_PR3_20260920/parents/Paper_A_PR2_Stage2_20260920.zip"
+      ],
+      "member": "Paper_A_PR2_20260920/tests/test_resource_contract.py",
+      "bytes": 2510,
+      "sha256": "9d978aefe020e564fae382a296cdeb14839dc74d6c3a8b8f2a27829eab3239ac",
+      "lines": 42,
+      "scope": "complete source read; not executed"
+    },
+    {
+      "enclosing_path": "Archive 5.zip",
+      "member": "Creating_files_LoRaWAN_dataset.ipynb",
+      "bytes": 10533,
+      "sha256": "b3137875da89a4bb5f50426f505772d03d5e2e78d37781802abc263f2a36ef4c",
+      "md5": "0d21a33bdc3501ba16cd989584bd344b",
+      "cells_read": 3,
+      "scope": "all source cells read; not executed"
+    }
+  ],
+  "external_sources": [
+    {
+      "id": "J1",
+      "title": "IEEE Transactions on Mobile Computing: Call for Papers and scope guidance",
+      "url": "https://www.computer.org/digital-library/journals/tm/cfp-ieee-transactions-mobile-computing",
+      "status": "official page retrieved",
+      "supports": "scope and hybrid route; venue fit remains our judgment"
+    },
+    {
+      "id": "J2",
+      "title": "IEEE Transactions on Wireless Communications: Policies and Guidelines",
+      "url": "https://www.comsoc.org/publications/journals/ieee-twc/policies-guidelines",
+      "status": "official page retrieved",
+      "supports": "wireless-centric scope, hybrid model, prior-rejection disclosure/two-journal restriction, length and charges"
+    },
+    {
+      "id": "J3",
+      "title": "Computer Networks: official journal description",
+      "url": "https://shop.elsevier.com/journals/computer-networks/1389-1286",
+      "status": "official page retrieved",
+      "supports": "research scope plus dataset/open-source-software microarticle types; not an author-fee guarantee"
+    },
+    {
+      "id": "J4",
+      "title": "Wireless Networks: aims and scope",
+      "url": "https://link.springer.com/journal/11276/aims-and-scope",
+      "status": "official page retrieved"
+    },
+    {
+      "id": "J5",
+      "title": "Wireless Networks: journal information",
+      "url": "https://link.springer.com/journal/11276",
+      "status": "official page retrieved",
+      "supports": "publisher lists SCIE"
+    },
+    {
+      "id": "J6",
+      "title": "Wireless Networks: how to publish",
+      "url": "https://link.springer.com/journal/11276/how-to-publish-with-us",
+      "status": "official page retrieved",
+      "supports": "subscription route explicitly has no APC"
+    },
+    {
+      "id": "J7",
+      "title": "IEEE Computer Society: author resources",
+      "url": "https://www.computer.org/publications/author-resources",
+      "status": "official indexed page retrieved",
+      "supports": "possible mandatory overlength charges; do not equate present page count with typeset length"
+    },
+    {
+      "id": "J8",
+      "title": "Computer Networks: current insights",
+      "url": "https://www.sciencedirect.com/journal/computer-networks/about/insights",
+      "status": "HTTP 403",
+      "supports": null
+    },
+    {
+      "id": "J9",
+      "title": "Computer Networks: current author guide",
+      "url": "https://www.sciencedirect.com/journal/computer-networks/publish/guide-for-authors",
+      "status": "HTTP 403",
+      "supports": null
+    },
+    {
+      "id": "S1",
+      "title": "Rahm and Bernstein, A Survey of Approaches to Automatic Schema Matching (2001)",
+      "doi": "10.1007/s007780100057",
+      "url": "https://old.dbs.uni-leipzig.de/en/publication/title/a_survey_of_approaches_to_automatic_schema_matching",
+      "status": "author-group abstract/bibliographic page retrieved",
+      "scope": "broad prior-concept attribution only, not complete review"
+    },
+    {
+      "id": "S2",
+      "title": "W3C PROV-DM: The PROV Data Model",
+      "url": "https://www.w3.org/TR/prov-dm/",
+      "status": "official recommendation retrieved",
+      "scope": "domain-independent provenance context only"
+    },
+    {
+      "id": "S3",
+      "title": "Chen et al., Metamorphic Testing: A Review of Challenges and Opportunities (2018)",
+      "doi": "10.1145/3143561",
+      "url": "https://ro.uow.edu.au/articles/journal_contribution/Metamorphic_Testing_A_Review_of_Challenges_and_Opportunities/27764520",
+      "status": "author institutional abstract/bibliographic record retrieved",
+      "scope": "testing concept/attribution only"
+    }
+  ],
+  "no_new_execution": [
+    "generic adapter",
+    "G1 fixtures",
+    "DAE preparation",
+    "coordinate fits",
+    "localization",
+    "manuscript compilation"
+  ],
+  "public_mutations": false
+}

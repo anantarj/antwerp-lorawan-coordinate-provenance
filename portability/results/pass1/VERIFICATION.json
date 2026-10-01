@@ -1,0 +1,307 @@
+{
+  "checks": [
+    {
+      "detail": null,
+      "name": "frozen_full_mapping",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "frozen_calibration_mapping",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "all_full_supported_resolved",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "all_cal_supported_resolved",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "source_order_and_row_count",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "exact_occurrence_representatives",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "exact_occurrence_multiplicity",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "surplus_identity",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "catalogue_availability",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "primary_projection_unchanged",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "calibration_links_outside_calibration",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "unchanged_PR2_reader_exit",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "cross_representation_tolerance",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "saved_prediction_tolerance",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "unchanged_original_join_exit",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "new_core_vs_original_join_full",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "new_core_vs_original_join_cal",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "new_core_vs_original_alignment",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "DAE_original_source_exit",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_independent_order_train",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_source_rowwise_values_train",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_bytes_x_train.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_values_x_train.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_absence_locations_x_train.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_bytes_y_train.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_values_y_train.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_absence_locations_y_train.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_bytes_HDOP_train.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_values_HDOP_train.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_absence_locations_HDOP_train.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_independent_order_val",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_source_rowwise_values_val",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_bytes_x_val.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_values_x_val.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_absence_locations_x_val.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_bytes_y_val.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_values_y_val.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_absence_locations_y_val.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_bytes_HDOP_val.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_values_HDOP_val.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_absence_locations_HDOP_val.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_independent_order_test",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_source_rowwise_values_test",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_bytes_x_test.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_values_x_test.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_absence_locations_x_test.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_bytes_y_test.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_values_y_test.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_absence_locations_y_test.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_bytes_HDOP_test.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_export_values_HDOP_test.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_absence_locations_HDOP_test.csv",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_72_features_preserved",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_partitions_disjoint",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "DAE_partition_union_source_order",
+      "passed": true
+    },
+    {
+      "detail": "partition_values_misaligned",
+      "name": "DAE_negative_sidecar_refused",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "reference_staged_csv_unchanged",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "reference_staged_catalogue_unchanged",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "all_inputs_unchanged",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "execution_code_gate_unchanged",
+      "passed": true
+    }
+  ],
+  "checks_count": 60,
+  "scope": "G13 correspondence/frozen-reader parity and G14 unchanged-versus-integrated DAE preparation. No fitting or predictive-model training.",
+  "status": "PASS"
+}

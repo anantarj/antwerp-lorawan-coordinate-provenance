@@ -1,0 +1,28 @@
+{
+  "id": "PA-G1-EXEC-20260921",
+  "parent_protocol_file": "G1_PROTOCOL.json",
+  "status": "SPECIFIED_BEFORE_EXECUTION",
+  "implementation_resolutions": {
+    "canonical_tokens": "exact signed-int64 and separate boolean presence; absent token normalized by adapters to 0",
+    "float_canonicalization": "integer-valued finite floats within exact 2**53 representation only; no numeric strings or bool",
+    "Antwerp_rssi": "source integral convention, explicit -200 absence, reject values outside int16-compatible range before conversion",
+    "metadata_rounding": "only inherited two-decimal HDOP key; no new tolerance",
+    "synthetic_scope": "second schema supplies exact integer tokens; continuous/noisy linkage not supported",
+    "duplicate_pairing": "sort original payload-row handles within identical record groups; occurrence representatives, not event identity",
+    "group_conflict": "refuse entire alignment with code and affected key/rows",
+    "recovery": "explicit primary-row handle sequence; full-source alignment preconditions distinct from signature recovery subset",
+    "zero_support": "unsupported, cannot be certified from an empty/all-absent signature",
+    "Antwerp_array_oracle": "original saved outputs after reconstruction; matching inference never reads them",
+    "replay_tolerance_saved_m": 1e-07,
+    "replay_tolerance_CSV_JSON_m": 1e-10,
+    "tolerance_source": "unchanged PR2 compare_representations.py",
+    "DAE_reference": "execute cell 0 and cell 1 unchanged in dedicated workspace, fixed expected filenames",
+    "DAE_integrated": "explicitly reproduced preparation recipe, parallel row-index vector; no source-table added columns",
+    "DAE_equality": "all nine ordinary CSV export bytes AND parsed arrays/headers and rowwise source correspondence",
+    "DAE_boundary": "present common environment; no historical-export identity or predictive-model reproduction",
+    "resampling": "none; all cases and refusals exported"
+  },
+  "phase_failures": "retain attempt source hashes, logs and subsequent changes; do not delete a test to pass",
+  "scientific_changes": "none to PR5D or PR1-PR4; no fits, map selection or algorithm benchmark",
+  "run_outputs": "new separate directory; occupied directory refused"
+}

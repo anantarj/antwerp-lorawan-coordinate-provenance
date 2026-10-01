@@ -1,0 +1,49 @@
+{
+  "status": "COMPLETE_AT_DECLARED_STAGE4_SCOPE",
+  "created_utc": "2026-09-20T06:08:51.526243+00:00",
+  "constructed_tests": 20,
+  "postrun_checks": 237,
+  "failed_checks": 0,
+  "alternate_scalar_position_checks": 422077,
+  "max_scalar_position_difference_m": 3.732559164492739e-09,
+  "reexecution_scientific_files_identical": 21,
+  "final_verifier_receipt_reproduced": true,
+  "parent_preservation": [
+    {
+      "package": "Paper_A_PR1_20260919",
+      "manifest_entries": 43,
+      "mismatches": [],
+      "manifest_sha256": "ebf28f1d0cf1b895979c0e37f5b1939b2ee2ae19be1efd9a4816a2e9bbcb4167"
+    },
+    {
+      "package": "Paper_A_PR2_20260920",
+      "manifest_entries": 57,
+      "mismatches": [],
+      "manifest_sha256": "6b07d29dcae9d166febe5072eb459b6a5cc64da8176089e1977f1d336cc3ec2c"
+    },
+    {
+      "package": "Paper_A_PR3_20260920",
+      "manifest_entries": 82,
+      "mismatches": [],
+      "manifest_sha256": "73acb4da8b8225cf6781f81d3dc4e186c3240f5c35f56b2d79f8a07f02a9e693"
+    }
+  ],
+  "enclosed_parent": {
+    "path": "parents/Paper_A_PR3_Stage3_20260920.zip",
+    "bytes": 23659298,
+    "sha256": "3ed84201715a0ffc3e4781aa22fe94c4ad0914a02bddc55460b6901c74b089a4"
+  },
+  "S1_archive_sha256": "97a98dd8cc0f1ba6638b62a546563178bb98ce86c5ff1bc53fce2512c64cdb43",
+  "scope": {
+    "new_receiver_fits": 0,
+    "new_localization_estimator": false,
+    "new_validation_task_predictions": true,
+    "new_complement_predictions": true,
+    "novelty_threshold_certified": false,
+    "independent_deployment": false,
+    "untouched_data_certified": false,
+    "original_manuscript_changed": false,
+    "public_repository_or_deposit_changed": false
+  },
+  "next": "Stage5A coordinated manuscript/supplement drafting; exact closest-artifact comparison obligations and contribution-first review before resubmission."
+}

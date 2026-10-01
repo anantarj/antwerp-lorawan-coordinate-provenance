@@ -1,0 +1,251 @@
+{
+  "alphas": [
+    0.1,
+    0.05,
+    0.01,
+    0.001
+  ],
+  "calibration": "unchanged inherited conformal_quantile and max(0,h+q), constant uses h=0, n+1 rank, infinite if unsupported; exchangeability remains an unverified condition",
+  "chronology": "Earlier native results and raw-input/lineage statistics known; all new DSI and chronological model/calibration/error outcomes not yet calculated. Duplicate groups use prior definitions. No claim of whole-project untouched evaluation.",
+  "compute_budget_seconds": 900,
+  "conditional_risk": "descriptive only; no Learn then Test or independent-Bernoulli certification added",
+  "controls": [
+    "clean",
+    "actual joint row/feature restoration",
+    "source signed-variable expression offline",
+    "DD/DDL state mismatch",
+    "undeclared population drop",
+    "honest changed regime and honest recalibration",
+    "undetectable exchangeability limit"
+  ],
+  "controls_scope": "information-matched conventional and integrated validations; expected ties allowed. Offline numerical semantics need labels. No online shift detector.",
+  "curves": "DSI 0 plus logspace(-1,2,121); LoRaWAN0 plus logspace(0,4,201), alpha.05",
+  "date_utc": "2026-09-22T04:08:51.232967+00:00",
+  "dsi": {
+    "absence": "No new DSI preprocessing. Source DS I branch skips sentinel transform. Raw -150 maps to -98 in empirical archived relation; -98 can also be genuine. No named AP recovery.",
+    "calibration": "archived val115",
+    "claims": "transfer of row/quantity/model/calibration/decision machinery only; no site-general safety or MAC recovery",
+    "evaluation": "archived test115",
+    "input_order": "archived exact X/Y arrays, no new resampling of val/test",
+    "lineage_receipt_sha256": "5e63ab6a3a87665b772ad186eb01a6528c8e302f062843fc97ae540abcc77a06",
+    "roles": "training trajectory was acquired after radio-map val/test; this is a retrospective native workflow, not future prediction",
+    "scope": "Archived DAE prepared-input native M1/DD/DDL reference; raw relation verified as compatible occurrence groups, not authenticated preparation notebook or unique timestamps",
+    "training": "348 trajectory records split .5 with random_state42; M1=174, M2=174"
+  },
+  "dsi_coordinate_association_tolerance_m": 1e-10,
+  "endpoints": "position/error prediction, inclusive coverage, radius magnitude, CVaR95 positive undercoverage, exceedance counts and maxima; all requested/accepted/useful/harmful denominators",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "python": "3.13.5",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  },
+  "id": "PA-G2-DSI-TEMPORAL-20260922",
+  "inherited_completed": "Original G1 and native same-regime G2 remain unchanged. No new matching or uncertainty algorithm. Source metric repair is not a publication correction claim.",
+  "lorawan_temporal": {
+    "comparison": "two calibration states reference/recent applied to same fixed early models and same future requests; neither uses final labels",
+    "equal_calibration_budget": 4835,
+    "fit_protocol": "native M1/DD/DDL parameters; explicit group-safe early time training roles",
+    "interpretation": "recency/content change with matched row budget, not identical geographical composition; updated calibration is not guaranteed to improve",
+    "preprocessing": "source minimum-minus-one replacement from early training only",
+    "role_assignment": {
+      "calibration_sampling": "Random(20260922).sample of each chronological eligible row-index list, same m; no score selection",
+      "counts": {
+        "calibration_recent": 4835,
+        "calibration_reference": 4835,
+        "evaluation": 4873,
+        "quarantined_cross_role_group": 2,
+        "train1": 16804,
+        "train2": 16804,
+        "unused_reference_calibration_budget": 7222
+      },
+      "cross_role_groups": 1,
+      "cross_role_quarantined_rows": 2,
+      "cutoff_days_inclusive": [
+        "2019-01-20",
+        "2019-01-29",
+        "2019-02-01"
+      ],
+      "equal_calibration_budget_per_state": 4835,
+      "ranges": {
+        "calibration_recent": {
+          "first": "2019-01-30 05:24:40.445000+00:00",
+          "groups": 4834,
+          "last": "2019-02-01 18:23:42.843000+00:00",
+          "n": 4835
+        },
+        "calibration_reference": {
+          "first": "2019-01-21 05:18:13.311000+00:00",
+          "groups": 4824,
+          "last": "2019-01-29 18:57:37.494534189+00:00",
+          "n": 4835
+        },
+        "evaluation": {
+          "first": "2019-02-02 07:58:59.854066700+00:00",
+          "groups": 4823,
+          "last": "2019-02-11 20:57:38.935000+00:00",
+          "n": 4873
+        },
+        "quarantined_cross_role_group": {
+          "first": "2019-01-17 17:28:10.105000+00:00",
+          "groups": 1,
+          "last": "2019-01-21 10:17:04.593000+00:00",
+          "n": 2
+        },
+        "train1": {
+          "first": "2018-11-16 12:46:56.717967368+00:00",
+          "groups": 16803,
+          "last": "2019-01-20 19:58:59.765000+00:00",
+          "n": 16804
+        },
+        "train2": {
+          "first": "2018-11-16 11:31:35.384000+00:00",
+          "groups": 16803,
+          "last": "2019-01-20 19:57:56.516000+00:00",
+          "n": 16804
+        },
+        "unused_reference_calibration_budget": {
+          "first": "2019-01-21 05:19:16.574000+00:00",
+          "groups": 7197,
+          "last": "2019-01-29 18:58:40.828223033+00:00",
+          "n": 7222
+        }
+      },
+      "raw_day_counts": {
+        "2018-11-16": 13,
+        "2018-11-17": 12,
+        "2018-11-18": 3,
+        "2018-11-19": 11,
+        "2018-11-20": 7,
+        "2018-11-21": 7,
+        "2018-11-22": 14,
+        "2018-11-23": 16,
+        "2018-11-24": 6,
+        "2018-11-26": 14,
+        "2018-11-27": 14,
+        "2018-11-28": 18,
+        "2018-11-29": 12,
+        "2018-11-30": 7,
+        "2018-12-01": 6,
+        "2018-12-03": 14,
+        "2018-12-04": 10,
+        "2018-12-05": 18,
+        "2018-12-06": 19,
+        "2018-12-07": 19,
+        "2018-12-08": 11,
+        "2018-12-09": 10,
+        "2018-12-10": 15,
+        "2018-12-11": 15,
+        "2018-12-12": 19,
+        "2018-12-13": 24,
+        "2018-12-14": 27,
+        "2018-12-15": 5,
+        "2018-12-17": 25,
+        "2018-12-18": 29,
+        "2018-12-19": 14,
+        "2018-12-20": 22,
+        "2018-12-21": 18,
+        "2018-12-22": 3,
+        "2018-12-24": 18,
+        "2018-12-26": 18,
+        "2018-12-27": 19,
+        "2018-12-28": 173,
+        "2018-12-29": 83,
+        "2018-12-31": 1467,
+        "2019-01-02": 1810,
+        "2019-01-03": 2340,
+        "2019-01-04": 2260,
+        "2019-01-05": 1296,
+        "2019-01-06": 678,
+        "2019-01-07": 2299,
+        "2019-01-08": 2712,
+        "2019-01-09": 2907,
+        "2019-01-10": 2582,
+        "2019-01-11": 1522,
+        "2019-01-12": 309,
+        "2019-01-14": 1830,
+        "2019-01-15": 1577,
+        "2019-01-16": 1808,
+        "2019-01-17": 1778,
+        "2019-01-18": 2082,
+        "2019-01-19": 855,
+        "2019-01-20": 709,
+        "2019-01-21": 2407,
+        "2019-01-22": 2609,
+        "2019-01-23": 1653,
+        "2019-01-24": 1637,
+        "2019-01-25": 806,
+        "2019-01-26": 200,
+        "2019-01-28": 1309,
+        "2019-01-29": 1437,
+        "2019-01-30": 1627,
+        "2019-01-31": 1632,
+        "2019-02-01": 1576,
+        "2019-02-02": 340,
+        "2019-02-03": 25,
+        "2019-02-04": 2041,
+        "2019-02-05": 2463,
+        "2019-02-11": 4
+      },
+      "rule": "cumulative message mass 60/80/90 percent; entire UTC cutoff day assigned to earlier pool; no score used",
+      "source_working_rows": 55375,
+      "training_split": "Random state 42 half split of sorted duplicate-component keys; rows expanded in chronological order"
+    },
+    "role_ledger_sha256": "0b92958222d7cc07179c25343b7aabeb600ee047d7b30840623c87c8125d9831",
+    "scope": "one newly defined chronological task; not unchanged native split nor causal isolation of time from geography"
+  },
+  "metric_tolerance_m": 1e-05,
+  "models": {
+    "max_depth": 60,
+    "min_samples_leaf": 1,
+    "min_samples_split": 6,
+    "n_estimators": 100,
+    "n_jobs": 2,
+    "parallel_backend": "sequential",
+    "random_state": 42
+  },
+  "no_more_expansion": [
+    "no new dataset",
+    "no new fitter",
+    "no further fault campaign",
+    "no unbounded search for inaccessible DSI preparation notebook",
+    "no manuscript or remote release edits"
+  ],
+  "parent_archive": {
+    "name": "Paper_A_G2_Native_Reliability_Execution_20260922.zip",
+    "sha256": "df15eb4e022a2ff74b9dc42c07dbf46447a8ed92f08dbdd0cd251bff341aa768"
+  },
+  "primary_alpha": 0.05,
+  "primary_landmarks": "DSI5m and10m; LoRaWAN500m and1000m; descriptive diagnostics, not safety targets or outcome-selected thresholds",
+  "question": "Do the unchanged conventional calibration and model/quantity/role contracts remain informative on one independent physical source and one future-time LoRaWAN task? Compare older and recent equal-budget calibration on identical later outputs, without expecting improvement.",
+  "raw_archive_sha256": "0674261d878403af3da744202875ad6c520565a52159605e10fa7632a581803a",
+  "repeat": "two complete executions; predictions and states hashes compared; 1e-10 coordinate and1e-4 error estimate tolerance secondary, exact matching reported separately",
+  "reporting": "complete all-alpha/role/model/threshold tables, all future UTC-day diagnostics including tiny strata; no favorable source/threshold search",
+  "state": "FROZEN_BEFORE_ANY_FOLLOWUP_MODEL_OR_ERROR_SCORE",
+  "thresholds_m": {
+    "dsi": [
+      0,
+      1,
+      2,
+      5,
+      10,
+      20,
+      50,
+      100
+    ],
+    "lorawan_temporal": [
+      0,
+      25,
+      50,
+      100,
+      200,
+      500,
+      1000,
+      2000,
+      5000,
+      10000
+    ]
+  },
+  "version": "1.0"
+}

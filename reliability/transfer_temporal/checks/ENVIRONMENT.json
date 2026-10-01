@@ -1,0 +1,10 @@
+{
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.17.0",
+  "sklearn": "1.8.0",
+  "pyproj": "3.7.2",
+  "PROJ": "9.5.1",
+  "threads": "OPENBLAS/OMP/MKL=1; joblib sequential; source n_jobs parameter remains2"
+}

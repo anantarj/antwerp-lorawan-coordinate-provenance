@@ -1,0 +1,20 @@
+[
+  {
+    "NATIVE_FIXED": "NARROW",
+    "TASK_VAL": "NARROW_MS",
+    "TRAIN_RSSI": "WIDE_MS",
+    "VAL_RSSI_EQUAL": "WIDE_MS",
+    "VAL_RSSI_POOLED": "NARROW_MS",
+    "selection_file_sha256": "caaf9e822c06a8d6d1711442e12227f4bb800e5499d5a732f7da4ea7ece258ef",
+    "split": "group80"
+  },
+  {
+    "NATIVE_FIXED": "NARROW",
+    "TASK_VAL": "NARROW_MS",
+    "TRAIN_RSSI": "WIDE_MS",
+    "VAL_RSSI_EQUAL": "WIDE_MS",
+    "VAL_RSSI_POOLED": "NARROW_MS",
+    "selection_file_sha256": "9b9bcaa426b5257652a3b86e1cd1461fd498d78f54a41be1905289e65b728585",
+    "split": "space1000"
+  }
+]

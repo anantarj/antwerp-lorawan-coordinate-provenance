@@ -1,0 +1,19 @@
+{
+  "version": "PA-PR2-20260920",
+  "status": "Resource demonstration complete; bounded comparison delivered at declared scope; external code-payload checks remain partially open",
+  "join_checks_passed": 10,
+  "representation_rows": 2495,
+  "cross_representation_max_position_difference_m": 0.0,
+  "synthetic_reader_tests_passed": 16,
+  "repeated_output_files": 5,
+  "repeated_output_files_matching": 5,
+  "reused_PR1_method_draw_summaries": 66,
+  "new_descriptive_reduced_method_draw_records": 64,
+  "new_descriptive_sign_reversals": 8,
+  "new_receiver_fits": 0,
+  "new_MV1_validation_scores": 0,
+  "public_repositories_modified": false,
+  "manuscript_files_modified": false,
+  "next": "Stage3 producer implementation/test/code lock, then execute MV1",
+  "external_code_independent_reinspection_complete": false
+}

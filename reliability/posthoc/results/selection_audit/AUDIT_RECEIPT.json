@@ -1,0 +1,58 @@
+{
+  "all_protected_files_unchanged": true,
+  "finite_dynamic_states": 30,
+  "finite_dynamic_states_with_clipped_zeros": 0,
+  "finite_mask_equivalences_verified": 288,
+  "finite_states_same_stable_order": 30,
+  "infinite_dynamic_states": 2,
+  "input_manifest_entries_verified": {
+    "native": 129,
+    "transfer": 76
+  },
+  "landmark_records_total": 304,
+  "limits": [
+    "Same-k comparison is not matched radius-containment coverage.",
+    "Matching achieved test counts is a retrospective diagnostic, not a test-tuned deployment policy.",
+    "An infinite radius has no finite-threshold acceptance; its artificial stable-sort order is not interpreted.",
+    "Constant-radius rules have no informative ordering; no arbitrary partial constant policy is fabricated.",
+    "Unchanged ranking does not remove the value of magnitude calibration under its stated assumptions."
+  ],
+  "no_claim_of_new_algorithm": true,
+  "no_model_fit": true,
+  "no_policy_selection": true,
+  "original_frozen_g2_protocols_unchanged": true,
+  "same_k_comparison_rows": 60,
+  "source_files": [
+    {
+      "path": "/mnt/data/_g2_assessment_audit/native/Paper_A_G2_Reliability_Execution_20260922/results/native_run1/test_PREDICTIONS.csv.gz",
+      "scenario": "lorawan_same_regime",
+      "sha256": "d2fd2ad745b91ddec6ac066adcfc28feff48eb80c10db0013c1f7c731018935e"
+    },
+    {
+      "path": "/mnt/data/_g2_assessment_audit/native/Paper_A_G2_Reliability_Execution_20260922/results/reliability/CALIBRATION_STATES.json",
+      "scenario": "lorawan_same_regime",
+      "sha256": "3a47cd2dc981c1d43b7507a87a3d07d4f0951800e1cbdef4abea090947476949"
+    },
+    {
+      "path": "/mnt/data/_g2_assessment_audit/transfer/Paper_A_G2_Transfer_Temporal_20260922/results/pass1/dsi/evaluation_PREDICTIONS.csv.gz",
+      "scenario": "dsi",
+      "sha256": "a833e992565004f8685276afbdd292bcc4aa27e952a2d627ed344242377580b8"
+    },
+    {
+      "path": "/mnt/data/_g2_assessment_audit/transfer/Paper_A_G2_Transfer_Temporal_20260922/results/pass1/dsi/CALIBRATION_STATES.json",
+      "scenario": "dsi",
+      "sha256": "1e8368258979e63a30bc52fca1aceec1c06f60bfa0b5fbc5d97f0a75b882b500"
+    },
+    {
+      "path": "/mnt/data/_g2_assessment_audit/transfer/Paper_A_G2_Transfer_Temporal_20260922/results/pass1/lorawan_temporal/evaluation_PREDICTIONS.csv.gz",
+      "scenario": "lorawan_temporal",
+      "sha256": "0a53681448f9359891f4d91dd57ecc77f8baf9bf6eb30f5a5a898e956e800b3a"
+    },
+    {
+      "path": "/mnt/data/_g2_assessment_audit/transfer/Paper_A_G2_Transfer_Temporal_20260922/results/pass1/lorawan_temporal/CALIBRATION_STATES.json",
+      "scenario": "lorawan_temporal",
+      "sha256": "1f285cf488acafad9b2752d0fcce5ccd86cc9ca10d9c635648e32dc736a1c4b4"
+    }
+  ],
+  "status": "POSTHOC_EXISTING_OUTPUT_ANALYSIS_NOT_NEW_MODEL_EXPERIMENT"
+}

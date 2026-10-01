@@ -1,0 +1,19 @@
+{
+  "all_start_prediction_summaries_checked": 780,
+  "maximum_absolute_start_metric_difference_db": 2.842170943040401e-14,
+  "maximum_ray_point_coordinate_difference_m": 0.0,
+  "records": [
+    {
+      "ray_points_checked": 5544,
+      "split": "group80",
+      "starts_checked": 396
+    },
+    {
+      "ray_points_checked": 5376,
+      "split": "space1000",
+      "starts_checked": 384
+    }
+  ],
+  "scope": "Additional post-run checking of all starts, including nonwinning starts, and scheduled ray coordinates; no new experiment or model selection.",
+  "status": "PASS"
+}

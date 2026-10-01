@@ -1,0 +1,33 @@
+scenario,calibration_role,model,alpha,n_scored,n_original_requests,q_m,finite_correction,stable_sort_identical,zero_clipped_count,rank_positions_disagree,interpretation
+lorawan_same_regime,same_regime_calibration,DD,0.10000000000000001,8275,8307,238.07943326558853,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_same_regime,same_regime_calibration,DDL,0.10000000000000001,8275,8307,216.47687966606756,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_same_regime,same_regime_calibration,DD,0.050000000000000003,8275,8307,442.29857333893278,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_same_regime,same_regime_calibration,DDL,0.050000000000000003,8275,8307,411.39744077091416,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_same_regime,same_regime_calibration,DD,0.01,8275,8307,1060.0288270448657,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_same_regime,same_regime_calibration,DDL,0.01,8275,8307,1013.2398711977,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_same_regime,same_regime_calibration,DD,0.001,8275,8307,2062.7004159814164,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_same_regime,same_regime_calibration,DDL,0.001,8275,8307,1995.0820580002467,True,True,0,0,All same-k sets identical under common saved-row tie order
+dsi,calibration_reference,DD,0.10000000000000001,115,115,10.046358437234609,True,True,0,0,All same-k sets identical under common saved-row tie order
+dsi,calibration_reference,DDL,0.10000000000000001,115,115,10.038720217693463,True,True,0,0,All same-k sets identical under common saved-row tie order
+dsi,calibration_reference,DD,0.050000000000000003,115,115,11.70940795311367,True,True,0,0,All same-k sets identical under common saved-row tie order
+dsi,calibration_reference,DDL,0.050000000000000003,115,115,11.696005875625612,True,True,0,0,All same-k sets identical under common saved-row tie order
+dsi,calibration_reference,DD,0.01,115,115,22.037415613203173,True,True,0,0,All same-k sets identical under common saved-row tie order
+dsi,calibration_reference,DDL,0.01,115,115,22.199575572027072,True,True,0,0,All same-k sets identical under common saved-row tie order
+dsi,calibration_reference,DD,0.001,115,115,,False,,,,Infinite radius; no finite-threshold acceptance. Do not assign a ranking benefit.
+dsi,calibration_reference,DDL,0.001,115,115,,False,,,,Infinite radius; no finite-threshold acceptance. Do not assign a ranking benefit.
+lorawan_temporal,calibration_reference,DD,0.10000000000000001,4873,4873,453.2510374586472,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_temporal,calibration_reference,DDL,0.10000000000000001,4873,4873,434.50040719194379,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_temporal,calibration_reference,DD,0.050000000000000003,4873,4873,792.19103173568544,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_temporal,calibration_reference,DDL,0.050000000000000003,4873,4873,743.46297989501261,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_temporal,calibration_reference,DD,0.01,4873,4873,1573.3625372274191,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_temporal,calibration_reference,DDL,0.01,4873,4873,1570.8597556079426,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_temporal,calibration_reference,DD,0.001,4873,4873,3153.2196615439393,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_temporal,calibration_reference,DDL,0.001,4873,4873,2909.6154213007189,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_temporal,calibration_recent,DD,0.10000000000000001,4873,4873,534.05467478335618,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_temporal,calibration_recent,DDL,0.10000000000000001,4873,4873,508.69272754139536,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_temporal,calibration_recent,DD,0.050000000000000003,4873,4873,800.36920965104321,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_temporal,calibration_recent,DDL,0.050000000000000003,4873,4873,766.0393865329911,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_temporal,calibration_recent,DD,0.01,4873,4873,1518.883761017559,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_temporal,calibration_recent,DDL,0.01,4873,4873,1479.9562811836799,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_temporal,calibration_recent,DD,0.001,4873,4873,3363.6433854308461,True,True,0,0,All same-k sets identical under common saved-row tie order
+lorawan_temporal,calibration_recent,DDL,0.001,4873,4873,3425.4970440678999,True,True,0,0,All same-k sets identical under common saved-row tie order

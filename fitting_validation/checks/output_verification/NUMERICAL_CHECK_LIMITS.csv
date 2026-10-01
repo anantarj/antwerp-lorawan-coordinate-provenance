@@ -1,0 +1,3 @@
+split,native_source_primary_n,original_source_fitter_returned_receivers,trace_evaluations_checked,profiles_checked,max_source_native_position_difference_m,max_source_objective_difference_db,max_reception_prediction_difference_db,max_receiver_summary_difference_db,max_centroid_position_difference_m,max_downstream_summary_difference_m
+group80,33,40,31812,5544,0.0,0.0,0.0,0.0,3.732559164492739e-09,0.0
+space1000,32,37,30664,5376,0.0,0.0,0.0,0.0,2.8157109912596232e-09,0.0

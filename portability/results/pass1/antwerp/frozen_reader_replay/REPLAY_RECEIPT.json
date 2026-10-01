@@ -1,0 +1,35 @@
+{
+  "scope": "New CSV/JSON-native frozen-catalogue raw-WCL replay on original 2495 rows, not a coordinate refit or external-paper replication.",
+  "rows_checked": 2495,
+  "same_row_order": true,
+  "same_selected_ids_and_RSSI": true,
+  "max_cross_representation_position_delta_m": 0.0,
+  "max_saved_position_delta_m": 4.669691231132387e-09,
+  "metadata_median_error_m": 480.08719486250845,
+  "primary_rows_in_duplicate_serialization_groups": 2,
+  "max_post_alignment_GPS_delta_m": 7.451490036121224e-09,
+  "post_alignment_GPS_mismatches_gt_1e_minus7_m": 0,
+  "catalogue_backed_identities": 39,
+  "active_identities": 44,
+  "input_hashes": {
+    "fresh_alignment": "a1757169166f0e86b63c6fb158ccca797af2f83d6e4635d94bf37517c7b2da00",
+    "fresh_identities": "037c50d6f6947de0e3738cad2b9a6e666dc75b65de72d39f98dd699d7ddc5104",
+    "fresh_catalogue39": "e5f62e9572a052221ac5f53e4d2df556fd1d4b63cfdbae3b15a74eb52470f1fe",
+    "primary_rows": "0029e4cbba080f3c99fe6de09c37b1e3a27d408c583d7faca4ef679c538e3fb8",
+    "metadata33": "4addbd3c9073501ecd46b80f2351b508d56aee378b6dde115ca71c5395ebbc93",
+    "catalogue249": "507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d",
+    "saved_predictions": "30e053462db688e076b908e7a1af5561ec7cc3f9c61182099b4718c471feb14b"
+  },
+  "raw_payload_hashes": {
+    "csv": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+    "json": "f2f1fbd478cdef2b76fb8e3aae33751d332b50fc8546684d8e73fdb1505451cb"
+  },
+  "identity_warning": "JSON indices are occurrence representatives in indistinguishable groups, not certified physical-message identities.",
+  "positive_result": "Verified translation preserves the chosen CSV cohort and declared receiver-order contract; it does not improve accuracy relative to correctly aligned JSON-native access.",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "source_files_unchanged": true
+}

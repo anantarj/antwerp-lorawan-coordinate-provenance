@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/opt/pyvenv/bin/python",
+    "-B",
+    "-u",
+    "/mnt/data/_paper_a_pr2_work/Computational_Supplement_Anonymous/computational/commands/check_core.py",
+    "--csv",
+    "/tmp/paper_a_input_4bbnxpiv/lorawan_antwerp_2019_dataset.csv",
+    "--join",
+    "/mnt/data/Paper_A_PR2_20260920/results/raw_join/join",
+    "--out",
+    "/mnt/data/Paper_A_PR2_20260920/results/raw_join/core",
+    "--mode",
+    "join"
+  ],
+  "elapsed_seconds": 0.7348289489746094,
+  "log": "core.log",
+  "returncode": 0
+}

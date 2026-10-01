@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "scope": "Supplied diagnostic rerun unchanged on four hash-identical scientific inputs in the locally available anonymous S1 archive; inspected source helper independently cross-checked. No fit, localization rerun, raw-source join, or new held-out validation.",
+  "evidence_manifest_entries_verified": 6,
+  "reported_public_archive_sha256": "004e2a05561df1f2e5bf886065f4a7d0717251b249d7f8e8fdc84bf53df67576",
+  "actual_rerun_archive_sha256": "97a98dd8cc0f1ba6638b62a546563178bb98ce86c5ff1bc53fce2512c64cdb43",
+  "archive_identity_note": "Different enclosing archives; all four scientific input byte hashes agree exactly. Public v1.0.0 archive was not newly downloaded successfully in this assessment.",
+  "input_sha256": {
+    "computational/populations/rssfit_ordered_fit_inputs.csv.gz": "361faa4a563246ca64187cca272c40c5eacbe4bde7622b882ed925aec0af3fb1",
+    "computational/data_products/metadata33.json": "4addbd3c9073501ecd46b80f2351b508d56aee378b6dde115ca71c5395ebbc93",
+    "computational/data_products/rssfit33.json": "2adfbcbe19c2f7e2460aa7e1e345995ed7a5c8349ec6402cec1ad50a47fc4927",
+    "geometry/results/frozen_geometry/receiver_geometry33.csv": "fd4ceeb87246c510bf96f45665c3fe2e8a8ddebec63f4ed69427130e6d938292"
+  },
+  "objective_csv_byte_identical": true,
+  "source_helper_evaluations": 66,
+  "source_helper_max_absolute_difference_db": 5.684341886080802e-14,
+  "source_helper_tolerance_db": 1e-09,
+  "source_file_sha256": "526d05718ce19f3ce1cae1f7592e378000653e7ff49348fc5cc26e71033cc900",
+  "python_version": "3.13.5",
+  "numpy_version": "2.3.5",
+  "primary33": {
+    "n": 33,
+    "fitted_lower_than_catalogue": 29,
+    "catalogue_lower_than_fitted": 4,
+    "tied_within_tolerance": 0,
+    "far_limit_lower_than_fitted": 25,
+    "median_catalogue_loss_db": 3.510083103459266,
+    "median_fitted_loss_db": 1.8805288907650635
+  },
+  "catalogue_inside_original_box": {
+    "n": 25,
+    "fitted_lower_than_catalogue": 24,
+    "catalogue_lower_than_fitted": 1,
+    "tied_within_tolerance": 0,
+    "far_limit_lower_than_fitted": 19,
+    "median_catalogue_loss_db": 4.628075883955262,
+    "median_fitted_loss_db": 2.14691809645673
+  },
+  "fitted_boundary": {
+    "n": 26,
+    "fitted_lower_than_catalogue": 22,
+    "catalogue_lower_than_fitted": 4,
+    "tied_within_tolerance": 0,
+    "far_limit_lower_than_fitted": 23,
+    "median_catalogue_loss_db": 4.172133696537024,
+    "median_fitted_loss_db": 2.0110433041310145
+  },
+  "catalogue_lower_receivers": [
+    6,
+    22,
+    34,
+    44
+  ],
+  "external_source_scope": "Primary deposit descriptions/inventories were retrieved online; the DAE notebook payload and 2024 accepted-PDF payload were not newly retrieved. Their full-content claims remain attributed to the supplied diagnosis report, not certified as a fresh full-text review."
+}

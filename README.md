@@ -1,90 +1,88 @@
-# Antwerp LoRaWAN coordinate provenance and benchmark audit
 
-Reproducibility resources for:
+# Receiver Provenance, Population Selection, and Reliability Trade-offs in RSSI Localization
 
-**Published, Unjoined: Coordinate Provenance and Reception Support in a Public LPWAN Localization Benchmark**
+Reproducibility resources supporting:
+
+**Receiver Provenance, Population Selection, and Reliability Trade-offs in RSSI Localization**
 
 **Author:** Ananta Ranjan, Independent Researcher  
 **ORCID:** https://orcid.org/0000-0002-1105-0666
 
-This repository supplies the receiver-identity crosswalk, coordinate assignments,
-ordered experimental populations, operative analysis sources, retained numerical
-outputs, and scoped verification/replay tools used by Paper A.
+This repository provides author-created code, derived data products, saved
+experimental outputs, provenance records, population definitions, protocols,
+and verification tools supporting the article.
+
+Public release: **v2.0.0**  
+Exact Zenodo version DOI: **https://doi.org/10.5281/zenodo.23083321**  
+Zenodo concept DOI: **https://doi.org/10.5281/zenodo.22143329**
 
 ## Scientific scope
 
-The repository supports a release-specific audit of the public Antwerp LoRaWAN
-v1.3 localization benchmark. Its central reusable product is an explicit bridge
-from the tabular `BS` receiver columns to the gateway identifiers and catalogue
-coordinates in the released JSON/catalogue representations.
+The resource examines how receiver attribution, representation continuity,
+population selection, quantity semantics, and reliability/calibration choices
+affect reported RSSI-localization results.
 
-The main coordinate-substitution case study is deliberately bounded: it evaluates
-one specified RSSI-fitted coordinate assignment and does **not** claim that its
-error is typical, unavoidable, or representative of optimal coordinate recovery.
+The principal v2 components are:
+
+- `resource_validation/` — bounded objective/resource diagnostics and validation records.
+- `representation_population/` — representation replay and matched-population analyses.
+- `fitting_validation/` — grouped and spatial fitting-validation experiments.
+- `map_selection/` — fixed-candidate map-selection analysis.
+- `portability/` — exact correspondence, ambiguity/refusal tests, and workflow preservation.
+- `reliability/native/` — native DAE reliability/calibration execution and saved outputs.
+- `reliability/transfer_temporal/` — DSI Wi-Fi transfer and chronological LoRaWAN analyses.
+- `reliability/posthoc/` — equal-acceptance/post-hoc analysis.
+- `reliability/interfaces/` — dependency and numerical-interface verification.
+- `release/v2.0.0/` — release provenance, verification receipts, and release metadata.
+
+The resource does **not** claim a universally superior localizer, a general
+coordinate-recovery algorithm, a new general conformal method, physical
+authentication of gateway coordinates, or universal transfer of reliability
+relationships.
 
 ## Start here
 
 See [`START_HERE.md`](START_HERE.md).
 
-The shortest saved-evidence check is:
+The public verification route is:
 
-```bash
-python computational/commands/paper_a.py verify --out ../paper_a_verify
-```
+    python release/v2.0.0/verify_public_v2.py
 
-With the original LoRaWAN v1.3 CSV and JSON payloads:
+This checks the current public manifest, the retained v1 saved-evidence route,
+and the public unit/contract suites. Saved-output verification receipts for the
+post-rejection studies are under `release/v2.0.0/verification/`.
 
-```bash
-python computational/commands/paper_a.py core \
-  --csv /path/lorawan_antwerp_2019_dataset.csv.zip \
-  --json /path/lorawan_antwerp_2019_dataset.json.txt.zip \
-  --out ../paper_a_core
-```
+## External inputs
 
-The `core` route reconstructs the raw CSV–JSON identity join and evaluates the
-frozen-map raw weighted centroid. It does not refit receiver coordinates.
+Third-party raw measurements and externally authored source material are not
+relicensed by this repository.
 
-## External input data
+Principal external records:
 
-The raw measurement payloads are **not redistributed**.
+- Antwerp LoRaWAN v1.3 measurements: DOI `10.5281/zenodo.3904158`
+- DAE code/resources: DOI `10.5281/zenodo.5589651`
+- DSI Wi-Fi dataset: DOI `10.5281/zenodo.3778646`
 
-Source dataset: Aernouts et al., LoRaWAN Antwerp v1.3  
-DOI: https://doi.org/10.5281/zenodo.3904158
+Exact source identities and execution requirements are recorded in the
+component checks and `EXTERNAL_INPUTS.md` files.
 
-Expected SHA-256 payloads:
+## Historical release
 
-- CSV: `870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446`
-- JSON: `f2f1fbd478cdef2b76fb8e3aae33751d332b50fc8546684d8e73fdb1505451cb`
-- gateway catalogue: `507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d`
+The previous exact public release remains immutable at:
 
-## Repository contents
+- GitHub tag `v1.0.0`
+- DOI `https://doi.org/10.5281/zenodo.22703158`
 
-- `computational/data_products/` — receiver identities, coordinate products, and coverage flags.
-- `computational/populations/` — ordered calibration/evaluation/database identities.
-- `computational/src/` — operative scientific source code and preserved source snapshots.
-- `computational/results/` — saved predictions, solver records, inference arrays, and controls.
-- `computational/environment/` — recorded execution environment and installation information.
-- `geometry/` — frozen coordinate-domain diagnostics and BS71 sensitivity records.
-- `diagnostics/` — definition checks for selected secondary diagnostics.
-- `table_figure_index/` — claim/table/figure-to-artifact routes.
-- `checks/` — scoped verification receipts preserved from the submission package.
-
-## Zenodo
-
-Paper A concept DOI: https://doi.org/10.5281/zenodo.22143329
-
-Exact reproducibility release DOI: https://doi.org/10.5281/zenodo.22703158
-
-The version DOI above identifies the Zenodo release corresponding to the frozen
-GitHub `v1.0.0` repository state. The concept DOI resolves to the latest Paper A
-version.
+Version 2.0.0 updates release-facing metadata and adds the post-rejection
+scientific components. Historical scientific records and filenames are retained
+where they are part of provenance.
 
 ## Licensing
 
-- Author-created code: **MIT License**.
+- Author-created software: **MIT License**.
 - Author-created documentation and derived non-code artifacts: **CC BY 4.0**.
-- Third-party source data and other third-party materials retain their own terms
-  and are not relicensed by this repository.
+- Third-party source data, software, and other external material retain their
+  original terms and are not relicensed by this repository.
 
 See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
@@ -92,12 +90,7 @@ See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
 No funding was received for this work.
 
-## AI disclosure
-
-The manuscript contains the author-approved generative-AI disclosure. It is not
-reproduced here as a substitute for the article's declaration.
-
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff). The exact Zenodo version DOI should be added
-after the new Paper A Zenodo version is reserved.
+See [`CITATION.cff`](CITATION.cff). For exact reproducibility, cite the
+version DOI `10.5281/zenodo.23083321` rather than only the concept DOI.

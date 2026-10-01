@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "refusal_codes": [
+    "occupied_output",
+    "execution_gate_mismatch"
+  ],
+  "prior_outputs_unchanged": true,
+  "altered_contract_was_temporary_copy": true
+}

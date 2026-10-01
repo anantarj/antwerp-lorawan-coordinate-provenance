@@ -1,26 +1,33 @@
+
 cff-version: 1.2.0
-message: "If you use these resources, please cite the associated paper and the archived release."
-title: "Antwerp LoRaWAN coordinate provenance and benchmark audit"
+message: "If you use these resources, please cite the associated article and this exact archived release."
+title: "Receiver Provenance, Population Selection, and Reliability Trade-offs in RSSI Localization — Reproducibility Resources"
 type: software
 authors:
   - family-names: Ranjan
     given-names: Ananta
+    affiliation: "Independent Researcher"
     orcid: "https://orcid.org/0000-0002-1105-0666"
-version: "1.0.0"
-date-released: "2026-09-11"
+version: "2.0.0"
+date-released: "2026-10-01"
 repository-code: "https://github.com/anantarj/antwerp-lorawan-coordinate-provenance"
-doi: "10.5281/zenodo.22703158"
+doi: "10.5281/zenodo.23083321"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.22703158"
-    description: "Exact archived release corresponding to GitHub v1.0.0."
+    value: "10.5281/zenodo.23083321"
+    description: "Exact archived reproducibility release corresponding to GitHub v2.0.0."
   - type: doi
     value: "10.5281/zenodo.22143329"
-    description: "Paper A concept DOI resolving to the latest archived version."
+    description: "Concept DOI for the Paper A archival record family."
+  - type: doi
+    value: "10.5281/zenodo.22703158"
+    description: "Historical exact archived release corresponding to GitHub v1.0.0."
 keywords:
-  - LoRaWAN
   - RSSI localization
-  - benchmark audit
-  - coordinate provenance
+  - LoRaWAN
+  - receiver provenance
+  - population selection
+  - reliability calibration
+  - benchmark reuse
   - reproducibility
 license: MIT

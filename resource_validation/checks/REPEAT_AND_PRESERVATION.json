@@ -1,0 +1,68 @@
+{
+  "preflight_repeat_files_compared": 14,
+  "repeat_byte_differences": 0,
+  "comparisons": [
+    {
+      "path": "CHECKS.json",
+      "byte_identical": true
+    },
+    {
+      "path": "PREFLIGHT_SUMMARY.json",
+      "byte_identical": true
+    },
+    {
+      "path": "group80/all_receiver_support_and_domains.csv",
+      "byte_identical": true
+    },
+    {
+      "path": "group80/fixed_primary_selection.csv.gz",
+      "byte_identical": true
+    },
+    {
+      "path": "group80/primary33_support.csv",
+      "byte_identical": true
+    },
+    {
+      "path": "group80/retained_fit_rows.csv.gz",
+      "byte_identical": true
+    },
+    {
+      "path": "group80/split_rows.csv.gz",
+      "byte_identical": true
+    },
+    {
+      "path": "group80/summary.json",
+      "byte_identical": true
+    },
+    {
+      "path": "space1000/all_receiver_support_and_domains.csv",
+      "byte_identical": true
+    },
+    {
+      "path": "space1000/fixed_primary_selection.csv.gz",
+      "byte_identical": true
+    },
+    {
+      "path": "space1000/primary33_support.csv",
+      "byte_identical": true
+    },
+    {
+      "path": "space1000/retained_fit_rows.csv.gz",
+      "byte_identical": true
+    },
+    {
+      "path": "space1000/split_rows.csv.gz",
+      "byte_identical": true
+    },
+    {
+      "path": "space1000/summary.json",
+      "byte_identical": true
+    }
+  ],
+  "baseline_manifest_files_rechecked_after_execution": 329,
+  "baseline_changed_paths": [],
+  "protocol_unchanged_since_lock": true,
+  "new_Antwerp_receiver_fits": 0,
+  "new_Antwerp_validation_scores": 0,
+  "new_Antwerp_localization_predictions": 0
+}

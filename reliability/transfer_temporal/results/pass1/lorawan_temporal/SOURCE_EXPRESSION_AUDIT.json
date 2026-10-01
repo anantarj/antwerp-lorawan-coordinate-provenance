@@ -1,0 +1,18 @@
+[
+  {
+    "max_absolute_discrepancy_m": 2990.4832592078474,
+    "n": 4835,
+    "offline_labels_required": true,
+    "opposite_strict_signs": 1703,
+    "published_figure_claim": false,
+    "role": "calibration_reference"
+  },
+  {
+    "max_absolute_discrepancy_m": 2524.8177367882854,
+    "n": 4873,
+    "offline_labels_required": true,
+    "opposite_strict_signs": 1457,
+    "published_figure_claim": false,
+    "role": "evaluation"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "status": "R3_EXPLICIT_RECONSTRUCTION_NOT_R2_BYTE_RECOVERY",
+  "dependency_cases": 9,
+  "label_free_reference_parity": true,
+  "labels_received_by_worker": false,
+  "network_file_hooks_disabled_during_checks": true,
+  "not_security_sandbox_proof": true,
+  "trusted_manifest_origin": "pinned native G2 predictions, model states and calibration records; not fault-generator verdict",
+  "native_inputs": [
+    {
+      "path": "results/native_run1/MODEL_STATE_IDENTITIES.json",
+      "sha256": "4101c07d7b091b0a9b650f3b158cd321ff67a946d69e6b8651fa51b3c668ba1e"
+    },
+    {
+      "path": "results/native_run1/test_PREDICTIONS.csv.gz",
+      "sha256": "d2fd2ad745b91ddec6ac066adcfc28feff48eb80c10db0013c1f7c731018935e"
+    },
+    {
+      "path": "results/reliability/CALIBRATION_STATES.json",
+      "sha256": "3a47cd2dc981c1d43b7507a87a3d07d4f0951800e1cbdef4abea090947476949"
+    }
+  ],
+  "input_wire_sha256": "70cfed008dcbeda6d8878ed064eb85fbf7c5a423655dfde5c22a6b516ca421d9",
+  "prediction_rows_bound": 8275,
+  "no_new_localization_or_reliability_experiment": true,
+  "unannounced_formula_dependency_result": {
+    "state": "equivalent_continuation",
+    "violations": []
+  },
+  "constructed_offline_correct": {
+    "requires_labels": true,
+    "n": 3,
+    "mismatched_records": 0,
+    "maximum_difference": 0.0,
+    "formula": "actual_error_minus_point_error_estimate",
+    "state": "agrees"
+  },
+  "constructed_offline_wrong": {
+    "requires_labels": true,
+    "n": 3,
+    "mismatched_records": 1,
+    "maximum_difference": 100.0,
+    "formula": "actual_error_minus_point_error_estimate",
+    "state": "numerical_discrepancy"
+  }
+}

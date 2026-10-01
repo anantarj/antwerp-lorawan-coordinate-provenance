@@ -1,0 +1,213 @@
+{
+  "files": [
+    {
+      "path": "dsi/CALIBRATION_STATES.json",
+      "sha256": "1e8368258979e63a30bc52fca1aceec1c06f60bfa0b5fbc5d97f0a75b882b500",
+      "repeat_sha256": "1e8368258979e63a30bc52fca1aceec1c06f60bfa0b5fbc5d97f0a75b882b500",
+      "matched": true
+    },
+    {
+      "path": "dsi/CONTROL_CASES.json",
+      "sha256": "d668a6c9bb712537950447b59fe22a6a153466ac6286e3230c67008e4cbe2883",
+      "repeat_sha256": "d668a6c9bb712537950447b59fe22a6a153466ac6286e3230c67008e4cbe2883",
+      "matched": true
+    },
+    {
+      "path": "dsi/DECISION_CURVES.csv.gz",
+      "sha256": "0c139186ed0e00354d1049f0bffc02be9086cb8891f86cd9ec09f957c31cdfb5",
+      "repeat_sha256": "0c139186ed0e00354d1049f0bffc02be9086cb8891f86cd9ec09f957c31cdfb5",
+      "matched": true
+    },
+    {
+      "path": "dsi/DECISION_LANDMARKS.csv",
+      "sha256": "b9e7de6f0cb9fde4b330239bd12f6ad5cb1bf30f89807427308b41a8d41e8a39",
+      "repeat_sha256": "b9e7de6f0cb9fde4b330239bd12f6ad5cb1bf30f89807427308b41a8d41e8a39",
+      "matched": true
+    },
+    {
+      "path": "dsi/EXECUTION_RECEIPT.json",
+      "sha256": "cc74dc241987aad834e0df50a11bb2e5370745cf19fb96ae1baac5bc38694851",
+      "repeat_sha256": "cc74dc241987aad834e0df50a11bb2e5370745cf19fb96ae1baac5bc38694851",
+      "matched": true
+    },
+    {
+      "path": "dsi/LOCALIZATION_SUMMARIES.csv",
+      "sha256": "22c50a07ffaf25c09631d605a95586fad38f9490046f105b96282236ae6b5503",
+      "repeat_sha256": "22c50a07ffaf25c09631d605a95586fad38f9490046f105b96282236ae6b5503",
+      "matched": true
+    },
+    {
+      "path": "dsi/MODEL_STATES.json",
+      "sha256": "7cb61c2238fed17fdb3ccfd23d6980971c081686260dd4b7a97e6f1ce5c26b57",
+      "repeat_sha256": "7cb61c2238fed17fdb3ccfd23d6980971c081686260dd4b7a97e6f1ce5c26b57",
+      "matched": true
+    },
+    {
+      "path": "dsi/POINT_SUMMARIES.csv",
+      "sha256": "9455eef9531d8a258726be3cceb7bd637ec4f5ed8308b6b86e13b0a206cbd604",
+      "repeat_sha256": "9455eef9531d8a258726be3cceb7bd637ec4f5ed8308b6b86e13b0a206cbd604",
+      "matched": true
+    },
+    {
+      "path": "dsi/RADII.csv.gz",
+      "sha256": "435b43827ddcccb7ea254eaff69be665467e43f8917959da034568a1f4b26762",
+      "repeat_sha256": "435b43827ddcccb7ea254eaff69be665467e43f8917959da034568a1f4b26762",
+      "matched": true
+    },
+    {
+      "path": "dsi/RADIUS_SUMMARIES.csv",
+      "sha256": "0f2c74a4ac4430b8774cb945252c946038bd675a65d625f4a87d490341fae0c6",
+      "repeat_sha256": "0f2c74a4ac4430b8774cb945252c946038bd675a65d625f4a87d490341fae0c6",
+      "matched": true
+    },
+    {
+      "path": "dsi/SOURCE_EXPRESSION_AUDIT.json",
+      "sha256": "6327479c0254e3836fa87bbac14b540687bf0efbee1984b754542cdf63d6f207",
+      "repeat_sha256": "6327479c0254e3836fa87bbac14b540687bf0efbee1984b754542cdf63d6f207",
+      "matched": true
+    },
+    {
+      "path": "dsi/SOURCE_STATEMENTS.json",
+      "sha256": "99a2ff4476df98f9d157358bfffef49c390a38eadc9d64c08e747966f1018826",
+      "repeat_sha256": "99a2ff4476df98f9d157358bfffef49c390a38eadc9d64c08e747966f1018826",
+      "matched": true
+    },
+    {
+      "path": "dsi/calibration_reference_PREDICTIONS.csv.gz",
+      "sha256": "b9fd5fc6a932f6acc6b66af9ae66e9d1f762f5f201fdeaa786001b820eaf6751",
+      "repeat_sha256": "b9fd5fc6a932f6acc6b66af9ae66e9d1f762f5f201fdeaa786001b820eaf6751",
+      "matched": true
+    },
+    {
+      "path": "dsi/evaluation_PREDICTIONS.csv.gz",
+      "sha256": "a833e992565004f8685276afbdd292bcc4aa27e952a2d627ed344242377580b8",
+      "repeat_sha256": "a833e992565004f8685276afbdd292bcc4aa27e952a2d627ed344242377580b8",
+      "matched": true
+    },
+    {
+      "path": "dsi/train1_PREDICTIONS.csv.gz",
+      "sha256": "57b91528a7e76f8c6a833fd126b8215924c803462400a41c4ce8b4b3183947ff",
+      "repeat_sha256": "57b91528a7e76f8c6a833fd126b8215924c803462400a41c4ce8b4b3183947ff",
+      "matched": true
+    },
+    {
+      "path": "dsi/train2_PREDICTIONS.csv.gz",
+      "sha256": "8c3ef957f8c7df9e303e18a8e273c6590ce4392b2bf65bb520d74e1827ee6c7f",
+      "repeat_sha256": "8c3ef957f8c7df9e303e18a8e273c6590ce4392b2bf65bb520d74e1827ee6c7f",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/ALL_EVALUATION_DAYS.csv",
+      "sha256": "63710f09f79f607766b99e221a4f9c9fb0ab3cb6b2915b938f86e6ddcc848fd5",
+      "repeat_sha256": "63710f09f79f607766b99e221a4f9c9fb0ab3cb6b2915b938f86e6ddcc848fd5",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/CALIBRATION_STATES.json",
+      "sha256": "1f285cf488acafad9b2752d0fcce5ccd86cc9ca10d9c635648e32dc736a1c4b4",
+      "repeat_sha256": "1f285cf488acafad9b2752d0fcce5ccd86cc9ca10d9c635648e32dc736a1c4b4",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/CONTROL_CASES.json",
+      "sha256": "c08a98bce162a18ba14569370141aa0e4639419a4f1b00f8850997ebd77e751e",
+      "repeat_sha256": "c08a98bce162a18ba14569370141aa0e4639419a4f1b00f8850997ebd77e751e",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/DECISION_CURVES.csv.gz",
+      "sha256": "2c0cdd7cd22ffd456546106829547880a20c72dff40798f969469bfd4057c951",
+      "repeat_sha256": "2c0cdd7cd22ffd456546106829547880a20c72dff40798f969469bfd4057c951",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/DECISION_LANDMARKS.csv",
+      "sha256": "20218836f9da5e518ced7088b7c302f94de63647769d14e749b38490f89d5b14",
+      "repeat_sha256": "20218836f9da5e518ced7088b7c302f94de63647769d14e749b38490f89d5b14",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/EXECUTION_RECEIPT.json",
+      "sha256": "a9283bb3d54a048b59b2b4992079d9413f730d35d0b0cb08b184d384993bc1fa",
+      "repeat_sha256": "a9283bb3d54a048b59b2b4992079d9413f730d35d0b0cb08b184d384993bc1fa",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/LOCALIZATION_SUMMARIES.csv",
+      "sha256": "02f853482348651febda3ddd011d7a179208eed47449229271f2f74faa0590e8",
+      "repeat_sha256": "02f853482348651febda3ddd011d7a179208eed47449229271f2f74faa0590e8",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/MODEL_STATES.json",
+      "sha256": "ba99c2458b78c1e27acff17341a970396f0074265b97e46b4cc3d3acad5d2f65",
+      "repeat_sha256": "ba99c2458b78c1e27acff17341a970396f0074265b97e46b4cc3d3acad5d2f65",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/POINT_SUMMARIES.csv",
+      "sha256": "05fe0d483ae4172fa000f3e1f3228e7092716e38a8368d9db9a59c5aac19b9c7",
+      "repeat_sha256": "05fe0d483ae4172fa000f3e1f3228e7092716e38a8368d9db9a59c5aac19b9c7",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/RADII.csv.gz",
+      "sha256": "37af7bf7dc05add39ab120b751932014c38367d697be4deadf25928dbe4d6651",
+      "repeat_sha256": "37af7bf7dc05add39ab120b751932014c38367d697be4deadf25928dbe4d6651",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/RADIUS_SUMMARIES.csv",
+      "sha256": "18601f9f78b9eb088cc426743c22085e70c4566c22cc877a49f1bc1a6470c764",
+      "repeat_sha256": "18601f9f78b9eb088cc426743c22085e70c4566c22cc877a49f1bc1a6470c764",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/SOURCE_EXPRESSION_AUDIT.json",
+      "sha256": "7301ad413b3f535fafbbc47b0dc419d96c28214b32efa36dc0bf96e4c553c404",
+      "repeat_sha256": "7301ad413b3f535fafbbc47b0dc419d96c28214b32efa36dc0bf96e4c553c404",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/SOURCE_STATEMENTS.json",
+      "sha256": "99a2ff4476df98f9d157358bfffef49c390a38eadc9d64c08e747966f1018826",
+      "repeat_sha256": "99a2ff4476df98f9d157358bfffef49c390a38eadc9d64c08e747966f1018826",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/calibration_recent_PREDICTIONS.csv.gz",
+      "sha256": "e75dde450af6124ff58794d89d53a2b5576a52c002179ca6a7193e7c2a272b2a",
+      "repeat_sha256": "e75dde450af6124ff58794d89d53a2b5576a52c002179ca6a7193e7c2a272b2a",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/calibration_reference_PREDICTIONS.csv.gz",
+      "sha256": "13b83feb954afefa10a90438111e683d78c5184d3163c01a9550274cbed43a27",
+      "repeat_sha256": "13b83feb954afefa10a90438111e683d78c5184d3163c01a9550274cbed43a27",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/evaluation_PREDICTIONS.csv.gz",
+      "sha256": "0a53681448f9359891f4d91dd57ecc77f8baf9bf6eb30f5a5a898e956e800b3a",
+      "repeat_sha256": "0a53681448f9359891f4d91dd57ecc77f8baf9bf6eb30f5a5a898e956e800b3a",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/train1_PREDICTIONS.csv.gz",
+      "sha256": "2b8b724dae49bd544ea712f1c6636a3df5c9f3f62a269d3ae1156c30f37134c3",
+      "repeat_sha256": "2b8b724dae49bd544ea712f1c6636a3df5c9f3f62a269d3ae1156c30f37134c3",
+      "matched": true
+    },
+    {
+      "path": "lorawan_temporal/train2_PREDICTIONS.csv.gz",
+      "sha256": "c10106a43c3aa9593dcb704488b36fabdbb064b84bb4513797680e6c5a927b1c",
+      "repeat_sha256": "c10106a43c3aa9593dcb704488b36fabdbb064b84bb4513797680e6c5a927b1c",
+      "matched": true
+    }
+  ],
+  "count": 34,
+  "all_equal": true,
+  "excluded": [
+    "RUNTIME.json"
+  ]
+}

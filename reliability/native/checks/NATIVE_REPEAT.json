@@ -1,0 +1,331 @@
+{
+  "checks": [
+    {
+      "byte_equal": true,
+      "file": "MODEL_STATE_IDENTITIES.json"
+    },
+    {
+      "byte_equal": true,
+      "file": "NATIVE_METRIC_TABLES.json"
+    },
+    {
+      "byte_equal": true,
+      "file": "SOURCE_STATEMENT_RECEIPT.json"
+    },
+    {
+      "byte_equal": true,
+      "file": "EXECUTION_RECEIPT.json"
+    },
+    {
+      "byte_equal": true,
+      "file": "SOURCE_EXECUTION_STDOUT.txt"
+    },
+    {
+      "column": "partition_rank0",
+      "file": "train_1_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "source_row_index0",
+      "file": "train_1_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "group_min_source_index0",
+      "file": "train_1_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "primary_role_eligible",
+      "file": "train_1_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "true_lat",
+      "file": "train_1_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "true_lon",
+      "file": "train_1_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "pred_lat",
+      "file": "train_1_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "pred_lon",
+      "file": "train_1_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "error_m",
+      "file": "train_1_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0.0001
+    },
+    {
+      "column": "dd_m",
+      "file": "train_1_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0.0001
+    },
+    {
+      "column": "ddl_m",
+      "file": "train_1_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0.0001
+    },
+    {
+      "column": "native_partition_rank0",
+      "file": "train_1_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "byte_equal": true,
+      "file": "train_1_PREDICTIONS.csv.gz"
+    },
+    {
+      "column": "partition_rank0",
+      "file": "train_2_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "source_row_index0",
+      "file": "train_2_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "group_min_source_index0",
+      "file": "train_2_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "primary_role_eligible",
+      "file": "train_2_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "true_lat",
+      "file": "train_2_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "true_lon",
+      "file": "train_2_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "pred_lat",
+      "file": "train_2_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "pred_lon",
+      "file": "train_2_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "error_m",
+      "file": "train_2_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0.0001
+    },
+    {
+      "column": "dd_m",
+      "file": "train_2_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0.0001
+    },
+    {
+      "column": "ddl_m",
+      "file": "train_2_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0.0001
+    },
+    {
+      "column": "native_partition_rank0",
+      "file": "train_2_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "byte_equal": true,
+      "file": "train_2_PREDICTIONS.csv.gz"
+    },
+    {
+      "column": "partition_rank0",
+      "file": "val_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "source_row_index0",
+      "file": "val_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "group_min_source_index0",
+      "file": "val_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "primary_role_eligible",
+      "file": "val_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "true_lat",
+      "file": "val_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "true_lon",
+      "file": "val_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "pred_lat",
+      "file": "val_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "pred_lon",
+      "file": "val_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "error_m",
+      "file": "val_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0.0001
+    },
+    {
+      "column": "dd_m",
+      "file": "val_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0.0001
+    },
+    {
+      "column": "ddl_m",
+      "file": "val_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0.0001
+    },
+    {
+      "column": "native_partition_rank0",
+      "file": "val_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "byte_equal": true,
+      "file": "val_PREDICTIONS.csv.gz"
+    },
+    {
+      "column": "partition_rank0",
+      "file": "test_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "source_row_index0",
+      "file": "test_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "group_min_source_index0",
+      "file": "test_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "primary_role_eligible",
+      "file": "test_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "column": "true_lat",
+      "file": "test_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "true_lon",
+      "file": "test_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "pred_lat",
+      "file": "test_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "pred_lon",
+      "file": "test_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-10
+    },
+    {
+      "column": "error_m",
+      "file": "test_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0.0001
+    },
+    {
+      "column": "dd_m",
+      "file": "test_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0.0001
+    },
+    {
+      "column": "ddl_m",
+      "file": "test_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0.0001
+    },
+    {
+      "column": "native_partition_rank0",
+      "file": "test_PREDICTIONS.csv.gz",
+      "max_abs_difference": 0.0,
+      "tolerance": 0
+    },
+    {
+      "byte_equal": true,
+      "file": "test_PREDICTIONS.csv.gz"
+    }
+  ],
+  "passed": true,
+  "runtime_excluded": true,
+  "scientific_file_count": 9
+}

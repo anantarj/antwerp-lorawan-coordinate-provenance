@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-09-19T09:00:50.867072+00:00",
+  "protocol_hash": "405bf282c73545fe8c00fbccbddcdd099cffdbc0bfb567f926e6cde98010973c",
+  "code_sha256": {
+    "code/preflight.py": "a1b6627186a679dc60f0050dfd08dee26b1b5e1a627d6b685b19be6a15a12c03",
+    "code/resource_demo.py": "9c25816ba2085bdb43c74ac04ce9984671024ba1b74de09a85fe9b81b659c7bd",
+    "code/study_contract.py": "2016260e353152837bcd9133e2f41f219507ed55d09e91ee7469d7424ff0b15d",
+    "tests/test_contract.py": "4aba71b7cdb02e40316f4e3b657654e6ca1636236a8e2afcb19b8415363ede42"
+  },
+  "json_parse_and_python_syntax": "PASS",
+  "preflight_passed": 105,
+  "synthetic_tests_passed": 21,
+  "saved_method_draw_summaries_checked": 66,
+  "repeated_preflight_files": 14,
+  "baseline_changed_files": 0,
+  "scientific_execution_scope": "No new real-data coordinate fitting, validation scores, localization predictions, or remote changes."
+}

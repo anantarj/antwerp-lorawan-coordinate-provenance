@@ -1,0 +1,65 @@
+[
+  {
+    "path": "/mnt/data/Paper_A_PR5D_Complete_Review_Bundle_20260920.zip",
+    "bytes": 129382845,
+    "expected_sha256": "c9d74f5f8bef7fc8fb151f809ded7cc5a2e7db1acc0f1258b0c7368dfb2be190",
+    "sha256": "c9d74f5f8bef7fc8fb151f809ded7cc5a2e7db1acc0f1258b0c7368dfb2be190",
+    "matches": true
+  },
+  {
+    "path": "/mnt/data/Paper_A_PR5D_Editorial_Completion_20260920.zip",
+    "bytes": 6118300,
+    "expected_sha256": "633ee0465c01f3393b5416efcf4e6212fb0c48034e205db5f1ff968f6b901be4",
+    "sha256": "633ee0465c01f3393b5416efcf4e6212fb0c48034e205db5f1ff968f6b901be4",
+    "matches": true
+  },
+  {
+    "path": "/mnt/data/Archive 5.zip",
+    "bytes": 677921,
+    "expected_sha256": "c6f02d31ecee08df7ecee0a5eebfef2628fbba16548ef8b84ab1bc14d2f23055",
+    "sha256": "c6f02d31ecee08df7ecee0a5eebfef2628fbba16548ef8b84ab1bc14d2f23055",
+    "matches": true
+  },
+  {
+    "path": "/mnt/data/Paper_A_PR5D_Novelty_Assessment_20260921(1).md",
+    "bytes": 16459,
+    "expected_sha256": "832f712b98e94c3c80e1653f0466d6c66efda141e9f302bdad9f4a5e8cda0bc4",
+    "sha256": "832f712b98e94c3c80e1653f0466d6c66efda141e9f302bdad9f4a5e8cda0bc4",
+    "matches": true
+  },
+  {
+    "path": "/mnt/data/lorawan_antwerp_2019_dataset.csv.zip",
+    "bytes": 5330157,
+    "expected_sha256": "3809dd72b9f99319aa989c03d5eb94988ad6aa685da159a2500910b245084c8b",
+    "sha256": "3809dd72b9f99319aa989c03d5eb94988ad6aa685da159a2500910b245084c8b",
+    "matches": true
+  },
+  {
+    "path": "/mnt/data/lorawan_antwerp_2019_dataset.json.txt.zip",
+    "bytes": 14558476,
+    "expected_sha256": "4907da9263efd649e106c0bc4a1775441d24b4935efdca9f017d8afa703fd239",
+    "sha256": "4907da9263efd649e106c0bc4a1775441d24b4935efdca9f017d8afa703fd239",
+    "matches": true
+  },
+  {
+    "path": "/mnt/data/lorawan_antwerp_gateway_locations.json",
+    "bytes": 14896,
+    "expected_sha256": "507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d",
+    "sha256": "507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d",
+    "matches": true
+  },
+  {
+    "path": "/mnt/data/Paper_A_PR5D_20260920/documents/manuscript/Paper_A_PR5D_Manuscript.pdf",
+    "bytes": 107169,
+    "expected_sha256": "726216dc4a443fdf28b25870e02fba1ae9c0499141296973885cc53fbc24f18c",
+    "sha256": "726216dc4a443fdf28b25870e02fba1ae9c0499141296973885cc53fbc24f18c",
+    "matches": true
+  },
+  {
+    "path": "/mnt/data/Paper_A_PR5D_20260920/documents/supplement/Paper_A_PR5D_Supplement.pdf",
+    "bytes": 363233,
+    "expected_sha256": "dba2dd7c19d18d674c59952a942f124359907f20b8cc9555274a375566ef659d",
+    "sha256": "dba2dd7c19d18d674c59952a942f124359907f20b8cc9555274a375566ef659d",
+    "matches": true
+  }
+]

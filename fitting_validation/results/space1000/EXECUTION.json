@@ -1,0 +1,60 @@
+{
+  "argv": [
+    "/mnt/data/Paper_A_PR3_20260920/code/run_mv1.py",
+    "--baseline",
+    "/mnt/data/_paper_a_pr3_work/s1/Computational_Supplement_Anonymous",
+    "--pr1",
+    "/mnt/data/_paper_a_pr3_work/pr1/Paper_A_PR1_20260919",
+    "--csv",
+    "/mnt/data/lorawan_antwerp_2019_dataset.csv.zip",
+    "--protocol",
+    "/mnt/data/Paper_A_PR3_20260920/protocol/MECHANISM_VALIDATION_PROTOCOL.json",
+    "--gate",
+    "/mnt/data/Paper_A_PR3_20260920/checks/EXECUTION_GATE.json",
+    "--split",
+    "space1000",
+    "--out",
+    "/mnt/data/Paper_A_PR3_20260920/results/space1000"
+  ],
+  "baseline_unchanged_checks": [
+    {
+      "entries": 329,
+      "failures": [],
+      "manifest": "MANIFEST.json",
+      "sha256": "1678503d546cdfa2f007ba1196d25eee8816192c7e2046a8cdb472e9efbab935"
+    },
+    {
+      "entries": 230,
+      "failures": [],
+      "manifest": "EVIDENCE_MANIFEST.json",
+      "sha256": "0da1d6ff75ca833ed04d0bbdfbf383aac3a4de46c2d9e6099af0bbd1f76fb39b"
+    },
+    {
+      "entries": 43,
+      "failures": [],
+      "manifest": "MANIFEST.json",
+      "sha256": "ebf28f1d0cf1b895979c0e37f5b1939b2ee2ae19be1efd9a4816a2e9bbcb4167"
+    }
+  ],
+  "code_gate_sha256": "f009e1d10e790f77e0d20f19077b7648daa14020f5a42675e9c06bdabbb2bc5d",
+  "completed_utc": "2026-09-20T03:24:07.202710+00:00",
+  "cwd": "/",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "proj": "9.5.1",
+    "pyproj": "3.7.2",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PYTHONHASHSEED": "0"
+    }
+  },
+  "protocol_sha256": "405bf282c73545fe8c00fbccbddcdd099cffdbc0bfb567f926e6cde98010973c",
+  "seconds": 8.674428202999934,
+  "split": "space1000",
+  "started_utc": "2026-09-20T03:23:58.528310+00:00"
+}

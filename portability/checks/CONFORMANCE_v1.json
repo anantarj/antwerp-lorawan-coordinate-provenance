@@ -1,0 +1,33 @@
+{
+  "scope": "Constructed software conformance cases, not independent datasets",
+  "tests_run": 25,
+  "tests": [
+    "__main__.Conformance.test_G01_two_schema_exact_match",
+    "__main__.Conformance.test_G02_independent_views_and_partition",
+    "__main__.Conformance.test_G02_missing_lineage_refused",
+    "__main__.Conformance.test_G03_feature_permutation_and_rename",
+    "__main__.Conformance.test_G04_duplicates_preserved",
+    "__main__.Conformance.test_G05_ambiguity_full_class_and_inactive",
+    "__main__.Conformance.test_G05_recovery_subset_does_not_borrow_rows",
+    "__main__.Conformance.test_G06_conflicting_duplicate_maps_refused",
+    "__main__.Conformance.test_G06_many_to_one_not_certified",
+    "__main__.Conformance.test_G06_missing_event_refused",
+    "__main__.Conformance.test_G06_multiplicity_refused",
+    "__main__.Conformance.test_G07_surplus_reported_not_added",
+    "__main__.Conformance.test_G08_registry_does_not_select_identity",
+    "__main__.Conformance.test_G09_presence_contradiction",
+    "__main__.Conformance.test_G09_value_contradiction_and_forced_hash_collision",
+    "__main__.Conformance.test_G10_antwerp_reject_nonintegral_overflow",
+    "__main__.Conformance.test_G10_duplicate_identifier_in_event",
+    "__main__.Conformance.test_G10_identifier_zero_prefix_and_no_coercion",
+    "__main__.Conformance.test_G10_invalid_presence_and_duplicate_handle",
+    "__main__.Conformance.test_G10_present_zero_is_not_absence",
+    "__main__.Conformance.test_G10_reject_lossy_numeric_tokens",
+    "__main__.Conformance.test_G11_invalid_recovery_handles_refused",
+    "__main__.Conformance.test_G11_outcomes_excluded",
+    "__main__.Conformance.test_G12_inputs_immutable_and_repeat",
+    "__main__.Conformance.test_G12_sidecar_corruption_detected"
+  ],
+  "failures": [],
+  "status": "PASS"
+}

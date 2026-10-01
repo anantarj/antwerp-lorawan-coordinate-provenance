@@ -1,0 +1,240 @@
+[
+  {
+    "ast_sha256": "aeced9b6a7d67d2070e008db26cc87f6d2e8a8a68a130d0dcc12241f0c4b9de5",
+    "cell": 5,
+    "end_line": 2,
+    "line": 2,
+    "source": "M1 = ExtraTreesRegressor(n_estimators=100,max_depth=60, min_samples_split=6, min_samples_leaf=1,n_jobs=2, random_state=random_state)"
+  },
+  {
+    "ast_sha256": "0037840907dc44c09509cfea028acc4c651c8d61c85e0ce88b24f331a7dfbc8a",
+    "cell": 5,
+    "end_line": 3,
+    "line": 3,
+    "source": "M1.fit(x_train_1,y_train_1)"
+  },
+  {
+    "ast_sha256": "5618fba1a37252d6c38e2caa4111f4f30cef4791a142ec76ebce01cd4da262da",
+    "cell": 5,
+    "end_line": 4,
+    "line": 4,
+    "source": "y_M1_predict_in_train_1 = M1.predict(x_train_1)"
+  },
+  {
+    "ast_sha256": "b7577a05a7ea893f1b2b7e13122ba455bf3d3ed99fb557453b287a0e900bad0e",
+    "cell": 5,
+    "end_line": 5,
+    "line": 5,
+    "source": "y_M1_predict_in_train_2 = M1.predict(x_train_2)"
+  },
+  {
+    "ast_sha256": "474e5d4b32f84280bdd10f11621b07fb569d65d47ac703ce9dc27e5b3cb571be",
+    "cell": 5,
+    "end_line": 6,
+    "line": 6,
+    "source": "y_M1_predict_in_val = M1.predict(x_val)"
+  },
+  {
+    "ast_sha256": "ece3eb60b9e7f136c90c85dca5eebeeea52c125d239aa1b48e526846be1399cd",
+    "cell": 5,
+    "end_line": 7,
+    "line": 7,
+    "source": "y_M1_predict_in_test = M1.predict(x_test)"
+  },
+  {
+    "ast_sha256": "df648429bf2de26db7e0efcb1aef4a9e03abac2d2bebca2a633c1ac9aca9371c",
+    "cell": 5,
+    "end_line": 15,
+    "line": 15,
+    "source": "y_M1_error_train_1 = calculate_pairwise_error_list(y_train_1, y_M1_predict_in_train_1,units)"
+  },
+  {
+    "ast_sha256": "2ddf6dbb475255811a58e3452655a3baac624594548cf018e2ac50c19ece6b84",
+    "cell": 5,
+    "end_line": 16,
+    "line": 16,
+    "source": "y_M1_error_train_2 = calculate_pairwise_error_list(y_train_2, y_M1_predict_in_train_2,units)"
+  },
+  {
+    "ast_sha256": "10e83420780969a39b255b2987fef13d23521d18261013ee0b7691a5be43151c",
+    "cell": 5,
+    "end_line": 17,
+    "line": 17,
+    "source": "y_M1_error_val = calculate_pairwise_error_list(y_val, y_M1_predict_in_val,units)"
+  },
+  {
+    "ast_sha256": "2320989e5e949ed910a41ce655b1c26ab5d00370baf251121b6344f1640a5804",
+    "cell": 5,
+    "end_line": 18,
+    "line": 18,
+    "source": "y_M1_error_test = calculate_pairwise_error_list(y_test, y_M1_predict_in_test,units)"
+  },
+  {
+    "ast_sha256": "528ea37261f3263f3509929ea51c06609d02616df1ebf126d7d4a7e40987fcb0",
+    "cell": 5,
+    "end_line": 39,
+    "line": 39,
+    "source": "M2 = ExtraTreesRegressor(n_estimators=100,max_depth=60, min_samples_split=6, min_samples_leaf=1,n_jobs=2, random_state=random_state)"
+  },
+  {
+    "ast_sha256": "6ff89c88676df03b856c759795782417d736c71b58797b1ac3177ba2f5e70b54",
+    "cell": 5,
+    "end_line": 40,
+    "line": 40,
+    "source": "M2.fit(x_train_2,y_M1_error_train_2)"
+  },
+  {
+    "ast_sha256": "e518388f69e7001aa93ce4043b17536c77c46c895d211f7fa76c79d48356f519",
+    "cell": 5,
+    "end_line": 41,
+    "line": 41,
+    "source": "DAE_in_train_1 = M2.predict(x_train_1)"
+  },
+  {
+    "ast_sha256": "661a0bca060ac7e3b762ed8d7c67146d4b27d589ac852ae15aa4167b36c903b9",
+    "cell": 5,
+    "end_line": 42,
+    "line": 42,
+    "source": "DAE_in_train_2 = M2.predict(x_train_2)"
+  },
+  {
+    "ast_sha256": "848f3df9c519dba3ab2f1b758f213aa2504c9417793b03267820a3ded8f1f308",
+    "cell": 5,
+    "end_line": 43,
+    "line": 43,
+    "source": "DAE_in_val = M2.predict(x_val)"
+  },
+  {
+    "ast_sha256": "a871bcf690984d895f40c10b13ae788091d39645a3fdb3552b2360c402d4219d",
+    "cell": 5,
+    "end_line": 44,
+    "line": 44,
+    "source": "DAE_in_test = M2.predict(x_test)"
+  },
+  {
+    "ast_sha256": "64606dcb398aa544eadf2f2807d32eeadfae89b0e9c718862d83c9a242d953b6",
+    "cell": 5,
+    "end_line": 53,
+    "line": 53,
+    "source": "DAE_miss_train_1 = abs(np.asarray(y_M1_error_train_1) - np.asarray(DAE_in_train_1.tolist()))"
+  },
+  {
+    "ast_sha256": "8fd5d010e35f5f06241926a2dcf216016b4a68ac8900e2e4fc2d3426c8804b18",
+    "cell": 5,
+    "end_line": 56,
+    "line": 56,
+    "source": "DAE_miss_train_2 = abs(np.asarray(y_M1_error_train_2) - np.asarray(DAE_in_train_2.tolist()))"
+  },
+  {
+    "ast_sha256": "33e69297724988a29b30610beb210791381bfd4683aa6d6f1bb2273af6c5e95b",
+    "cell": 5,
+    "end_line": 59,
+    "line": 59,
+    "source": "DAE_miss_val = abs(np.asarray(y_M1_error_val) - np.asarray(DAE_in_val.tolist()))"
+  },
+  {
+    "ast_sha256": "0dbfe4ecf7162744e632a4ee0d0afa12d52870389869e220644d020e1ecd9eab",
+    "cell": 5,
+    "end_line": 62,
+    "line": 62,
+    "source": "DAE_miss_test = abs(np.asarray(y_M1_error_test) - np.asarray(DAE_in_test.tolist()))"
+  },
+  {
+    "ast_sha256": "8718c20754fac5532c8bde1f19bf927eee1392ea6cb053bff8a55ad22eb8ab9f",
+    "cell": 7,
+    "end_line": 7,
+    "line": 7,
+    "source": "x_train_1_M1 = np.concatenate((x_train_1,y_M1_predict_in_train_1),1)"
+  },
+  {
+    "ast_sha256": "13487508f598b0a3ebc25ed7915184fc92d023101d9d977cd5c3475da46020a6",
+    "cell": 7,
+    "end_line": 8,
+    "line": 8,
+    "source": "x_train_2_M1 = np.concatenate((x_train_2,y_M1_predict_in_train_2),1)"
+  },
+  {
+    "ast_sha256": "c436a66befc0ad61afaf618696b3dba1cb3cfc47cee796d5268a9962ce3ec71e",
+    "cell": 7,
+    "end_line": 9,
+    "line": 9,
+    "source": "x_val_M1 = np.concatenate((x_val,y_M1_predict_in_val),1)"
+  },
+  {
+    "ast_sha256": "b4103a1af868c705076642818ae35facd79bb6d87e032db256bfccf517d3c42c",
+    "cell": 7,
+    "end_line": 10,
+    "line": 10,
+    "source": "x_test_M1 = np.concatenate((x_test,y_M1_predict_in_test),1)"
+  },
+  {
+    "ast_sha256": "528ea37261f3263f3509929ea51c06609d02616df1ebf126d7d4a7e40987fcb0",
+    "cell": 7,
+    "end_line": 18,
+    "line": 18,
+    "source": "M2 = ExtraTreesRegressor(n_estimators=100,max_depth=60, min_samples_split=6, min_samples_leaf=1,n_jobs=2, random_state=random_state)"
+  },
+  {
+    "ast_sha256": "c29ebdeeea78dc86a9dfef0f0422265f2c6bd3dbac1cd45bdad1d369101817cd",
+    "cell": 7,
+    "end_line": 19,
+    "line": 19,
+    "source": "M2.fit(x_train_2_M1,y_M1_error_train_2)"
+  },
+  {
+    "ast_sha256": "ce01338c7f0b11dccb478defbac786ec593a4c490ccf3e8f34d42f5d07bbad47",
+    "cell": 7,
+    "end_line": 20,
+    "line": 20,
+    "source": "DAE_in_train_1_M1 = M2.predict(x_train_1_M1)"
+  },
+  {
+    "ast_sha256": "7d72b6c2e7f6c6add92f1cc94e2d77d624fc395b0529ff63c9d1cfb1ad3d0311",
+    "cell": 7,
+    "end_line": 21,
+    "line": 21,
+    "source": "DAE_in_train_2_M1 = M2.predict(x_train_2_M1)"
+  },
+  {
+    "ast_sha256": "fa45ffd9c708edefcfda4adf56f39bdae7c6b61acab678e4d24ebcad5dbc3c59",
+    "cell": 7,
+    "end_line": 22,
+    "line": 22,
+    "source": "DAE_in_val_M1 = M2.predict(x_val_M1)"
+  },
+  {
+    "ast_sha256": "42f118f5353067a282ebd572b818347b55aefa40a3617ae2d616b2c385abdd62",
+    "cell": 7,
+    "end_line": 23,
+    "line": 23,
+    "source": "DAE_in_test_M1 = M2.predict(x_test_M1)"
+  },
+  {
+    "ast_sha256": "30a96bb4dde840df0593d71b9e757e35b4a76d0684f8399402aa7088fb1b5eff",
+    "cell": 7,
+    "end_line": 25,
+    "line": 25,
+    "source": "DAE_miss_train_1_M1 = abs(np.asarray(y_M1_error_train_1) - np.asarray(DAE_in_train_1_M1.tolist()))"
+  },
+  {
+    "ast_sha256": "b572ac05d8a6226ff4c5c0506539d47e2b1d7a322e73e39e62df2e56f99b19af",
+    "cell": 7,
+    "end_line": 28,
+    "line": 28,
+    "source": "DAE_miss_train_2_M1 = abs(np.asarray(y_M1_error_train_2) - np.asarray(DAE_in_train_2_M1.tolist()))"
+  },
+  {
+    "ast_sha256": "e33b27473be4415b34ee2cd7f61b31e9a3eeff8f052d72528c36b48a6798d14e",
+    "cell": 7,
+    "end_line": 31,
+    "line": 31,
+    "source": "DAE_miss_val_M1 = abs(np.asarray(y_M1_error_val) - DAE_in_val_M1)"
+  },
+  {
+    "ast_sha256": "72664262009349c372052386ddd1ae818dd9c7232fe1e7f0c133d408f85a9d33",
+    "cell": 7,
+    "end_line": 34,
+    "line": 34,
+    "source": "DAE_miss_test_M1 = abs(np.asarray(y_M1_error_test) - np.asarray(DAE_in_test_M1.tolist()))"
+  }
+]

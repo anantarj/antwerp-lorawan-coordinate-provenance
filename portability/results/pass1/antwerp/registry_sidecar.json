@@ -1,0 +1,866 @@
+[
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.188213,
+      "longitude": 4.450321
+    },
+    "feature": "BS 1",
+    "identifier": "FF010714",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.195278,
+      "longitude": 4.426771
+    },
+    "feature": "BS 2",
+    "identifier": "FF01072B",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.17691,
+      "longitude": 4.441903
+    },
+    "feature": "BS 3",
+    "identifier": "FF010877",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.250458,
+      "longitude": 4.419384
+    },
+    "feature": "BS 4",
+    "identifier": "080E0149",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.245152,
+      "longitude": 4.385107
+    },
+    "feature": "BS 5",
+    "identifier": "FF010560",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.263577,
+      "longitude": 4.388527
+    },
+    "feature": "BS 6",
+    "identifier": "FF010721",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.218719,
+      "longitude": 4.459902
+    },
+    "feature": "BS 7",
+    "identifier": "080605EE",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 8",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.221184,
+      "longitude": 4.423655
+    },
+    "feature": "BS 9",
+    "identifier": "FF01085B",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.195141,
+      "longitude": 4.419717
+    },
+    "feature": "BS 10",
+    "identifier": "080E00B9",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.241821,
+      "longitude": 4.449746
+    },
+    "feature": "BS 11",
+    "identifier": "FF01052A",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.217793,
+      "longitude": 4.426748
+    },
+    "feature": "BS 12",
+    "identifier": "08060622",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 13",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.219257,
+      "longitude": 4.413227
+    },
+    "feature": "BS 14",
+    "identifier": "FF0107C9",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.206875,
+      "longitude": 4.333922
+    },
+    "feature": "BS 15",
+    "identifier": "FF01099B",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.283428,
+      "longitude": 4.384657
+    },
+    "feature": "BS 16",
+    "identifier": "FF010581",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.203987,
+      "longitude": 4.440966
+    },
+    "feature": "BS 17",
+    "identifier": "FF010739",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.2019,
+      "longitude": 4.395436
+    },
+    "feature": "BS 18",
+    "identifier": "FF0178DF",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.218185,
+      "longitude": 4.370775
+    },
+    "feature": "BS 19",
+    "identifier": "FF010667",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.223225,
+      "longitude": 4.407838
+    },
+    "feature": "BS 20",
+    "identifier": "FF010595",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 21",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.264114,
+      "longitude": 4.406816
+    },
+    "feature": "BS 22",
+    "identifier": "FF010628",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.194866,
+      "longitude": 4.33333
+    },
+    "feature": "BS 23",
+    "identifier": "FF0105CB",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 24",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.194767,
+      "longitude": 4.380632
+    },
+    "feature": "BS 25",
+    "identifier": "080E0116",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 26",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.205795,
+      "longitude": 4.398465
+    },
+    "feature": "BS 27",
+    "identifier": "08060716",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 28",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 29",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 30",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.223267,
+      "longitude": 4.478827
+    },
+    "feature": "BS 31",
+    "identifier": "FF010EFE",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.218227,
+      "longitude": 4.40096
+    },
+    "feature": "BS 32",
+    "identifier": "FF0108A3",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.273636,
+      "longitude": 4.32128
+    },
+    "feature": "BS 33",
+    "identifier": "FF01060B",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.248268,
+      "longitude": 4.32423
+    },
+    "feature": "BS 34",
+    "identifier": "FF010719",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": null,
+    "feature": "BS 35",
+    "identifier": "004A05D4",
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 36",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.241581,
+      "longitude": 4.490818
+    },
+    "feature": "BS 37",
+    "identifier": "FF010639",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 38",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 39",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 40",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": null,
+    "feature": "BS 41",
+    "identifier": "004A0DA4",
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 42",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.251724,
+      "longitude": 4.214437
+    },
+    "feature": "BS 43",
+    "identifier": "FF0107BB",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.322235,
+      "longitude": 4.315572
+    },
+    "feature": "BS 44",
+    "identifier": "FF0105C2",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 45",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 46",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": null,
+    "feature": "BS 47",
+    "identifier": "C0000209",
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.199253,
+      "longitude": 4.498773
+    },
+    "feature": "BS 48",
+    "identifier": "FF010605",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": null,
+    "feature": "BS 49",
+    "identifier": "004A0D9C",
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.213299,
+      "longitude": 4.333237
+    },
+    "feature": "BS 50",
+    "identifier": "FF010957",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 51",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.289127,
+      "longitude": 4.48744
+    },
+    "feature": "BS 52",
+    "identifier": "FF010894",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": null,
+    "feature": "BS 53",
+    "identifier": "C000028C",
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 54",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.139679,
+      "longitude": 4.594095
+    },
+    "feature": "BS 55",
+    "identifier": "FF0105B5",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 56",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 57",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 58",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.319191,
+      "longitude": 4.261789
+    },
+    "feature": "BS 59",
+    "identifier": "FF010930",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.13298,
+      "longitude": 4.339783
+    },
+    "feature": "BS 60",
+    "identifier": "FF010603",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 61",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 62",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 63",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 64",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 65",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 66",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 67",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unsupported",
+    "attributes": null,
+    "feature": "BS 68",
+    "identifier": null,
+    "metadata_available": false,
+    "missing_attributes": [
+      "latitude",
+      "longitude"
+    ],
+    "registry_entry_present": false
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.197487,
+      "longitude": 4.406706
+    },
+    "feature": "BS 69",
+    "identifier": "FF01753E",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.202755,
+      "longitude": 4.467505
+    },
+    "feature": "BS 70",
+    "identifier": "FF017649",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 50.844898,
+      "longitude": 4.132583
+    },
+    "feature": "BS 71",
+    "identifier": "004A026B",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  },
+  {
+    "association_status": "unique",
+    "attributes": {
+      "latitude": 51.226669,
+      "longitude": 4.106431
+    },
+    "feature": "BS 72",
+    "identifier": "FF01031C",
+    "metadata_available": true,
+    "missing_attributes": [],
+    "registry_entry_present": true
+  }
+]

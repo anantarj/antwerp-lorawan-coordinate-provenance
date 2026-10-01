@@ -1,0 +1,15 @@
+{
+  "suites": [
+    {
+      "suite": "join",
+      "exit": 0
+    },
+    {
+      "suite": "resource",
+      "exit": 0
+    }
+  ],
+  "inherited_assertions": 7,
+  "inherited_unittest_cases": 16,
+  "scope": "Previously authored tests rerun, not new scientific results"
+}

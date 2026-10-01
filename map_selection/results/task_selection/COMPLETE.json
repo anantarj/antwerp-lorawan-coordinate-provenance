@@ -1,0 +1,36 @@
+{
+  "argv": [
+    "/mnt/data/Paper_A_PR4_20260920/code/task_selection.py",
+    "--pr1",
+    "/mnt/data/_pa_pr4_inputs/Paper_A_PR1_20260919",
+    "--pr3",
+    "/mnt/data/_pa_pr4_inputs/Paper_A_PR3_20260920",
+    "--s1",
+    "/mnt/data/Computational_Supplement_Anonymous_S1.zip",
+    "--csv",
+    "/mnt/data/lorawan_antwerp_2019_dataset.csv.zip",
+    "--protocol",
+    "/mnt/data/Paper_A_PR4_20260920/protocol/TASK_SELECTION_PROTOCOL.json",
+    "--out",
+    "/mnt/data/Paper_A_PR4_20260920/results/task_selection"
+  ],
+  "completed_utc": "2026-09-20T05:55:49.714679+00:00",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]"
+  },
+  "new_calibration_validation_WCL": true,
+  "new_complement_WCL": true,
+  "new_coordinate_fits": 0,
+  "original_primary_outputs_reproduced": true,
+  "postrun_preservation": {
+    "PR1_manifest_entries": 43,
+    "PR3_manifest_entries": 82
+  },
+  "protocol_sha256": "2e647b556c25e562eaac6453bab8a734dc5bab5943ce7825a559efa88e7151f5",
+  "scope": "Retrospective selector proof of work; no independent deployment, no untouched-data certification, no statistical population inference, no new estimator.",
+  "started_utc": "2026-09-20T05:55:19.560683+00:00",
+  "status": "COMPLETE"
+}

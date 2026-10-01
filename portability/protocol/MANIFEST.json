@@ -1,0 +1,25 @@
+{
+  "scope": "design documents only; hashes do not indicate experiment completion",
+  "files": [
+    {
+      "path": "G1_DESIGN.md",
+      "bytes": 28559,
+      "sha256": "b717c8ea1514aa34dd1dd3eb8bf95606f3e4d159eb3bf5739416bdcaa37724b8"
+    },
+    {
+      "path": "G1_PROTOCOL.json",
+      "bytes": 3952,
+      "sha256": "710b05c4c3a9addcb24f9aba8749bef82d8f3417773a11ee5a54e0e57dc3f166"
+    },
+    {
+      "path": "G1_TEST_MATRIX.csv",
+      "bytes": 5035,
+      "sha256": "44453f6fe7e2263856ada380901e9b8af06476c5836e65e88ac28c9a7ec7d3f5"
+    },
+    {
+      "path": "INPUTS_AND_SOURCES.json",
+      "bytes": 7367,
+      "sha256": "5e8cffbf3ed3f1d3666787deebdba29f7f37b07d1fd8dce1cb6ce66ff2f72794"
+    }
+  ]
+}
